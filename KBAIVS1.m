@@ -166,7 +166,8 @@ export ; exports separate files for each value set
  ; one copy in a file with a text name based on the displayName
  n g,zi,fname,where,dirname,gn
  s gn=$na(^TMP("KBAIOUT",$J))
- s dirname="/home/wvehr2/valuesets/by-name/"
+ w !,"Please enter directory name for valueset files by name"
+ q:'$$GETDIR(.dirname,"/home/vista/valuesets/by-name/")
  s zi=""
  d contents("g") ; first with text names
  f  s zi=$o(g(zi)) q:zi=""  d  ;
@@ -182,6 +183,8 @@ export2 ; exports separate files for each value set
  ; one copy in a file with a numeric file name based on ID
  n g,zi,fname,where,dirname,gn
  s gn=$na(^TMP("KBAIOUT",$J))
+ w !,"Please enter directory name for valueset files by id"
+ q:'$$GETDIR(.dirname,"/home/vista/valuesets/by-id/")
  s dirname="/home/wvehr2/valuesets/by-id/"
  s zi=""
  d contents("g",1) ; with id names
