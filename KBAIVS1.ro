@@ -1,5 +1,5 @@
-svs import routine
-GT.M 15-MAR-2013 15:28:08
+fixed a bug in export2 - hard coded directory name
+GT.M 16-MAR-2013 14:41:35
 KBAIVS1
 KBAIVS1 ; GPL - NLM Valueset import routines  ;2/20/13  17:05
  ;;0.1;C0X;nopatch;noreleasedate;Build 7
@@ -188,7 +188,7 @@ export2 ; exports separate files for each value set
  s gn=$na(^TMP("KBAIOUT",$J))
  w !,"Please enter directory name for valueset files by id"
  q:'$$GETDIR(.dirname,"/home/vista/valuesets/by-id/")
- s dirname="/home/wvehr2/valuesets/by-id/"
+ ;s dirname="/home/wvehr2/valuesets/by-id/"
  s zi=""
  d contents("g",1) ; with id names
  f  s zi=$o(g(zi)) q:zi=""  d  ;

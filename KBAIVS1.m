@@ -185,7 +185,7 @@ export2 ; exports separate files for each value set
  s gn=$na(^TMP("KBAIOUT",$J))
  w !,"Please enter directory name for valueset files by id"
  q:'$$GETDIR(.dirname,"/home/vista/valuesets/by-id/")
- s dirname="/home/wvehr2/valuesets/by-id/"
+ ;s dirname="/home/wvehr2/valuesets/by-id/"
  s zi=""
  d contents("g",1) ; with id names
  f  s zi=$o(g(zi)) q:zi=""  d  ;
