@@ -1,5 +1,5 @@
-KBAIVS2 ; GPL - NLM Valueset import routines fileman version ; 3/22/13 4:51pm
- ;;0.1;C0Q;nopatch;noreleasedate;Build 7
+KBAIVS2 ; GPL - NLM Valueset import routines fileman version ; 4/11/13 5:49pm
+ ;;0.1;C0Q;nopatch;noreleasedate;Build 2
  ;Copyright 2013 George Lilly.  Licensed Apache 2
  ;
  Q
@@ -150,6 +150,8 @@ grpout2 ; merge the group array with all groups
  . i mien="" d  q  ;
  . . w !,"measure file not built yet... run ADDGRPS then rerun import"
  . k KBAIFDA
+ . i KBAIREC="" d  q  ;
+ . . w !,"KBAIREC not defined, skipping ",guid
  . s KBAIFDA($$C0QVSGFN,"?+1,"_KBAIREC_",",.01)=mien
  . n KBAIIEN
  . d UPDIE(.KBAIFDA,.KBAIIEN)
@@ -263,6 +265,12 @@ contents2(zrtn) ; produce an agenda for the docId 1 in the MXML dom
  . s zn=$g(@dom@(zi,"A","displayName"))
  . s @zrtn@("NAME",zn,zi)=""
  . s @zrtn@(zi,"NAME")=zn
+ s zi=""
+ f  s zi=$o(@zrtn@("ID",zi)) q:zi=""  d  ;
+ . n zien s zien=$o(@zrtn@("ID",zi,""))
+ . n sid s sid=$$SID^KBAISID(@zrtn@(zien,"NAME"),zi)
+ . s @zrtn@(zien,"SID")=sid
+ . s @zrtn@("SID",sid,zien)=""
  q
  ;
 import ; imports value sets into fileman files
@@ -274,23 +282,57 @@ import ; imports value sets into fileman files
  s zi=""
  d contents2("g") ; new contents format includes both name and id
  f  s zi=$o(g("NAME",zi)) q:zi=""  d  ;
- . s znum=$o(g("NAME",zi,""))
- . s zid=g(znum,"ID")
- . k KBAIFDA
- . s KBAIFDA($$C0QVSFN,"?+1,",.01)=zi
- . s KBAIFDA($$C0QVSFN,"?+1,",.02)=zid
- . n KBAIIEN
- . ;d UPDIE(.KBAIFDA,.KBAIIEN) ; KBAIIEN is ien of the current valueset (see groupout2)
- . s KBAIREC=$G(KBAIIEN)
- . i KBAIREC="" D  ;
- . . s KBAIREC=$O(^C0QVS(176.801,"ID",zid,""))
- . . i KBAIREC="" B  ;
+ . n znum s znum=""
+ . f  s znum=$o(g("NAME",zi,znum)) q:znum=""  d  ;
+ . . s zid=g(znum,"ID")
+ . . s KBAIREC=$$laygo(zi,zid) ; add the record if it's not already there
+ . . ;k KBAIFDA
+ . . ;s KBAIFDA($$C0QVSFN,"?+1,",.01)=zi
+ . . ;s KBAIFDA($$C0QVSFN,"?+1,",.02)=zid
+ . . ;n KBAIIEN
+ . . ;d UPDIE(.KBAIFDA,.KBAIIEN) ; KBAIIEN is ien of the current valueset (see groupout2)
+ . . ;s KBAIREC=$G(KBAIIEN)
+ . . ;i KBAIREC="" D  ;
+ . . ;. s KBAIREC=$O(^C0QVS(176.801,"ID",zid,""))
+ . . ;. i KBAIREC="" B  ;
  . s where=$o(g("NAME",zi,""))
  . s KBAIROOT=where ; node of current Value Set 
  . ;k @gn
  . d tree2(where,"| ")
  . ;n gn2 s gn2=$na(@gn@(1)) ; name for gtf
  . ;s ok=$$GTF^%ZISH(gn2,3,dirname,fname)
+ q
+ ;
+laygo(zname,zoid) ; extrinsic that returns the ien, adds the record if it's new
+ ;
+ n gn s gn=$na(^C0QVS(176.801,"ID"))
+ n zien
+ s zien=$o(@gn@(zoid,""))
+ i zien'="" q zien
+ k KBAIFDA
+ s KBAIFDA($$C0QVSFN,"+1,",.01)=zname
+ s KBAIFDA($$C0QVSFN,"+1,",.02)=zoid
+ w !,"will add: ",zname," ",zoid
+ d UPDIE(.KBAIFDA,.zien) ; zien is ien of the current valueset (see groupout2)
+ q zien
+ ;
+impsid ; import all the sids
+ ;
+ n g
+ d contents2("g")
+ n gn s gn=$NA(^C0QVS(176.801))
+ K KBAIFDA
+ n zoid s zoid=""
+ f  s zoid=$o(g("ID",zoid)) q:zoid=""  d  ;
+ . n zien
+ . s zien=$o(@gn@("ID",zoid,""))
+ . n zsid
+ . n grec s grec=$o(g("ID",zoid,""))
+ . s zsid=g(grec,"SID")
+ . s KBAIFDA($$C0QVSFN,zien_",",.03)=zsid
+ N ZIEN
+ B
+ d UPDIE(.KBAIFDA,.ZIEN)
  q
  ;
 export ; exports separate files for each value set
@@ -380,7 +422,7 @@ UPDIE(ZFDA,ZIEN) ; INTERNAL ROUTINE TO CALL UPDATE^DIE AND CHECK FOR ERRORS
  . B
  K ZERR
  D CLEAN^DILF
- D UPDATE^DIE("","ZFDA","ZIEN","ZERR")
+ D UPDATE^DIE("K","ZFDA","ZIEN","ZERR")
  I $D(ZERR) S ZZERR=ZZERR ; ZZERR DOESN'T EXIST, 
  ; INVOKE THE ERROR TRAP IF TASKED
  ;. W "ERROR",!
