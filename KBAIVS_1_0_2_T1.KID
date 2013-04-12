@@ -1,11 +1,11 @@
-KIDS Distribution saved on Mar 29, 2013@05:38:22
-Value Set files without codes
-**KIDS**:KBAIVS*1.0*1^
+KIDS Distribution saved on Apr 12, 2013@17:46:07
+duplicate names included and Short IDs
+**KIDS**:KBAIVS*1.0*2^
 
 **INSTALL NAME**
-KBAIVS*1.0*1
+KBAIVS*1.0*2
 "BLD",8498,0)
-KBAIVS*1.0*1^^0^3130329^n
+KBAIVS*1.0*2^^0^3130412^n
 "BLD",8498,4,0)
 ^9.64PA^176.804^4
 "BLD",8498,4,176.801,0)
@@ -33,7 +33,7 @@ y^y^f^^n^^y^o^n
 "BLD",8498,4,"B",176.804,176.804)
 
 "BLD",8498,6.3)
-2
+4
 "BLD",8498,"KRN",0)
 ^9.67PA^779.2^20
 "BLD",8498,"KRN",.4,0)
@@ -57,11 +57,15 @@ y^y^f^^n^^y^o^n
 "BLD",8498,"KRN",9.8,0)
 9.8
 "BLD",8498,"KRN",9.8,"NM",0)
-^9.68A^2^2
+^9.68A^3^3
 "BLD",8498,"KRN",9.8,"NM",1,0)
-KBAIVS1^^0^B9672845
+KBAIVS1^^0^B56036030
 "BLD",8498,"KRN",9.8,"NM",2,0)
-KBAIVS2^^0^B138177157
+KBAIVS2^^0^B168835341
+"BLD",8498,"KRN",9.8,"NM",3,0)
+KBAISID^^0^B1057899
+"BLD",8498,"KRN",9.8,"NM","B","KBAISID",3)
+
 "BLD",8498,"KRN",9.8,"NM","B","KBAIVS1",1)
 
 "BLD",8498,"KRN",9.8,"NM","B","KBAIVS2",2)
@@ -136,6 +140,8 @@ ACE inhibitor or ARB
 34
 "DATA",176.801,1,4,2,0)
 24
+"DATA",176.801,1,5)
+ACEARB39
 "DATA",176.801,2,0)
 ADHD Medications
 "DATA",176.801,2,1)
@@ -144,6 +150,8 @@ ADHD Medications
 ^176.8012P^1^1
 "DATA",176.801,2,4,1,0)
 33
+"DATA",176.801,2,5)
+ADHDM71
 "DATA",176.801,3,0)
 AMI
 "DATA",176.801,3,1)
@@ -152,6 +160,8 @@ AMI
 ^176.8012P^1^1
 "DATA",176.801,3,4,1,0)
 86
+"DATA",176.801,3,5)
+AMI33
 "DATA",176.801,4,0)
 Above Normal Follow-up
 "DATA",176.801,4,1)
@@ -160,6 +170,8 @@ Above Normal Follow-up
 ^176.8012P^1^1
 "DATA",176.801,4,4,1,0)
 52
+"DATA",176.801,4,5)
+ANF25
 "DATA",176.801,5,0)
 Above Normal Medications
 "DATA",176.801,5,1)
@@ -168,6 +180,8 @@ Above Normal Medications
 ^176.8012P^1^1
 "DATA",176.801,5,4,1,0)
 52
+"DATA",176.801,5,5)
+ANM98
 "DATA",176.801,6,0)
 Above Normal Referrals
 "DATA",176.801,6,1)
@@ -176,6 +190,8 @@ Above Normal Referrals
 ^176.8012P^1^1
 "DATA",176.801,6,4,1,0)
 52
+"DATA",176.801,6,5)
+ANR27
 "DATA",176.801,7,0)
 Activation of Emergency Medical System Education
 "DATA",176.801,7,1)
@@ -184,6 +200,8 @@ Activation of Emergency Medical System Education
 ^176.8012P^1^1
 "DATA",176.801,7,4,1,0)
 14
+"DATA",176.801,7,5)
+AEMSE77
 "DATA",176.801,8,0)
 Active Labor
 "DATA",176.801,8,1)
@@ -192,6 +210,8 @@ Active Labor
 ^176.8012P^1^1
 "DATA",176.801,8,4,1,0)
 91
+"DATA",176.801,8,5)
+AL81
 "DATA",176.801,9,0)
 Acute Myocardial Infarction
 "DATA",176.801,9,1)
@@ -202,6 +222,8 @@ Acute Myocardial Infarction
 3
 "DATA",176.801,9,4,2,0)
 25
+"DATA",176.801,9,5)
+AMI01
 "DATA",176.801,10,0)
 Acute Pharyngitis
 "DATA",176.801,10,1)
@@ -210,6 +232,8 @@ Acute Pharyngitis
 ^176.8012P^1^1
 "DATA",176.801,10,4,1,0)
 74
+"DATA",176.801,10,5)
+AP11
 "DATA",176.801,11,0)
 Acute Respiratory Failure
 "DATA",176.801,11,1)
@@ -218,6 +242,8 @@ Acute Respiratory Failure
 ^176.8012P^1^1
 "DATA",176.801,11,4,1,0)
 29
+"DATA",176.801,11,5)
+ARF18
 "DATA",176.801,12,0)
 Acute Tonsillitis
 "DATA",176.801,12,1)
@@ -226,6 +252,8 @@ Acute Tonsillitis
 ^176.8012P^1^1
 "DATA",176.801,12,4,1,0)
 74
+"DATA",176.801,12,5)
+AT12
 "DATA",176.801,13,0)
 Acute and Subacute Iridocyclitis
 "DATA",176.801,13,1)
@@ -236,6 +264,8 @@ Acute and Subacute Iridocyclitis
 19
 "DATA",176.801,13,4,2,0)
 57
+"DATA",176.801,13,5)
+ASI41
 "DATA",176.801,14,0)
 Additional evaluation for depression - adolescent
 "DATA",176.801,14,1)
@@ -244,6 +274,8 @@ Additional evaluation for depression - adolescent
 ^176.8012P^1^1
 "DATA",176.801,14,4,1,0)
 53
+"DATA",176.801,14,5)
+A42
 "DATA",176.801,15,0)
 Additional evaluation for depression - adult
 "DATA",176.801,15,1)
@@ -252,6 +284,8 @@ Additional evaluation for depression - adult
 ^176.8012P^1^1
 "DATA",176.801,15,4,1,0)
 53
+"DATA",176.801,15,5)
+A45
 "DATA",176.801,16,0)
 Adhesions and Disruptions of Iris and Ciliary Body
 "DATA",176.801,16,1)
@@ -260,6 +294,8 @@ Adhesions and Disruptions of Iris and Ciliary Body
 ^176.8012P^1^1
 "DATA",176.801,16,4,1,0)
 57
+"DATA",176.801,16,5)
+ADICB05
 "DATA",176.801,17,0)
 Adolescent Depression Screening
 "DATA",176.801,17,1)
@@ -268,6 +304,8 @@ Adolescent Depression Screening
 ^176.8012P^1^1
 "DATA",176.801,17,4,1,0)
 53
+"DATA",176.801,17,5)
+ADS26
 "DATA",176.801,18,0)
 Adult Depression Screening
 "DATA",176.801,18,1)
@@ -276,6 +314,8 @@ Adult Depression Screening
 ^176.8012P^1^1
 "DATA",176.801,18,4,1,0)
 53
+"DATA",176.801,18,5)
+ADS31
 "DATA",176.801,19,0)
 Adverse Drug Reactions Education
 "DATA",176.801,19,1)
@@ -284,6 +324,8 @@ Adverse Drug Reactions Education
 ^176.8012P^1^1
 "DATA",176.801,19,4,1,0)
 38
+"DATA",176.801,19,5)
+ADRE04
 "DATA",176.801,20,0)
 Alcohol and Drug Dependence
 "DATA",176.801,20,1)
@@ -292,6 +334,8 @@ Alcohol and Drug Dependence
 ^176.8012P^1^1
 "DATA",176.801,20,4,1,0)
 76
+"DATA",176.801,20,5)
+ADD01
 "DATA",176.801,21,0)
 Alcohol and Drug Dependence Treatment
 "DATA",176.801,21,1)
@@ -300,6 +344,8 @@ Alcohol and Drug Dependence Treatment
 ^176.8012P^1^1
 "DATA",176.801,21,4,1,0)
 76
+"DATA",176.801,21,5)
+ADDT05
 "DATA",176.801,22,0)
 All Cancer
 "DATA",176.801,22,1)
@@ -310,6 +356,8 @@ All Cancer
 67
 "DATA",176.801,22,4,2,0)
 70
+"DATA",176.801,22,5)
+AC11
 "DATA",176.801,23,0)
 Allergy to ACE inhibitor or ARB
 "DATA",176.801,23,1)
@@ -318,6 +366,8 @@ Allergy to ACE inhibitor or ARB
 ^176.8012P^1^1
 "DATA",176.801,23,4,1,0)
 24
+"DATA",176.801,23,5)
+AACEARB11
 "DATA",176.801,24,0)
 Allergy to Antineoplastic Therapy
 "DATA",176.801,24,1)
@@ -326,6 +376,8 @@ Allergy to Antineoplastic Therapy
 ^176.8012P^1^1
 "DATA",176.801,24,4,1,0)
 43
+"DATA",176.801,24,5)
+AAT80
 "DATA",176.801,25,0)
 Allergy to Beta Blocker Therapy
 "DATA",176.801,25,1)
@@ -336,6 +388,8 @@ Allergy to Beta Blocker Therapy
 41
 "DATA",176.801,25,4,2,0)
 39
+"DATA",176.801,25,5)
+ABBT77
 "DATA",176.801,26,0)
 Allergy to Influenza Vaccine
 "DATA",176.801,26,1)
@@ -344,6 +398,8 @@ Allergy to Influenza Vaccine
 ^176.8012P^1^1
 "DATA",176.801,26,4,1,0)
 59
+"DATA",176.801,26,5)
+AIV56
 "DATA",176.801,27,0)
 Allergy to Tamoxifen or Aromatase Inhibitor Therapy
 "DATA",176.801,27,1)
@@ -352,6 +408,8 @@ Allergy to Tamoxifen or Aromatase Inhibitor Therapy
 ^176.8012P^1^1
 "DATA",176.801,27,4,1,0)
 65
+"DATA",176.801,27,5)
+ATAIT17
 "DATA",176.801,28,0)
 Allergy to eggs
 "DATA",176.801,28,1)
@@ -360,6 +418,8 @@ Allergy to eggs
 ^176.8012P^1^1
 "DATA",176.801,28,4,1,0)
 59
+"DATA",176.801,28,5)
+A53
 "DATA",176.801,29,0)
 Amblyopia
 "DATA",176.801,29,1)
@@ -368,6 +428,8 @@ Amblyopia
 ^176.8012P^1^1
 "DATA",176.801,29,4,1,0)
 19
+"DATA",176.801,29,5)
+A48
 "DATA",176.801,30,0)
 Ambulatory
 "DATA",176.801,30,1)
@@ -376,6 +438,8 @@ Ambulatory
 ^176.8012P^1^1
 "DATA",176.801,30,4,1,0)
 33
+"DATA",176.801,30,5)
+A03
 "DATA",176.801,31,0)
 Ambulatory/ED Visit
 "DATA",176.801,31,1)
@@ -384,6 +448,8 @@ Ambulatory/ED Visit
 ^176.8012P^1^1
 "DATA",176.801,31,4,1,0)
 74
+"DATA",176.801,31,5)
+AEDV61
 "DATA",176.801,32,0)
 Anaphylactic Reaction to Common Baker's Yeast
 "DATA",176.801,32,1)
@@ -392,6 +458,8 @@ Anaphylactic Reaction to Common Baker's Yeast
 ^176.8012P^1^1
 "DATA",176.801,32,4,1,0)
 66
+"DATA",176.801,32,5)
+ARCB'Y32
 "DATA",176.801,33,0)
 Anaphylactic Reaction to DTaP Vaccine
 "DATA",176.801,33,1)
@@ -400,6 +468,8 @@ Anaphylactic Reaction to DTaP Vaccine
 ^176.8012P^1^1
 "DATA",176.801,33,4,1,0)
 66
+"DATA",176.801,33,5)
+ARDTPV31
 "DATA",176.801,34,0)
 Anaphylactic Reaction to Hemophilus Influenza B (HiB) Vaccine
 "DATA",176.801,34,1)
@@ -408,6 +478,8 @@ Anaphylactic Reaction to Hemophilus Influenza B (HiB) Vaccine
 ^176.8012P^1^1
 "DATA",176.801,34,4,1,0)
 66
+"DATA",176.801,34,5)
+ARHIBHBV30
 "DATA",176.801,35,0)
 Anaphylactic Reaction to Hepatitis A Vaccine
 "DATA",176.801,35,1)
@@ -416,6 +488,8 @@ Anaphylactic Reaction to Hepatitis A Vaccine
 ^176.8012P^1^1
 "DATA",176.801,35,4,1,0)
 66
+"DATA",176.801,35,5)
+ARHAV26
 "DATA",176.801,36,0)
 Anaphylactic Reaction to Hepatitis B Vaccine
 "DATA",176.801,36,1)
@@ -424,6 +498,8 @@ Anaphylactic Reaction to Hepatitis B Vaccine
 ^176.8012P^1^1
 "DATA",176.801,36,4,1,0)
 66
+"DATA",176.801,36,5)
+ARHBV29
 "DATA",176.801,37,0)
 Anaphylactic Reaction to Inactivated Polio Vaccine (IPV)
 "DATA",176.801,37,1)
@@ -432,6 +508,8 @@ Anaphylactic Reaction to Inactivated Polio Vaccine (IPV)
 ^176.8012P^1^1
 "DATA",176.801,37,4,1,0)
 66
+"DATA",176.801,37,5)
+ARIPVIPV23
 "DATA",176.801,38,0)
 Anaphylactic Reaction to Influenza Vaccine
 "DATA",176.801,38,1)
@@ -440,6 +518,8 @@ Anaphylactic Reaction to Influenza Vaccine
 ^176.8012P^1^1
 "DATA",176.801,38,4,1,0)
 66
+"DATA",176.801,38,5)
+ARIV22
 "DATA",176.801,39,0)
 Anaphylactic Reaction to Neomycin
 "DATA",176.801,39,1)
@@ -448,6 +528,8 @@ Anaphylactic Reaction to Neomycin
 ^176.8012P^1^1
 "DATA",176.801,39,4,1,0)
 66
+"DATA",176.801,39,5)
+ARN24
 "DATA",176.801,40,0)
 Anaphylactic Reaction to Pneumococcal Conjugate Vaccine
 "DATA",176.801,40,1)
@@ -456,6 +538,8 @@ Anaphylactic Reaction to Pneumococcal Conjugate Vaccine
 ^176.8012P^1^1
 "DATA",176.801,40,4,1,0)
 66
+"DATA",176.801,40,5)
+ARPCV27
 "DATA",176.801,41,0)
 Anaphylactic Reaction to Polymyxin
 "DATA",176.801,41,1)
@@ -464,6 +548,8 @@ Anaphylactic Reaction to Polymyxin
 ^176.8012P^1^1
 "DATA",176.801,41,4,1,0)
 66
+"DATA",176.801,41,5)
+ARP25
 "DATA",176.801,42,0)
 Anaphylactic Reaction to Rotavirus Vaccine
 "DATA",176.801,42,1)
@@ -472,6 +558,8 @@ Anaphylactic Reaction to Rotavirus Vaccine
 ^176.8012P^1^1
 "DATA",176.801,42,4,1,0)
 66
+"DATA",176.801,42,5)
+ARRV21
 "DATA",176.801,43,0)
 Anaphylactic Reaction to Streptomycin
 "DATA",176.801,43,1)
@@ -480,6 +568,8 @@ Anaphylactic Reaction to Streptomycin
 ^176.8012P^1^1
 "DATA",176.801,43,4,1,0)
 66
+"DATA",176.801,43,5)
+ARS28
 "DATA",176.801,44,0)
 Annual Wellness Visit
 "DATA",176.801,44,1)
@@ -518,6 +608,8 @@ Annual Wellness Visit
 71
 "DATA",176.801,44,4,16,0)
 59
+"DATA",176.801,44,5)
+AWV40
 "DATA",176.801,45,0)
 Anomalies of Puillary Function
 "DATA",176.801,45,1)
@@ -526,6 +618,8 @@ Anomalies of Puillary Function
 ^176.8012P^1^1
 "DATA",176.801,45,4,1,0)
 57
+"DATA",176.801,45,5)
+APF06
 "DATA",176.801,46,0)
 Anti-Hypertensive Pharmacologic Therapy
 "DATA",176.801,46,1)
@@ -538,6 +632,8 @@ Anti-Hypertensive Pharmacologic Therapy
 1
 "DATA",176.801,46,4,3,0)
 58
+"DATA",176.801,46,5)
+AHPT76
 "DATA",176.801,47,0)
 Antibiotic Medications
 "DATA",176.801,47,1)
@@ -548,6 +644,8 @@ Antibiotic Medications
 85
 "DATA",176.801,47,4,2,0)
 74
+"DATA",176.801,47,5)
+AM01
 "DATA",176.801,48,0)
 Anticoagulant Therapy
 "DATA",176.801,48,1)
@@ -558,6 +656,8 @@ Anticoagulant Therapy
 90
 "DATA",176.801,48,4,2,0)
 2
+"DATA",176.801,48,5)
+AT00
 "DATA",176.801,49,0)
 Antidepressant Medication
 "DATA",176.801,49,1)
@@ -566,6 +666,8 @@ Antidepressant Medication
 ^176.8012P^1^1
 "DATA",176.801,49,4,1,0)
 46
+"DATA",176.801,49,5)
+AM13
 "DATA",176.801,50,0)
 Antithrombotic Therapy
 "DATA",176.801,50,1)
@@ -576,6 +678,8 @@ Antithrombotic Therapy
 22
 "DATA",176.801,50,4,2,0)
 49
+"DATA",176.801,50,5)
+AT01
 "DATA",176.801,51,0)
 Aphakia and other Disorders of Lens
 "DATA",176.801,51,1)
@@ -584,6 +688,8 @@ Aphakia and other Disorders of Lens
 ^176.8012P^1^1
 "DATA",176.801,51,4,1,0)
 57
+"DATA",176.801,51,5)
+ADL07
 "DATA",176.801,52,0)
 Arrhythmia
 "DATA",176.801,52,1)
@@ -594,6 +700,8 @@ Arrhythmia
 41
 "DATA",176.801,52,4,2,0)
 39
+"DATA",176.801,52,5)
+A66
 "DATA",176.801,53,0)
 Arterial or Umbilical Venous Cath Group
 "DATA",176.801,53,1)
@@ -602,6 +710,8 @@ Arterial or Umbilical Venous Cath Group
 ^176.8012P^1^1
 "DATA",176.801,53,4,1,0)
 93
+"DATA",176.801,53,5)
+AUVCG82
 "DATA",176.801,54,0)
 Aspiration and Injection Procedures
 "DATA",176.801,54,1)
@@ -610,6 +720,8 @@ Aspiration and Injection Procedures
 ^176.8012P^1^1
 "DATA",176.801,54,4,1,0)
 57
+"DATA",176.801,54,5)
+AIP08
 "DATA",176.801,55,0)
 Aspirin and Other Anti-thrombotics
 "DATA",176.801,55,1)
@@ -618,6 +730,8 @@ Aspirin and Other Anti-thrombotics
 ^176.8012P^1^1
 "DATA",176.801,55,4,1,0)
 3
+"DATA",176.801,55,5)
+AOA11
 "DATA",176.801,56,0)
 Asthma
 "DATA",176.801,56,1)
@@ -628,6 +742,8 @@ Asthma
 39
 "DATA",176.801,56,4,2,0)
 41
+"DATA",176.801,56,5)
+A62
 "DATA",176.801,57,0)
 Asthma Management Plan
 "DATA",176.801,57,1)
@@ -636,6 +752,8 @@ Asthma Management Plan
 ^176.8012P^1^1
 "DATA",176.801,57,4,1,0)
 83
+"DATA",176.801,57,5)
+AMP31
 "DATA",176.801,58,0)
 Atrial Ablation
 "DATA",176.801,58,1)
@@ -644,6 +762,8 @@ Atrial Ablation
 ^176.8012P^1^1
 "DATA",176.801,58,4,1,0)
 2
+"DATA",176.801,58,5)
+AA03
 "DATA",176.801,59,0)
 Atrial Fibrillation/Flutter
 "DATA",176.801,59,1)
@@ -654,6 +774,8 @@ Atrial Fibrillation/Flutter
 62
 "DATA",176.801,59,4,2,0)
 2
+"DATA",176.801,59,5)
+AFF02
 "DATA",176.801,60,0)
 Atrioventricular Block
 "DATA",176.801,60,1)
@@ -664,6 +786,8 @@ Atrioventricular Block
 41
 "DATA",176.801,60,4,2,0)
 39
+"DATA",176.801,60,5)
+AB67
 "DATA",176.801,61,0)
 BH Antidepressant medication
 "DATA",176.801,61,1)
@@ -672,6 +796,8 @@ BH Antidepressant medication
 ^176.8012P^1^1
 "DATA",176.801,61,4,1,0)
 68
+"DATA",176.801,61,5)
+BHA72
 "DATA",176.801,62,0)
 BH Assessment for alcohol or other drugs
 "DATA",176.801,62,1)
@@ -680,6 +806,8 @@ BH Assessment for alcohol or other drugs
 ^176.8012P^1^1
 "DATA",176.801,62,4,1,0)
 68
+"DATA",176.801,62,5)
+BHA04
 "DATA",176.801,63,0)
 BH Condition involving bipolar disorder
 "DATA",176.801,63,1)
@@ -688,6 +816,8 @@ BH Condition involving bipolar disorder
 ^176.8012P^1^1
 "DATA",176.801,63,4,1,0)
 68
+"DATA",176.801,63,5)
+BHC04
 "DATA",176.801,64,0)
 BH Condition involving unipolar depression
 "DATA",176.801,64,1)
@@ -696,6 +826,8 @@ BH Condition involving unipolar depression
 ^176.8012P^1^1
 "DATA",176.801,64,4,1,0)
 68
+"DATA",176.801,64,5)
+BHC05
 "DATA",176.801,65,0)
 BH Counseling for depression
 "DATA",176.801,65,1)
@@ -704,6 +836,8 @@ BH Counseling for depression
 ^176.8012P^1^1
 "DATA",176.801,65,4,1,0)
 68
+"DATA",176.801,65,5)
+BHC16
 "DATA",176.801,66,0)
 BH Electroconvulsive therapy
 "DATA",176.801,66,1)
@@ -712,6 +846,8 @@ BH Electroconvulsive therapy
 ^176.8012P^1^1
 "DATA",176.801,66,4,1,0)
 68
+"DATA",176.801,66,5)
+BHE33
 "DATA",176.801,67,0)
 BH Medical or psychiatric consultation
 "DATA",176.801,67,1)
@@ -720,6 +856,8 @@ BH Medical or psychiatric consultation
 ^176.8012P^1^1
 "DATA",176.801,67,4,1,0)
 47
+"DATA",176.801,67,5)
+BHM52
 "DATA",176.801,68,0)
 BH Mood stabilizer medication
 "DATA",176.801,68,1)
@@ -728,6 +866,8 @@ BH Mood stabilizer medication
 ^176.8012P^1^1
 "DATA",176.801,68,4,1,0)
 68
+"DATA",176.801,68,5)
+BHM50
 "DATA",176.801,69,0)
 BH Outpatient encounter
 "DATA",176.801,69,1)
@@ -736,6 +876,8 @@ BH Outpatient encounter
 ^176.8012P^1^1
 "DATA",176.801,69,4,1,0)
 68
+"DATA",176.801,69,5)
+BHO49
 "DATA",176.801,70,0)
 BH Outpatient psychotherapy
 "DATA",176.801,70,1)
@@ -744,6 +886,8 @@ BH Outpatient psychotherapy
 ^176.8012P^1^1
 "DATA",176.801,70,4,1,0)
 68
+"DATA",176.801,70,5)
+BHO73
 "DATA",176.801,71,0)
 BMI Encounter Code Set
 "DATA",176.801,71,1)
@@ -752,6 +896,8 @@ BMI Encounter Code Set
 ^176.8012P^1^1
 "DATA",176.801,71,4,1,0)
 52
+"DATA",176.801,71,5)
+BMIECS51
 "DATA",176.801,72,0)
 BMI Finding Code Set
 "DATA",176.801,72,1)
@@ -760,6 +906,8 @@ BMI Finding Code Set
 ^176.8012P^1^1
 "DATA",176.801,72,4,1,0)
 52
+"DATA",176.801,72,5)
+BMIFCS90
 "DATA",176.801,73,0)
 BMI LOINC calculation
 "DATA",176.801,73,1)
@@ -768,6 +916,8 @@ BMI LOINC calculation
 ^176.8012P^1^1
 "DATA",176.801,73,4,1,0)
 52
+"DATA",176.801,73,5)
+BMILOINC40
 "DATA",176.801,74,0)
 BMI percentile
 "DATA",176.801,74,1)
@@ -776,6 +926,8 @@ BMI percentile
 ^176.8012P^1^1
 "DATA",176.801,74,4,1,0)
 6
+"DATA",176.801,74,5)
+BMI12
 "DATA",176.801,75,0)
 BP Screening Denominator Encounter Codes Grouped New
 "DATA",176.801,75,1)
@@ -784,6 +936,8 @@ BP Screening Denominator Encounter Codes Grouped New
 ^176.8012P^1^1
 "DATA",176.801,75,4,1,0)
 58
+"DATA",176.801,75,5)
+BPSDECGN20
 "DATA",176.801,76,0)
 Baseline State
 "DATA",176.801,76,1)
@@ -792,6 +946,8 @@ Baseline State
 ^176.8012P^1^1
 "DATA",176.801,76,4,1,0)
 15
+"DATA",176.801,76,5)
+BS17
 "DATA",176.801,77,0)
 Behavioral Health Follow-up Visit
 "DATA",176.801,77,1)
@@ -800,6 +956,8 @@ Behavioral Health Follow-up Visit
 ^176.8012P^1^1
 "DATA",176.801,77,4,1,0)
 33
+"DATA",176.801,77,5)
+BHFV54
 "DATA",176.801,78,0)
 Behavioral/Neuropsych Assessment
 "DATA",176.801,78,1)
@@ -808,6 +966,8 @@ Behavioral/Neuropsych Assessment
 ^176.8012P^1^1
 "DATA",176.801,78,4,1,0)
 35
+"DATA",176.801,78,5)
+BNA23
 "DATA",176.801,79,0)
 Below Normal Follow up
 "DATA",176.801,79,1)
@@ -816,6 +976,8 @@ Below Normal Follow up
 ^176.8012P^1^1
 "DATA",176.801,79,4,1,0)
 52
+"DATA",176.801,79,5)
+BNF28
 "DATA",176.801,80,0)
 Below Normal Medications
 "DATA",176.801,80,1)
@@ -824,6 +986,8 @@ Below Normal Medications
 ^176.8012P^1^1
 "DATA",176.801,80,4,1,0)
 52
+"DATA",176.801,80,5)
+BNM99
 "DATA",176.801,81,0)
 Below Normal Referrals
 "DATA",176.801,81,1)
@@ -832,6 +996,8 @@ Below Normal Referrals
 ^176.8012P^1^1
 "DATA",176.801,81,4,1,0)
 52
+"DATA",176.801,81,5)
+BNR29
 "DATA",176.801,82,0)
 Beta Blocker Therapy
 "DATA",176.801,82,1)
@@ -842,6 +1008,8 @@ Beta Blocker Therapy
 39
 "DATA",176.801,82,4,2,0)
 41
+"DATA",176.801,82,5)
+BBT74
 "DATA",176.801,83,0)
 Beta Blocker Therapy for LVSD
 "DATA",176.801,83,1)
@@ -852,6 +1020,8 @@ Beta Blocker Therapy for LVSD
 41
 "DATA",176.801,83,4,2,0)
 39
+"DATA",176.801,83,5)
+BBTLVSD84
 "DATA",176.801,84,0)
 Bilateral Mastectomy
 "DATA",176.801,84,1)
@@ -860,6 +1030,8 @@ Bilateral Mastectomy
 ^176.8012P^1^1
 "DATA",176.801,84,4,1,0)
 10
+"DATA",176.801,84,5)
+BM05
 "DATA",176.801,85,0)
 Bilateral Oophorectomy
 "DATA",176.801,85,1)
@@ -868,6 +1040,8 @@ Bilateral Oophorectomy
 ^176.8012P^1^1
 "DATA",176.801,85,4,1,0)
 65
+"DATA",176.801,85,5)
+BO71
 "DATA",176.801,86,0)
 Bipolar Diagnosis
 "DATA",176.801,86,1)
@@ -876,6 +1050,8 @@ Bipolar Diagnosis
 ^176.8012P^1^1
 "DATA",176.801,86,4,1,0)
 53
+"DATA",176.801,86,5)
+BD50
 "DATA",176.801,87,0)
 Bipolar Disorder
 "DATA",176.801,87,1)
@@ -886,6 +1062,8 @@ Bipolar Disorder
 42
 "DATA",176.801,87,4,2,0)
 61
+"DATA",176.801,87,5)
+BD28
 "DATA",176.801,88,0)
 Birth
 "DATA",176.801,88,1)
@@ -898,6 +1076,8 @@ Birth
 36
 "DATA",176.801,88,4,3,0)
 4
+"DATA",176.801,88,5)
+B70
 "DATA",176.801,89,0)
 Birth Trauma or Injuries Group
 "DATA",176.801,89,1)
@@ -906,6 +1086,8 @@ Birth Trauma or Injuries Group
 ^176.8012P^1^1
 "DATA",176.801,89,4,1,0)
 93
+"DATA",176.801,89,5)
+BTIG67
 "DATA",176.801,90,0)
 Blood Pressure Measured
 "DATA",176.801,90,1)
@@ -914,6 +1096,8 @@ Blood Pressure Measured
 ^176.8012P^1^1
 "DATA",176.801,90,4,1,0)
 58
+"DATA",176.801,90,5)
+BPM12
 "DATA",176.801,91,0)
 Blood Pressure Visit
 "DATA",176.801,91,1)
@@ -922,6 +1106,8 @@ Blood Pressure Visit
 ^176.8012P^1^1
 "DATA",176.801,91,4,1,0)
 12
+"DATA",176.801,91,5)
+BPV56
 "DATA",176.801,92,0)
 Bone Scan
 "DATA",176.801,92,1)
@@ -930,6 +1116,8 @@ Bone Scan
 ^176.8012P^1^1
 "DATA",176.801,92,4,1,0)
 9
+"DATA",176.801,92,5)
+BS20
 "DATA",176.801,93,0)
 Bradycardia
 "DATA",176.801,93,1)
@@ -940,6 +1128,8 @@ Bradycardia
 39
 "DATA",176.801,93,4,2,0)
 41
+"DATA",176.801,93,5)
+B12
 "DATA",176.801,94,0)
 Breast Cancer
 "DATA",176.801,94,1)
@@ -948,6 +1138,8 @@ Breast Cancer
 ^176.8012P^1^1
 "DATA",176.801,94,4,1,0)
 65
+"DATA",176.801,94,5)
+BC89
 "DATA",176.801,95,0)
 Breast Cancer ER or PR Positive
 "DATA",176.801,95,1)
@@ -956,6 +1148,8 @@ Breast Cancer ER or PR Positive
 ^176.8012P^1^1
 "DATA",176.801,95,4,1,0)
 65
+"DATA",176.801,95,5)
+BCERPRP03
 "DATA",176.801,96,0)
 Breast Cancer Primary Tumor Size T0
 "DATA",176.801,96,1)
@@ -964,6 +1158,8 @@ Breast Cancer Primary Tumor Size T0
 ^176.8012P^1^1
 "DATA",176.801,96,4,1,0)
 65
+"DATA",176.801,96,5)
+BCPTST004
 "DATA",176.801,97,0)
 Breast Cancer Primary Tumor Size T1
 "DATA",176.801,97,1)
@@ -972,6 +1168,8 @@ Breast Cancer Primary Tumor Size T1
 ^176.8012P^1^1
 "DATA",176.801,97,4,1,0)
 65
+"DATA",176.801,97,5)
+BCPTST105
 "DATA",176.801,98,0)
 Breast Cancer Primary Tumor Size T1a
 "DATA",176.801,98,1)
@@ -980,6 +1178,8 @@ Breast Cancer Primary Tumor Size T1a
 ^176.8012P^1^1
 "DATA",176.801,98,4,1,0)
 65
+"DATA",176.801,98,5)
+BCPTST164
 "DATA",176.801,99,0)
 Breast Cancer Primary Tumor Size T1b
 "DATA",176.801,99,1)
@@ -988,6 +1188,8 @@ Breast Cancer Primary Tumor Size T1b
 ^176.8012P^1^1
 "DATA",176.801,99,4,1,0)
 65
+"DATA",176.801,99,5)
+BCPTST170
 "DATA",176.801,100,0)
 Breast Cancer Primary Tumor Size T1c
 "DATA",176.801,100,1)
@@ -996,6 +1198,8 @@ Breast Cancer Primary Tumor Size T1c
 ^176.8012P^1^1
 "DATA",176.801,100,4,1,0)
 65
+"DATA",176.801,100,5)
+BCPTST106
 "DATA",176.801,101,0)
 Breast Cancer Primary Tumor Size T1mi
 "DATA",176.801,101,1)
@@ -1004,6 +1208,8 @@ Breast Cancer Primary Tumor Size T1mi
 ^176.8012P^1^1
 "DATA",176.801,101,4,1,0)
 65
+"DATA",176.801,101,5)
+BCPTST197
 "DATA",176.801,102,0)
 Breast Cancer Primary Tumor Size T2
 "DATA",176.801,102,1)
@@ -1012,6 +1218,8 @@ Breast Cancer Primary Tumor Size T2
 ^176.8012P^1^1
 "DATA",176.801,102,4,1,0)
 65
+"DATA",176.801,102,5)
+BCPTST207
 "DATA",176.801,103,0)
 Breast Cancer Primary Tumor Size T3
 "DATA",176.801,103,1)
@@ -1020,6 +1228,8 @@ Breast Cancer Primary Tumor Size T3
 ^176.8012P^1^1
 "DATA",176.801,103,4,1,0)
 65
+"DATA",176.801,103,5)
+BCPTST308
 "DATA",176.801,104,0)
 Breast Cancer Primary Tumor Size T4
 "DATA",176.801,104,1)
@@ -1028,6 +1238,8 @@ Breast Cancer Primary Tumor Size T4
 ^176.8012P^1^1
 "DATA",176.801,104,4,1,0)
 65
+"DATA",176.801,104,5)
+BCPTST409
 "DATA",176.801,105,0)
 Breast Cancer Regional Lymph Node Status N0
 "DATA",176.801,105,1)
@@ -1036,6 +1248,8 @@ Breast Cancer Regional Lymph Node Status N0
 ^176.8012P^1^1
 "DATA",176.801,105,4,1,0)
 65
+"DATA",176.801,105,5)
+BCRLNSN010
 "DATA",176.801,106,0)
 Breast Cancer Regional Lymph Node Status N1
 "DATA",176.801,106,1)
@@ -1044,6 +1258,8 @@ Breast Cancer Regional Lymph Node Status N1
 ^176.8012P^1^1
 "DATA",176.801,106,4,1,0)
 65
+"DATA",176.801,106,5)
+BCRLNSN129
 "DATA",176.801,107,0)
 Breast Cancer Regional Lymph Node Status N2
 "DATA",176.801,107,1)
@@ -1052,6 +1268,8 @@ Breast Cancer Regional Lymph Node Status N2
 ^176.8012P^1^1
 "DATA",176.801,107,4,1,0)
 65
+"DATA",176.801,107,5)
+BCRLNSN213
 "DATA",176.801,108,0)
 Breast Cancer Regional Lymph Node Status N3
 "DATA",176.801,108,1)
@@ -1060,6 +1278,8 @@ Breast Cancer Regional Lymph Node Status N3
 ^176.8012P^1^1
 "DATA",176.801,108,4,1,0)
 65
+"DATA",176.801,108,5)
+BCRLNSN314
 "DATA",176.801,109,0)
 Breast Cancer Regional Lymph Node Status pN1a
 "DATA",176.801,109,1)
@@ -1068,6 +1288,8 @@ Breast Cancer Regional Lymph Node Status pN1a
 ^176.8012P^1^1
 "DATA",176.801,109,4,1,0)
 65
+"DATA",176.801,109,5)
+BCRLNSN111
 "DATA",176.801,110,0)
 Breast Cancer Regional Lymph Node Status pN1b
 "DATA",176.801,110,1)
@@ -1076,6 +1298,8 @@ Breast Cancer Regional Lymph Node Status pN1b
 ^176.8012P^1^1
 "DATA",176.801,110,4,1,0)
 65
+"DATA",176.801,110,5)
+BCRLNSN130
 "DATA",176.801,111,0)
 Breast Cancer Regional Lymph Node Status pN1c
 "DATA",176.801,111,1)
@@ -1084,6 +1308,8 @@ Breast Cancer Regional Lymph Node Status pN1c
 ^176.8012P^1^1
 "DATA",176.801,111,4,1,0)
 65
+"DATA",176.801,111,5)
+BCRLNSN131
 "DATA",176.801,112,0)
 Breast Cancer Regional Lymph Node Status pN1mi
 "DATA",176.801,112,1)
@@ -1092,6 +1318,8 @@ Breast Cancer Regional Lymph Node Status pN1mi
 ^176.8012P^1^1
 "DATA",176.801,112,4,1,0)
 65
+"DATA",176.801,112,5)
+BCRLNSN112
 "DATA",176.801,113,0)
 Breast Distant Metastasis Status M0
 "DATA",176.801,113,1)
@@ -1100,6 +1328,8 @@ Breast Distant Metastasis Status M0
 ^176.8012P^1^1
 "DATA",176.801,113,4,1,0)
 65
+"DATA",176.801,113,5)
+BDMSM002
 "DATA",176.801,114,0)
 Breast Milk
 "DATA",176.801,114,1)
@@ -1108,6 +1338,8 @@ Breast Milk
 ^176.8012P^1^1
 "DATA",176.801,114,4,1,0)
 36
+"DATA",176.801,114,5)
+BM30
 "DATA",176.801,115,0)
 Burn Confined to Eye and Adnexa
 "DATA",176.801,115,1)
@@ -1118,6 +1350,8 @@ Burn Confined to Eye and Adnexa
 19
 "DATA",176.801,115,4,2,0)
 57
+"DATA",176.801,115,5)
+BCEA09
 "DATA",176.801,116,0)
 CD4+ Count
 "DATA",176.801,116,1)
@@ -1126,6 +1360,8 @@ CD4+ Count
 ^176.8012P^1^1
 "DATA",176.801,116,4,1,0)
 11
+"DATA",176.801,116,5)
+CD4+C04
 "DATA",176.801,117,0)
 CD4+ Percentage
 "DATA",176.801,117,1)
@@ -1134,6 +1370,8 @@ CD4+ Percentage
 ^176.8012P^1^1
 "DATA",176.801,117,4,1,0)
 11
+"DATA",176.801,117,5)
+CD4+P05
 "DATA",176.801,118,0)
 CHD or CHD Risk Equivalent
 "DATA",176.801,118,1)
@@ -1144,6 +1382,8 @@ CHD or CHD Risk Equivalent
 1
 "DATA",176.801,118,4,2,0)
 5
+"DATA",176.801,118,5)
+CHDCHDRE63
 "DATA",176.801,119,0)
 CT Scan of Lower Spine
 "DATA",176.801,119,1)
@@ -1152,6 +1392,8 @@ CT Scan of Lower Spine
 ^176.8012P^1^1
 "DATA",176.801,119,4,1,0)
 67
+"DATA",176.801,119,5)
+CTSLS35
 "DATA",176.801,120,0)
 Cancer
 "DATA",176.801,120,1)
@@ -1160,6 +1402,8 @@ Cancer
 ^176.8012P^1^1
 "DATA",176.801,120,4,1,0)
 55
+"DATA",176.801,120,5)
+C10
 "DATA",176.801,121,0)
 Cardiac Pacer
 "DATA",176.801,121,1)
@@ -1170,6 +1414,8 @@ Cardiac Pacer
 39
 "DATA",176.801,121,4,2,0)
 41
+"DATA",176.801,121,5)
+CP93
 "DATA",176.801,122,0)
 Cardiac Pacer in Situ
 "DATA",176.801,122,1)
@@ -1180,6 +1426,8 @@ Cardiac Pacer in Situ
 39
 "DATA",176.801,122,4,2,0)
 41
+"DATA",176.801,122,5)
+CPS68
 "DATA",176.801,123,0)
 Cardiac Surgery
 "DATA",176.801,123,1)
@@ -1188,6 +1436,8 @@ Cardiac Surgery
 ^176.8012P^1^1
 "DATA",176.801,123,4,1,0)
 39
+"DATA",176.801,123,5)
+CS71
 "DATA",176.801,124,0)
 Cardiopulmonary Resuscitation Group
 "DATA",176.801,124,1)
@@ -1196,6 +1446,8 @@ Cardiopulmonary Resuscitation Group
 ^176.8012P^1^1
 "DATA",176.801,124,4,1,0)
 93
+"DATA",176.801,124,5)
+CRG86
 "DATA",176.801,125,0)
 Care Services in Long-Term Residential Facility
 "DATA",176.801,125,1)
@@ -1220,6 +1472,8 @@ Care Services in Long-Term Residential Facility
 41
 "DATA",176.801,125,4,9,0)
 81
+"DATA",176.801,125,5)
+CSLTRF14
 "DATA",176.801,126,0)
 Carotid Intervention
 "DATA",176.801,126,1)
@@ -1240,6 +1494,8 @@ Carotid Intervention
 2
 "DATA",176.801,126,4,7,0)
 49
+"DATA",176.801,126,5)
+CI04
 "DATA",176.801,127,0)
 Cataract Secondary to Ocular Disorders
 "DATA",176.801,127,1)
@@ -1250,6 +1506,8 @@ Cataract Secondary to Ocular Disorders
 19
 "DATA",176.801,127,4,2,0)
 57
+"DATA",176.801,127,5)
+CSOD10
 "DATA",176.801,128,0)
 Cataract Surgery
 "DATA",176.801,128,1)
@@ -1260,6 +1518,8 @@ Cataract Surgery
 19
 "DATA",176.801,128,4,2,0)
 57
+"DATA",176.801,128,5)
+CS11
 "DATA",176.801,129,0)
 Cataract, Congenital
 "DATA",176.801,129,1)
@@ -1268,6 +1528,8 @@ Cataract, Congenital
 ^176.8012P^1^1
 "DATA",176.801,129,4,1,0)
 57
+"DATA",176.801,129,5)
+CC12
 "DATA",176.801,130,0)
 Cataract, Mature or Hypermature
 "DATA",176.801,130,1)
@@ -1276,6 +1538,8 @@ Cataract, Mature or Hypermature
 ^176.8012P^1^1
 "DATA",176.801,130,4,1,0)
 57
+"DATA",176.801,130,5)
+CMH13
 "DATA",176.801,131,0)
 Cataract, Posterior Polar
 "DATA",176.801,131,1)
@@ -1284,6 +1548,8 @@ Cataract, Posterior Polar
 ^176.8012P^1^1
 "DATA",176.801,131,4,1,0)
 57
+"DATA",176.801,131,5)
+CPP14
 "DATA",176.801,132,0)
 Central Corneal Ulcer
 "DATA",176.801,132,1)
@@ -1294,6 +1560,8 @@ Central Corneal Ulcer
 19
 "DATA",176.801,132,4,2,0)
 57
+"DATA",176.801,132,5)
+CCU28
 "DATA",176.801,133,0)
 Certain Types of Iridocyclitis
 "DATA",176.801,133,1)
@@ -1304,6 +1572,8 @@ Certain Types of Iridocyclitis
 19
 "DATA",176.801,133,4,2,0)
 57
+"DATA",176.801,133,5)
+CTI15
 "DATA",176.801,134,0)
 Cesarean Section
 "DATA",176.801,134,1)
@@ -1312,6 +1582,8 @@ Cesarean Section
 ^176.8012P^1^1
 "DATA",176.801,134,4,1,0)
 91
+"DATA",176.801,134,5)
+CS82
 "DATA",176.801,135,0)
 Chemotherapy
 "DATA",176.801,135,1)
@@ -1320,6 +1592,8 @@ Chemotherapy
 ^176.8012P^1^1
 "DATA",176.801,135,4,1,0)
 65
+"DATA",176.801,135,5)
+C85
 "DATA",176.801,136,0)
 Chemotherapy Administration
 "DATA",176.801,136,1)
@@ -1328,6 +1602,8 @@ Chemotherapy Administration
 ^176.8012P^1^1
 "DATA",176.801,136,4,1,0)
 55
+"DATA",176.801,136,5)
+CA27
 "DATA",176.801,137,0)
 Chemotherapy for Colon Cancer - capecitabine
 "DATA",176.801,137,1)
@@ -1336,6 +1612,8 @@ Chemotherapy for Colon Cancer - capecitabine
 ^176.8012P^1^1
 "DATA",176.801,137,4,1,0)
 43
+"DATA",176.801,137,5)
+CCC88
 "DATA",176.801,138,0)
 Chemotherapy for Colon Cancer - fluorouracil
 "DATA",176.801,138,1)
@@ -1344,6 +1622,8 @@ Chemotherapy for Colon Cancer - fluorouracil
 ^176.8012P^1^1
 "DATA",176.801,138,4,1,0)
 43
+"DATA",176.801,138,5)
+CCC89
 "DATA",176.801,139,0)
 Chemotherapy for Colon Cancer - leucovorin and levo-leucovorin
 "DATA",176.801,139,1)
@@ -1352,6 +1632,8 @@ Chemotherapy for Colon Cancer - leucovorin and levo-leucovorin
 ^176.8012P^1^1
 "DATA",176.801,139,4,1,0)
 43
+"DATA",176.801,139,5)
+CCC90
 "DATA",176.801,140,0)
 Chemotherapy for Colon Cancer - oxaliplatin
 "DATA",176.801,140,1)
@@ -1360,6 +1642,8 @@ Chemotherapy for Colon Cancer - oxaliplatin
 ^176.8012P^1^1
 "DATA",176.801,140,4,1,0)
 43
+"DATA",176.801,140,5)
+CCC91
 "DATA",176.801,141,0)
 Chlamydia
 "DATA",176.801,141,1)
@@ -1368,6 +1652,8 @@ Chlamydia
 ^176.8012P^1^1
 "DATA",176.801,141,4,1,0)
 77
+"DATA",176.801,141,5)
+C03
 "DATA",176.801,142,0)
 Chlamydia Screening
 "DATA",176.801,142,1)
@@ -1376,6 +1662,8 @@ Chlamydia Screening
 ^176.8012P^1^1
 "DATA",176.801,142,4,1,0)
 77
+"DATA",176.801,142,5)
+CS52
 "DATA",176.801,143,0)
 Cholesterol Measure Encounter Codes
 "DATA",176.801,143,1)
@@ -1386,6 +1674,8 @@ Cholesterol Measure Encounter Codes
 5
 "DATA",176.801,143,4,2,0)
 1
+"DATA",176.801,143,5)
+CMEC51
 "DATA",176.801,144,0)
 Chorioretinal Scars
 "DATA",176.801,144,1)
@@ -1394,6 +1684,8 @@ Chorioretinal Scars
 ^176.8012P^1^1
 "DATA",176.801,144,4,1,0)
 19
+"DATA",176.801,144,5)
+CS49
 "DATA",176.801,145,0)
 Choroidal Degenerations
 "DATA",176.801,145,1)
@@ -1402,6 +1694,8 @@ Choroidal Degenerations
 ^176.8012P^1^1
 "DATA",176.801,145,4,1,0)
 19
+"DATA",176.801,145,5)
+CD50
 "DATA",176.801,146,0)
 Choroidal Detachment
 "DATA",176.801,146,1)
@@ -1410,6 +1704,8 @@ Choroidal Detachment
 ^176.8012P^1^1
 "DATA",176.801,146,4,1,0)
 19
+"DATA",176.801,146,5)
+CD51
 "DATA",176.801,147,0)
 Choroidal Hemorrhage and Rupture
 "DATA",176.801,147,1)
@@ -1418,6 +1714,8 @@ Choroidal Hemorrhage and Rupture
 ^176.8012P^1^1
 "DATA",176.801,147,4,1,0)
 19
+"DATA",176.801,147,5)
+CHR52
 "DATA",176.801,148,0)
 Chronic Iridocyclitis
 "DATA",176.801,148,1)
@@ -1428,6 +1726,8 @@ Chronic Iridocyclitis
 57
 "DATA",176.801,148,4,2,0)
 19
+"DATA",176.801,148,5)
+CI16
 "DATA",176.801,149,0)
 Chronic Kidney Disease, Stage 5
 "DATA",176.801,149,1)
@@ -1436,6 +1736,8 @@ Chronic Kidney Disease, Stage 5
 ^176.8012P^1^1
 "DATA",176.801,149,4,1,0)
 64
+"DATA",176.801,149,5)
+CKDS502
 "DATA",176.801,150,0)
 Chronic Obstructive Pulmonary Disease
 "DATA",176.801,150,1)
@@ -1444,6 +1746,8 @@ Chronic Obstructive Pulmonary Disease
 ^176.8012P^1^1
 "DATA",176.801,150,4,1,0)
 29
+"DATA",176.801,150,5)
+COPD07
 "DATA",176.801,151,0)
 Classical Cesarean Section
 "DATA",176.801,151,1)
@@ -1452,6 +1756,8 @@ Classical Cesarean Section
 ^176.8012P^1^1
 "DATA",176.801,151,4,1,0)
 91
+"DATA",176.801,151,5)
+CCS21
 "DATA",176.801,152,0)
 Clinical Oral Evaluation
 "DATA",176.801,152,1)
@@ -1462,6 +1768,8 @@ Clinical Oral Evaluation
 31
 "DATA",176.801,152,4,2,0)
 7
+"DATA",176.801,152,5)
+COE03
 "DATA",176.801,153,0)
 Clinical Pathway Protocol
 "DATA",176.801,153,1)
@@ -1470,6 +1778,8 @@ Clinical Pathway Protocol
 ^176.8012P^1^1
 "DATA",176.801,153,4,1,0)
 72
+"DATA",176.801,153,5)
+CPP53
 "DATA",176.801,154,0)
 Clinical Staging Procedure
 "DATA",176.801,154,1)
@@ -1482,6 +1792,8 @@ Clinical Staging Procedure
 43
 "DATA",176.801,154,4,3,0)
 9
+"DATA",176.801,154,5)
+CSP98
 "DATA",176.801,155,0)
 Clinical Trial Participant
 "DATA",176.801,155,1)
@@ -1504,6 +1816,8 @@ Clinical Trial Participant
 86
 "DATA",176.801,155,4,8,0)
 79
+"DATA",176.801,155,5)
+CTP43
 "DATA",176.801,156,0)
 Cloudy Cornea
 "DATA",176.801,156,1)
@@ -1514,6 +1828,8 @@ Cloudy Cornea
 19
 "DATA",176.801,156,4,2,0)
 57
+"DATA",176.801,156,5)
+CC17
 "DATA",176.801,157,0)
 Cognitive Assessment
 "DATA",176.801,157,1)
@@ -1522,6 +1838,8 @@ Cognitive Assessment
 ^176.8012P^1^1
 "DATA",176.801,157,4,1,0)
 35
+"DATA",176.801,157,5)
+CA32
 "DATA",176.801,158,0)
 Colon Cancer
 "DATA",176.801,158,1)
@@ -1530,6 +1848,8 @@ Colon Cancer
 ^176.8012P^1^1
 "DATA",176.801,158,4,1,0)
 43
+"DATA",176.801,158,5)
+CC91
 "DATA",176.801,159,0)
 Colon Cancer Primary Tumor Size T1
 "DATA",176.801,159,1)
@@ -1538,6 +1858,8 @@ Colon Cancer Primary Tumor Size T1
 ^176.8012P^1^1
 "DATA",176.801,159,4,1,0)
 43
+"DATA",176.801,159,5)
+CCPTST192
 "DATA",176.801,160,0)
 Colon Cancer Primary Tumor Size T2
 "DATA",176.801,160,1)
@@ -1546,6 +1868,8 @@ Colon Cancer Primary Tumor Size T2
 ^176.8012P^1^1
 "DATA",176.801,160,4,1,0)
 43
+"DATA",176.801,160,5)
+CCPTST293
 "DATA",176.801,161,0)
 Colon Cancer Primary Tumor Size T3
 "DATA",176.801,161,1)
@@ -1554,6 +1878,8 @@ Colon Cancer Primary Tumor Size T3
 ^176.8012P^1^1
 "DATA",176.801,161,4,1,0)
 43
+"DATA",176.801,161,5)
+CCPTST394
 "DATA",176.801,162,0)
 Colon Cancer Primary Tumor Size T4a
 "DATA",176.801,162,1)
@@ -1562,6 +1888,8 @@ Colon Cancer Primary Tumor Size T4a
 ^176.8012P^1^1
 "DATA",176.801,162,4,1,0)
 43
+"DATA",176.801,162,5)
+CCPTST495
 "DATA",176.801,163,0)
 Colon Cancer Primary Tumor Size T4b
 "DATA",176.801,163,1)
@@ -1570,6 +1898,8 @@ Colon Cancer Primary Tumor Size T4b
 ^176.8012P^1^1
 "DATA",176.801,163,4,1,0)
 43
+"DATA",176.801,163,5)
+CCPTST496
 "DATA",176.801,164,0)
 Colon Cancer Regional Lymph Node Status N1
 "DATA",176.801,164,1)
@@ -1578,6 +1908,8 @@ Colon Cancer Regional Lymph Node Status N1
 ^176.8012P^1^1
 "DATA",176.801,164,4,1,0)
 43
+"DATA",176.801,164,5)
+CCRLNSN197
 "DATA",176.801,165,0)
 Colon Cancer Regional Lymph Node Status N1a
 "DATA",176.801,165,1)
@@ -1586,6 +1918,8 @@ Colon Cancer Regional Lymph Node Status N1a
 ^176.8012P^1^1
 "DATA",176.801,165,4,1,0)
 43
+"DATA",176.801,165,5)
+CCRLNSN127
 "DATA",176.801,166,0)
 Colon Cancer Regional Lymph Node Status N1b
 "DATA",176.801,166,1)
@@ -1594,6 +1928,8 @@ Colon Cancer Regional Lymph Node Status N1b
 ^176.8012P^1^1
 "DATA",176.801,166,4,1,0)
 43
+"DATA",176.801,166,5)
+CCRLNSN128
 "DATA",176.801,167,0)
 Colon Cancer Regional Lymph Node Status N1c
 "DATA",176.801,167,1)
@@ -1602,6 +1938,8 @@ Colon Cancer Regional Lymph Node Status N1c
 ^176.8012P^1^1
 "DATA",176.801,167,4,1,0)
 43
+"DATA",176.801,167,5)
+CCRLNSN198
 "DATA",176.801,168,0)
 Colon Cancer Regional Lymph Node Status N2
 "DATA",176.801,168,1)
@@ -1610,6 +1948,8 @@ Colon Cancer Regional Lymph Node Status N2
 ^176.8012P^1^1
 "DATA",176.801,168,4,1,0)
 43
+"DATA",176.801,168,5)
+CCRLNSN299
 "DATA",176.801,169,0)
 Colon Cancer Regional Lymph Node Status N2a
 "DATA",176.801,169,1)
@@ -1618,6 +1958,8 @@ Colon Cancer Regional Lymph Node Status N2a
 ^176.8012P^1^1
 "DATA",176.801,169,4,1,0)
 43
+"DATA",176.801,169,5)
+CCRLNSN200
 "DATA",176.801,170,0)
 Colon Cancer Regional Lymph Node Status N2b
 "DATA",176.801,170,1)
@@ -1626,6 +1968,8 @@ Colon Cancer Regional Lymph Node Status N2b
 ^176.8012P^1^1
 "DATA",176.801,170,4,1,0)
 43
+"DATA",176.801,170,5)
+CCRLNSN201
 "DATA",176.801,171,0)
 Colon Distant Metastasis Status M0
 "DATA",176.801,171,1)
@@ -1634,6 +1978,8 @@ Colon Distant Metastasis Status M0
 ^176.8012P^1^1
 "DATA",176.801,171,4,1,0)
 43
+"DATA",176.801,171,5)
+CDMSM037
 "DATA",176.801,172,0)
 Colonoscopy
 "DATA",176.801,172,1)
@@ -1642,6 +1988,8 @@ Colonoscopy
 ^176.8012P^1^1
 "DATA",176.801,172,4,1,0)
 63
+"DATA",176.801,172,5)
+C20
 "DATA",176.801,173,0)
 Competing Conditions for Respiratory Conditions
 "DATA",176.801,173,1)
@@ -1650,6 +1998,8 @@ Competing Conditions for Respiratory Conditions
 ^176.8012P^1^1
 "DATA",176.801,173,4,1,0)
 85
+"DATA",176.801,173,5)
+CCRC17
 "DATA",176.801,174,0)
 Complete Lipid Panel
 "DATA",176.801,174,1)
@@ -1658,6 +2008,8 @@ Complete Lipid Panel
 ^176.8012P^1^1
 "DATA",176.801,174,4,1,0)
 25
+"DATA",176.801,174,5)
+CLP15
 "DATA",176.801,175,0)
 Complication Mainly Related to Pregnancy
 "DATA",176.801,175,1)
@@ -1666,6 +2018,8 @@ Complication Mainly Related to Pregnancy
 ^176.8012P^1^1
 "DATA",176.801,175,4,1,0)
 91
+"DATA",176.801,175,5)
+CMRP72
 "DATA",176.801,176,0)
 Complication Mainly in the Course of Labor and Delivery
 "DATA",176.801,176,1)
@@ -1674,6 +2028,8 @@ Complication Mainly in the Course of Labor and Delivery
 ^176.8012P^1^1
 "DATA",176.801,176,4,1,0)
 91
+"DATA",176.801,176,5)
+CMCLD97
 "DATA",176.801,177,0)
 Complication of the Puerperium
 "DATA",176.801,177,1)
@@ -1682,6 +2038,8 @@ Complication of the Puerperium
 ^176.8012P^1^1
 "DATA",176.801,177,4,1,0)
 91
+"DATA",176.801,177,5)
+CP75
 "DATA",176.801,178,0)
 Complications of Pregnancy, Childbirth and the Puerperium
 "DATA",176.801,178,1)
@@ -1690,6 +2048,8 @@ Complications of Pregnancy, Childbirth and the Puerperium
 ^176.8012P^1^1
 "DATA",176.801,178,4,1,0)
 77
+"DATA",176.801,178,5)
+CPCP12
 "DATA",176.801,179,0)
 Computed Value INR percent TTR
 "DATA",176.801,179,1)
@@ -1698,6 +2058,8 @@ Computed Value INR percent TTR
 ^176.8012P^1^1
 "DATA",176.801,179,4,1,0)
 62
+"DATA",176.801,179,5)
+CVINRTTR18
 "DATA",176.801,180,0)
 Conditions Possibly Justifying Elective Delivery Prior to 39 Weeks Gestation
 "DATA",176.801,180,1)
@@ -1706,6 +2068,8 @@ Conditions Possibly Justifying Elective Delivery Prior to 39 Weeks Gestation
 ^176.8012P^1^1
 "DATA",176.801,180,4,1,0)
 91
+"DATA",176.801,180,5)
+CPJEDP39WG86
 "DATA",176.801,181,0)
 Congenital Anomalies Group
 "DATA",176.801,181,1)
@@ -1714,6 +2078,8 @@ Congenital Anomalies Group
 ^176.8012P^1^1
 "DATA",176.801,181,4,1,0)
 93
+"DATA",176.801,181,5)
+CAG70
 "DATA",176.801,182,0)
 Congenital or Infantile Cerebral Palsy Group
 "DATA",176.801,182,1)
@@ -1722,6 +2088,8 @@ Congenital or Infantile Cerebral Palsy Group
 ^176.8012P^1^1
 "DATA",176.801,182,4,1,0)
 93
+"DATA",176.801,182,5)
+CICPG80
 "DATA",176.801,183,0)
 Consultant Report
 "DATA",176.801,183,1)
@@ -1730,6 +2098,8 @@ Consultant Report
 ^176.8012P^1^1
 "DATA",176.801,183,4,1,0)
 88
+"DATA",176.801,183,5)
+CR06
 "DATA",176.801,184,0)
 Contraceptive Medications
 "DATA",176.801,184,1)
@@ -1738,6 +2108,8 @@ Contraceptive Medications
 ^176.8012P^1^1
 "DATA",176.801,184,4,1,0)
 77
+"DATA",176.801,184,5)
+CM80
 "DATA",176.801,185,0)
 Corneal Edema
 "DATA",176.801,185,1)
@@ -1748,6 +2120,8 @@ Corneal Edema
 19
 "DATA",176.801,185,4,2,0)
 57
+"DATA",176.801,185,5)
+CE18
 "DATA",176.801,186,0)
 Corneal Opacity and other Disorders of Cornea
 "DATA",176.801,186,1)
@@ -1758,6 +2132,8 @@ Corneal Opacity and other Disorders of Cornea
 19
 "DATA",176.801,186,4,2,0)
 57
+"DATA",176.801,186,5)
+CODC19
 "DATA",176.801,187,0)
 Coronary Artery Bypass Graft
 "DATA",176.801,187,1)
@@ -1768,6 +2144,8 @@ Coronary Artery Bypass Graft
 3
 "DATA",176.801,187,4,2,0)
 25
+"DATA",176.801,187,5)
+CABG02
 "DATA",176.801,188,0)
 Coronary Artery Disease No MI
 "DATA",176.801,188,1)
@@ -1776,6 +2154,8 @@ Coronary Artery Disease No MI
 ^176.8012P^1^1
 "DATA",176.801,188,4,1,0)
 39
+"DATA",176.801,188,5)
+CADNMI69
 "DATA",176.801,189,0)
 Counseling for Nutrition
 "DATA",176.801,189,1)
@@ -1784,6 +2164,8 @@ Counseling for Nutrition
 ^176.8012P^1^1
 "DATA",176.801,189,4,1,0)
 6
+"DATA",176.801,189,5)
+CN03
 "DATA",176.801,190,0)
 Counseling for Physical Activity
 "DATA",176.801,190,1)
@@ -1792,6 +2174,8 @@ Counseling for Physical Activity
 ^176.8012P^1^1
 "DATA",176.801,190,4,1,0)
 6
+"DATA",176.801,190,5)
+CPA35
 "DATA",176.801,191,0)
 Cup to Disc Ratio
 "DATA",176.801,191,1)
@@ -1800,6 +2184,8 @@ Cup to Disc Ratio
 ^176.8012P^1^1
 "DATA",176.801,191,4,1,0)
 81
+"DATA",176.801,191,5)
+CDR33
 "DATA",176.801,192,0)
 Current Medications Documented SNMD
 "DATA",176.801,192,1)
@@ -1808,6 +2194,8 @@ Current Medications Documented SNMD
 ^176.8012P^1^1
 "DATA",176.801,192,4,1,0)
 54
+"DATA",176.801,192,5)
+CMDSNMD62
 "DATA",176.801,193,0)
 Cystic Fibrosis
 "DATA",176.801,193,1)
@@ -1816,6 +2204,8 @@ Cystic Fibrosis
 ^176.8012P^1^1
 "DATA",176.801,193,4,1,0)
 29
+"DATA",176.801,193,5)
+CF02
 "DATA",176.801,194,0)
 Cysts of Iris, Ciliary Body, and Anterior Chamber
 "DATA",176.801,194,1)
@@ -1824,6 +2214,8 @@ Cysts of Iris, Ciliary Body, and Anterior Chamber
 ^176.8012P^1^1
 "DATA",176.801,194,4,1,0)
 57
+"DATA",176.801,194,5)
+CICBAC20
 "DATA",176.801,195,0)
 DTaP Vaccine
 "DATA",176.801,195,1)
@@ -1832,6 +2224,8 @@ DTaP Vaccine
 ^176.8012P^1^1
 "DATA",176.801,195,4,1,0)
 66
+"DATA",176.801,195,5)
+DTPV14
 "DATA",176.801,196,0)
 DTaP Vaccine Administered
 "DATA",176.801,196,1)
@@ -1840,6 +2234,8 @@ DTaP Vaccine Administered
 ^176.8012P^1^1
 "DATA",176.801,196,4,1,0)
 66
+"DATA",176.801,196,5)
+DTPVA22
 "DATA",176.801,197,0)
 Dapsone and pyrimethamine
 "DATA",176.801,197,1)
@@ -1848,6 +2244,8 @@ Dapsone and pyrimethamine
 ^176.8012P^1^1
 "DATA",176.801,197,4,1,0)
 11
+"DATA",176.801,197,5)
+D02
 "DATA",176.801,198,0)
 Deceased
 "DATA",176.801,198,1)
@@ -1858,6 +2256,8 @@ Deceased
 61
 "DATA",176.801,198,4,2,0)
 42
+"DATA",176.801,198,5)
+D21
 "DATA",176.801,199,0)
 Decision to Admit to Hospital Inpatient
 "DATA",176.801,199,1)
@@ -1866,6 +2266,8 @@ Decision to Admit to Hospital Inpatient
 ^176.8012P^1^1
 "DATA",176.801,199,4,1,0)
 51
+"DATA",176.801,199,5)
+DAHI95
 "DATA",176.801,200,0)
 Degeneration of Macula and Posterior Pole
 "DATA",176.801,200,1)
@@ -1874,6 +2276,8 @@ Degeneration of Macula and Posterior Pole
 ^176.8012P^1^1
 "DATA",176.801,200,4,1,0)
 19
+"DATA",176.801,200,5)
+DMPP53
 "DATA",176.801,201,0)
 Degenerative Disorders of Globe
 "DATA",176.801,201,1)
@@ -1882,6 +2286,8 @@ Degenerative Disorders of Globe
 ^176.8012P^1^1
 "DATA",176.801,201,4,1,0)
 19
+"DATA",176.801,201,5)
+DDG54
 "DATA",176.801,202,0)
 Delivery
 "DATA",176.801,202,1)
@@ -1890,6 +2296,8 @@ Delivery
 ^176.8012P^1^1
 "DATA",176.801,202,4,1,0)
 20
+"DATA",176.801,202,5)
+D78
 "DATA",176.801,203,0)
 Delivery Live Births
 "DATA",176.801,203,1)
@@ -1898,6 +2306,8 @@ Delivery Live Births
 ^176.8012P^1^1
 "DATA",176.801,203,4,1,0)
 77
+"DATA",176.801,203,5)
+DLB15
 "DATA",176.801,204,0)
 Delivery Procedures
 "DATA",176.801,204,1)
@@ -1906,6 +2316,8 @@ Delivery Procedures
 ^176.8012P^1^1
 "DATA",176.801,204,4,1,0)
 91
+"DATA",176.801,204,5)
+DP01
 "DATA",176.801,205,0)
 Delta systolic blood pressure
 "DATA",176.801,205,1)
@@ -1914,6 +2326,8 @@ Delta systolic blood pressure
 ^176.8012P^1^1
 "DATA",176.801,205,4,1,0)
 12
+"DATA",176.801,205,5)
+D13
 "DATA",176.801,206,0)
 Dementia & Mental Degenerations
 "DATA",176.801,206,1)
@@ -1922,6 +2336,8 @@ Dementia & Mental Degenerations
 ^176.8012P^1^1
 "DATA",176.801,206,4,1,0)
 35
+"DATA",176.801,206,5)
+D&MD05
 "DATA",176.801,207,0)
 Dental Caries
 "DATA",176.801,207,1)
@@ -1930,6 +2346,8 @@ Dental Caries
 ^176.8012P^1^1
 "DATA",176.801,207,4,1,0)
 31
+"DATA",176.801,207,5)
+DC04
 "DATA",176.801,208,0)
 Depression Screening Denominator Encounter Codes New
 "DATA",176.801,208,1)
@@ -1938,6 +2356,8 @@ Depression Screening Denominator Encounter Codes New
 ^176.8012P^1^1
 "DATA",176.801,208,4,1,0)
 53
+"DATA",176.801,208,5)
+DSDECN16
 "DATA",176.801,209,0)
 Depression diagnosis
 "DATA",176.801,209,1)
@@ -1946,6 +2366,8 @@ Depression diagnosis
 ^176.8012P^1^1
 "DATA",176.801,209,4,1,0)
 53
+"DATA",176.801,209,5)
+D45
 "DATA",176.801,210,0)
 Depression medications - adolescent
 "DATA",176.801,210,1)
@@ -1954,6 +2376,8 @@ Depression medications - adolescent
 ^176.8012P^1^1
 "DATA",176.801,210,4,1,0)
 53
+"DATA",176.801,210,5)
+D69
 "DATA",176.801,211,0)
 Depression medications - adult
 "DATA",176.801,211,1)
@@ -1962,6 +2386,8 @@ Depression medications - adult
 ^176.8012P^1^1
 "DATA",176.801,211,4,1,0)
 53
+"DATA",176.801,211,5)
+D70
 "DATA",176.801,212,0)
 Detoxification Visit
 "DATA",176.801,212,1)
@@ -1970,6 +2396,8 @@ Detoxification Visit
 ^176.8012P^1^1
 "DATA",176.801,212,4,1,0)
 76
+"DATA",176.801,212,5)
+DV59
 "DATA",176.801,213,0)
 Diabetes
 "DATA",176.801,213,1)
@@ -1988,6 +2416,8 @@ Diabetes
 87
 "DATA",176.801,213,4,6,0)
 8
+"DATA",176.801,213,5)
+D01
 "DATA",176.801,214,0)
 Diabetes Visit
 "DATA",176.801,214,1)
@@ -1996,6 +2426,8 @@ Diabetes Visit
 ^176.8012P^1^1
 "DATA",176.801,214,4,1,0)
 50
+"DATA",176.801,214,5)
+DV12
 "DATA",176.801,215,0)
 Diabetic Macular Edema
 "DATA",176.801,215,1)
@@ -2004,6 +2436,8 @@ Diabetic Macular Edema
 ^176.8012P^1^1
 "DATA",176.801,215,4,1,0)
 19
+"DATA",176.801,215,5)
+DME55
 "DATA",176.801,216,0)
 Diabetic Nephropathy
 "DATA",176.801,216,1)
@@ -2012,6 +2446,8 @@ Diabetic Nephropathy
 ^176.8012P^1^1
 "DATA",176.801,216,4,1,0)
 34
+"DATA",176.801,216,5)
+DN04
 "DATA",176.801,217,0)
 Diabetic Retinopathy
 "DATA",176.801,217,1)
@@ -2024,6 +2460,8 @@ Diabetic Retinopathy
 19
 "DATA",176.801,217,4,3,0)
 26
+"DATA",176.801,217,5)
+DR27
 "DATA",176.801,218,0)
 Diagnosis of hypertension grouped
 "DATA",176.801,218,1)
@@ -2036,6 +2474,8 @@ Diagnosis of hypertension grouped
 1
 "DATA",176.801,218,4,3,0)
 58
+"DATA",176.801,218,5)
+D63
 "DATA",176.801,219,0)
 Diagnostic Studies During Pregnancy
 "DATA",176.801,219,1)
@@ -2044,6 +2484,8 @@ Diagnostic Studies During Pregnancy
 ^176.8012P^1^1
 "DATA",176.801,219,4,1,0)
 77
+"DATA",176.801,219,5)
+DSDP08
 "DATA",176.801,220,0)
 Dialysis Education
 "DATA",176.801,220,1)
@@ -2054,6 +2496,8 @@ Dialysis Education
 34
 "DATA",176.801,220,4,2,0)
 64
+"DATA",176.801,220,5)
+DE16
 "DATA",176.801,221,0)
 Dialysis Services
 "DATA",176.801,221,1)
@@ -2064,6 +2508,8 @@ Dialysis Services
 34
 "DATA",176.801,221,4,2,0)
 64
+"DATA",176.801,221,5)
+DS13
 "DATA",176.801,222,0)
 Diastolic Blood Pressure
 "DATA",176.801,222,1)
@@ -2074,6 +2520,8 @@ Diastolic Blood Pressure
 58
 "DATA",176.801,222,4,2,0)
 64
+"DATA",176.801,222,5)
+DBP33
 "DATA",176.801,223,0)
 Dietary Intake Other than Breast Milk
 "DATA",176.801,223,1)
@@ -2082,6 +2530,8 @@ Dietary Intake Other than Breast Milk
 ^176.8012P^1^1
 "DATA",176.801,223,4,1,0)
 36
+"DATA",176.801,223,5)
+DIOBM27
 "DATA",176.801,224,0)
 Dietary Recommendations
 "DATA",176.801,224,1)
@@ -2090,6 +2540,8 @@ Dietary Recommendations
 ^176.8012P^1^1
 "DATA",176.801,224,4,1,0)
 58
+"DATA",176.801,224,5)
+DR15
 "DATA",176.801,225,0)
 Direct Thrombin Inhibitor
 "DATA",176.801,225,1)
@@ -2098,6 +2550,8 @@ Direct Thrombin Inhibitor
 ^176.8012P^1^1
 "DATA",176.801,225,4,1,0)
 18
+"DATA",176.801,225,5)
+DTI05
 "DATA",176.801,226,0)
 Discharge Services - Hospital Inpatient
 "DATA",176.801,226,1)
@@ -2110,6 +2564,8 @@ Discharge Services - Hospital Inpatient
 76
 "DATA",176.801,226,4,3,0)
 24
+"DATA",176.801,226,5)
+DSHI07
 "DATA",176.801,227,0)
 Discharge Services - Hospital Inpatient Same Day Discharge
 "DATA",176.801,227,1)
@@ -2118,6 +2574,8 @@ Discharge Services - Hospital Inpatient Same Day Discharge
 ^176.8012P^1^1
 "DATA",176.801,227,4,1,0)
 76
+"DATA",176.801,227,5)
+DSHISDD06
 "DATA",176.801,228,0)
 Discharge Services - Nursing Facility
 "DATA",176.801,228,1)
@@ -2126,6 +2584,8 @@ Discharge Services - Nursing Facility
 ^176.8012P^1^1
 "DATA",176.801,228,4,1,0)
 59
+"DATA",176.801,228,5)
+DSNF13
 "DATA",176.801,229,0)
 Discharge Services- Observation Care
 "DATA",176.801,229,1)
@@ -2134,6 +2594,8 @@ Discharge Services- Observation Care
 ^176.8012P^1^1
 "DATA",176.801,229,4,1,0)
 33
+"DATA",176.801,229,5)
+DSOC39
 "DATA",176.801,230,0)
 Discharge To Another Hospital
 "DATA",176.801,230,1)
@@ -2160,6 +2622,8 @@ Discharge To Another Hospital
 22
 "DATA",176.801,230,4,10,0)
 93
+"DATA",176.801,230,5)
+DTAH87
 "DATA",176.801,231,0)
 Discharge To Home Or Police Custody
 "DATA",176.801,231,1)
@@ -2172,6 +2636,8 @@ Discharge To Home Or Police Custody
 38
 "DATA",176.801,231,4,3,0)
 83
+"DATA",176.801,231,5)
+DTHOPC82
 "DATA",176.801,232,0)
 Discharged to Health Care Facility for Hospice Care
 "DATA",176.801,232,1)
@@ -2190,6 +2656,8 @@ Discharged to Health Care Facility for Hospice Care
 13
 "DATA",176.801,232,4,6,0)
 72
+"DATA",176.801,232,5)
+DHCFHC07
 "DATA",176.801,233,0)
 Discharged to Home for Hospice Care
 "DATA",176.801,233,1)
@@ -2210,6 +2678,8 @@ Discharged to Home for Hospice Care
 37
 "DATA",176.801,233,4,7,0)
 2
+"DATA",176.801,233,5)
+DHHC09
 "DATA",176.801,234,0)
 Discharged to Rehabilitation Facility
 "DATA",176.801,234,1)
@@ -2218,6 +2688,8 @@ Discharged to Rehabilitation Facility
 ^176.8012P^1^1
 "DATA",176.801,234,4,1,0)
 37
+"DATA",176.801,234,5)
+DRF32
 "DATA",176.801,235,0)
 Disorders of Optic Chiasm
 "DATA",176.801,235,1)
@@ -2226,6 +2698,8 @@ Disorders of Optic Chiasm
 ^176.8012P^1^1
 "DATA",176.801,235,4,1,0)
 19
+"DATA",176.801,235,5)
+DOC57
 "DATA",176.801,236,0)
 Disorders of Visual Cortex
 "DATA",176.801,236,1)
@@ -2234,6 +2708,8 @@ Disorders of Visual Cortex
 ^176.8012P^1^1
 "DATA",176.801,236,4,1,0)
 19
+"DATA",176.801,236,5)
+DVC58
 "DATA",176.801,237,0)
 Disorders of the Immune System
 "DATA",176.801,237,1)
@@ -2242,6 +2718,8 @@ Disorders of the Immune System
 ^176.8012P^1^1
 "DATA",176.801,237,4,1,0)
 66
+"DATA",176.801,237,5)
+DIS01
 "DATA",176.801,238,0)
 Disseminated Chorioretinitis and Disseminated Retinochoroiditis
 "DATA",176.801,238,1)
@@ -2250,6 +2728,8 @@ Disseminated Chorioretinitis and Disseminated Retinochoroiditis
 ^176.8012P^1^1
 "DATA",176.801,238,4,1,0)
 19
+"DATA",176.801,238,5)
+DCDR59
 "DATA",176.801,239,0)
 Drug Interactions Education
 "DATA",176.801,239,1)
@@ -2258,6 +2738,8 @@ Drug Interactions Education
 ^176.8012P^1^1
 "DATA",176.801,239,4,1,0)
 38
+"DATA",176.801,239,5)
+DIE14
 "DATA",176.801,240,0)
 Drug Withdrawal Syndrome Group
 "DATA",176.801,240,1)
@@ -2266,6 +2748,8 @@ Drug Withdrawal Syndrome Group
 ^176.8012P^1^1
 "DATA",176.801,240,4,1,0)
 93
+"DATA",176.801,240,5)
+DWSG74
 "DATA",176.801,241,0)
 Dysthymia
 "DATA",176.801,241,1)
@@ -2276,6 +2760,8 @@ Dysthymia
 42
 "DATA",176.801,241,4,2,0)
 61
+"DATA",176.801,241,5)
+D54
 "DATA",176.801,242,0)
 ECOG Performance Status-Poor
 "DATA",176.801,242,1)
@@ -2284,6 +2770,8 @@ ECOG Performance Status-Poor
 ^176.8012P^1^1
 "DATA",176.801,242,4,1,0)
 43
+"DATA",176.801,242,5)
+ECOGPSP79
 "DATA",176.801,243,0)
 ESRD Monthly Outpatient Services
 "DATA",176.801,243,1)
@@ -2294,6 +2782,8 @@ ESRD Monthly Outpatient Services
 64
 "DATA",176.801,243,4,2,0)
 34
+"DATA",176.801,243,5)
+ESRDMOS14
 "DATA",176.801,244,0)
 Ejection Fraction
 "DATA",176.801,244,1)
@@ -2306,6 +2796,8 @@ Ejection Fraction
 39
 "DATA",176.801,244,4,3,0)
 24
+"DATA",176.801,244,5)
+EF34
 "DATA",176.801,245,0)
 Electrocardiogram (ECG)
 "DATA",176.801,245,1)
@@ -2314,6 +2806,8 @@ Electrocardiogram (ECG)
 ^176.8012P^1^1
 "DATA",176.801,245,4,1,0)
 58
+"DATA",176.801,245,5)
+EECG83
 "DATA",176.801,246,0)
 Emergency Department Visit
 "DATA",176.801,246,1)
@@ -2326,6 +2820,8 @@ Emergency Department Visit
 76
 "DATA",176.801,246,4,3,0)
 67
+"DATA",176.801,246,5)
+EDV10
 "DATA",176.801,247,0)
 Emphysema
 "DATA",176.801,247,1)
@@ -2334,6 +2830,8 @@ Emphysema
 ^176.8012P^1^1
 "DATA",176.801,247,4,1,0)
 29
+"DATA",176.801,247,5)
+E04
 "DATA",176.801,248,0)
 Encephalopathy
 "DATA",176.801,248,1)
@@ -2342,6 +2840,8 @@ Encephalopathy
 ^176.8012P^1^1
 "DATA",176.801,248,4,1,0)
 66
+"DATA",176.801,248,5)
+E07
 "DATA",176.801,249,0)
 Encounter Inpatient
 "DATA",176.801,249,1)
@@ -2350,6 +2850,8 @@ Encounter Inpatient
 ^176.8012P^1^1
 "DATA",176.801,249,4,1,0)
 86
+"DATA",176.801,249,5)
+EI01
 "DATA",176.801,250,0)
 Encounter-Influenza
 "DATA",176.801,250,1)
@@ -2358,6 +2860,8 @@ Encounter-Influenza
 ^176.8012P^1^1
 "DATA",176.801,250,4,1,0)
 59
+"DATA",176.801,250,5)
+EI52
 "DATA",176.801,251,0)
 End Stage Renal Disease
 "DATA",176.801,251,1)
@@ -2368,6 +2872,8 @@ End Stage Renal Disease
 64
 "DATA",176.801,251,4,2,0)
 12
+"DATA",176.801,251,5)
+ESRD53
 "DATA",176.801,252,0)
 Enophthalmos
 "DATA",176.801,252,1)
@@ -2376,6 +2882,8 @@ Enophthalmos
 ^176.8012P^1^1
 "DATA",176.801,252,4,1,0)
 57
+"DATA",176.801,252,5)
+E21
 "DATA",176.801,253,0)
 Essential Hypertension
 "DATA",176.801,253,1)
@@ -2384,6 +2892,8 @@ Essential Hypertension
 ^176.8012P^1^1
 "DATA",176.801,253,4,1,0)
 64
+"DATA",176.801,253,5)
+EH11
 "DATA",176.801,254,0)
 Ethnicity
 "DATA",176.801,254,1)
@@ -2576,6 +3086,8 @@ Ethnicity
 39
 "DATA",176.801,254,4,93,0)
 2
+"DATA",176.801,254,5)
+E37
 "DATA",176.801,255,0)
 Excision of Adhesions
 "DATA",176.801,255,1)
@@ -2584,6 +3096,8 @@ Excision of Adhesions
 ^176.8012P^1^1
 "DATA",176.801,255,4,1,0)
 57
+"DATA",176.801,255,5)
+EA22
 "DATA",176.801,256,0)
 Expired
 "DATA",176.801,256,1)
@@ -2594,6 +3108,8 @@ Expired
 92
 "DATA",176.801,256,4,2,0)
 79
+"DATA",176.801,256,5)
+E30
 "DATA",176.801,257,0)
 Face-to-Face Interaction
 "DATA",176.801,257,1)
@@ -2686,6 +3202,8 @@ Face-to-Face Interaction
 25
 "DATA",176.801,257,4,43,0)
 33
+"DATA",176.801,257,5)
+FFI48
 "DATA",176.801,258,0)
 Factor Xa Inhibitor
 "DATA",176.801,258,1)
@@ -2698,6 +3216,8 @@ Factor Xa Inhibitor
 18
 "DATA",176.801,258,4,3,0)
 17
+"DATA",176.801,258,5)
+FXI11
 "DATA",176.801,259,0)
 Falls Screening
 "DATA",176.801,259,1)
@@ -2706,6 +3226,8 @@ Falls Screening
 ^176.8012P^1^1
 "DATA",176.801,259,4,1,0)
 71
+"DATA",176.801,259,5)
+FS28
 "DATA",176.801,260,0)
 Family History CHD
 "DATA",176.801,260,1)
@@ -2716,6 +3238,8 @@ Family History CHD
 5
 "DATA",176.801,260,4,2,0)
 1
+"DATA",176.801,260,5)
+FHCHD57
 "DATA",176.801,261,0)
 Fecal Occult Blood Test (FOBT)
 "DATA",176.801,261,1)
@@ -2724,6 +3248,8 @@ Fecal Occult Blood Test (FOBT)
 ^176.8012P^1^1
 "DATA",176.801,261,4,1,0)
 63
+"DATA",176.801,261,5)
+FOBTFOBT11
 "DATA",176.801,262,0)
 Female
 "DATA",176.801,262,1)
@@ -2744,6 +3270,8 @@ Female
 23
 "DATA",176.801,262,4,7,0)
 77
+"DATA",176.801,262,5)
+F02
 "DATA",176.801,263,0)
 Flexible Sigmoidoscopy
 "DATA",176.801,263,1)
@@ -2752,6 +3280,8 @@ Flexible Sigmoidoscopy
 ^176.8012P^1^1
 "DATA",176.801,263,4,1,0)
 63
+"DATA",176.801,263,5)
+FS10
 "DATA",176.801,264,0)
 Fluoride Varnish Application for Children
 "DATA",176.801,264,1)
@@ -2760,6 +3290,8 @@ Fluoride Varnish Application for Children
 ^176.8012P^1^1
 "DATA",176.801,264,4,1,0)
 7
+"DATA",176.801,264,5)
+FVAC02
 "DATA",176.801,265,0)
 Focal Chorioretinitis and Focal Retinochoroiditis
 "DATA",176.801,265,1)
@@ -2768,6 +3300,8 @@ Focal Chorioretinitis and Focal Retinochoroiditis
 ^176.8012P^1^1
 "DATA",176.801,265,4,1,0)
 19
+"DATA",176.801,265,5)
+FCFR60
 "DATA",176.801,266,0)
 Follow-up Monitoring
 "DATA",176.801,266,1)
@@ -2776,6 +3310,8 @@ Follow-up Monitoring
 ^176.8012P^1^1
 "DATA",176.801,266,4,1,0)
 38
+"DATA",176.801,266,5)
+FM03
 "DATA",176.801,267,0)
 Follow-up for depression - adolescent
 "DATA",176.801,267,1)
@@ -2784,6 +3320,8 @@ Follow-up for depression - adolescent
 ^176.8012P^1^1
 "DATA",176.801,267,4,1,0)
 53
+"DATA",176.801,267,5)
+F67
 "DATA",176.801,268,0)
 Follow-up for depression - adult
 "DATA",176.801,268,1)
@@ -2792,6 +3330,8 @@ Follow-up for depression - adult
 ^176.8012P^1^1
 "DATA",176.801,268,4,1,0)
 53
+"DATA",176.801,268,5)
+F68
 "DATA",176.801,269,0)
 Fracture - Lower Body
 "DATA",176.801,269,1)
@@ -2802,6 +3342,8 @@ Fracture - Lower Body
 73
 "DATA",176.801,269,4,2,0)
 16
+"DATA",176.801,269,5)
+FLB37
 "DATA",176.801,270,0)
 Framingham coronary heart disease 10 year risk
 "DATA",176.801,270,1)
@@ -2810,6 +3352,8 @@ Framingham coronary heart disease 10 year risk
 ^176.8012P^1^1
 "DATA",176.801,270,4,1,0)
 1
+"DATA",176.801,270,5)
+F1061
 "DATA",176.801,271,0)
 Full Term Delivery
 "DATA",176.801,271,1)
@@ -2818,6 +3362,8 @@ Full Term Delivery
 ^176.8012P^1^1
 "DATA",176.801,271,4,1,0)
 20
+"DATA",176.801,271,5)
+FTD73
 "DATA",176.801,272,0)
 Functional Status Assessment  for Hip Replacement
 "DATA",176.801,272,1)
@@ -2826,6 +3372,8 @@ Functional Status Assessment  for Hip Replacement
 ^176.8012P^1^1
 "DATA",176.801,272,4,1,0)
 16
+"DATA",176.801,272,5)
+FSAHR29
 "DATA",176.801,273,0)
 Functional Status Assessment for Heart Failure
 "DATA",176.801,273,1)
@@ -2834,6 +3382,8 @@ Functional Status Assessment for Heart Failure
 ^176.8012P^1^1
 "DATA",176.801,273,4,1,0)
 70
+"DATA",176.801,273,5)
+FSAHF31
 "DATA",176.801,274,0)
 Functional Status Assessment for Knee Replacement
 "DATA",176.801,274,1)
@@ -2842,6 +3392,8 @@ Functional Status Assessment for Knee Replacement
 ^176.8012P^1^1
 "DATA",176.801,274,4,1,0)
 73
+"DATA",176.801,274,5)
+FSAKR30
 "DATA",176.801,275,0)
 Galactosemia
 "DATA",176.801,275,1)
@@ -2850,6 +3402,8 @@ Galactosemia
 ^176.8012P^1^1
 "DATA",176.801,275,4,1,0)
 36
+"DATA",176.801,275,5)
+G35
 "DATA",176.801,276,0)
 Gastrostomy Group
 "DATA",176.801,276,1)
@@ -2858,6 +3412,8 @@ Gastrostomy Group
 ^176.8012P^1^1
 "DATA",176.801,276,4,1,0)
 93
+"DATA",176.801,276,5)
+GG84
 "DATA",176.801,277,0)
 Gavage Feeding Group
 "DATA",176.801,277,1)
@@ -2866,6 +3422,8 @@ Gavage Feeding Group
 ^176.8012P^1^1
 "DATA",176.801,277,4,1,0)
 93
+"DATA",176.801,277,5)
+GFG85
 "DATA",176.801,278,0)
 General Surgery
 "DATA",176.801,278,1)
@@ -2876,6 +3434,8 @@ General Surgery
 18
 "DATA",176.801,278,4,2,0)
 90
+"DATA",176.801,278,5)
+GS55
 "DATA",176.801,279,0)
 General or Neuraxial Anesthesia
 "DATA",176.801,279,1)
@@ -2888,6 +3448,8 @@ General or Neuraxial Anesthesia
 18
 "DATA",176.801,279,4,3,0)
 17
+"DATA",176.801,279,5)
+GNA54
 "DATA",176.801,280,0)
 Genital Herpes
 "DATA",176.801,280,1)
@@ -2896,6 +3458,8 @@ Genital Herpes
 ^176.8012P^1^1
 "DATA",176.801,280,4,1,0)
 77
+"DATA",176.801,280,5)
+GH49
 "DATA",176.801,281,0)
 Gestational Age 37-38 weeks
 "DATA",176.801,281,1)
@@ -2904,6 +3468,8 @@ Gestational Age 37-38 weeks
 ^176.8012P^1^1
 "DATA",176.801,281,4,1,0)
 91
+"DATA",176.801,281,5)
+GA373887
 "DATA",176.801,282,0)
 Gestational Age <37 weeks
 "DATA",176.801,282,1)
@@ -2912,6 +3478,8 @@ Gestational Age <37 weeks
 ^176.8012P^1^1
 "DATA",176.801,282,4,1,0)
 91
+"DATA",176.801,282,5)
+GA3702
 "DATA",176.801,283,0)
 Gestational Age >38 weeks
 "DATA",176.801,283,1)
@@ -2920,6 +3488,8 @@ Gestational Age >38 weeks
 ^176.8012P^1^1
 "DATA",176.801,283,4,1,0)
 91
+"DATA",176.801,283,5)
+GA3803
 "DATA",176.801,284,0)
 Gestational Age Unknown
 "DATA",176.801,284,1)
@@ -2928,6 +3498,8 @@ Gestational Age Unknown
 ^176.8012P^1^1
 "DATA",176.801,284,4,1,0)
 91
+"DATA",176.801,284,5)
+GAU07
 "DATA",176.801,285,0)
 Gestational Diabetes
 "DATA",176.801,285,1)
@@ -2946,6 +3518,8 @@ Gestational Diabetes
 87
 "DATA",176.801,285,4,6,0)
 8
+"DATA",176.801,285,5)
+GD10
 "DATA",176.801,286,0)
 Gestational age >= 37 weeks
 "DATA",176.801,286,1)
@@ -2956,6 +3530,8 @@ Gestational age >= 37 weeks
 36
 "DATA",176.801,286,4,2,0)
 93
+"DATA",176.801,286,5)
+G=3796
 "DATA",176.801,287,0)
 Glaucoma
 "DATA",176.801,287,1)
@@ -2966,6 +3542,8 @@ Glaucoma
 57
 "DATA",176.801,287,4,2,0)
 19
+"DATA",176.801,287,5)
+G23
 "DATA",176.801,288,0)
 Glaucoma Associated with Congenital Anomalies, Dystrophies, and Systemic Syndromes
 "DATA",176.801,288,1)
@@ -2974,6 +3552,8 @@ Glaucoma Associated with Congenital Anomalies, Dystrophies, and Systemic Syndrom
 ^176.8012P^1^1
 "DATA",176.801,288,4,1,0)
 19
+"DATA",176.801,288,5)
+GACADSS61
 "DATA",176.801,289,0)
 Gleason Score
 "DATA",176.801,289,1)
@@ -2982,6 +3562,8 @@ Gleason Score
 ^176.8012P^1^1
 "DATA",176.801,289,4,1,0)
 9
+"DATA",176.801,289,5)
+GS97
 "DATA",176.801,290,0)
 Glomerulonephritis and Nephrotic Syndrome
 "DATA",176.801,290,1)
@@ -2990,6 +3572,8 @@ Glomerulonephritis and Nephrotic Syndrome
 ^176.8012P^1^1
 "DATA",176.801,290,4,1,0)
 34
+"DATA",176.801,290,5)
+GNS18
 "DATA",176.801,291,0)
 Gonadotropin-releasing hormone analogue medication
 "DATA",176.801,291,1)
@@ -2998,6 +3582,8 @@ Gonadotropin-releasing hormone analogue medication
 ^176.8012P^1^1
 "DATA",176.801,291,4,1,0)
 65
+"DATA",176.801,291,5)
+G16
 "DATA",176.801,292,0)
 Gonococcal Infections and Venereal Diseases
 "DATA",176.801,292,1)
@@ -3006,6 +3592,8 @@ Gonococcal Infections and Venereal Diseases
 ^176.8012P^1^1
 "DATA",176.801,292,4,1,0)
 77
+"DATA",176.801,292,5)
+GIVD01
 "DATA",176.801,293,0)
 Graduated compression stockings (GCS)
 "DATA",176.801,293,1)
@@ -3018,6 +3606,8 @@ Graduated compression stockings (GCS)
 90
 "DATA",176.801,293,4,3,0)
 17
+"DATA",176.801,293,5)
+GGCS56
 "DATA",176.801,294,0)
 Group A Streptococcus Test
 "DATA",176.801,294,1)
@@ -3026,6 +3616,8 @@ Group A Streptococcus Test
 ^176.8012P^1^1
 "DATA",176.801,294,4,1,0)
 74
+"DATA",176.801,294,5)
+GAST12
 "DATA",176.801,295,0)
 Group Psychotherapy
 "DATA",176.801,295,1)
@@ -3034,6 +3626,8 @@ Group Psychotherapy
 ^176.8012P^1^1
 "DATA",176.801,295,4,1,0)
 44
+"DATA",176.801,295,5)
+GP87
 "DATA",176.801,296,0)
 Gynecological Surgery
 "DATA",176.801,296,1)
@@ -3044,6 +3638,8 @@ Gynecological Surgery
 18
 "DATA",176.801,296,4,2,0)
 90
+"DATA",176.801,296,5)
+GS57
 "DATA",176.801,297,0)
 HBsAg
 "DATA",176.801,297,1)
@@ -3052,6 +3648,8 @@ HBsAg
 ^176.8012P^1^1
 "DATA",176.801,297,4,1,0)
 20
+"DATA",176.801,297,5)
+HBA79
 "DATA",176.801,298,0)
 HDL-C Laboratory Test
 "DATA",176.801,298,1)
@@ -3060,6 +3658,8 @@ HDL-C Laboratory Test
 ^176.8012P^1^1
 "DATA",176.801,298,4,1,0)
 25
+"DATA",176.801,298,5)
+HDLCLT12
 "DATA",176.801,299,0)
 HIV
 "DATA",176.801,299,1)
@@ -3076,6 +3676,8 @@ HIV
 77
 "DATA",176.801,299,4,5,0)
 82
+"DATA",176.801,299,5)
+HIV03
 "DATA",176.801,300,0)
 HIV Viral Load
 "DATA",176.801,300,1)
@@ -3084,6 +3686,8 @@ HIV Viral Load
 ^176.8012P^1^1
 "DATA",176.801,300,4,1,0)
 82
+"DATA",176.801,300,5)
+HIVVL02
 "DATA",176.801,301,0)
 HIV Visit
 "DATA",176.801,301,1)
@@ -3096,6 +3700,8 @@ HIV Visit
 82
 "DATA",176.801,301,4,3,0)
 11
+"DATA",176.801,301,5)
+HIVV47
 "DATA",176.801,302,0)
 HbA1c Laboratory Test
 "DATA",176.801,302,1)
@@ -3106,6 +3712,8 @@ HbA1c Laboratory Test
 50
 "DATA",176.801,302,4,2,0)
 87
+"DATA",176.801,302,5)
+HA1LT13
 "DATA",176.801,303,0)
 Health & Behavioral Assessment - Individual
 "DATA",176.801,303,1)
@@ -3114,6 +3722,8 @@ Health & Behavioral Assessment - Individual
 ^176.8012P^1^1
 "DATA",176.801,303,4,1,0)
 84
+"DATA",176.801,303,5)
+H&BAI20
 "DATA",176.801,304,0)
 Health and Behavioral Assessment - Initial
 "DATA",176.801,304,1)
@@ -3122,6 +3732,8 @@ Health and Behavioral Assessment - Initial
 ^176.8012P^1^1
 "DATA",176.801,304,4,1,0)
 84
+"DATA",176.801,304,5)
+HBAI45
 "DATA",176.801,305,0)
 Hearing Examination
 "DATA",176.801,305,1)
@@ -3130,6 +3742,8 @@ Hearing Examination
 ^176.8012P^1^1
 "DATA",176.801,305,4,1,0)
 4
+"DATA",176.801,305,5)
+HE12
 "DATA",176.801,306,0)
 Heart Failure
 "DATA",176.801,306,1)
@@ -3142,6 +3756,8 @@ Heart Failure
 41
 "DATA",176.801,306,4,3,0)
 70
+"DATA",176.801,306,5)
+HF76
 "DATA",176.801,307,0)
 Heart Rate
 "DATA",176.801,307,1)
@@ -3152,6 +3768,8 @@ Heart Rate
 41
 "DATA",176.801,307,4,2,0)
 39
+"DATA",176.801,307,5)
+HR76
 "DATA",176.801,308,0)
 Height
 "DATA",176.801,308,1)
@@ -3160,6 +3778,8 @@ Height
 ^176.8012P^1^1
 "DATA",176.801,308,4,1,0)
 6
+"DATA",176.801,308,5)
+H14
 "DATA",176.801,309,0)
 Hemodialysis
 "DATA",176.801,309,1)
@@ -3170,6 +3790,8 @@ Hemodialysis
 59
 "DATA",176.801,309,4,2,0)
 12
+"DATA",176.801,309,5)
+H83
 "DATA",176.801,310,0)
 Hemodialysis-Procedure
 "DATA",176.801,310,1)
@@ -3178,6 +3800,8 @@ Hemodialysis-Procedure
 ^176.8012P^1^1
 "DATA",176.801,310,4,1,0)
 40
+"DATA",176.801,310,5)
+HP58
 "DATA",176.801,311,0)
 Hemolytic Disease Group
 "DATA",176.801,311,1)
@@ -3186,6 +3810,8 @@ Hemolytic Disease Group
 ^176.8012P^1^1
 "DATA",176.801,311,4,1,0)
 93
+"DATA",176.801,311,5)
+HDG71
 "DATA",176.801,312,0)
 Hemophilus Influenze B (HiB) Vaccine
 "DATA",176.801,312,1)
@@ -3194,6 +3820,8 @@ Hemophilus Influenze B (HiB) Vaccine
 ^176.8012P^1^1
 "DATA",176.801,312,4,1,0)
 66
+"DATA",176.801,312,5)
+HIBHBV17
 "DATA",176.801,313,0)
 Hemophilus Influenze B (HiB) Vaccine Administered
 "DATA",176.801,313,1)
@@ -3202,6 +3830,8 @@ Hemophilus Influenze B (HiB) Vaccine Administered
 ^176.8012P^1^1
 "DATA",176.801,313,4,1,0)
 66
+"DATA",176.801,313,5)
+HIBHBVA43
 "DATA",176.801,314,0)
 Hemorrhagic Stroke
 "DATA",176.801,314,1)
@@ -3224,6 +3854,8 @@ Hemorrhagic Stroke
 49
 "DATA",176.801,314,4,8,0)
 22
+"DATA",176.801,314,5)
+HS12
 "DATA",176.801,315,0)
 Hepatitis A
 "DATA",176.801,315,1)
@@ -3232,6 +3864,8 @@ Hepatitis A
 ^176.8012P^1^1
 "DATA",176.801,315,4,1,0)
 66
+"DATA",176.801,315,5)
+HA24
 "DATA",176.801,316,0)
 Hepatitis A Antigen Test
 "DATA",176.801,316,1)
@@ -3240,6 +3874,8 @@ Hepatitis A Antigen Test
 ^176.8012P^1^1
 "DATA",176.801,316,4,1,0)
 66
+"DATA",176.801,316,5)
+HAAT33
 "DATA",176.801,317,0)
 Hepatitis A Vaccine
 "DATA",176.801,317,1)
@@ -3248,6 +3884,8 @@ Hepatitis A Vaccine
 ^176.8012P^1^1
 "DATA",176.801,317,4,1,0)
 66
+"DATA",176.801,317,5)
+HAV15
 "DATA",176.801,318,0)
 Hepatitis A Vaccine Administered
 "DATA",176.801,318,1)
@@ -3256,6 +3894,8 @@ Hepatitis A Vaccine Administered
 ^176.8012P^1^1
 "DATA",176.801,318,4,1,0)
 66
+"DATA",176.801,318,5)
+HAVA41
 "DATA",176.801,319,0)
 Hepatitis B
 "DATA",176.801,319,1)
@@ -3264,6 +3904,8 @@ Hepatitis B
 ^176.8012P^1^1
 "DATA",176.801,319,4,1,0)
 20
+"DATA",176.801,319,5)
+HB69
 "DATA",176.801,320,0)
 Hepatitis B Antigen Test
 "DATA",176.801,320,1)
@@ -3272,6 +3914,8 @@ Hepatitis B Antigen Test
 ^176.8012P^1^1
 "DATA",176.801,320,4,1,0)
 66
+"DATA",176.801,320,5)
+HBAT31
 "DATA",176.801,321,0)
 Hepatitis B Vaccine
 "DATA",176.801,321,1)
@@ -3280,6 +3924,8 @@ Hepatitis B Vaccine
 ^176.8012P^1^1
 "DATA",176.801,321,4,1,0)
 66
+"DATA",176.801,321,5)
+HBV16
 "DATA",176.801,322,0)
 Hepatitis B Vaccine Administered
 "DATA",176.801,322,1)
@@ -3288,6 +3934,8 @@ Hepatitis B Vaccine Administered
 ^176.8012P^1^1
 "DATA",176.801,322,4,1,0)
 66
+"DATA",176.801,322,5)
+HBVA42
 "DATA",176.801,323,0)
 Hereditary Choroidal Dystrophies
 "DATA",176.801,323,1)
@@ -3296,6 +3944,8 @@ Hereditary Choroidal Dystrophies
 ^176.8012P^1^1
 "DATA",176.801,323,4,1,0)
 19
+"DATA",176.801,323,5)
+HCD62
 "DATA",176.801,324,0)
 Hereditary Corneal Dystrophies
 "DATA",176.801,324,1)
@@ -3306,6 +3956,8 @@ Hereditary Corneal Dystrophies
 57
 "DATA",176.801,324,4,2,0)
 19
+"DATA",176.801,324,5)
+HCD24
 "DATA",176.801,325,0)
 Hereditary Retinal Dystrophies
 "DATA",176.801,325,1)
@@ -3314,6 +3966,8 @@ Hereditary Retinal Dystrophies
 ^176.8012P^1^1
 "DATA",176.801,325,4,1,0)
 19
+"DATA",176.801,325,5)
+HRD63
 "DATA",176.801,326,0)
 High Density Lipoprotein (HDL)
 "DATA",176.801,326,1)
@@ -3324,6 +3978,8 @@ High Density Lipoprotein (HDL)
 1
 "DATA",176.801,326,4,2,0)
 5
+"DATA",176.801,326,5)
+HDLHDL75
 "DATA",176.801,327,0)
 High Hyperopia
 "DATA",176.801,327,1)
@@ -3332,6 +3988,8 @@ High Hyperopia
 ^176.8012P^1^1
 "DATA",176.801,327,4,1,0)
 57
+"DATA",176.801,327,5)
+HH25
 "DATA",176.801,328,0)
 High Risk Medications for the Elderly
 "DATA",176.801,328,1)
@@ -3340,6 +3998,8 @@ High Risk Medications for the Elderly
 ^176.8012P^1^1
 "DATA",176.801,328,4,1,0)
 60
+"DATA",176.801,328,5)
+HRME53
 "DATA",176.801,329,0)
 High-Risk Medications With Days Supply Criteria
 "DATA",176.801,329,1)
@@ -3348,6 +4008,8 @@ High-Risk Medications With Days Supply Criteria
 ^176.8012P^1^1
 "DATA",176.801,329,4,1,0)
 60
+"DATA",176.801,329,5)
+HRMWDSC54
 "DATA",176.801,330,0)
 Hip Fracture Surgery
 "DATA",176.801,330,1)
@@ -3358,6 +4020,8 @@ Hip Fracture Surgery
 18
 "DATA",176.801,330,4,2,0)
 90
+"DATA",176.801,330,5)
+HFS58
 "DATA",176.801,331,0)
 Hip Replacement Surgery
 "DATA",176.801,331,1)
@@ -3368,6 +4032,8 @@ Hip Replacement Surgery
 90
 "DATA",176.801,331,4,2,0)
 18
+"DATA",176.801,331,5)
+HRS59
 "DATA",176.801,332,0)
 History of Pneumococcal Vaccine
 "DATA",176.801,332,1)
@@ -3376,6 +4042,8 @@ History of Pneumococcal Vaccine
 ^176.8012P^1^1
 "DATA",176.801,332,4,1,0)
 28
+"DATA",176.801,332,5)
+HPV28
 "DATA",176.801,333,0)
 Home Healthcare Services
 "DATA",176.801,333,1)
@@ -3432,6 +4100,8 @@ Home Healthcare Services
 41
 "DATA",176.801,333,4,25,0)
 59
+"DATA",176.801,333,5)
+HHS16
 "DATA",176.801,334,0)
 Home Hospice Care
 "DATA",176.801,334,1)
@@ -3440,6 +4110,8 @@ Home Hospice Care
 ^176.8012P^1^1
 "DATA",176.801,334,4,1,0)
 86
+"DATA",176.801,334,5)
+HHC48
 "DATA",176.801,335,0)
 Hospital Inpatient Visit - Initial
 "DATA",176.801,335,1)
@@ -3448,6 +4120,8 @@ Hospital Inpatient Visit - Initial
 ^176.8012P^1^1
 "DATA",176.801,335,4,1,0)
 76
+"DATA",176.801,335,5)
+HIVI04
 "DATA",176.801,336,0)
 Hospital Measures - AMI
 "DATA",176.801,336,1)
@@ -3460,6 +4134,8 @@ Hospital Measures - AMI
 48
 "DATA",176.801,336,4,3,0)
 45
+"DATA",176.801,336,5)
+HMAMI11
 "DATA",176.801,337,0)
 Hospital Measures - Acute or Evolving MI
 "DATA",176.801,337,1)
@@ -3470,6 +4146,8 @@ Hospital Measures - Acute or Evolving MI
 48
 "DATA",176.801,337,4,2,0)
 45
+"DATA",176.801,337,5)
+HMAEMI98
 "DATA",176.801,338,0)
 Hospital Measures - Any infection
 "DATA",176.801,338,1)
@@ -3482,6 +4160,8 @@ Hospital Measures - Any infection
 40
 "DATA",176.801,338,4,3,0)
 78
+"DATA",176.801,338,5)
+HMA96
 "DATA",176.801,339,0)
 Hospital Measures - Comfort Measure Only Intervention
 "DATA",176.801,339,1)
@@ -3490,6 +4170,8 @@ Hospital Measures - Comfort Measure Only Intervention
 ^176.8012P^1^1
 "DATA",176.801,339,4,1,0)
 86
+"DATA",176.801,339,5)
+HMCMOI02
 "DATA",176.801,340,0)
 Hospital Measures - Comfort Measures Only Intervention
 "DATA",176.801,340,1)
@@ -3500,6 +4182,8 @@ Hospital Measures - Comfort Measures Only Intervention
 40
 "DATA",176.801,340,4,2,0)
 69
+"DATA",176.801,340,5)
+HMCMOI45
 "DATA",176.801,341,0)
 Hospital Measures - Discontinue
 "DATA",176.801,341,1)
@@ -3508,6 +4192,8 @@ Hospital Measures - Discontinue
 ^176.8012P^1^1
 "DATA",176.801,341,4,1,0)
 69
+"DATA",176.801,341,5)
+HMD49
 "DATA",176.801,342,0)
 Hospital Measures - Encounter ED
 "DATA",176.801,342,1)
@@ -3520,6 +4206,8 @@ Hospital Measures - Encounter ED
 21
 "DATA",176.801,342,4,3,0)
 45
+"DATA",176.801,342,5)
+HMEED00
 "DATA",176.801,343,0)
 Hospital Measures - Expired
 "DATA",176.801,343,1)
@@ -3530,6 +4218,8 @@ Hospital Measures - Expired
 21
 "DATA",176.801,343,4,2,0)
 69
+"DATA",176.801,343,5)
+HME46
 "DATA",176.801,344,0)
 Hospital Measures - Hold
 "DATA",176.801,344,1)
@@ -3538,6 +4228,8 @@ Hospital Measures - Hold
 ^176.8012P^1^1
 "DATA",176.801,344,4,1,0)
 69
+"DATA",176.801,344,5)
+HMH45
 "DATA",176.801,345,0)
 Hospital Measures - Home Hospice Care
 "DATA",176.801,345,1)
@@ -3546,6 +4238,8 @@ Hospital Measures - Home Hospice Care
 ^176.8012P^1^1
 "DATA",176.801,345,4,1,0)
 69
+"DATA",176.801,345,5)
+HMHHC08
 "DATA",176.801,346,0)
 Hospital Measures - Inpatient Hospice Care
 "DATA",176.801,346,1)
@@ -3554,6 +4248,8 @@ Hospital Measures - Inpatient Hospice Care
 ^176.8012P^1^1
 "DATA",176.801,346,4,1,0)
 69
+"DATA",176.801,346,5)
+HMIHC07
 "DATA",176.801,347,0)
 Hospital Measures - Principal
 "DATA",176.801,347,1)
@@ -3566,6 +4262,8 @@ Hospital Measures - Principal
 40
 "DATA",176.801,347,4,3,0)
 79
+"DATA",176.801,347,5)
+HMP01
 "DATA",176.801,348,0)
 Hospital Measures - Warfarin Anticoagulants
 "DATA",176.801,348,1)
@@ -3574,6 +4272,8 @@ Hospital Measures - Warfarin Anticoagulants
 ^176.8012P^1^1
 "DATA",176.801,348,4,1,0)
 69
+"DATA",176.801,348,5)
+HMWA36
 "DATA",176.801,349,0)
 Hospital Measures-AIDS related complex
 "DATA",176.801,349,1)
@@ -3582,6 +4282,8 @@ Hospital Measures-AIDS related complex
 ^176.8012P^1^1
 "DATA",176.801,349,4,1,0)
 40
+"DATA",176.801,349,5)
+HMAIDS95
 "DATA",176.801,350,0)
 Hospital Measures-Acquired immune deficiency syndrome
 "DATA",176.801,350,1)
@@ -3590,6 +4292,8 @@ Hospital Measures-Acquired immune deficiency syndrome
 ^176.8012P^1^1
 "DATA",176.801,350,4,1,0)
 40
+"DATA",176.801,350,5)
+HMA94
 "DATA",176.801,351,0)
 Hospital Measures-Acute care hospital
 "DATA",176.801,351,1)
@@ -3598,6 +4302,8 @@ Hospital Measures-Acute care hospital
 ^176.8012P^1^1
 "DATA",176.801,351,4,1,0)
 40
+"DATA",176.801,351,5)
+HMA84
 "DATA",176.801,352,0)
 Hospital Measures-Ambulatory surgical center
 "DATA",176.801,352,1)
@@ -3610,6 +4316,8 @@ Hospital Measures-Ambulatory surgical center
 48
 "DATA",176.801,352,4,3,0)
 40
+"DATA",176.801,352,5)
+HMA87
 "DATA",176.801,353,0)
 Hospital Measures-Aortic balloon pump insertion
 "DATA",176.801,353,1)
@@ -3620,6 +4328,8 @@ Hospital Measures-Aortic balloon pump insertion
 48
 "DATA",176.801,353,4,2,0)
 45
+"DATA",176.801,353,5)
+HMA51
 "DATA",176.801,354,0)
 Hospital Measures-Aspirin
 "DATA",176.801,354,1)
@@ -3628,6 +4338,8 @@ Hospital Measures-Aspirin
 ^176.8012P^1^1
 "DATA",176.801,354,4,1,0)
 69
+"DATA",176.801,354,5)
+HMA26
 "DATA",176.801,355,0)
 Hospital Measures-Beta lactams for allergy determination
 "DATA",176.801,355,1)
@@ -3636,6 +4348,8 @@ Hospital Measures-Beta lactams for allergy determination
 ^176.8012P^1^1
 "DATA",176.801,355,4,1,0)
 40
+"DATA",176.801,355,5)
+HMB58
 "DATA",176.801,356,0)
 Hospital Measures-Bronchiecstasis
 "DATA",176.801,356,1)
@@ -3644,6 +4358,8 @@ Hospital Measures-Bronchiecstasis
 ^176.8012P^1^1
 "DATA",176.801,356,4,1,0)
 40
+"DATA",176.801,356,5)
+HMB73
 "DATA",176.801,357,0)
 Hospital Measures-COPD
 "DATA",176.801,357,1)
@@ -3652,6 +4368,8 @@ Hospital Measures-COPD
 ^176.8012P^1^1
 "DATA",176.801,357,4,1,0)
 40
+"DATA",176.801,357,5)
+HMCOPD76
 "DATA",176.801,358,0)
 Hospital Measures-CT scan including chest
 "DATA",176.801,358,1)
@@ -3660,6 +4378,8 @@ Hospital Measures-CT scan including chest
 ^176.8012P^1^1
 "DATA",176.801,358,4,1,0)
 40
+"DATA",176.801,358,5)
+HMCT80
 "DATA",176.801,359,0)
 Hospital Measures-Cardiopulmonary arrest
 "DATA",176.801,359,1)
@@ -3670,6 +4390,8 @@ Hospital Measures-Cardiopulmonary arrest
 48
 "DATA",176.801,359,4,2,0)
 45
+"DATA",176.801,359,5)
+HMC48
 "DATA",176.801,360,0)
 Hospital Measures-Chest xray
 "DATA",176.801,360,1)
@@ -3678,6 +4400,8 @@ Hospital Measures-Chest xray
 ^176.8012P^1^1
 "DATA",176.801,360,4,1,0)
 40
+"DATA",176.801,360,5)
+HMC78
 "DATA",176.801,361,0)
 Hospital Measures-Chronic Wound Care
 "DATA",176.801,361,1)
@@ -3686,6 +4410,8 @@ Hospital Measures-Chronic Wound Care
 ^176.8012P^1^1
 "DATA",176.801,361,4,1,0)
 92
+"DATA",176.801,361,5)
+HMCWC19
 "DATA",176.801,362,0)
 Hospital Measures-Chronic bronchitis
 "DATA",176.801,362,1)
@@ -3694,6 +4420,8 @@ Hospital Measures-Chronic bronchitis
 ^176.8012P^1^1
 "DATA",176.801,362,4,1,0)
 40
+"DATA",176.801,362,5)
+HMC75
 "DATA",176.801,363,0)
 Hospital Measures-Chronic lymphocytic leukemia
 "DATA",176.801,363,1)
@@ -3702,6 +4430,8 @@ Hospital Measures-Chronic lymphocytic leukemia
 ^176.8012P^1^1
 "DATA",176.801,363,4,1,0)
 40
+"DATA",176.801,363,5)
+HMC97
 "DATA",176.801,364,0)
 Hospital Measures-Congenital or hereditary immunodeficiency
 "DATA",176.801,364,1)
@@ -3710,6 +4440,8 @@ Hospital Measures-Congenital or hereditary immunodeficiency
 ^176.8012P^1^1
 "DATA",176.801,364,4,1,0)
 40
+"DATA",176.801,364,5)
+HMC98
 "DATA",176.801,365,0)
 Hospital Measures-Cystic fibrosis
 "DATA",176.801,365,1)
@@ -3718,6 +4450,8 @@ Hospital Measures-Cystic fibrosis
 ^176.8012P^1^1
 "DATA",176.801,365,4,1,0)
 40
+"DATA",176.801,365,5)
+HMC82
 "DATA",176.801,366,0)
 Hospital Measures-Diuretics RxNorm
 "DATA",176.801,366,1)
@@ -3726,6 +4460,8 @@ Hospital Measures-Diuretics RxNorm
 ^176.8012P^1^1
 "DATA",176.801,366,4,1,0)
 79
+"DATA",176.801,366,5)
+HMDRN29
 "DATA",176.801,367,0)
 Hospital Measures-ECG
 "DATA",176.801,367,1)
@@ -3736,6 +4472,8 @@ Hospital Measures-ECG
 45
 "DATA",176.801,367,4,2,0)
 48
+"DATA",176.801,367,5)
+HMECG35
 "DATA",176.801,368,0)
 Hospital Measures-ED Locations
 "DATA",176.801,368,1)
@@ -3746,6 +4484,8 @@ Hospital Measures-ED Locations
 48
 "DATA",176.801,368,4,2,0)
 45
+"DATA",176.801,368,5)
+HMEDL06
 "DATA",176.801,369,0)
 Hospital Measures-Emphysema
 "DATA",176.801,369,1)
@@ -3754,6 +4494,8 @@ Hospital Measures-Emphysema
 ^176.8012P^1^1
 "DATA",176.801,369,4,1,0)
 40
+"DATA",176.801,369,5)
+HME06
 "DATA",176.801,370,0)
 Hospital Measures-Encounter ED
 "DATA",176.801,370,1)
@@ -3764,6 +4506,8 @@ Hospital Measures-Encounter ED
 40
 "DATA",176.801,370,4,2,0)
 48
+"DATA",176.801,370,5)
+HMEED00
 "DATA",176.801,371,0)
 Hospital Measures-Encounter Inpatient
 "DATA",176.801,371,1)
@@ -3780,6 +4524,8 @@ Hospital Measures-Encounter Inpatient
 69
 "DATA",176.801,371,4,5,0)
 45
+"DATA",176.801,371,5)
+HMEI25
 "DATA",176.801,372,0)
 Hospital Measures-Endotrachael intubation
 "DATA",176.801,372,1)
@@ -3790,6 +4536,8 @@ Hospital Measures-Endotrachael intubation
 48
 "DATA",176.801,372,4,2,0)
 45
+"DATA",176.801,372,5)
+HME47
 "DATA",176.801,373,0)
 Hospital Measures-Fibrinolytic Therapy
 "DATA",176.801,373,1)
@@ -3800,6 +4548,8 @@ Hospital Measures-Fibrinolytic Therapy
 45
 "DATA",176.801,373,4,2,0)
 48
+"DATA",176.801,373,5)
+HMFT36
 "DATA",176.801,374,0)
 Hospital Measures-HIV test
 "DATA",176.801,374,1)
@@ -3808,6 +4558,8 @@ Hospital Measures-HIV test
 ^176.8012P^1^1
 "DATA",176.801,374,4,1,0)
 40
+"DATA",176.801,374,5)
+HMHIV12
 "DATA",176.801,375,0)
 Hospital Measures-Healthcare associated pneumonia
 "DATA",176.801,375,1)
@@ -3816,6 +4568,8 @@ Hospital Measures-Healthcare associated pneumonia
 ^176.8012P^1^1
 "DATA",176.801,375,4,1,0)
 40
+"DATA",176.801,375,5)
+HMH83
 "DATA",176.801,376,0)
 Hospital Measures-Hemodialysis or peritoneal dialysis
 "DATA",176.801,376,1)
@@ -3824,6 +4578,8 @@ Hospital Measures-Hemodialysis or peritoneal dialysis
 ^176.8012P^1^1
 "DATA",176.801,376,4,1,0)
 92
+"DATA",176.801,376,5)
+HMH18
 "DATA",176.801,377,0)
 Hospital Measures-Hospital outpatient department
 "DATA",176.801,377,1)
@@ -3834,6 +4590,8 @@ Hospital Measures-Hospital outpatient department
 45
 "DATA",176.801,377,4,2,0)
 48
+"DATA",176.801,377,5)
+HMH50
 "DATA",176.801,378,0)
 Hospital Measures-Human immunodeficiency virus
 "DATA",176.801,378,1)
@@ -3842,6 +4600,8 @@ Hospital Measures-Human immunodeficiency virus
 ^176.8012P^1^1
 "DATA",176.801,378,4,1,0)
 40
+"DATA",176.801,378,5)
+HMH99
 "DATA",176.801,379,0)
 Hospital Measures-ICU Locations
 "DATA",176.801,379,1)
@@ -3852,6 +4612,8 @@ Hospital Measures-ICU Locations
 40
 "DATA",176.801,379,4,2,0)
 79
+"DATA",176.801,379,5)
+HMICUL83
 "DATA",176.801,380,0)
 Hospital Measures-IV Aminoglycosides
 "DATA",176.801,380,1)
@@ -3862,6 +4624,8 @@ Hospital Measures-IV Aminoglycosides
 92
 "DATA",176.801,380,4,2,0)
 40
+"DATA",176.801,380,5)
+HMIVA27
 "DATA",176.801,381,0)
 Hospital Measures-IV Antipneumococcal/antipseudomonal beta lactams
 "DATA",176.801,381,1)
@@ -3870,6 +4634,8 @@ Hospital Measures-IV Antipneumococcal/antipseudomonal beta lactams
 ^176.8012P^1^1
 "DATA",176.801,381,4,1,0)
 40
+"DATA",176.801,381,5)
+HMIVA59
 "DATA",176.801,382,0)
 Hospital Measures-IV Antipseudomonal quinolones
 "DATA",176.801,382,1)
@@ -3878,6 +4644,8 @@ Hospital Measures-IV Antipseudomonal quinolones
 ^176.8012P^1^1
 "DATA",176.801,382,4,1,0)
 40
+"DATA",176.801,382,5)
+HMIVA96
 "DATA",176.801,383,0)
 Hospital Measures-IV Aztreonam
 "DATA",176.801,383,1)
@@ -3886,6 +4654,8 @@ Hospital Measures-IV Aztreonam
 ^176.8012P^1^1
 "DATA",176.801,383,4,1,0)
 92
+"DATA",176.801,383,5)
+HMIVA28
 "DATA",176.801,384,0)
 Hospital Measures-IV Beta lactams
 "DATA",176.801,384,1)
@@ -3896,6 +4666,8 @@ Hospital Measures-IV Beta lactams
 92
 "DATA",176.801,384,4,2,0)
 40
+"DATA",176.801,384,5)
+HMIVB70
 "DATA",176.801,385,0)
 Hospital Measures-IV Cardiac or  Vascular Antibiotics
 "DATA",176.801,385,1)
@@ -3904,6 +4676,8 @@ Hospital Measures-IV Cardiac or  Vascular Antibiotics
 ^176.8012P^1^1
 "DATA",176.801,385,4,1,0)
 92
+"DATA",176.801,385,5)
+HMIVCVA68
 "DATA",176.801,386,0)
 Hospital Measures-IV Clindamycin
 "DATA",176.801,386,1)
@@ -3912,6 +4686,8 @@ Hospital Measures-IV Clindamycin
 ^176.8012P^1^1
 "DATA",176.801,386,4,1,0)
 92
+"DATA",176.801,386,5)
+HMIVC93
 "DATA",176.801,387,0)
 Hospital Measures-IV Colon-Antibiotics
 "DATA",176.801,387,1)
@@ -3920,6 +4696,8 @@ Hospital Measures-IV Colon-Antibiotics
 ^176.8012P^1^1
 "DATA",176.801,387,4,1,0)
 92
+"DATA",176.801,387,5)
+HMIVCA24
 "DATA",176.801,388,0)
 Hospital Measures-IV Ertapenem
 "DATA",176.801,388,1)
@@ -3928,6 +4706,8 @@ Hospital Measures-IV Ertapenem
 ^176.8012P^1^1
 "DATA",176.801,388,4,1,0)
 92
+"DATA",176.801,388,5)
+HMIVE25
 "DATA",176.801,389,0)
 Hospital Measures-IV Hysterectomy and Colon Quinolones
 "DATA",176.801,389,1)
@@ -3936,6 +4716,8 @@ Hospital Measures-IV Hysterectomy and Colon Quinolones
 ^176.8012P^1^1
 "DATA",176.801,389,4,1,0)
 92
+"DATA",176.801,389,5)
+HMIVHCQ67
 "DATA",176.801,390,0)
 Hospital Measures-IV Levofloxacin
 "DATA",176.801,390,1)
@@ -3944,6 +4726,8 @@ Hospital Measures-IV Levofloxacin
 ^176.8012P^1^1
 "DATA",176.801,390,4,1,0)
 40
+"DATA",176.801,390,5)
+HMIVL60
 "DATA",176.801,391,0)
 Hospital Measures-IV Macrolides ICU
 "DATA",176.801,391,1)
@@ -3952,6 +4736,8 @@ Hospital Measures-IV Macrolides ICU
 ^176.8012P^1^1
 "DATA",176.801,391,4,1,0)
 40
+"DATA",176.801,391,5)
+HMIVMICU58
 "DATA",176.801,392,0)
 Hospital Measures-IV Metronidazole
 "DATA",176.801,392,1)
@@ -3960,6 +4746,8 @@ Hospital Measures-IV Metronidazole
 ^176.8012P^1^1
 "DATA",176.801,392,4,1,0)
 92
+"DATA",176.801,392,5)
+HMIVM08
 "DATA",176.801,393,0)
 Hospital Measures-IV PO Quinolone Antipneumococcal
 "DATA",176.801,393,1)
@@ -3968,6 +4756,8 @@ Hospital Measures-IV PO Quinolone Antipneumococcal
 ^176.8012P^1^1
 "DATA",176.801,393,4,1,0)
 40
+"DATA",176.801,393,5)
+HMIVPOQA63
 "DATA",176.801,394,0)
 Hospital Measures-IV Quinolones Antipneumococcal
 "DATA",176.801,394,1)
@@ -3976,6 +4766,8 @@ Hospital Measures-IV Quinolones Antipneumococcal
 ^176.8012P^1^1
 "DATA",176.801,394,4,1,0)
 40
+"DATA",176.801,394,5)
+HMIVQA65
 "DATA",176.801,395,0)
 Hospital Measures-IV or IM Aztreonam
 "DATA",176.801,395,1)
@@ -3984,6 +4776,8 @@ Hospital Measures-IV or IM Aztreonam
 ^176.8012P^1^1
 "DATA",176.801,395,4,1,0)
 40
+"DATA",176.801,395,5)
+HMIVIMA79
 "DATA",176.801,396,0)
 Hospital Measures-IV or IM Beta lactams
 "DATA",176.801,396,1)
@@ -3992,6 +4786,8 @@ Hospital Measures-IV or IM Beta lactams
 ^176.8012P^1^1
 "DATA",176.801,396,4,1,0)
 40
+"DATA",176.801,396,5)
+HMIVIMB20
 "DATA",176.801,397,0)
 Hospital Measures-IV or PO Antimicrobial Medications
 "DATA",176.801,397,1)
@@ -4000,6 +4796,8 @@ Hospital Measures-IV or PO Antimicrobial Medications
 ^176.8012P^1^1
 "DATA",176.801,397,4,1,0)
 40
+"DATA",176.801,397,5)
+HMIVPOAM43
 "DATA",176.801,398,0)
 Hospital Measures-IV or PO Macrolides Non-ICU
 "DATA",176.801,398,1)
@@ -4008,6 +4806,8 @@ Hospital Measures-IV or PO Macrolides Non-ICU
 ^176.8012P^1^1
 "DATA",176.801,398,4,1,0)
 40
+"DATA",176.801,398,5)
+HMIVPOMNICU72
 "DATA",176.801,399,0)
 Hospital Measures-IV or PO Tetracyclines
 "DATA",176.801,399,1)
@@ -4016,6 +4816,8 @@ Hospital Measures-IV or PO Tetracyclines
 ^176.8012P^1^1
 "DATA",176.801,399,4,1,0)
 40
+"DATA",176.801,399,5)
+HMIVPOT40
 "DATA",176.801,400,0)
 Hospital Measures-IV, IM, or PO Corticosteroids
 "DATA",176.801,400,1)
@@ -4024,6 +4826,8 @@ Hospital Measures-IV, IM, or PO Corticosteroids
 ^176.8012P^1^1
 "DATA",176.801,400,4,1,0)
 40
+"DATA",176.801,400,5)
+HMIVIMPOC36
 "DATA",176.801,401,0)
 Hospital Measures-Immunodeficiency syndrome
 "DATA",176.801,401,1)
@@ -4032,6 +4836,8 @@ Hospital Measures-Immunodeficiency syndrome
 ^176.8012P^1^1
 "DATA",176.801,401,4,1,0)
 40
+"DATA",176.801,401,5)
+HMI96
 "DATA",176.801,402,0)
 Hospital Measures-Indwelling urinary catheter
 "DATA",176.801,402,1)
@@ -4040,6 +4846,8 @@ Hospital Measures-Indwelling urinary catheter
 ^176.8012P^1^1
 "DATA",176.801,402,4,1,0)
 79
+"DATA",176.801,402,5)
+HMI20
 "DATA",176.801,403,0)
 Hospital Measures-Infection diagnosis
 "DATA",176.801,403,1)
@@ -4050,6 +4858,8 @@ Hospital Measures-Infection diagnosis
 92
 "DATA",176.801,403,4,2,0)
 78
+"DATA",176.801,403,5)
+HMI95
 "DATA",176.801,404,0)
 Hospital Measures-Intermittent Catheterization
 "DATA",176.801,404,1)
@@ -4058,6 +4868,8 @@ Hospital Measures-Intermittent Catheterization
 ^176.8012P^1^1
 "DATA",176.801,404,4,1,0)
 79
+"DATA",176.801,404,5)
+HMIC25
 "DATA",176.801,405,0)
 Hospital Measures-Interstital lung disease
 "DATA",176.801,405,1)
@@ -4066,6 +4878,8 @@ Hospital Measures-Interstital lung disease
 ^176.8012P^1^1
 "DATA",176.801,405,4,1,0)
 40
+"DATA",176.801,405,5)
+HMI77
 "DATA",176.801,406,0)
 Hospital Measures-Joint Commission Evidence of a surgical procedure requiring general or neuraxial anesthesia
 "DATA",176.801,406,1)
@@ -4078,6 +4892,8 @@ Hospital Measures-Joint Commission Evidence of a surgical procedure requiring ge
 78
 "DATA",176.801,406,4,3,0)
 92
+"DATA",176.801,406,5)
+HMJCE31
 "DATA",176.801,407,0)
 Hospital Measures-Joint Commission Mental Disorders
 "DATA",176.801,407,1)
@@ -4086,6 +4902,8 @@ Hospital Measures-Joint Commission Mental Disorders
 ^176.8012P^1^1
 "DATA",176.801,407,4,1,0)
 21
+"DATA",176.801,407,5)
+HMJCMD42
 "DATA",176.801,408,0)
 Hospital Measures-LBBB
 "DATA",176.801,408,1)
@@ -4096,6 +4914,8 @@ Hospital Measures-LBBB
 48
 "DATA",176.801,408,4,2,0)
 45
+"DATA",176.801,408,5)
+HMLBBB05
 "DATA",176.801,409,0)
 Hospital Measures-Leukemia
 "DATA",176.801,409,1)
@@ -4104,6 +4924,8 @@ Hospital Measures-Leukemia
 ^176.8012P^1^1
 "DATA",176.801,409,4,1,0)
 40
+"DATA",176.801,409,5)
+HML84
 "DATA",176.801,410,0)
 Hospital Measures-Lymphocytic leukemia
 "DATA",176.801,410,1)
@@ -4112,6 +4934,8 @@ Hospital Measures-Lymphocytic leukemia
 ^176.8012P^1^1
 "DATA",176.801,410,4,1,0)
 40
+"DATA",176.801,410,5)
+HML63
 "DATA",176.801,411,0)
 Hospital Measures-Lymphoma
 "DATA",176.801,411,1)
@@ -4120,6 +4944,8 @@ Hospital Measures-Lymphoma
 ^176.8012P^1^1
 "DATA",176.801,411,4,1,0)
 40
+"DATA",176.801,411,5)
+HML86
 "DATA",176.801,412,0)
 Hospital Measures-MRSA Colonization or Infection
 "DATA",176.801,412,1)
@@ -4128,6 +4954,8 @@ Hospital Measures-MRSA Colonization or Infection
 ^176.8012P^1^1
 "DATA",176.801,412,4,1,0)
 92
+"DATA",176.801,412,5)
+HMMRSACI16
 "DATA",176.801,413,0)
 Hospital Measures-Myelodysplasia
 "DATA",176.801,413,1)
@@ -4136,6 +4964,8 @@ Hospital Measures-Myelodysplasia
 ^176.8012P^1^1
 "DATA",176.801,413,4,1,0)
 40
+"DATA",176.801,413,5)
+HMM92
 "DATA",176.801,414,0)
 Hospital Measures-Myelogenic leukemia
 "DATA",176.801,414,1)
@@ -4144,6 +4974,8 @@ Hospital Measures-Myelogenic leukemia
 ^176.8012P^1^1
 "DATA",176.801,414,4,1,0)
 40
+"DATA",176.801,414,5)
+HMM89
 "DATA",176.801,415,0)
 Hospital Measures-Myeloma
 "DATA",176.801,415,1)
@@ -4152,6 +4984,8 @@ Hospital Measures-Myeloma
 ^176.8012P^1^1
 "DATA",176.801,415,4,1,0)
 40
+"DATA",176.801,415,5)
+HMM90
 "DATA",176.801,416,0)
 Hospital Measures-Neutropenia
 "DATA",176.801,416,1)
@@ -4160,6 +4994,8 @@ Hospital Measures-Neutropenia
 ^176.8012P^1^1
 "DATA",176.801,416,4,1,0)
 40
+"DATA",176.801,416,5)
+HMN88
 "DATA",176.801,417,0)
 Hospital Measures-Neutrophil count
 "DATA",176.801,417,1)
@@ -4168,6 +5004,8 @@ Hospital Measures-Neutrophil count
 ^176.8012P^1^1
 "DATA",176.801,417,4,1,0)
 40
+"DATA",176.801,417,5)
+HMN87
 "DATA",176.801,418,0)
 Hospital Measures-Non-ICU Locations
 "DATA",176.801,418,1)
@@ -4176,6 +5014,8 @@ Hospital Measures-Non-ICU Locations
 ^176.8012P^1^1
 "DATA",176.801,418,4,1,0)
 40
+"DATA",176.801,418,5)
+HMNICUL84
 "DATA",176.801,419,0)
 Hospital Measures-Nursing home or extended care facility
 "DATA",176.801,419,1)
@@ -4186,6 +5026,8 @@ Hospital Measures-Nursing home or extended care facility
 40
 "DATA",176.801,419,4,2,0)
 92
+"DATA",176.801,419,5)
+HMN17
 "DATA",176.801,420,0)
 Hospital Measures-Organ transplant
 "DATA",176.801,420,1)
@@ -4194,6 +5036,8 @@ Hospital Measures-Organ transplant
 ^176.8012P^1^1
 "DATA",176.801,420,4,1,0)
 40
+"DATA",176.801,420,5)
+HMO01
 "DATA",176.801,421,0)
 Hospital Measures-Organ transplant recipient
 "DATA",176.801,421,1)
@@ -4202,6 +5046,8 @@ Hospital Measures-Organ transplant recipient
 ^176.8012P^1^1
 "DATA",176.801,421,4,1,0)
 40
+"DATA",176.801,421,5)
+HMO02
 "DATA",176.801,422,0)
 Hospital Measures-PCI
 "DATA",176.801,422,1)
@@ -4212,6 +5058,8 @@ Hospital Measures-PCI
 45
 "DATA",176.801,422,4,2,0)
 48
+"DATA",176.801,422,5)
+HMPCI37
 "DATA",176.801,423,0)
 Hospital Measures-PO Colon and Hysterectomy Antibiotics-Metronidazole
 "DATA",176.801,423,1)
@@ -4222,6 +5070,8 @@ Hospital Measures-PO Colon and Hysterectomy Antibiotics-Metronidazole
 92
 "DATA",176.801,423,4,2,0)
 78
+"DATA",176.801,423,5)
+HMPOCHAM88
 "DATA",176.801,424,0)
 Hospital Measures-Pacemaker or implantable defibrillator procedure
 "DATA",176.801,424,1)
@@ -4234,6 +5084,8 @@ Hospital Measures-Pacemaker or implantable defibrillator procedure
 92
 "DATA",176.801,424,4,3,0)
 79
+"DATA",176.801,424,5)
+HMP87
 "DATA",176.801,425,0)
 Hospital Measures-Pancytopenia
 "DATA",176.801,425,1)
@@ -4242,6 +5094,8 @@ Hospital Measures-Pancytopenia
 ^176.8012P^1^1
 "DATA",176.801,425,4,1,0)
 40
+"DATA",176.801,425,5)
+HMP93
 "DATA",176.801,426,0)
 Hospital Measures-Pneumonia
 "DATA",176.801,426,1)
@@ -4250,6 +5104,8 @@ Hospital Measures-Pneumonia
 ^176.8012P^1^1
 "DATA",176.801,426,4,1,0)
 40
+"DATA",176.801,426,5)
+HMP52
 "DATA",176.801,427,0)
 Hospital Measures-Presumptive pneumonia
 "DATA",176.801,427,1)
@@ -4258,6 +5114,8 @@ Hospital Measures-Presumptive pneumonia
 ^176.8012P^1^1
 "DATA",176.801,427,4,1,0)
 40
+"DATA",176.801,427,5)
+HMP80
 "DATA",176.801,428,0)
 Hospital Measures-Radiological findings consistent with pneumonia
 "DATA",176.801,428,1)
@@ -4266,6 +5124,8 @@ Hospital Measures-Radiological findings consistent with pneumonia
 ^176.8012P^1^1
 "DATA",176.801,428,4,1,0)
 40
+"DATA",176.801,428,5)
+HMR05
 "DATA",176.801,429,0)
 Hospital Measures-Respiratory failure acute or chronic
 "DATA",176.801,429,1)
@@ -4274,6 +5134,8 @@ Hospital Measures-Respiratory failure acute or chronic
 ^176.8012P^1^1
 "DATA",176.801,429,4,1,0)
 40
+"DATA",176.801,429,5)
+HMR73
 "DATA",176.801,430,0)
 Hospital Measures-Respiratory infection
 "DATA",176.801,430,1)
@@ -4282,6 +5144,8 @@ Hospital Measures-Respiratory infection
 ^176.8012P^1^1
 "DATA",176.801,430,4,1,0)
 40
+"DATA",176.801,430,5)
+HMR57
 "DATA",176.801,431,0)
 Hospital Measures-Restrictive lung disease
 "DATA",176.801,431,1)
@@ -4290,6 +5154,8 @@ Hospital Measures-Restrictive lung disease
 ^176.8012P^1^1
 "DATA",176.801,431,4,1,0)
 40
+"DATA",176.801,431,5)
+HMR78
 "DATA",176.801,432,0)
 Hospital Measures-Route IV or oral
 "DATA",176.801,432,1)
@@ -4298,6 +5164,8 @@ Hospital Measures-Route IV or oral
 ^176.8012P^1^1
 "DATA",176.801,432,4,1,0)
 40
+"DATA",176.801,432,5)
+HMRIV12
 "DATA",176.801,433,0)
 Hospital Measures-Route IV/IM
 "DATA",176.801,433,1)
@@ -4306,6 +5174,8 @@ Hospital Measures-Route IV/IM
 ^176.8012P^1^1
 "DATA",176.801,433,4,1,0)
 40
+"DATA",176.801,433,5)
+HMRIVIM09
 "DATA",176.801,434,0)
 Hospital Measures-SCIP Urological/Perineal procedures with potential need of indwelling catheters
 "DATA",176.801,434,1)
@@ -4314,6 +5184,8 @@ Hospital Measures-SCIP Urological/Perineal procedures with potential need of ind
 ^176.8012P^1^1
 "DATA",176.801,434,4,1,0)
 79
+"DATA",176.801,434,5)
+HMSCIPUP19
 "DATA",176.801,435,0)
 Hospital Measures-SCIP urinary diversion
 "DATA",176.801,435,1)
@@ -4322,6 +5194,8 @@ Hospital Measures-SCIP urinary diversion
 ^176.8012P^1^1
 "DATA",176.801,435,4,1,0)
 79
+"DATA",176.801,435,5)
+HMSCIP22
 "DATA",176.801,436,0)
 Hospital Measures-SCIP urinary diversion procedures
 "DATA",176.801,436,1)
@@ -4330,6 +5204,8 @@ Hospital Measures-SCIP urinary diversion procedures
 ^176.8012P^1^1
 "DATA",176.801,436,4,1,0)
 79
+"DATA",176.801,436,5)
+HMSCIP50
 "DATA",176.801,437,0)
 Hospital Measures-ST-segment elevation
 "DATA",176.801,437,1)
@@ -4340,6 +5216,8 @@ Hospital Measures-ST-segment elevation
 45
 "DATA",176.801,437,4,2,0)
 48
+"DATA",176.801,437,5)
+HMST96
 "DATA",176.801,438,0)
 Hospital Measures-Septicemia
 "DATA",176.801,438,1)
@@ -4348,6 +5226,8 @@ Hospital Measures-Septicemia
 ^176.8012P^1^1
 "DATA",176.801,438,4,1,0)
 40
+"DATA",176.801,438,5)
+HMS72
 "DATA",176.801,439,0)
 Hospital Measures-Severe
 "DATA",176.801,439,1)
@@ -4356,6 +5236,8 @@ Hospital Measures-Severe
 ^176.8012P^1^1
 "DATA",176.801,439,4,1,0)
 40
+"DATA",176.801,439,5)
+HMS53
 "DATA",176.801,440,0)
 Hospital Measures-Structural lung disease
 "DATA",176.801,440,1)
@@ -4364,6 +5246,8 @@ Hospital Measures-Structural lung disease
 ^176.8012P^1^1
 "DATA",176.801,440,4,1,0)
 40
+"DATA",176.801,440,5)
+HMS74
 "DATA",176.801,441,0)
 Hospital Measures-Suprapubic catheter
 "DATA",176.801,441,1)
@@ -4372,6 +5256,8 @@ Hospital Measures-Suprapubic catheter
 ^176.8012P^1^1
 "DATA",176.801,441,4,1,0)
 79
+"DATA",176.801,441,5)
+HMS27
 "DATA",176.801,442,0)
 Hospital Measures-Systemic Chemotherapy
 "DATA",176.801,442,1)
@@ -4380,6 +5266,8 @@ Hospital Measures-Systemic Chemotherapy
 ^176.8012P^1^1
 "DATA",176.801,442,4,1,0)
 40
+"DATA",176.801,442,5)
+HMSC37
 "DATA",176.801,443,0)
 Hospital Measures-Systemic corticosteroid/prednisone therapy
 "DATA",176.801,443,1)
@@ -4388,6 +5276,8 @@ Hospital Measures-Systemic corticosteroid/prednisone therapy
 ^176.8012P^1^1
 "DATA",176.801,443,4,1,0)
 40
+"DATA",176.801,443,5)
+HMS05
 "DATA",176.801,444,0)
 Hospital Measures-Systemic immunosuppressive therapy
 "DATA",176.801,444,1)
@@ -4396,6 +5286,8 @@ Hospital Measures-Systemic immunosuppressive therapy
 ^176.8012P^1^1
 "DATA",176.801,444,4,1,0)
 40
+"DATA",176.801,444,5)
+HMS03
 "DATA",176.801,445,0)
 Hospital Measures-Tracheostomy care
 "DATA",176.801,445,1)
@@ -4404,6 +5296,8 @@ Hospital Measures-Tracheostomy care
 ^176.8012P^1^1
 "DATA",176.801,445,4,1,0)
 40
+"DATA",176.801,445,5)
+HMT81
 "DATA",176.801,446,0)
 Hospital Measures-Urethra
 "DATA",176.801,446,1)
@@ -4412,6 +5306,8 @@ Hospital Measures-Urethra
 ^176.8012P^1^1
 "DATA",176.801,446,4,1,0)
 79
+"DATA",176.801,446,5)
+HMU30
 "DATA",176.801,447,0)
 Hospital Measures-Ventilator care
 "DATA",176.801,447,1)
@@ -4420,6 +5316,8 @@ Hospital Measures-Ventilator care
 ^176.8012P^1^1
 "DATA",176.801,447,4,1,0)
 40
+"DATA",176.801,447,5)
+HMV82
 "DATA",176.801,448,0)
 Hospital Observation Care - Initial
 "DATA",176.801,448,1)
@@ -4432,6 +5330,8 @@ Hospital Observation Care - Initial
 76
 "DATA",176.801,448,4,3,0)
 33
+"DATA",176.801,448,5)
+HOCI02
 "DATA",176.801,449,0)
 Hospital measures- Colon surgery
 "DATA",176.801,449,1)
@@ -4442,6 +5342,8 @@ Hospital measures- Colon surgery
 78
 "DATA",176.801,449,4,2,0)
 92
+"DATA",176.801,449,5)
+HC05
 "DATA",176.801,450,0)
 Hospital measures-Abdominal hysterectomy
 "DATA",176.801,450,1)
@@ -4452,6 +5354,8 @@ Hospital measures-Abdominal hysterectomy
 78
 "DATA",176.801,450,4,2,0)
 92
+"DATA",176.801,450,5)
+HA10
 "DATA",176.801,451,0)
 Hospital measures-CABG
 "DATA",176.801,451,1)
@@ -4464,6 +5368,8 @@ Hospital measures-CABG
 79
 "DATA",176.801,451,4,3,0)
 78
+"DATA",176.801,451,5)
+HCABG94
 "DATA",176.801,452,0)
 Hospital measures-Caesarean section
 "DATA",176.801,452,1)
@@ -4472,6 +5378,8 @@ Hospital measures-Caesarean section
 ^176.8012P^1^1
 "DATA",176.801,452,4,1,0)
 78
+"DATA",176.801,452,5)
+HC11
 "DATA",176.801,453,0)
 Hospital measures-Cardiac valve surgery
 "DATA",176.801,453,1)
@@ -4480,6 +5388,8 @@ Hospital measures-Cardiac valve surgery
 ^176.8012P^1^1
 "DATA",176.801,453,4,1,0)
 92
+"DATA",176.801,453,5)
+HC22
 "DATA",176.801,454,0)
 Hospital measures-Hip arthroplasty
 "DATA",176.801,454,1)
@@ -4490,6 +5400,8 @@ Hospital measures-Hip arthroplasty
 92
 "DATA",176.801,454,4,2,0)
 78
+"DATA",176.801,454,5)
+HH03
 "DATA",176.801,455,0)
 Hospital measures-IV Antimicrobial medication
 "DATA",176.801,455,1)
@@ -4498,6 +5410,8 @@ Hospital measures-IV Antimicrobial medication
 ^176.8012P^1^1
 "DATA",176.801,455,4,1,0)
 78
+"DATA",176.801,455,5)
+HIVA65
 "DATA",176.801,456,0)
 Hospital measures-IV Hysterectomy-Antibiotics
 "DATA",176.801,456,1)
@@ -4506,6 +5420,8 @@ Hospital measures-IV Hysterectomy-Antibiotics
 ^176.8012P^1^1
 "DATA",176.801,456,4,1,0)
 92
+"DATA",176.801,456,5)
+HIVHA29
 "DATA",176.801,457,0)
 Hospital measures-IV Vancomycin
 "DATA",176.801,457,1)
@@ -4516,6 +5432,8 @@ Hospital measures-IV Vancomycin
 92
 "DATA",176.801,457,4,2,0)
 78
+"DATA",176.801,457,5)
+HIVV66
 "DATA",176.801,458,0)
 Hospital measures-IV arthroplasty and colon antibiotics
 "DATA",176.801,458,1)
@@ -4524,6 +5442,8 @@ Hospital measures-IV arthroplasty and colon antibiotics
 ^176.8012P^1^1
 "DATA",176.801,458,4,1,0)
 92
+"DATA",176.801,458,5)
+HIV32
 "DATA",176.801,459,0)
 Hospital measures-IV, IM, PO Antimicrobial medications
 "DATA",176.801,459,1)
@@ -4536,6 +5456,8 @@ Hospital measures-IV, IM, PO Antimicrobial medications
 40
 "DATA",176.801,459,4,3,0)
 92
+"DATA",176.801,459,5)
+HIVIMPOA93
 "DATA",176.801,460,0)
 Hospital measures-Other Cardiac Surgery
 "DATA",176.801,460,1)
@@ -4548,6 +5470,8 @@ Hospital measures-Other Cardiac Surgery
 78
 "DATA",176.801,460,4,3,0)
 92
+"DATA",176.801,460,5)
+HOCS01
 "DATA",176.801,461,0)
 Hospital measures-PO Erythromycin
 "DATA",176.801,461,1)
@@ -4558,6 +5482,8 @@ Hospital measures-PO Erythromycin
 78
 "DATA",176.801,461,4,2,0)
 92
+"DATA",176.801,461,5)
+HPOE70
 "DATA",176.801,462,0)
 Hospital measures-PO Neomycin sulfate
 "DATA",176.801,462,1)
@@ -4568,6 +5494,8 @@ Hospital measures-PO Neomycin sulfate
 78
 "DATA",176.801,462,4,2,0)
 92
+"DATA",176.801,462,5)
+HPON53
 "DATA",176.801,463,0)
 Hospital measures-Pacemaker or implantable defibrillator device
 "DATA",176.801,463,1)
@@ -4580,6 +5508,8 @@ Hospital measures-Pacemaker or implantable defibrillator device
 79
 "DATA",176.801,463,4,3,0)
 92
+"DATA",176.801,463,5)
+HP86
 "DATA",176.801,464,0)
 Hospital measures-Route IV
 "DATA",176.801,464,1)
@@ -4592,6 +5522,8 @@ Hospital measures-Route IV
 40
 "DATA",176.801,464,4,3,0)
 92
+"DATA",176.801,464,5)
+HRIV08
 "DATA",176.801,465,0)
 Hospital measures-Route IV, oral or IM
 "DATA",176.801,465,1)
@@ -4604,6 +5536,8 @@ Hospital measures-Route IV, oral or IM
 78
 "DATA",176.801,465,4,3,0)
 40
+"DATA",176.801,465,5)
+HRIVIM11
 "DATA",176.801,466,0)
 Hospital measures-Route oral
 "DATA",176.801,466,1)
@@ -4614,6 +5548,8 @@ Hospital measures-Route oral
 78
 "DATA",176.801,466,4,2,0)
 92
+"DATA",176.801,466,5)
+HR72
 "DATA",176.801,467,0)
 Hospital measures-SCIP IV quinolones
 "DATA",176.801,467,1)
@@ -4622,6 +5558,8 @@ Hospital measures-SCIP IV quinolones
 ^176.8012P^1^1
 "DATA",176.801,467,4,1,0)
 78
+"DATA",176.801,467,5)
+HSCIPIV35
 "DATA",176.801,468,0)
 Hospital measures-Vaginal hysterectomy
 "DATA",176.801,468,1)
@@ -4632,6 +5570,8 @@ Hospital measures-Vaginal hysterectomy
 78
 "DATA",176.801,468,4,2,0)
 92
+"DATA",176.801,468,5)
+HV12
 "DATA",176.801,469,0)
 Hospital measures-Vascular surgery
 "DATA",176.801,469,1)
@@ -4642,6 +5582,8 @@ Hospital measures-Vascular surgery
 92
 "DATA",176.801,469,4,2,0)
 78
+"DATA",176.801,469,5)
+HV13
 "DATA",176.801,470,0)
 Hospital measures-knee arthroplasty
 "DATA",176.801,470,1)
@@ -4652,6 +5594,8 @@ Hospital measures-knee arthroplasty
 92
 "DATA",176.801,470,4,2,0)
 78
+"DATA",176.801,470,5)
+H04
 "DATA",176.801,471,0)
 Hydrops Group
 "DATA",176.801,471,1)
@@ -4660,6 +5604,8 @@ Hydrops Group
 ^176.8012P^1^1
 "DATA",176.801,471,4,1,0)
 93
+"DATA",176.801,471,5)
+HG73
 "DATA",176.801,472,0)
 Hyperbilirubinemia Group
 "DATA",176.801,472,1)
@@ -4668,6 +5614,8 @@ Hyperbilirubinemia Group
 ^176.8012P^1^1
 "DATA",176.801,472,4,1,0)
 93
+"DATA",176.801,472,5)
+HG93
 "DATA",176.801,473,0)
 Hypertension
 "DATA",176.801,473,1)
@@ -4676,6 +5624,8 @@ Hypertension
 ^176.8012P^1^1
 "DATA",176.801,473,4,1,0)
 12
+"DATA",176.801,473,5)
+H16
 "DATA",176.801,474,0)
 Hypertensive Chronic Kidney Disease
 "DATA",176.801,474,1)
@@ -4684,6 +5634,8 @@ Hypertensive Chronic Kidney Disease
 ^176.8012P^1^1
 "DATA",176.801,474,4,1,0)
 34
+"DATA",176.801,474,5)
+HCKD17
 "DATA",176.801,475,0)
 Hypotension
 "DATA",176.801,475,1)
@@ -4694,6 +5646,8 @@ Hypotension
 39
 "DATA",176.801,475,4,2,0)
 41
+"DATA",176.801,475,5)
+H70
 "DATA",176.801,476,0)
 Hypotony of Eye
 "DATA",176.801,476,1)
@@ -4702,6 +5656,8 @@ Hypotony of Eye
 ^176.8012P^1^1
 "DATA",176.801,476,4,1,0)
 57
+"DATA",176.801,476,5)
+HE26
 "DATA",176.801,477,0)
 Hypoxia or Asphyxia Group
 "DATA",176.801,477,1)
@@ -4710,6 +5666,8 @@ Hypoxia or Asphyxia Group
 ^176.8012P^1^1
 "DATA",176.801,477,4,1,0)
 93
+"DATA",176.801,477,5)
+HAG77
 "DATA",176.801,478,0)
 Hysterectomy with No Residual Cervix
 "DATA",176.801,478,1)
@@ -4718,6 +5676,8 @@ Hysterectomy with No Residual Cervix
 ^176.8012P^1^1
 "DATA",176.801,478,4,1,0)
 23
+"DATA",176.801,478,5)
+HNRC14
 "DATA",176.801,479,0)
 ICU Admission or Transfer
 "DATA",176.801,479,1)
@@ -4728,6 +5688,8 @@ ICU Admission or Transfer
 18
 "DATA",176.801,479,4,2,0)
 90
+"DATA",176.801,479,5)
+ICUAT05
 "DATA",176.801,480,0)
 INR
 "DATA",176.801,480,1)
@@ -4742,6 +5704,8 @@ INR
 18
 "DATA",176.801,480,4,4,0)
 32
+"DATA",176.801,480,5)
+INR13
 "DATA",176.801,481,0)
 INR Monitoring Education
 "DATA",176.801,481,1)
@@ -4750,6 +5714,8 @@ INR Monitoring Education
 ^176.8012P^1^1
 "DATA",176.801,481,4,1,0)
 38
+"DATA",176.801,481,5)
+INRME16
 "DATA",176.801,482,0)
 IV Drug Abuse
 "DATA",176.801,482,1)
@@ -4758,6 +5724,8 @@ IV Drug Abuse
 ^176.8012P^1^1
 "DATA",176.801,482,4,1,0)
 67
+"DATA",176.801,482,5)
+IVDA03
 "DATA",176.801,483,0)
 Impaired Fetal Growth Group
 "DATA",176.801,483,1)
@@ -4766,6 +5734,8 @@ Impaired Fetal Growth Group
 ^176.8012P^1^1
 "DATA",176.801,483,4,1,0)
 93
+"DATA",176.801,483,5)
+IFGG66
 "DATA",176.801,484,0)
 Inactivated Polio Vaccine (IPV)
 "DATA",176.801,484,1)
@@ -4774,6 +5744,8 @@ Inactivated Polio Vaccine (IPV)
 ^176.8012P^1^1
 "DATA",176.801,484,4,1,0)
 66
+"DATA",176.801,484,5)
+IPVIPV19
 "DATA",176.801,485,0)
 Inactivated Polio Vaccine (IPV) Administered
 "DATA",176.801,485,1)
@@ -4782,6 +5754,8 @@ Inactivated Polio Vaccine (IPV) Administered
 ^176.8012P^1^1
 "DATA",176.801,485,4,1,0)
 66
+"DATA",176.801,485,5)
+IPVIPVA45
 "DATA",176.801,486,0)
 Infection Group
 "DATA",176.801,486,1)
@@ -4790,6 +5764,8 @@ Infection Group
 ^176.8012P^1^1
 "DATA",176.801,486,4,1,0)
 93
+"DATA",176.801,486,5)
+IG90
 "DATA",176.801,487,0)
 Inflammatory Diseases of Female Reproductive Organs
 "DATA",176.801,487,1)
@@ -4798,6 +5774,8 @@ Inflammatory Diseases of Female Reproductive Organs
 ^176.8012P^1^1
 "DATA",176.801,487,4,1,0)
 77
+"DATA",176.801,487,5)
+IDFRO04
 "DATA",176.801,488,0)
 Influenza Vaccination
 "DATA",176.801,488,1)
@@ -4806,6 +5784,8 @@ Influenza Vaccination
 ^176.8012P^1^1
 "DATA",176.801,488,4,1,0)
 59
+"DATA",176.801,488,5)
+IV02
 "DATA",176.801,489,0)
 Influenza Vaccination Declined
 "DATA",176.801,489,1)
@@ -4814,6 +5794,8 @@ Influenza Vaccination Declined
 ^176.8012P^1^1
 "DATA",176.801,489,4,1,0)
 59
+"DATA",176.801,489,5)
+IVD55
 "DATA",176.801,490,0)
 Influenza Vaccine
 "DATA",176.801,490,1)
@@ -4822,6 +5804,8 @@ Influenza Vaccine
 ^176.8012P^1^1
 "DATA",176.801,490,4,1,0)
 59
+"DATA",176.801,490,5)
+IV54
 "DATA",176.801,491,0)
 Influenza Vaccine Administered
 "DATA",176.801,491,1)
@@ -4830,6 +5814,8 @@ Influenza Vaccine Administered
 ^176.8012P^1^1
 "DATA",176.801,491,4,1,0)
 66
+"DATA",176.801,491,5)
+IVA44
 "DATA",176.801,492,0)
 Injury to Optic Nerve and Pathways
 "DATA",176.801,492,1)
@@ -4840,6 +5826,8 @@ Injury to Optic Nerve and Pathways
 57
 "DATA",176.801,492,4,2,0)
 19
+"DATA",176.801,492,5)
+IONP27
 "DATA",176.801,493,0)
 Inpatient Encounter
 "DATA",176.801,493,1)
@@ -4880,6 +5868,8 @@ Inpatient Encounter
 90
 "DATA",176.801,493,4,17,0)
 17
+"DATA",176.801,493,5)
+IE23
 "DATA",176.801,494,0)
 Inpatient Hospice Care
 "DATA",176.801,494,1)
@@ -4888,6 +5878,8 @@ Inpatient Hospice Care
 ^176.8012P^1^1
 "DATA",176.801,494,4,1,0)
 86
+"DATA",176.801,494,5)
+IHC47
 "DATA",176.801,495,0)
 Instructions for Follow Up After Discharge
 "DATA",176.801,495,1)
@@ -4896,6 +5888,8 @@ Instructions for Follow Up After Discharge
 ^176.8012P^1^1
 "DATA",176.801,495,4,1,0)
 14
+"DATA",176.801,495,5)
+IFUAD78
 "DATA",176.801,496,0)
 Intermittent pneumatic compression devices (IPC)
 "DATA",176.801,496,1)
@@ -4908,6 +5902,8 @@ Intermittent pneumatic compression devices (IPC)
 18
 "DATA",176.801,496,4,3,0)
 90
+"DATA",176.801,496,5)
+IIPC14
 "DATA",176.801,497,0)
 Intolerance to ACE inhibitor or ARB
 "DATA",176.801,497,1)
@@ -4916,6 +5912,8 @@ Intolerance to ACE inhibitor or ARB
 ^176.8012P^1^1
 "DATA",176.801,497,4,1,0)
 24
+"DATA",176.801,497,5)
+IACEARB12
 "DATA",176.801,498,0)
 Intolerance to Antineoplastic Therapy
 "DATA",176.801,498,1)
@@ -4924,6 +5922,8 @@ Intolerance to Antineoplastic Therapy
 ^176.8012P^1^1
 "DATA",176.801,498,4,1,0)
 43
+"DATA",176.801,498,5)
+IAT87
 "DATA",176.801,499,0)
 Intolerance to Beta Blocker Therapy
 "DATA",176.801,499,1)
@@ -4934,6 +5934,8 @@ Intolerance to Beta Blocker Therapy
 41
 "DATA",176.801,499,4,2,0)
 39
+"DATA",176.801,499,5)
+IBBT78
 "DATA",176.801,500,0)
 Intolerance to Influenza Vaccine
 "DATA",176.801,500,1)
@@ -4942,6 +5944,8 @@ Intolerance to Influenza Vaccine
 ^176.8012P^1^1
 "DATA",176.801,500,4,1,0)
 59
+"DATA",176.801,500,5)
+IIV57
 "DATA",176.801,501,0)
 Intolerance to Tamoxifen or Aromatase Inhibitor Therapy
 "DATA",176.801,501,1)
@@ -4950,6 +5954,8 @@ Intolerance to Tamoxifen or Aromatase Inhibitor Therapy
 ^176.8012P^1^1
 "DATA",176.801,501,4,1,0)
 65
+"DATA",176.801,501,5)
+ITAIT18
 "DATA",176.801,502,0)
 Intracranial Neurosurgery
 "DATA",176.801,502,1)
@@ -4960,6 +5966,8 @@ Intracranial Neurosurgery
 18
 "DATA",176.801,502,4,2,0)
 90
+"DATA",176.801,502,5)
+IN60
 "DATA",176.801,503,0)
 Intravenous route
 "DATA",176.801,503,1)
@@ -4974,6 +5982,8 @@ Intravenous route
 18
 "DATA",176.801,503,4,4,0)
 72
+"DATA",176.801,503,5)
+I22
 "DATA",176.801,504,0)
 Ischemic Stroke
 "DATA",176.801,504,1)
@@ -4996,6 +6006,8 @@ Ischemic Stroke
 15
 "DATA",176.801,504,4,8,0)
 37
+"DATA",176.801,504,5)
+IS47
 "DATA",176.801,505,0)
 Ischemic Vascular Disease
 "DATA",176.801,505,1)
@@ -5006,6 +6018,8 @@ Ischemic Vascular Disease
 25
 "DATA",176.801,505,4,2,0)
 3
+"DATA",176.801,505,5)
+IVD03
 "DATA",176.801,506,0)
 Isotretinoin
 "DATA",176.801,506,1)
@@ -5014,6 +6028,8 @@ Isotretinoin
 ^176.8012P^1^1
 "DATA",176.801,506,4,1,0)
 77
+"DATA",176.801,506,5)
+I43
 "DATA",176.801,507,0)
 Kidney Transplant
 "DATA",176.801,507,1)
@@ -5024,6 +6040,8 @@ Kidney Transplant
 64
 "DATA",176.801,507,4,2,0)
 34
+"DATA",176.801,507,5)
+KT12
 "DATA",176.801,508,0)
 Knee Replacement Surgery
 "DATA",176.801,508,1)
@@ -5034,6 +6052,8 @@ Knee Replacement Surgery
 90
 "DATA",176.801,508,4,2,0)
 18
+"DATA",176.801,508,5)
+KRS61
 "DATA",176.801,509,0)
 LDL Code
 "DATA",176.801,509,1)
@@ -5042,6 +6062,8 @@ LDL Code
 ^176.8012P^1^1
 "DATA",176.801,509,4,1,0)
 1
+"DATA",176.801,509,5)
+LDLC72
 "DATA",176.801,510,0)
 LDL Test
 "DATA",176.801,510,1)
@@ -5052,6 +6074,8 @@ LDL Test
 5
 "DATA",176.801,510,4,2,0)
 1
+"DATA",176.801,510,5)
+LDLT16
 "DATA",176.801,511,0)
 LDL-C Laboratory Test
 "DATA",176.801,511,1)
@@ -5062,6 +6086,8 @@ LDL-C Laboratory Test
 25
 "DATA",176.801,511,4,2,0)
 8
+"DATA",176.801,511,5)
+LDLCLT48
 "DATA",176.801,512,0)
 LDL-c
 "DATA",176.801,512,1)
@@ -5072,6 +6098,8 @@ LDL-c
 86
 "DATA",176.801,512,4,2,0)
 13
+"DATA",176.801,512,5)
+LDL15
 "DATA",176.801,513,0)
 Lab Tests During Pregnancy
 "DATA",176.801,513,1)
@@ -5080,6 +6108,8 @@ Lab Tests During Pregnancy
 ^176.8012P^1^1
 "DATA",176.801,513,4,1,0)
 77
+"DATA",176.801,513,5)
+LTDP07
 "DATA",176.801,514,0)
 Lab Tests for Sexually Transmitted Infections
 "DATA",176.801,514,1)
@@ -5088,6 +6118,8 @@ Lab Tests for Sexually Transmitted Infections
 ^176.8012P^1^1
 "DATA",176.801,514,4,1,0)
 77
+"DATA",176.801,514,5)
+LTSTI51
 "DATA",176.801,515,0)
 Laboratory Tests for Hypertension
 "DATA",176.801,515,1)
@@ -5096,6 +6128,8 @@ Laboratory Tests for Hypertension
 ^176.8012P^1^1
 "DATA",176.801,515,4,1,0)
 58
+"DATA",176.801,515,5)
+LTH82
 "DATA",176.801,516,0)
 Laryngeal Stenosis Group
 "DATA",176.801,516,1)
@@ -5104,6 +6138,8 @@ Laryngeal Stenosis Group
 ^176.8012P^1^1
 "DATA",176.801,516,4,1,0)
 93
+"DATA",176.801,516,5)
+LSG76
 "DATA",176.801,517,0)
 Left Against Medical Advice
 "DATA",176.801,517,1)
@@ -5122,6 +6158,8 @@ Left Against Medical Advice
 22
 "DATA",176.801,517,4,6,0)
 37
+"DATA",176.801,517,5)
+LAMA08
 "DATA",176.801,518,0)
 Left ventricular systolic dysfunction
 "DATA",176.801,518,1)
@@ -5134,6 +6172,8 @@ Left ventricular systolic dysfunction
 39
 "DATA",176.801,518,4,3,0)
 41
+"DATA",176.801,518,5)
+L91
 "DATA",176.801,519,0)
 Lens Procedure
 "DATA",176.801,519,1)
@@ -5142,6 +6182,8 @@ Lens Procedure
 ^176.8012P^1^1
 "DATA",176.801,519,4,1,0)
 57
+"DATA",176.801,519,5)
+LP29
 "DATA",176.801,520,0)
 Leucovorin
 "DATA",176.801,520,1)
@@ -5150,6 +6192,8 @@ Leucovorin
 ^176.8012P^1^1
 "DATA",176.801,520,4,1,0)
 11
+"DATA",176.801,520,5)
+L05
 "DATA",176.801,521,0)
 Level of Severity of Retinopathy Findings
 "DATA",176.801,521,1)
@@ -5158,6 +6202,8 @@ Level of Severity of Retinopathy Findings
 ^176.8012P^1^1
 "DATA",176.801,521,4,1,0)
 27
+"DATA",176.801,521,5)
+LSRF24
 "DATA",176.801,522,0)
 Lifestyle Recommendation
 "DATA",176.801,522,1)
@@ -5166,6 +6212,8 @@ Lifestyle Recommendation
 ^176.8012P^1^1
 "DATA",176.801,522,4,1,0)
 58
+"DATA",176.801,522,5)
+LR08
 "DATA",176.801,523,0)
 Limited Life Expectancy
 "DATA",176.801,523,1)
@@ -5174,6 +6222,8 @@ Limited Life Expectancy
 ^176.8012P^1^1
 "DATA",176.801,523,4,1,0)
 84
+"DATA",176.801,523,5)
+LLE59
 "DATA",176.801,524,0)
 Lipid-lowering Agent
 "DATA",176.801,524,1)
@@ -5182,6 +6232,8 @@ Lipid-lowering Agent
 ^176.8012P^1^1
 "DATA",176.801,524,4,1,0)
 13
+"DATA",176.801,524,5)
+LA17
 "DATA",176.801,525,0)
 Livebirth
 "DATA",176.801,525,1)
@@ -5190,6 +6242,8 @@ Livebirth
 ^176.8012P^1^1
 "DATA",176.801,525,4,1,0)
 4
+"DATA",176.801,525,5)
+L11
 "DATA",176.801,526,0)
 Liveborn Born In Hospital
 "DATA",176.801,526,1)
@@ -5202,6 +6256,8 @@ Liveborn Born In Hospital
 4
 "DATA",176.801,526,4,3,0)
 93
+"DATA",176.801,526,5)
+LBIH29
 "DATA",176.801,527,0)
 Low Back Pain
 "DATA",176.801,527,1)
@@ -5210,6 +6266,8 @@ Low Back Pain
 ^176.8012P^1^1
 "DATA",176.801,527,4,1,0)
 67
+"DATA",176.801,527,5)
+LBP01
 "DATA",176.801,528,0)
 Low Molecular Weight Heparin
 "DATA",176.801,528,1)
@@ -5222,6 +6280,8 @@ Low Molecular Weight Heparin
 90
 "DATA",176.801,528,4,3,0)
 17
+"DATA",176.801,528,5)
+LMWH19
 "DATA",176.801,529,0)
 Low Risk
 "DATA",176.801,529,1)
@@ -5232,6 +6292,8 @@ Low Risk
 18
 "DATA",176.801,529,4,2,0)
 90
+"DATA",176.801,529,5)
+LR00
 "DATA",176.801,530,0)
 MRI of Lower Spine
 "DATA",176.801,530,1)
@@ -5240,6 +6302,8 @@ MRI of Lower Spine
 ^176.8012P^1^1
 "DATA",176.801,530,4,1,0)
 67
+"DATA",176.801,530,5)
+MRILS34
 "DATA",176.801,531,0)
 Macroalbumin Test
 "DATA",176.801,531,1)
@@ -5248,6 +6312,8 @@ Macroalbumin Test
 ^176.8012P^1^1
 "DATA",176.801,531,4,1,0)
 34
+"DATA",176.801,531,5)
+MT19
 "DATA",176.801,532,0)
 Macular Edema Findings Absent
 "DATA",176.801,532,1)
@@ -5256,6 +6322,8 @@ Macular Edema Findings Absent
 ^176.8012P^1^1
 "DATA",176.801,532,4,1,0)
 26
+"DATA",176.801,532,5)
+MEFA84
 "DATA",176.801,533,0)
 Macular Edema Findings Present
 "DATA",176.801,533,1)
@@ -5264,6 +6332,8 @@ Macular Edema Findings Present
 ^176.8012P^1^1
 "DATA",176.801,533,4,1,0)
 26
+"DATA",176.801,533,5)
+MEFP20
 "DATA",176.801,534,0)
 Macular Exam
 "DATA",176.801,534,1)
@@ -5274,6 +6344,8 @@ Macular Exam
 26
 "DATA",176.801,534,4,2,0)
 27
+"DATA",176.801,534,5)
+ME51
 "DATA",176.801,535,0)
 Major Depression
 "DATA",176.801,535,1)
@@ -5286,6 +6358,8 @@ Major Depression
 61
 "DATA",176.801,535,4,3,0)
 46
+"DATA",176.801,535,5)
+MD07
 "DATA",176.801,536,0)
 Major Depressive Disorder New or Recurrent
 "DATA",176.801,536,1)
@@ -5296,6 +6370,8 @@ Major Depressive Disorder New or Recurrent
 44
 "DATA",176.801,536,4,2,0)
 30
+"DATA",176.801,536,5)
+MDDNR58
 "DATA",176.801,537,0)
 Male
 "DATA",176.801,537,1)
@@ -5308,6 +6384,8 @@ Male
 9
 "DATA",176.801,537,4,3,0)
 1
+"DATA",176.801,537,5)
+M01
 "DATA",176.801,538,0)
 Malignant Neoplasm of Colon
 "DATA",176.801,538,1)
@@ -5316,6 +6394,8 @@ Malignant Neoplasm of Colon
 ^176.8012P^1^1
 "DATA",176.801,538,4,1,0)
 63
+"DATA",176.801,538,5)
+MNC01
 "DATA",176.801,539,0)
 Malignant Neoplasm of Lymphatic Tissue
 "DATA",176.801,539,1)
@@ -5324,6 +6404,8 @@ Malignant Neoplasm of Lymphatic Tissue
 ^176.8012P^1^1
 "DATA",176.801,539,4,1,0)
 66
+"DATA",176.801,539,5)
+MNLT21
 "DATA",176.801,540,0)
 Mammogram
 "DATA",176.801,540,1)
@@ -5332,6 +6414,8 @@ Mammogram
 ^176.8012P^1^1
 "DATA",176.801,540,4,1,0)
 10
+"DATA",176.801,540,5)
+M18
 "DATA",176.801,541,0)
 Maternal Post Partum Depression Care
 "DATA",176.801,541,1)
@@ -5340,6 +6424,8 @@ Maternal Post Partum Depression Care
 ^176.8012P^1^1
 "DATA",176.801,541,4,1,0)
 47
+"DATA",176.801,541,5)
+MPPDC13
 "DATA",176.801,542,0)
 Maternal Post Partum Depression Screening
 "DATA",176.801,542,1)
@@ -5348,6 +6434,8 @@ Maternal Post Partum Depression Screening
 ^176.8012P^1^1
 "DATA",176.801,542,4,1,0)
 47
+"DATA",176.801,542,5)
+MPPDS14
 "DATA",176.801,543,0)
 Maternal Reason
 "DATA",176.801,543,1)
@@ -5356,6 +6444,8 @@ Maternal Reason
 ^176.8012P^1^1
 "DATA",176.801,543,4,1,0)
 36
+"DATA",176.801,543,5)
+MR84
 "DATA",176.801,544,0)
 Measles
 "DATA",176.801,544,1)
@@ -5364,6 +6454,8 @@ Measles
 ^176.8012P^1^1
 "DATA",176.801,544,4,1,0)
 66
+"DATA",176.801,544,5)
+M53
 "DATA",176.801,545,0)
 Measles Antigen Test
 "DATA",176.801,545,1)
@@ -5372,6 +6464,8 @@ Measles Antigen Test
 ^176.8012P^1^1
 "DATA",176.801,545,4,1,0)
 66
+"DATA",176.801,545,5)
+MAT29
 "DATA",176.801,546,0)
 Measles, Mumps and Rubella (MMR) Vaccine
 "DATA",176.801,546,1)
@@ -5380,6 +6474,8 @@ Measles, Mumps and Rubella (MMR) Vaccine
 ^176.8012P^1^1
 "DATA",176.801,546,4,1,0)
 66
+"DATA",176.801,546,5)
+MMRMMRV24
 "DATA",176.801,547,0)
 Measles, Mumps and Rubella (MMR) Vaccine Administered
 "DATA",176.801,547,1)
@@ -5388,6 +6484,8 @@ Measles, Mumps and Rubella (MMR) Vaccine Administered
 ^176.8012P^1^1
 "DATA",176.801,547,4,1,0)
 66
+"DATA",176.801,547,5)
+MMRMMRVA31
 "DATA",176.801,548,0)
 Medical Contraindication
 "DATA",176.801,548,1)
@@ -5396,6 +6494,8 @@ Medical Contraindication
 ^176.8012P^1^1
 "DATA",176.801,548,4,1,0)
 17
+"DATA",176.801,548,5)
+MC12
 "DATA",176.801,549,0)
 Medical Induction of Labor
 "DATA",176.801,549,1)
@@ -5404,6 +6504,8 @@ Medical Induction of Labor
 ^176.8012P^1^1
 "DATA",176.801,549,4,1,0)
 91
+"DATA",176.801,549,5)
+MIL88
 "DATA",176.801,550,0)
 Medical Reason
 "DATA",176.801,550,1)
@@ -5416,6 +6518,8 @@ Medical Reason
 48
 "DATA",176.801,550,4,3,0)
 45
+"DATA",176.801,550,5)
+MR13
 "DATA",176.801,551,0)
 Medical Reasons
 "DATA",176.801,551,1)
@@ -5424,6 +6528,8 @@ Medical Reasons
 ^176.8012P^1^1
 "DATA",176.801,551,4,1,0)
 79
+"DATA",176.801,551,5)
+MR18
 "DATA",176.801,552,0)
 Medical Reasons AMI
 "DATA",176.801,552,1)
@@ -5432,6 +6538,8 @@ Medical Reasons AMI
 ^176.8012P^1^1
 "DATA",176.801,552,4,1,0)
 86
+"DATA",176.801,552,5)
+MRAMI03
 "DATA",176.801,553,0)
 Medical or Other reason not done
 "DATA",176.801,553,1)
@@ -5442,6 +6550,8 @@ Medical or Other reason not done
 54
 "DATA",176.801,553,4,2,0)
 52
+"DATA",176.801,553,5)
+MO02
 "DATA",176.801,554,0)
 Medical reason
 "DATA",176.801,554,1)
@@ -5450,6 +6560,8 @@ Medical reason
 ^176.8012P^1^1
 "DATA",176.801,554,4,1,0)
 58
+"DATA",176.801,554,5)
+M21
 "DATA",176.801,555,0)
 Medical reason contraindicated
 "DATA",176.801,555,1)
@@ -5458,6 +6570,8 @@ Medical reason contraindicated
 ^176.8012P^1^1
 "DATA",176.801,555,4,1,0)
 53
+"DATA",176.801,555,5)
+M92
 "DATA",176.801,556,0)
 Medication Compliance Education
 "DATA",176.801,556,1)
@@ -5466,6 +6580,8 @@ Medication Compliance Education
 ^176.8012P^1^1
 "DATA",176.801,556,4,1,0)
 38
+"DATA",176.801,556,5)
+MCE01
 "DATA",176.801,557,0)
 Medications Encounter Code Set
 "DATA",176.801,557,1)
@@ -5474,6 +6590,8 @@ Medications Encounter Code Set
 ^176.8012P^1^1
 "DATA",176.801,557,4,1,0)
 54
+"DATA",176.801,557,5)
+MECS34
 "DATA",176.801,558,0)
 Mental Disorders
 "DATA",176.801,558,1)
@@ -5482,6 +6600,8 @@ Mental Disorders
 ^176.8012P^1^1
 "DATA",176.801,558,4,1,0)
 18
+"DATA",176.801,558,5)
+MD62
 "DATA",176.801,559,0)
 Mental Health Diagnoses
 "DATA",176.801,559,1)
@@ -5490,6 +6610,8 @@ Mental Health Diagnoses
 ^176.8012P^1^1
 "DATA",176.801,559,4,1,0)
 33
+"DATA",176.801,559,5)
+MHD04
 "DATA",176.801,560,0)
 Metastatic Sites Common to Breast Cancer
 "DATA",176.801,560,1)
@@ -5498,6 +6620,8 @@ Metastatic Sites Common to Breast Cancer
 ^176.8012P^1^1
 "DATA",176.801,560,4,1,0)
 65
+"DATA",176.801,560,5)
+MSCBC47
 "DATA",176.801,561,0)
 Metastatic Sites Common to Colon Cancer
 "DATA",176.801,561,1)
@@ -5506,6 +6630,8 @@ Metastatic Sites Common to Colon Cancer
 ^176.8012P^1^1
 "DATA",176.801,561,4,1,0)
 43
+"DATA",176.801,561,5)
+MSCCC90
 "DATA",176.801,562,0)
 Microalbumin Test
 "DATA",176.801,562,1)
@@ -5514,6 +6640,8 @@ Microalbumin Test
 ^176.8012P^1^1
 "DATA",176.801,562,4,1,0)
 34
+"DATA",176.801,562,5)
+MT05
 "DATA",176.801,563,0)
 Moderate or Severe Impairment, Better Eye, Profound Impairment Lesser Eye
 "DATA",176.801,563,1)
@@ -5522,6 +6650,8 @@ Moderate or Severe Impairment, Better Eye, Profound Impairment Lesser Eye
 ^176.8012P^1^1
 "DATA",176.801,563,4,1,0)
 19
+"DATA",176.801,563,5)
+MSIBEPILE64
 "DATA",176.801,564,0)
 Moderate or Severe LVSD
 "DATA",176.801,564,1)
@@ -5534,6 +6664,8 @@ Moderate or Severe LVSD
 39
 "DATA",176.801,564,4,3,0)
 24
+"DATA",176.801,564,5)
+MSLVSD90
 "DATA",176.801,565,0)
 Moderation of ETOH Consumption Recommendation
 "DATA",176.801,565,1)
@@ -5542,6 +6674,8 @@ Moderation of ETOH Consumption Recommendation
 ^176.8012P^1^1
 "DATA",176.801,565,4,1,0)
 58
+"DATA",176.801,565,5)
+METOHCR23
 "DATA",176.801,566,0)
 Mumps
 "DATA",176.801,566,1)
@@ -5550,6 +6684,8 @@ Mumps
 ^176.8012P^1^1
 "DATA",176.801,566,4,1,0)
 66
+"DATA",176.801,566,5)
+M32
 "DATA",176.801,567,0)
 Mumps Antigen Test
 "DATA",176.801,567,1)
@@ -5558,6 +6694,8 @@ Mumps Antigen Test
 ^176.8012P^1^1
 "DATA",176.801,567,4,1,0)
 66
+"DATA",176.801,567,5)
+MAT28
 "DATA",176.801,568,0)
 Myocardial Infarction
 "DATA",176.801,568,1)
@@ -5566,6 +6704,8 @@ Myocardial Infarction
 ^176.8012P^1^1
 "DATA",176.801,568,4,1,0)
 39
+"DATA",176.801,568,5)
+MI03
 "DATA",176.801,569,0)
 Myomectomy
 "DATA",176.801,569,1)
@@ -5574,6 +6714,8 @@ Myomectomy
 ^176.8012P^1^1
 "DATA",176.801,569,4,1,0)
 91
+"DATA",176.801,569,5)
+M22
 "DATA",176.801,570,0)
 Narcolepsy
 "DATA",176.801,570,1)
@@ -5582,6 +6724,8 @@ Narcolepsy
 ^176.8012P^1^1
 "DATA",176.801,570,4,1,0)
 33
+"DATA",176.801,570,5)
+N11
 "DATA",176.801,571,0)
 National Institute of Health Stroke Scale
 "DATA",176.801,571,1)
@@ -5590,6 +6734,8 @@ National Institute of Health Stroke Scale
 ^176.8012P^1^1
 "DATA",176.801,571,4,1,0)
 15
+"DATA",176.801,571,5)
+NIHSS69
 "DATA",176.801,572,0)
 Negative Depression Screening
 "DATA",176.801,572,1)
@@ -5598,6 +6744,8 @@ Negative Depression Screening
 ^176.8012P^1^1
 "DATA",176.801,572,4,1,0)
 53
+"DATA",176.801,572,5)
+NDS94
 "DATA",176.801,573,0)
 Negative Finding
 "DATA",176.801,573,1)
@@ -5606,6 +6754,8 @@ Negative Finding
 ^176.8012P^1^1
 "DATA",176.801,573,4,1,0)
 80
+"DATA",176.801,573,5)
+NF02
 "DATA",176.801,574,0)
 Neonatal Death SNOMED CT
 "DATA",176.801,574,1)
@@ -5614,6 +6764,8 @@ Neonatal Death SNOMED CT
 ^176.8012P^1^1
 "DATA",176.801,574,4,1,0)
 93
+"DATA",176.801,574,5)
+NDSNOMEDCT18
 "DATA",176.801,575,0)
 Neonatal Intensive Care Unit (NICU)
 "DATA",176.801,575,1)
@@ -5622,6 +6774,8 @@ Neonatal Intensive Care Unit (NICU)
 ^176.8012P^1^1
 "DATA",176.801,575,4,1,0)
 36
+"DATA",176.801,575,5)
+NICUNICU75
 "DATA",176.801,576,0)
 Neurologic Complications Group
 "DATA",176.801,576,1)
@@ -5630,6 +6784,8 @@ Neurologic Complications Group
 ^176.8012P^1^1
 "DATA",176.801,576,4,1,0)
 93
+"DATA",176.801,576,5)
+NCG91
 "DATA",176.801,577,0)
 Neurologic Procedure Group
 "DATA",176.801,577,1)
@@ -5638,6 +6794,8 @@ Neurologic Procedure Group
 ^176.8012P^1^1
 "DATA",176.801,577,4,1,0)
 93
+"DATA",176.801,577,5)
+NPG92
 "DATA",176.801,578,0)
 Neurologic Symptoms of Stroke
 "DATA",176.801,578,1)
@@ -5646,6 +6804,8 @@ Neurologic Symptoms of Stroke
 ^176.8012P^1^1
 "DATA",176.801,578,4,1,0)
 15
+"DATA",176.801,578,5)
+NSS99
 "DATA",176.801,579,0)
 Neurologic impairment
 "DATA",176.801,579,1)
@@ -5654,6 +6814,8 @@ Neurologic impairment
 ^176.8012P^1^1
 "DATA",176.801,579,4,1,0)
 67
+"DATA",176.801,579,5)
+N12
 "DATA",176.801,580,0)
 Newborn Affected by Placenta or Abruption Group
 "DATA",176.801,580,1)
@@ -5662,6 +6824,8 @@ Newborn Affected by Placenta or Abruption Group
 ^176.8012P^1^1
 "DATA",176.801,580,4,1,0)
 93
+"DATA",176.801,580,5)
+NAPAG68
 "DATA",176.801,581,0)
 Newborn Hearing Screen Left
 "DATA",176.801,581,1)
@@ -5670,6 +6834,8 @@ Newborn Hearing Screen Left
 ^176.8012P^1^1
 "DATA",176.801,581,4,1,0)
 4
+"DATA",176.801,581,5)
+NHSL13
 "DATA",176.801,582,0)
 Newborn Hearing Screen Right
 "DATA",176.801,582,1)
@@ -5678,6 +6844,8 @@ Newborn Hearing Screen Right
 ^176.8012P^1^1
 "DATA",176.801,582,4,1,0)
 4
+"DATA",176.801,582,5)
+NHSR14
 "DATA",176.801,583,0)
 Normal Delivery and Other Indications for Care
 "DATA",176.801,583,1)
@@ -5686,6 +6854,8 @@ Normal Delivery and Other Indications for Care
 ^176.8012P^1^1
 "DATA",176.801,583,4,1,0)
 91
+"DATA",176.801,583,5)
+NDOIC91
 "DATA",176.801,584,0)
 Nursing Facility Visit
 "DATA",176.801,584,1)
@@ -5710,6 +6880,8 @@ Nursing Facility Visit
 71
 "DATA",176.801,584,4,9,0)
 41
+"DATA",176.801,584,5)
+NFV12
 "DATA",176.801,585,0)
 Nursing Home
 "DATA",176.801,585,1)
@@ -5720,6 +6892,8 @@ Nursing Home
 61
 "DATA",176.801,585,4,2,0)
 42
+"DATA",176.801,585,5)
+NH22
 "DATA",176.801,586,0)
 Nystagmus and other Irregular Eye Movements
 "DATA",176.801,586,1)
@@ -5728,6 +6902,8 @@ Nystagmus and other Irregular Eye Movements
 ^176.8012P^1^1
 "DATA",176.801,586,4,1,0)
 19
+"DATA",176.801,586,5)
+NIEM65
 "DATA",176.801,587,0)
 ONC Administrative Sex
 "DATA",176.801,587,1)
@@ -5920,6 +7096,8 @@ ONC Administrative Sex
 89
 "DATA",176.801,587,4,93,0)
 13
+"DATA",176.801,587,5)
+ONCAS41
 "DATA",176.801,588,0)
 Obstetrics
 "DATA",176.801,588,1)
@@ -5930,6 +7108,8 @@ Obstetrics
 18
 "DATA",176.801,588,4,2,0)
 90
+"DATA",176.801,588,5)
+O63
 "DATA",176.801,589,0)
 Obstetrics VTE
 "DATA",176.801,589,1)
@@ -5948,6 +7128,8 @@ Obstetrics VTE
 90
 "DATA",176.801,589,4,6,0)
 72
+"DATA",176.801,589,5)
+OVTE64
 "DATA",176.801,590,0)
 Occupational Therapy Evaluation
 "DATA",176.801,590,1)
@@ -5958,6 +7140,8 @@ Occupational Therapy Evaluation
 84
 "DATA",176.801,590,4,2,0)
 35
+"DATA",176.801,590,5)
+OTE11
 "DATA",176.801,591,0)
 Office Visit
 "DATA",176.801,591,1)
@@ -6058,6 +7242,8 @@ Office Visit
 44
 "DATA",176.801,591,4,47,0)
 65
+"DATA",176.801,591,5)
+OV01
 "DATA",176.801,592,0)
 Open Wound of Eyeball
 "DATA",176.801,592,1)
@@ -6068,6 +7254,8 @@ Open Wound of Eyeball
 57
 "DATA",176.801,592,4,2,0)
 19
+"DATA",176.801,592,5)
+OWE30
 "DATA",176.801,593,0)
 Ophthalmological Services
 "DATA",176.801,593,1)
@@ -6082,6 +7270,8 @@ Ophthalmological Services
 27
 "DATA",176.801,593,4,4,0)
 81
+"DATA",176.801,593,5)
+OS85
 "DATA",176.801,594,0)
 Optic Atrophy
 "DATA",176.801,594,1)
@@ -6090,6 +7280,8 @@ Optic Atrophy
 ^176.8012P^1^1
 "DATA",176.801,594,4,1,0)
 19
+"DATA",176.801,594,5)
+OA66
 "DATA",176.801,595,0)
 Optic Disc Exam for Structural Abnormalities
 "DATA",176.801,595,1)
@@ -6098,6 +7290,8 @@ Optic Disc Exam for Structural Abnormalities
 ^176.8012P^1^1
 "DATA",176.801,595,4,1,0)
 81
+"DATA",176.801,595,5)
+ODESA34
 "DATA",176.801,596,0)
 Optic Neuritis
 "DATA",176.801,596,1)
@@ -6106,6 +7300,8 @@ Optic Neuritis
 ^176.8012P^1^1
 "DATA",176.801,596,4,1,0)
 19
+"DATA",176.801,596,5)
+ON67
 "DATA",176.801,597,0)
 Other Background Retinopathy and Retinal Vascular Changes
 "DATA",176.801,597,1)
@@ -6114,6 +7310,8 @@ Other Background Retinopathy and Retinal Vascular Changes
 ^176.8012P^1^1
 "DATA",176.801,597,4,1,0)
 19
+"DATA",176.801,597,5)
+OBRRVC69
 "DATA",176.801,598,0)
 Other Corneal Deformities
 "DATA",176.801,598,1)
@@ -6122,6 +7320,8 @@ Other Corneal Deformities
 ^176.8012P^1^1
 "DATA",176.801,598,4,1,0)
 19
+"DATA",176.801,598,5)
+OCD70
 "DATA",176.801,599,0)
 Other Disorders of Optic Nerve
 "DATA",176.801,599,1)
@@ -6130,6 +7330,8 @@ Other Disorders of Optic Nerve
 ^176.8012P^1^1
 "DATA",176.801,599,4,1,0)
 19
+"DATA",176.801,599,5)
+ODON71
 "DATA",176.801,600,0)
 Other Disorders of Sclera
 "DATA",176.801,600,1)
@@ -6138,6 +7340,8 @@ Other Disorders of Sclera
 ^176.8012P^1^1
 "DATA",176.801,600,4,1,0)
 19
+"DATA",176.801,600,5)
+ODS72
 "DATA",176.801,601,0)
 Other Endophthalmitis
 "DATA",176.801,601,1)
@@ -6146,6 +7350,8 @@ Other Endophthalmitis
 ^176.8012P^1^1
 "DATA",176.801,601,4,1,0)
 19
+"DATA",176.801,601,5)
+OE73
 "DATA",176.801,602,0)
 Other Female Reproductive Conditions
 "DATA",176.801,602,1)
@@ -6154,6 +7360,8 @@ Other Female Reproductive Conditions
 ^176.8012P^1^1
 "DATA",176.801,602,4,1,0)
 77
+"DATA",176.801,602,5)
+OFRC06
 "DATA",176.801,603,0)
 Other Proliferative Retinopathy
 "DATA",176.801,603,1)
@@ -6162,6 +7370,8 @@ Other Proliferative Retinopathy
 ^176.8012P^1^1
 "DATA",176.801,603,4,1,0)
 19
+"DATA",176.801,603,5)
+OPR80
 "DATA",176.801,604,0)
 Other Retinal Disorders
 "DATA",176.801,604,1)
@@ -6170,6 +7380,8 @@ Other Retinal Disorders
 ^176.8012P^1^1
 "DATA",176.801,604,4,1,0)
 19
+"DATA",176.801,604,5)
+ORD74
 "DATA",176.801,605,0)
 Other Services Related to Dialysis
 "DATA",176.801,605,1)
@@ -6180,6 +7392,8 @@ Other Services Related to Dialysis
 34
 "DATA",176.801,605,4,2,0)
 64
+"DATA",176.801,605,5)
+OSRD15
 "DATA",176.801,606,0)
 Other and Unspecified forms of Chorioretinitis and Retinochoroiditis
 "DATA",176.801,606,1)
@@ -6188,6 +7402,8 @@ Other and Unspecified forms of Chorioretinitis and Retinochoroiditis
 ^176.8012P^1^1
 "DATA",176.801,606,4,1,0)
 19
+"DATA",176.801,606,5)
+OUCR68
 "DATA",176.801,607,0)
 Outcome of Delivery
 "DATA",176.801,607,1)
@@ -6196,6 +7412,8 @@ Outcome of Delivery
 ^176.8012P^1^1
 "DATA",176.801,607,4,1,0)
 91
+"DATA",176.801,607,5)
+OD08
 "DATA",176.801,608,0)
 Outpatient Consultation
 "DATA",176.801,608,1)
@@ -6230,6 +7448,8 @@ Outpatient Consultation
 27
 "DATA",176.801,608,4,14,0)
 16
+"DATA",176.801,608,5)
+OC08
 "DATA",176.801,609,0)
 PHQ-9 Tool
 "DATA",176.801,609,1)
@@ -6240,6 +7460,8 @@ PHQ-9 Tool
 42
 "DATA",176.801,609,4,2,0)
 61
+"DATA",176.801,609,5)
+PHQ9T23
 "DATA",176.801,610,0)
 Pain Related to Prostate Cancer
 "DATA",176.801,610,1)
@@ -6248,6 +7470,8 @@ Pain Related to Prostate Cancer
 ^176.8012P^1^1
 "DATA",176.801,610,4,1,0)
 9
+"DATA",176.801,610,5)
+PRPC51
 "DATA",176.801,611,0)
 Palliative Care
 "DATA",176.801,611,1)
@@ -6260,6 +7484,8 @@ Palliative Care
 61
 "DATA",176.801,611,4,3,0)
 42
+"DATA",176.801,611,5)
+PC24
 "DATA",176.801,612,0)
 Pap Test
 "DATA",176.801,612,1)
@@ -6270,6 +7496,8 @@ Pap Test
 23
 "DATA",176.801,612,4,2,0)
 77
+"DATA",176.801,612,5)
+PT17
 "DATA",176.801,613,0)
 Paracentesis Procedures
 "DATA",176.801,613,1)
@@ -6278,6 +7506,8 @@ Paracentesis Procedures
 ^176.8012P^1^1
 "DATA",176.801,613,4,1,0)
 57
+"DATA",176.801,613,5)
+PP31
 "DATA",176.801,614,0)
 Parenteral Anticoagulant
 "DATA",176.801,614,1)
@@ -6286,6 +7516,8 @@ Parenteral Anticoagulant
 ^176.8012P^1^1
 "DATA",176.801,614,4,1,0)
 32
+"DATA",176.801,614,5)
+PA66
 "DATA",176.801,615,0)
 Parenteral Infusion
 "DATA",176.801,615,1)
@@ -6294,6 +7526,8 @@ Parenteral Infusion
 ^176.8012P^1^1
 "DATA",176.801,615,4,1,0)
 36
+"DATA",176.801,615,5)
+PI38
 "DATA",176.801,616,0)
 Pass Or Refer
 "DATA",176.801,616,1)
@@ -6302,6 +7536,8 @@ Pass Or Refer
 ^176.8012P^1^1
 "DATA",176.801,616,4,1,0)
 4
+"DATA",176.801,616,5)
+POR16
 "DATA",176.801,617,0)
 Pathologic Myopia
 "DATA",176.801,617,1)
@@ -6312,6 +7548,8 @@ Pathologic Myopia
 57
 "DATA",176.801,617,4,2,0)
 19
+"DATA",176.801,617,5)
+PM32
 "DATA",176.801,618,0)
 Patient Expired
 "DATA",176.801,618,1)
@@ -6332,6 +7570,8 @@ Patient Expired
 13
 "DATA",176.801,618,4,7,0)
 36
+"DATA",176.801,618,5)
+PE09
 "DATA",176.801,619,0)
 Patient Provider Interaction
 "DATA",176.801,619,1)
@@ -6362,6 +7602,8 @@ Patient Provider Interaction
 65
 "DATA",176.801,619,4,12,0)
 59
+"DATA",176.801,619,5)
+PPI12
 "DATA",176.801,620,0)
 Patient Reason
 "DATA",176.801,620,1)
@@ -6370,6 +7612,8 @@ Patient Reason
 ^176.8012P^1^1
 "DATA",176.801,620,4,1,0)
 69
+"DATA",176.801,620,5)
+PR74
 "DATA",176.801,621,0)
 Patient Reason Refused
 "DATA",176.801,621,1)
@@ -6378,6 +7622,8 @@ Patient Reason Refused
 ^176.8012P^1^1
 "DATA",176.801,621,4,1,0)
 52
+"DATA",176.801,621,5)
+PRR03
 "DATA",176.801,622,0)
 Patient Reason refused
 "DATA",176.801,622,1)
@@ -6392,6 +7638,8 @@ Patient Reason refused
 5
 "DATA",176.801,622,4,4,0)
 58
+"DATA",176.801,622,5)
+PR91
 "DATA",176.801,623,0)
 Patient Reasons AMI
 "DATA",176.801,623,1)
@@ -6400,6 +7648,8 @@ Patient Reasons AMI
 ^176.8012P^1^1
 "DATA",176.801,623,4,1,0)
 86
+"DATA",176.801,623,5)
+PRAMI04
 "DATA",176.801,624,0)
 Patient Refusal
 "DATA",176.801,624,1)
@@ -6432,6 +7682,8 @@ Patient Refusal
 32
 "DATA",176.801,624,4,13,0)
 83
+"DATA",176.801,624,5)
+PR93
 "DATA",176.801,625,0)
 Patient Request
 "DATA",176.801,625,1)
@@ -6442,6 +7694,8 @@ Patient Request
 1
 "DATA",176.801,625,4,2,0)
 5
+"DATA",176.801,625,5)
+PR64
 "DATA",176.801,626,0)
 Patient not ambulatory
 "DATA",176.801,626,1)
@@ -6450,6 +7704,8 @@ Patient not ambulatory
 ^176.8012P^1^1
 "DATA",176.801,626,4,1,0)
 71
+"DATA",176.801,626,5)
+P09
 "DATA",176.801,627,0)
 Patient reason for ACE inhibitor or ARB decline
 "DATA",176.801,627,1)
@@ -6458,6 +7714,8 @@ Patient reason for ACE inhibitor or ARB decline
 ^176.8012P^1^1
 "DATA",176.801,627,4,1,0)
 24
+"DATA",176.801,627,5)
+PACEARB40
 "DATA",176.801,628,0)
 Payer
 "DATA",176.801,628,1)
@@ -6650,6 +7908,8 @@ Payer
 14
 "DATA",176.801,628,4,93,0)
 13
+"DATA",176.801,628,5)
+P91
 "DATA",176.801,629,0)
 Percutaneous Coronary Interventions
 "DATA",176.801,629,1)
@@ -6660,6 +7920,8 @@ Percutaneous Coronary Interventions
 3
 "DATA",176.801,629,4,2,0)
 25
+"DATA",176.801,629,5)
+PCI10
 "DATA",176.801,630,0)
 Peritoneal Dialysis
 "DATA",176.801,630,1)
@@ -6670,6 +7932,8 @@ Peritoneal Dialysis
 12
 "DATA",176.801,630,4,2,0)
 59
+"DATA",176.801,630,5)
+PD84
 "DATA",176.801,631,0)
 Peritoneal Dialysis-Procedure
 "DATA",176.801,631,1)
@@ -6678,6 +7942,8 @@ Peritoneal Dialysis-Procedure
 ^176.8012P^1^1
 "DATA",176.801,631,4,1,0)
 40
+"DATA",176.801,631,5)
+PDP92
 "DATA",176.801,632,0)
 Persistent Asthma
 "DATA",176.801,632,1)
@@ -6686,6 +7952,8 @@ Persistent Asthma
 ^176.8012P^1^1
 "DATA",176.801,632,4,1,0)
 29
+"DATA",176.801,632,5)
+PA23
 "DATA",176.801,633,0)
 Personality Disorder
 "DATA",176.801,633,1)
@@ -6696,6 +7964,8 @@ Personality Disorder
 42
 "DATA",176.801,633,4,2,0)
 61
+"DATA",176.801,633,5)
+PD46
 "DATA",176.801,634,0)
 Phototherapy Procedure Group
 "DATA",176.801,634,1)
@@ -6704,6 +7974,8 @@ Phototherapy Procedure Group
 ^176.8012P^1^1
 "DATA",176.801,634,4,1,0)
 93
+"DATA",176.801,634,5)
+PPG94
 "DATA",176.801,635,0)
 Physical Activity Recommendation
 "DATA",176.801,635,1)
@@ -6712,6 +7984,8 @@ Physical Activity Recommendation
 ^176.8012P^1^1
 "DATA",176.801,635,4,1,0)
 58
+"DATA",176.801,635,5)
+PAR18
 "DATA",176.801,636,0)
 Platelet Count
 "DATA",176.801,636,1)
@@ -6720,6 +7994,8 @@ Platelet Count
 ^176.8012P^1^1
 "DATA",176.801,636,4,1,0)
 72
+"DATA",176.801,636,5)
+PC67
 "DATA",176.801,637,0)
 Pneumococcal Conjugate Vaccine
 "DATA",176.801,637,1)
@@ -6728,6 +8004,8 @@ Pneumococcal Conjugate Vaccine
 ^176.8012P^1^1
 "DATA",176.801,637,4,1,0)
 66
+"DATA",176.801,637,5)
+PCV21
 "DATA",176.801,638,0)
 Pneumococcal Conjugate Vaccine Administered
 "DATA",176.801,638,1)
@@ -6736,6 +8014,8 @@ Pneumococcal Conjugate Vaccine Administered
 ^176.8012P^1^1
 "DATA",176.801,638,4,1,0)
 66
+"DATA",176.801,638,5)
+PCVA46
 "DATA",176.801,639,0)
 Pneumococcal Vaccine
 "DATA",176.801,639,1)
@@ -6744,6 +8024,8 @@ Pneumococcal Vaccine
 ^176.8012P^1^1
 "DATA",176.801,639,4,1,0)
 28
+"DATA",176.801,639,5)
+PV27
 "DATA",176.801,640,0)
 Pneumococcal Vaccine Administered
 "DATA",176.801,640,1)
@@ -6752,6 +8034,8 @@ Pneumococcal Vaccine Administered
 ^176.8012P^1^1
 "DATA",176.801,640,4,1,0)
 28
+"DATA",176.801,640,5)
+PVA34
 "DATA",176.801,641,0)
 Pneumocystis Jiroveci Pneumonia (PCP) Prophylaxis
 "DATA",176.801,641,1)
@@ -6760,6 +8044,8 @@ Pneumocystis Jiroveci Pneumonia (PCP) Prophylaxis
 ^176.8012P^1^1
 "DATA",176.801,641,4,1,0)
 11
+"DATA",176.801,641,5)
+PJPPCPP76
 "DATA",176.801,642,0)
 Positive Depression Screening
 "DATA",176.801,642,1)
@@ -6768,6 +8054,8 @@ Positive Depression Screening
 ^176.8012P^1^1
 "DATA",176.801,642,4,1,0)
 53
+"DATA",176.801,642,5)
+PDS93
 "DATA",176.801,643,0)
 Positive Finding
 "DATA",176.801,643,1)
@@ -6776,6 +8064,8 @@ Positive Finding
 ^176.8012P^1^1
 "DATA",176.801,643,4,1,0)
 34
+"DATA",176.801,643,5)
+PF16
 "DATA",176.801,644,0)
 Posterior Lenticonus
 "DATA",176.801,644,1)
@@ -6784,6 +8074,8 @@ Posterior Lenticonus
 ^176.8012P^1^1
 "DATA",176.801,644,4,1,0)
 57
+"DATA",176.801,644,5)
+PL33
 "DATA",176.801,645,0)
 Preferred Asthma Therapy
 "DATA",176.801,645,1)
@@ -6792,6 +8084,8 @@ Preferred Asthma Therapy
 ^176.8012P^1^1
 "DATA",176.801,645,4,1,0)
 29
+"DATA",176.801,645,5)
+PAT12
 "DATA",176.801,646,0)
 Pregnancy
 "DATA",176.801,646,1)
@@ -6802,6 +8096,8 @@ Pregnancy
 5
 "DATA",176.801,646,4,2,0)
 1
+"DATA",176.801,646,5)
+P22
 "DATA",176.801,647,0)
 Pregnancy Dx
 "DATA",176.801,647,1)
@@ -6810,6 +8106,8 @@ Pregnancy Dx
 ^176.8012P^1^1
 "DATA",176.801,647,4,1,0)
 52
+"DATA",176.801,647,5)
+PD23
 "DATA",176.801,648,0)
 Pregnancy Test
 "DATA",176.801,648,1)
@@ -6818,6 +8116,8 @@ Pregnancy Test
 ^176.8012P^1^1
 "DATA",176.801,648,4,1,0)
 77
+"DATA",176.801,648,5)
+PT11
 "DATA",176.801,649,0)
 Prescribed Medications Education
 "DATA",176.801,649,1)
@@ -6826,6 +8126,8 @@ Prescribed Medications Education
 ^176.8012P^1^1
 "DATA",176.801,649,4,1,0)
 14
+"DATA",176.801,649,5)
+PME79
 "DATA",176.801,650,0)
 Preventive Care - Established Office Visit, 0 to 17
 "DATA",176.801,650,1)
@@ -6852,6 +8154,8 @@ Preventive Care - Established Office Visit, 0 to 17
 33
 "DATA",176.801,650,4,10,0)
 59
+"DATA",176.801,650,5)
+PCEOV01724
 "DATA",176.801,651,0)
 Preventive Care Services - Established Office Visit, 18 and Up
 "DATA",176.801,651,1)
@@ -6902,6 +8206,8 @@ Preventive Care Services - Established Office Visit, 18 and Up
 31
 "DATA",176.801,651,4,22,0)
 59
+"DATA",176.801,651,5)
+PCSEOV18U25
 "DATA",176.801,652,0)
 Preventive Care Services - Group Counseling
 "DATA",176.801,652,1)
@@ -6916,6 +8222,8 @@ Preventive Care Services - Group Counseling
 33
 "DATA",176.801,652,4,4,0)
 59
+"DATA",176.801,652,5)
+PCSGC27
 "DATA",176.801,653,0)
 Preventive Care Services - Other
 "DATA",176.801,653,1)
@@ -6926,6 +8234,8 @@ Preventive Care Services - Other
 84
 "DATA",176.801,653,4,2,0)
 59
+"DATA",176.801,653,5)
+PCSO30
 "DATA",176.801,654,0)
 Preventive Care Services-Individual Counseling
 "DATA",176.801,654,1)
@@ -6942,6 +8252,8 @@ Preventive Care Services-Individual Counseling
 84
 "DATA",176.801,654,4,5,0)
 6
+"DATA",176.801,654,5)
+PCSIC26
 "DATA",176.801,655,0)
 Preventive Care Services-Initial Office Visit, 18 and Up
 "DATA",176.801,655,1)
@@ -6992,6 +8304,8 @@ Preventive Care Services-Initial Office Visit, 18 and Up
 46
 "DATA",176.801,655,4,22,0)
 31
+"DATA",176.801,655,5)
+PCSIOV18U23
 "DATA",176.801,656,0)
 Preventive Care- Initial Office Visit, 0 to 17
 "DATA",176.801,656,1)
@@ -7018,6 +8332,8 @@ Preventive Care- Initial Office Visit, 0 to 17
 59
 "DATA",176.801,656,4,10,0)
 88
+"DATA",176.801,656,5)
+PCIOV01722
 "DATA",176.801,657,0)
 Previous Receipt of Influenza Vaccine
 "DATA",176.801,657,1)
@@ -7026,6 +8342,8 @@ Previous Receipt of Influenza Vaccine
 ^176.8012P^1^1
 "DATA",176.801,657,4,1,0)
 59
+"DATA",176.801,657,5)
+PRIV85
 "DATA",176.801,658,0)
 Primary Open Angle Glaucoma (POAG)
 "DATA",176.801,658,1)
@@ -7034,6 +8352,8 @@ Primary Open Angle Glaucoma (POAG)
 ^176.8012P^1^1
 "DATA",176.801,658,4,1,0)
 81
+"DATA",176.801,658,5)
+POAGPOAG26
 "DATA",176.801,659,0)
 Primary THA Procedure
 "DATA",176.801,659,1)
@@ -7042,6 +8362,8 @@ Primary THA Procedure
 ^176.8012P^1^1
 "DATA",176.801,659,4,1,0)
 16
+"DATA",176.801,659,5)
+PTHAP06
 "DATA",176.801,660,0)
 Primary TKA Procedure
 "DATA",176.801,660,1)
@@ -7050,6 +8372,8 @@ Primary TKA Procedure
 ^176.8012P^1^1
 "DATA",176.801,660,4,1,0)
 73
+"DATA",176.801,660,5)
+PTKAP07
 "DATA",176.801,661,0)
 Principal
 "DATA",176.801,661,1)
@@ -7060,6 +8384,8 @@ Principal
 90
 "DATA",176.801,661,4,2,0)
 18
+"DATA",176.801,661,5)
+P14
 "DATA",176.801,662,0)
 Principal Diagnosis
 "DATA",176.801,662,1)
@@ -7094,6 +8420,8 @@ Principal Diagnosis
 83
 "DATA",176.801,662,4,14,0)
 18
+"DATA",176.801,662,5)
+PD14
 "DATA",176.801,663,0)
 Prior Pars Plana Vitrectomy
 "DATA",176.801,663,1)
@@ -7102,6 +8430,8 @@ Prior Pars Plana Vitrectomy
 ^176.8012P^1^1
 "DATA",176.801,663,4,1,0)
 57
+"DATA",176.801,663,5)
+PPPV34
 "DATA",176.801,664,0)
 Prior Penetrating Keratoplasty
 "DATA",176.801,664,1)
@@ -7110,6 +8440,8 @@ Prior Penetrating Keratoplasty
 ^176.8012P^1^1
 "DATA",176.801,664,4,1,0)
 19
+"DATA",176.801,664,5)
+PPK75
 "DATA",176.801,665,0)
 Procedures During Pregnancy
 "DATA",176.801,665,1)
@@ -7118,6 +8450,8 @@ Procedures During Pregnancy
 ^176.8012P^1^1
 "DATA",176.801,665,4,1,0)
 77
+"DATA",176.801,665,5)
+PDP09
 "DATA",176.801,666,0)
 Procedures Involving Contraceptive Devices
 "DATA",176.801,666,1)
@@ -7126,6 +8460,8 @@ Procedures Involving Contraceptive Devices
 ^176.8012P^1^1
 "DATA",176.801,666,4,1,0)
 77
+"DATA",176.801,666,5)
+PICD10
 "DATA",176.801,667,0)
 Profound Impairment, Both Eyes
 "DATA",176.801,667,1)
@@ -7134,6 +8470,8 @@ Profound Impairment, Both Eyes
 ^176.8012P^1^1
 "DATA",176.801,667,4,1,0)
 19
+"DATA",176.801,667,5)
+PIBE76
 "DATA",176.801,668,0)
 Prostate Cancer
 "DATA",176.801,668,1)
@@ -7142,6 +8480,8 @@ Prostate Cancer
 ^176.8012P^1^1
 "DATA",176.801,668,4,1,0)
 9
+"DATA",176.801,668,5)
+PC19
 "DATA",176.801,669,0)
 Prostate Cancer Primary Tumor Size T1c
 "DATA",176.801,669,1)
@@ -7150,6 +8490,8 @@ Prostate Cancer Primary Tumor Size T1c
 ^176.8012P^1^1
 "DATA",176.801,669,4,1,0)
 9
+"DATA",176.801,669,5)
+PCPTST125
 "DATA",176.801,670,0)
 Prostate Cancer Primary Tumor Size T2a
 "DATA",176.801,670,1)
@@ -7158,6 +8500,8 @@ Prostate Cancer Primary Tumor Size T2a
 ^176.8012P^1^1
 "DATA",176.801,670,4,1,0)
 9
+"DATA",176.801,670,5)
+PCPTST226
 "DATA",176.801,671,0)
 Prostate Cancer Treatment
 "DATA",176.801,671,1)
@@ -7166,6 +8510,8 @@ Prostate Cancer Treatment
 ^176.8012P^1^1
 "DATA",176.801,671,4,1,0)
 9
+"DATA",176.801,671,5)
+PCT98
 "DATA",176.801,672,0)
 Prostate Specific Antigen Test
 "DATA",176.801,672,1)
@@ -7174,6 +8520,8 @@ Prostate Specific Antigen Test
 ^176.8012P^1^1
 "DATA",176.801,672,4,1,0)
 9
+"DATA",176.801,672,5)
+PSAT01
 "DATA",176.801,673,0)
 Proteinuria
 "DATA",176.801,673,1)
@@ -7182,6 +8530,8 @@ Proteinuria
 ^176.8012P^1^1
 "DATA",176.801,673,4,1,0)
 34
+"DATA",176.801,673,5)
+P03
 "DATA",176.801,674,0)
 Pseudoexfoliation Syndrome
 "DATA",176.801,674,1)
@@ -7190,6 +8540,8 @@ Pseudoexfoliation Syndrome
 ^176.8012P^1^1
 "DATA",176.801,674,4,1,0)
 57
+"DATA",176.801,674,5)
+PS35
 "DATA",176.801,675,0)
 Psych Visit - Diagnostic or Evaluative Interview
 "DATA",176.801,675,1)
@@ -7206,6 +8558,8 @@ Psych Visit - Diagnostic or Evaluative Interview
 35
 "DATA",176.801,675,4,5,0)
 46
+"DATA",176.801,675,5)
+PVDEI13
 "DATA",176.801,676,0)
 Psych Visit - Family Psychotherapy
 "DATA",176.801,676,1)
@@ -7214,6 +8568,8 @@ Psych Visit - Family Psychotherapy
 ^176.8012P^1^1
 "DATA",176.801,676,4,1,0)
 44
+"DATA",176.801,676,5)
+PVFP18
 "DATA",176.801,677,0)
 Psych Visit - Individual Inpatient Interactive Psychotherapy
 "DATA",176.801,677,1)
@@ -7222,6 +8578,8 @@ Psych Visit - Individual Inpatient Interactive Psychotherapy
 ^176.8012P^1^1
 "DATA",176.801,677,4,1,0)
 35
+"DATA",176.801,677,5)
+PVIIIP17
 "DATA",176.801,678,0)
 Psych Visit - Individual Inpatient Psychotherapy
 "DATA",176.801,678,1)
@@ -7230,6 +8588,8 @@ Psych Visit - Individual Inpatient Psychotherapy
 ^176.8012P^1^1
 "DATA",176.801,678,4,1,0)
 35
+"DATA",176.801,678,5)
+PVIIP16
 "DATA",176.801,679,0)
 Psych Visit - Individual Outpatient Interactive Psychotherapy
 "DATA",176.801,679,1)
@@ -7248,6 +8608,8 @@ Psych Visit - Individual Outpatient Interactive Psychotherapy
 84
 "DATA",176.801,679,4,6,0)
 35
+"DATA",176.801,679,5)
+PVIOIP15
 "DATA",176.801,680,0)
 Psych Visit - Individual Outpatient Psychotherapy
 "DATA",176.801,680,1)
@@ -7270,6 +8632,8 @@ Psych Visit - Individual Outpatient Psychotherapy
 46
 "DATA",176.801,680,4,8,0)
 84
+"DATA",176.801,680,5)
+PVIOP14
 "DATA",176.801,681,0)
 Psych Visit - Medication Management
 "DATA",176.801,681,1)
@@ -7286,6 +8650,8 @@ Psych Visit - Medication Management
 44
 "DATA",176.801,681,4,5,0)
 30
+"DATA",176.801,681,5)
+PVMM19
 "DATA",176.801,682,0)
 Psychiatric/Mental Health Patient
 "DATA",176.801,682,1)
@@ -7296,6 +8662,8 @@ Psychiatric/Mental Health Patient
 56
 "DATA",176.801,682,4,2,0)
 51
+"DATA",176.801,682,5)
+PMHP99
 "DATA",176.801,683,0)
 Psychoanalysis
 "DATA",176.801,683,1)
@@ -7308,6 +8676,8 @@ Psychoanalysis
 44
 "DATA",176.801,683,4,3,0)
 30
+"DATA",176.801,683,5)
+P41
 "DATA",176.801,684,0)
 Psychotherapy and Pharmacologic Management
 "DATA",176.801,684,1)
@@ -7316,6 +8686,8 @@ Psychotherapy and Pharmacologic Management
 ^176.8012P^1^1
 "DATA",176.801,684,4,1,0)
 33
+"DATA",176.801,684,5)
+PPM55
 "DATA",176.801,685,0)
 Pulse Exam of Foot
 "DATA",176.801,685,1)
@@ -7324,6 +8696,8 @@ Pulse Exam of Foot
 ^176.8012P^1^1
 "DATA",176.801,685,4,1,0)
 75
+"DATA",176.801,685,5)
+PEF15
 "DATA",176.801,686,0)
 Purulent Endophthalmitis
 "DATA",176.801,686,1)
@@ -7332,6 +8706,8 @@ Purulent Endophthalmitis
 ^176.8012P^1^1
 "DATA",176.801,686,4,1,0)
 19
+"DATA",176.801,686,5)
+PE77
 "DATA",176.801,687,0)
 Race
 "DATA",176.801,687,1)
@@ -7524,6 +8900,8 @@ Race
 73
 "DATA",176.801,687,4,93,0)
 43
+"DATA",176.801,687,5)
+R36
 "DATA",176.801,688,0)
 Radiation Therapy II
 "DATA",176.801,688,1)
@@ -7532,6 +8910,8 @@ Radiation Therapy II
 ^176.8012P^1^1
 "DATA",176.801,688,4,1,0)
 65
+"DATA",176.801,688,5)
+RTII39
 "DATA",176.801,689,0)
 Radiation Treatment Management
 "DATA",176.801,689,1)
@@ -7540,6 +8920,8 @@ Radiation Treatment Management
 ^176.8012P^1^1
 "DATA",176.801,689,4,1,0)
 55
+"DATA",176.801,689,5)
+RTM26
 "DATA",176.801,690,0)
 Reason Documented
 "DATA",176.801,690,1)
@@ -7548,6 +8930,8 @@ Reason Documented
 ^176.8012P^1^1
 "DATA",176.801,690,4,1,0)
 9
+"DATA",176.801,690,5)
+RD94
 "DATA",176.801,691,0)
 Recommendation not to change diet
 "DATA",176.801,691,1)
@@ -7556,6 +8940,8 @@ Recommendation not to change diet
 ^176.8012P^1^1
 "DATA",176.801,691,4,1,0)
 38
+"DATA",176.801,691,5)
+R13
 "DATA",176.801,692,0)
 Referral
 "DATA",176.801,692,1)
@@ -7564,6 +8950,8 @@ Referral
 ^176.8012P^1^1
 "DATA",176.801,692,4,1,0)
 88
+"DATA",176.801,692,5)
+R46
 "DATA",176.801,693,0)
 Referral for Depression Adolescent
 "DATA",176.801,693,1)
@@ -7572,6 +8960,8 @@ Referral for Depression Adolescent
 ^176.8012P^1^1
 "DATA",176.801,693,4,1,0)
 53
+"DATA",176.801,693,5)
+RDA37
 "DATA",176.801,694,0)
 Referral for Depression Adult
 "DATA",176.801,694,1)
@@ -7580,6 +8970,8 @@ Referral for Depression Adult
 ^176.8012P^1^1
 "DATA",176.801,694,4,1,0)
 53
+"DATA",176.801,694,5)
+RDA38
 "DATA",176.801,695,0)
 Referral to Alternative Provider / Primary Care Provider
 "DATA",176.801,695,1)
@@ -7588,6 +8980,8 @@ Referral to Alternative Provider / Primary Care Provider
 ^176.8012P^1^1
 "DATA",176.801,695,4,1,0)
 58
+"DATA",176.801,695,5)
+RAPPCP75
 "DATA",176.801,696,0)
 Rehabilitation Services
 "DATA",176.801,696,1)
@@ -7596,6 +8990,8 @@ Rehabilitation Services
 ^176.8012P^1^1
 "DATA",176.801,696,4,1,0)
 37
+"DATA",176.801,696,5)
+RS21
 "DATA",176.801,697,0)
 Removal Procedures
 "DATA",176.801,697,1)
@@ -7604,6 +9000,8 @@ Removal Procedures
 ^176.8012P^1^1
 "DATA",176.801,697,4,1,0)
 57
+"DATA",176.801,697,5)
+RP36
 "DATA",176.801,698,0)
 Renal Failure Due to ACE Inhibitor
 "DATA",176.801,698,1)
@@ -7612,6 +9010,8 @@ Renal Failure Due to ACE Inhibitor
 ^176.8012P^1^1
 "DATA",176.801,698,4,1,0)
 24
+"DATA",176.801,698,5)
+RFDACEI51
 "DATA",176.801,699,0)
 Renal Transplant
 "DATA",176.801,699,1)
@@ -7620,6 +9020,8 @@ Renal Transplant
 ^176.8012P^1^1
 "DATA",176.801,699,4,1,0)
 12
+"DATA",176.801,699,5)
+RT02
 "DATA",176.801,700,0)
 Rescreen BP Within 1 Year
 "DATA",176.801,700,1)
@@ -7628,6 +9030,8 @@ Rescreen BP Within 1 Year
 ^176.8012P^1^1
 "DATA",176.801,700,4,1,0)
 58
+"DATA",176.801,700,5)
+RBPW1Y74
 "DATA",176.801,701,0)
 Rescreen BP within 4 weeks
 "DATA",176.801,701,1)
@@ -7636,6 +9040,8 @@ Rescreen BP within 4 weeks
 ^176.8012P^1^1
 "DATA",176.801,701,4,1,0)
 58
+"DATA",176.801,701,5)
+RBP437
 "DATA",176.801,702,0)
 Residence
 "DATA",176.801,702,1)
@@ -7646,6 +9052,8 @@ Residence
 61
 "DATA",176.801,702,4,2,0)
 42
+"DATA",176.801,702,5)
+R25
 "DATA",176.801,703,0)
 Respiratory Problems Group
 "DATA",176.801,703,1)
@@ -7654,6 +9062,8 @@ Respiratory Problems Group
 ^176.8012P^1^1
 "DATA",176.801,703,4,1,0)
 93
+"DATA",176.801,703,5)
+RPG88
 "DATA",176.801,704,0)
 Respiratory Procedures Group
 "DATA",176.801,704,1)
@@ -7662,6 +9072,8 @@ Respiratory Procedures Group
 ^176.8012P^1^1
 "DATA",176.801,704,4,1,0)
 93
+"DATA",176.801,704,5)
+RPG89
 "DATA",176.801,705,0)
 Retinal Detachment with Retinal Defect
 "DATA",176.801,705,1)
@@ -7670,6 +9082,8 @@ Retinal Detachment with Retinal Defect
 ^176.8012P^1^1
 "DATA",176.801,705,4,1,0)
 19
+"DATA",176.801,705,5)
+RDRD78
 "DATA",176.801,706,0)
 Retinal Repair Procedures
 "DATA",176.801,706,1)
@@ -7678,6 +9092,8 @@ Retinal Repair Procedures
 ^176.8012P^1^1
 "DATA",176.801,706,4,1,0)
 57
+"DATA",176.801,706,5)
+RRP37
 "DATA",176.801,707,0)
 Retinal Vascular Occlusion
 "DATA",176.801,707,1)
@@ -7686,6 +9102,8 @@ Retinal Vascular Occlusion
 ^176.8012P^1^1
 "DATA",176.801,707,4,1,0)
 19
+"DATA",176.801,707,5)
+RVO79
 "DATA",176.801,708,0)
 Retinal or Dilated Eye Exam
 "DATA",176.801,708,1)
@@ -7694,6 +9112,8 @@ Retinal or Dilated Eye Exam
 ^176.8012P^1^1
 "DATA",176.801,708,4,1,0)
 80
+"DATA",176.801,708,5)
+RDEE88
 "DATA",176.801,709,0)
 Retrolental Fibroplasias
 "DATA",176.801,709,1)
@@ -7702,6 +9122,8 @@ Retrolental Fibroplasias
 ^176.8012P^1^1
 "DATA",176.801,709,4,1,0)
 57
+"DATA",176.801,709,5)
+RF38
 "DATA",176.801,710,0)
 Revision Procedures
 "DATA",176.801,710,1)
@@ -7710,6 +9132,8 @@ Revision Procedures
 ^176.8012P^1^1
 "DATA",176.801,710,4,1,0)
 57
+"DATA",176.801,710,5)
+RP39
 "DATA",176.801,711,0)
 Risk Factors Education
 "DATA",176.801,711,1)
@@ -7718,6 +9142,8 @@ Risk Factors Education
 ^176.8012P^1^1
 "DATA",176.801,711,4,1,0)
 14
+"DATA",176.801,711,5)
+RFE80
 "DATA",176.801,712,0)
 Rotavirus Vaccine (2 dose schedule)
 "DATA",176.801,712,1)
@@ -7726,6 +9152,8 @@ Rotavirus Vaccine (2 dose schedule)
 ^176.8012P^1^1
 "DATA",176.801,712,4,1,0)
 66
+"DATA",176.801,712,5)
+RV222
 "DATA",176.801,713,0)
 Rotavirus Vaccine (2 dose schedule) Administered
 "DATA",176.801,713,1)
@@ -7734,6 +9162,8 @@ Rotavirus Vaccine (2 dose schedule) Administered
 ^176.8012P^1^1
 "DATA",176.801,713,4,1,0)
 66
+"DATA",176.801,713,5)
+RV2A48
 "DATA",176.801,714,0)
 Rotavirus Vaccine (3 dose schedule)
 "DATA",176.801,714,1)
@@ -7742,6 +9172,8 @@ Rotavirus Vaccine (3 dose schedule)
 ^176.8012P^1^1
 "DATA",176.801,714,4,1,0)
 66
+"DATA",176.801,714,5)
+RV323
 "DATA",176.801,715,0)
 Rotavirus Vaccine (3 dose schedule) Administered
 "DATA",176.801,715,1)
@@ -7750,6 +9182,8 @@ Rotavirus Vaccine (3 dose schedule) Administered
 ^176.8012P^1^1
 "DATA",176.801,715,4,1,0)
 66
+"DATA",176.801,715,5)
+RV3A47
 "DATA",176.801,716,0)
 Rubella
 "DATA",176.801,716,1)
@@ -7758,6 +9192,8 @@ Rubella
 ^176.8012P^1^1
 "DATA",176.801,716,4,1,0)
 66
+"DATA",176.801,716,5)
+R37
 "DATA",176.801,717,0)
 Rubella Antigen Test
 "DATA",176.801,717,1)
@@ -7766,6 +9202,8 @@ Rubella Antigen Test
 ^176.8012P^1^1
 "DATA",176.801,717,4,1,0)
 66
+"DATA",176.801,717,5)
+RAT30
 "DATA",176.801,718,0)
 SCIP Major Surgical Procedure
 "DATA",176.801,718,1)
@@ -7774,6 +9212,8 @@ SCIP Major Surgical Procedure
 ^176.8012P^1^1
 "DATA",176.801,718,4,1,0)
 79
+"DATA",176.801,718,5)
+SCIPMSP12
 "DATA",176.801,719,0)
 Salvage Therapy
 "DATA",176.801,719,1)
@@ -7782,6 +9222,8 @@ Salvage Therapy
 ^176.8012P^1^1
 "DATA",176.801,719,4,1,0)
 9
+"DATA",176.801,719,5)
+ST99
 "DATA",176.801,720,0)
 Scleral Procedures
 "DATA",176.801,720,1)
@@ -7790,6 +9232,8 @@ Scleral Procedures
 ^176.8012P^1^1
 "DATA",176.801,720,4,1,0)
 57
+"DATA",176.801,720,5)
+SP40
 "DATA",176.801,721,0)
 Scleritis and Episcleritis
 "DATA",176.801,721,1)
@@ -7798,6 +9242,8 @@ Scleritis and Episcleritis
 ^176.8012P^1^1
 "DATA",176.801,721,4,1,0)
 19
+"DATA",176.801,721,5)
+SE81
 "DATA",176.801,722,0)
 Senile Cataract
 "DATA",176.801,722,1)
@@ -7806,6 +9252,8 @@ Senile Cataract
 ^176.8012P^1^1
 "DATA",176.801,722,4,1,0)
 57
+"DATA",176.801,722,5)
+SC41
 "DATA",176.801,723,0)
 Sensory Exam of Foot
 "DATA",176.801,723,1)
@@ -7814,6 +9262,8 @@ Sensory Exam of Foot
 ^176.8012P^1^1
 "DATA",176.801,723,4,1,0)
 75
+"DATA",176.801,723,5)
+SEF14
 "DATA",176.801,724,0)
 Separation of Retinal Layers
 "DATA",176.801,724,1)
@@ -7822,6 +9272,8 @@ Separation of Retinal Layers
 ^176.8012P^1^1
 "DATA",176.801,724,4,1,0)
 19
+"DATA",176.801,724,5)
+SRL82
 "DATA",176.801,725,0)
 Seropositive
 "DATA",176.801,725,1)
@@ -7830,6 +9282,8 @@ Seropositive
 ^176.8012P^1^1
 "DATA",176.801,725,4,1,0)
 66
+"DATA",176.801,725,5)
+S54
 "DATA",176.801,726,0)
 Severe Dementia
 "DATA",176.801,726,1)
@@ -7844,6 +9298,8 @@ Severe Dementia
 70
 "DATA",176.801,726,4,4,0)
 35
+"DATA",176.801,726,5)
+SD25
 "DATA",176.801,727,0)
 Shock and Complications Group
 "DATA",176.801,727,1)
@@ -7852,6 +9308,8 @@ Shock and Complications Group
 ^176.8012P^1^1
 "DATA",176.801,727,4,1,0)
 93
+"DATA",176.801,727,5)
+SCG81
 "DATA",176.801,728,0)
 Single Live Birth
 "DATA",176.801,728,1)
@@ -7862,6 +9320,8 @@ Single Live Birth
 36
 "DATA",176.801,728,4,2,0)
 93
+"DATA",176.801,728,5)
+SLB25
 "DATA",176.801,729,0)
 Single Liveborn Newborn Born in Hospital
 "DATA",176.801,729,1)
@@ -7872,6 +9332,8 @@ Single Liveborn Newborn Born in Hospital
 36
 "DATA",176.801,729,4,2,0)
 93
+"DATA",176.801,729,5)
+SLNBH26
 "DATA",176.801,730,0)
 Smoking
 "DATA",176.801,730,1)
@@ -7882,6 +9344,8 @@ Smoking
 5
 "DATA",176.801,730,4,2,0)
 1
+"DATA",176.801,730,5)
+S59
 "DATA",176.801,731,0)
 Social Reasons Group
 "DATA",176.801,731,1)
@@ -7890,6 +9354,8 @@ Social Reasons Group
 ^176.8012P^1^1
 "DATA",176.801,731,4,1,0)
 93
+"DATA",176.801,731,5)
+SRG95
 "DATA",176.801,732,0)
 Spontaneous Rupture of Membranes
 "DATA",176.801,732,1)
@@ -7898,6 +9364,8 @@ Spontaneous Rupture of Membranes
 ^176.8012P^1^1
 "DATA",176.801,732,4,1,0)
 91
+"DATA",176.801,732,5)
+SRM00
 "DATA",176.801,733,0)
 Standardized Pain Assessment Tool
 "DATA",176.801,733,1)
@@ -7906,6 +9374,8 @@ Standardized Pain Assessment Tool
 ^176.8012P^1^1
 "DATA",176.801,733,4,1,0)
 55
+"DATA",176.801,733,5)
+SPAT28
 "DATA",176.801,734,0)
 Standardized Tools for Assessment of Cognition
 "DATA",176.801,734,1)
@@ -7914,6 +9384,8 @@ Standardized Tools for Assessment of Cognition
 ^176.8012P^1^1
 "DATA",176.801,734,4,1,0)
 35
+"DATA",176.801,734,5)
+STAC06
 "DATA",176.801,735,0)
 Statin
 "DATA",176.801,735,1)
@@ -7922,6 +9394,8 @@ Statin
 ^176.8012P^1^1
 "DATA",176.801,735,4,1,0)
 13
+"DATA",176.801,735,5)
+S25
 "DATA",176.801,736,0)
 Statins
 "DATA",176.801,736,1)
@@ -7930,6 +9404,8 @@ Statins
 ^176.8012P^1^1
 "DATA",176.801,736,4,1,0)
 86
+"DATA",176.801,736,5)
+S24
 "DATA",176.801,737,0)
 Subcutaneous route
 "DATA",176.801,737,1)
@@ -7942,6 +9418,8 @@ Subcutaneous route
 90
 "DATA",176.801,737,4,3,0)
 18
+"DATA",176.801,737,5)
+S23
 "DATA",176.801,738,0)
 Substance Abuse
 "DATA",176.801,738,1)
@@ -7950,6 +9428,8 @@ Substance Abuse
 ^176.8012P^1^1
 "DATA",176.801,738,4,1,0)
 33
+"DATA",176.801,738,5)
+SA04
 "DATA",176.801,739,0)
 Suicide Risk Assessment
 "DATA",176.801,739,1)
@@ -7960,6 +9440,8 @@ Suicide Risk Assessment
 44
 "DATA",176.801,739,4,2,0)
 30
+"DATA",176.801,739,5)
+SRA84
 "DATA",176.801,740,0)
 Syphilis
 "DATA",176.801,740,1)
@@ -7968,6 +9450,8 @@ Syphilis
 ^176.8012P^1^1
 "DATA",176.801,740,4,1,0)
 77
+"DATA",176.801,740,5)
+S02
 "DATA",176.801,741,0)
 System Reason
 "DATA",176.801,741,1)
@@ -7986,6 +9470,8 @@ System Reason
 41
 "DATA",176.801,741,4,6,0)
 24
+"DATA",176.801,741,5)
+SR09
 "DATA",176.801,742,0)
 System Reasons AMI
 "DATA",176.801,742,1)
@@ -7994,6 +9480,8 @@ System Reasons AMI
 ^176.8012P^1^1
 "DATA",176.801,742,4,1,0)
 86
+"DATA",176.801,742,5)
+SRAMI05
 "DATA",176.801,743,0)
 Systolic Blood Pressure
 "DATA",176.801,743,1)
@@ -8006,6 +9494,8 @@ Systolic Blood Pressure
 12
 "DATA",176.801,743,4,3,0)
 64
+"DATA",176.801,743,5)
+SBP32
 "DATA",176.801,744,0)
 TPN Procedure Group
 "DATA",176.801,744,1)
@@ -8014,6 +9504,8 @@ TPN Procedure Group
 ^176.8012P^1^1
 "DATA",176.801,744,4,1,0)
 93
+"DATA",176.801,744,5)
+TPNPG83
 "DATA",176.801,745,0)
 Tamoxifen or Aromatase Inhibitor Therapy
 "DATA",176.801,745,1)
@@ -8022,6 +9514,8 @@ Tamoxifen or Aromatase Inhibitor Therapy
 ^176.8012P^1^1
 "DATA",176.801,745,4,1,0)
 65
+"DATA",176.801,745,5)
+TAIT15
 "DATA",176.801,746,0)
 Telehealth Services
 "DATA",176.801,746,1)
@@ -8030,6 +9524,8 @@ Telehealth Services
 ^176.8012P^1^1
 "DATA",176.801,746,4,1,0)
 33
+"DATA",176.801,746,5)
+TS31
 "DATA",176.801,747,0)
 Telephone Management
 "DATA",176.801,747,1)
@@ -8038,6 +9534,8 @@ Telephone Management
 ^176.8012P^1^1
 "DATA",176.801,747,4,1,0)
 33
+"DATA",176.801,747,5)
+TM53
 "DATA",176.801,748,0)
 Thrombolytic (t-PA) Therapy
 "DATA",176.801,748,1)
@@ -8048,6 +9546,8 @@ Thrombolytic (t-PA) Therapy
 15
 "DATA",176.801,748,4,2,0)
 49
+"DATA",176.801,748,5)
+TPAT26
 "DATA",176.801,749,0)
 Tobacco Non-User
 "DATA",176.801,749,1)
@@ -8056,6 +9556,8 @@ Tobacco Non-User
 ^176.8012P^1^1
 "DATA",176.801,749,4,1,0)
 84
+"DATA",176.801,749,5)
+TNU89
 "DATA",176.801,750,0)
 Tobacco Use Cessation Counseling
 "DATA",176.801,750,1)
@@ -8064,6 +9566,8 @@ Tobacco Use Cessation Counseling
 ^176.8012P^1^1
 "DATA",176.801,750,4,1,0)
 84
+"DATA",176.801,750,5)
+TUCC09
 "DATA",176.801,751,0)
 Tobacco Use Cessation Pharmacotherapy
 "DATA",176.801,751,1)
@@ -8072,6 +9576,8 @@ Tobacco Use Cessation Pharmacotherapy
 ^176.8012P^1^1
 "DATA",176.801,751,4,1,0)
 84
+"DATA",176.801,751,5)
+TUCP90
 "DATA",176.801,752,0)
 Tobacco Use Screening
 "DATA",176.801,752,1)
@@ -8080,6 +9586,8 @@ Tobacco Use Screening
 ^176.8012P^1^1
 "DATA",176.801,752,4,1,0)
 84
+"DATA",176.801,752,5)
+TUS78
 "DATA",176.801,753,0)
 Tobacco User
 "DATA",176.801,753,1)
@@ -8088,6 +9596,8 @@ Tobacco User
 ^176.8012P^1^1
 "DATA",176.801,753,4,1,0)
 84
+"DATA",176.801,753,5)
+TU70
 "DATA",176.801,754,0)
 Total Cholesterol
 "DATA",176.801,754,1)
@@ -8098,6 +9608,8 @@ Total Cholesterol
 1
 "DATA",176.801,754,4,2,0)
 5
+"DATA",176.801,754,5)
+TC79
 "DATA",176.801,755,0)
 Total Cholesterol Laboratory Test
 "DATA",176.801,755,1)
@@ -8106,6 +9618,8 @@ Total Cholesterol Laboratory Test
 ^176.8012P^1^1
 "DATA",176.801,755,4,1,0)
 25
+"DATA",176.801,755,5)
+TCLT13
 "DATA",176.801,756,0)
 Total Colectomy
 "DATA",176.801,756,1)
@@ -8114,6 +9628,8 @@ Total Colectomy
 ^176.8012P^1^1
 "DATA",176.801,756,4,1,0)
 63
+"DATA",176.801,756,5)
+TC19
 "DATA",176.801,757,0)
 Trauma
 "DATA",176.801,757,1)
@@ -8122,6 +9638,8 @@ Trauma
 ^176.8012P^1^1
 "DATA",176.801,757,4,1,0)
 67
+"DATA",176.801,757,5)
+T36
 "DATA",176.801,758,0)
 Traumatic Cataract
 "DATA",176.801,758,1)
@@ -8130,6 +9648,8 @@ Traumatic Cataract
 ^176.8012P^1^1
 "DATA",176.801,758,4,1,0)
 57
+"DATA",176.801,758,5)
+TC43
 "DATA",176.801,759,0)
 Treatment Adjusted by Protocol
 "DATA",176.801,759,1)
@@ -8138,6 +9658,8 @@ Treatment Adjusted by Protocol
 ^176.8012P^1^1
 "DATA",176.801,759,4,1,0)
 72
+"DATA",176.801,759,5)
+TAP78
 "DATA",176.801,760,0)
 Triglycerides
 "DATA",176.801,760,1)
@@ -8148,6 +9670,8 @@ Triglycerides
 5
 "DATA",176.801,760,4,2,0)
 1
+"DATA",176.801,760,5)
+T83
 "DATA",176.801,761,0)
 Triglycerides Laboratory Test
 "DATA",176.801,761,1)
@@ -8156,6 +9680,8 @@ Triglycerides Laboratory Test
 ^176.8012P^1^1
 "DATA",176.801,761,4,1,0)
 25
+"DATA",176.801,761,5)
+TLT14
 "DATA",176.801,762,0)
 Unfractionated Heparin
 "DATA",176.801,762,1)
@@ -8170,6 +9696,8 @@ Unfractionated Heparin
 72
 "DATA",176.801,762,4,4,0)
 90
+"DATA",176.801,762,5)
+UH18
 "DATA",176.801,763,0)
 Unilateral Mastectomy
 "DATA",176.801,763,1)
@@ -8178,6 +9706,8 @@ Unilateral Mastectomy
 ^176.8012P^1^1
 "DATA",176.801,763,4,1,0)
 10
+"DATA",176.801,763,5)
+UM20
 "DATA",176.801,764,0)
 Upper Respiratory Infection
 "DATA",176.801,764,1)
@@ -8186,6 +9716,8 @@ Upper Respiratory Infection
 ^176.8012P^1^1
 "DATA",176.801,764,4,1,0)
 85
+"DATA",176.801,764,5)
+URI22
 "DATA",176.801,765,0)
 Urological Surgery
 "DATA",176.801,765,1)
@@ -8196,6 +9728,8 @@ Urological Surgery
 90
 "DATA",176.801,765,4,2,0)
 18
+"DATA",176.801,765,5)
+US72
 "DATA",176.801,766,0)
 Use of Systemic Sympathetic alpha-1a Antagonist Medication for Treatment of Prostatic Hypertrophy
 "DATA",176.801,766,1)
@@ -8204,6 +9738,8 @@ Use of Systemic Sympathetic alpha-1a Antagonist Medication for Treatment of Pros
 ^176.8012P^1^1
 "DATA",176.801,766,4,1,0)
 57
+"DATA",176.801,766,5)
+USS1AMTPH42
 "DATA",176.801,767,0)
 Uveitis
 "DATA",176.801,767,1)
@@ -8214,6 +9750,8 @@ Uveitis
 19
 "DATA",176.801,767,4,2,0)
 57
+"DATA",176.801,767,5)
+U44
 "DATA",176.801,768,0)
 VTE Confirmed
 "DATA",176.801,768,1)
@@ -8228,6 +9766,8 @@ VTE Confirmed
 17
 "DATA",176.801,768,4,4,0)
 32
+"DATA",176.801,768,5)
+VTEC07
 "DATA",176.801,769,0)
 VTE Diagnostic Test
 "DATA",176.801,769,1)
@@ -8242,6 +9782,8 @@ VTE Diagnostic Test
 38
 "DATA",176.801,769,4,4,0)
 32
+"DATA",176.801,769,5)
+VTEDT76
 "DATA",176.801,770,0)
 VTE Risk Assessment
 "DATA",176.801,770,1)
@@ -8252,6 +9794,8 @@ VTE Risk Assessment
 90
 "DATA",176.801,770,4,2,0)
 18
+"DATA",176.801,770,5)
+VTERA57
 "DATA",176.801,771,0)
 VTE Suspected
 "DATA",176.801,771,1)
@@ -8260,6 +9804,8 @@ VTE Suspected
 ^176.8012P^1^1
 "DATA",176.801,771,4,1,0)
 17
+"DATA",176.801,771,5)
+VTES77
 "DATA",176.801,772,0)
 Valvular Heart Disease
 "DATA",176.801,772,1)
@@ -8268,6 +9814,8 @@ Valvular Heart Disease
 ^176.8012P^1^1
 "DATA",176.801,772,4,1,0)
 62
+"DATA",176.801,772,5)
+VHD17
 "DATA",176.801,773,0)
 Varicella Zoster
 "DATA",176.801,773,1)
@@ -8276,6 +9824,8 @@ Varicella Zoster
 ^176.8012P^1^1
 "DATA",176.801,773,4,1,0)
 66
+"DATA",176.801,773,5)
+VZ39
 "DATA",176.801,774,0)
 Varicella Zoster Antigen Test
 "DATA",176.801,774,1)
@@ -8284,6 +9834,8 @@ Varicella Zoster Antigen Test
 ^176.8012P^1^1
 "DATA",176.801,774,4,1,0)
 66
+"DATA",176.801,774,5)
+VZAT32
 "DATA",176.801,775,0)
 Varicella Zoster Vaccine (VZV)
 "DATA",176.801,775,1)
@@ -8292,6 +9844,8 @@ Varicella Zoster Vaccine (VZV)
 ^176.8012P^1^1
 "DATA",176.801,775,4,1,0)
 66
+"DATA",176.801,775,5)
+VZVVZV70
 "DATA",176.801,776,0)
 Varicella Zoster Vaccine (VZV) Administered
 "DATA",176.801,776,1)
@@ -8300,6 +9854,8 @@ Varicella Zoster Vaccine (VZV) Administered
 ^176.8012P^1^1
 "DATA",176.801,776,4,1,0)
 66
+"DATA",176.801,776,5)
+VZVVZVA40
 "DATA",176.801,777,0)
 Vascular Access for Dialysis
 "DATA",176.801,777,1)
@@ -8310,6 +9866,8 @@ Vascular Access for Dialysis
 64
 "DATA",176.801,777,4,2,0)
 34
+"DATA",176.801,777,5)
+VAD11
 "DATA",176.801,778,0)
 Vascular Disorders of Iris and Ciliary Body
 "DATA",176.801,778,1)
@@ -8318,6 +9876,8 @@ Vascular Disorders of Iris and Ciliary Body
 ^176.8012P^1^1
 "DATA",176.801,778,4,1,0)
 57
+"DATA",176.801,778,5)
+VDICB45
 "DATA",176.801,779,0)
 Venous Thromboembolism
 "DATA",176.801,779,1)
@@ -8336,6 +9896,8 @@ Venous Thromboembolism
 17
 "DATA",176.801,779,4,6,0)
 38
+"DATA",176.801,779,5)
+VT79
 "DATA",176.801,780,0)
 Venous foot pumps (VFP)
 "DATA",176.801,780,1)
@@ -8348,6 +9910,8 @@ Venous foot pumps (VFP)
 17
 "DATA",176.801,780,4,3,0)
 90
+"DATA",176.801,780,5)
+VVFP30
 "DATA",176.801,781,0)
 Visual Exam of Foot
 "DATA",176.801,781,1)
@@ -8356,6 +9920,8 @@ Visual Exam of Foot
 ^176.8012P^1^1
 "DATA",176.801,781,4,1,0)
 75
+"DATA",176.801,781,5)
+VEF13
 "DATA",176.801,782,0)
 Visual Field Defects
 "DATA",176.801,782,1)
@@ -8364,6 +9930,8 @@ Visual Field Defects
 ^176.8012P^1^1
 "DATA",176.801,782,4,1,0)
 19
+"DATA",176.801,782,5)
+VFD46
 "DATA",176.801,783,0)
 Visual acuity 20/40 or Better
 "DATA",176.801,783,1)
@@ -8372,6 +9940,8 @@ Visual acuity 20/40 or Better
 ^176.8012P^1^1
 "DATA",176.801,783,4,1,0)
 19
+"DATA",176.801,783,5)
+V2040B83
 "DATA",176.801,784,0)
 Vitamin K Dietary Management
 "DATA",176.801,784,1)
@@ -8380,6 +9950,8 @@ Vitamin K Dietary Management
 ^176.8012P^1^1
 "DATA",176.801,784,4,1,0)
 38
+"DATA",176.801,784,5)
+VKDM02
 "DATA",176.801,785,0)
 Vitreous Procedures
 "DATA",176.801,785,1)
@@ -8388,6 +9960,8 @@ Vitreous Procedures
 ^176.8012P^1^1
 "DATA",176.801,785,4,1,0)
 57
+"DATA",176.801,785,5)
+VP47
 "DATA",176.801,786,0)
 Warfarin
 "DATA",176.801,786,1)
@@ -8406,6 +9980,8 @@ Warfarin
 90
 "DATA",176.801,786,4,6,0)
 38
+"DATA",176.801,786,5)
+W32
 "DATA",176.801,787,0)
 Warning Signs and Symptoms Education
 "DATA",176.801,787,1)
@@ -8414,6 +9990,8 @@ Warning Signs and Symptoms Education
 ^176.8012P^1^1
 "DATA",176.801,787,4,1,0)
 14
+"DATA",176.801,787,5)
+WSSE81
 "DATA",176.801,788,0)
 Weight
 "DATA",176.801,788,1)
@@ -8422,6 +10000,8 @@ Weight
 ^176.8012P^1^1
 "DATA",176.801,788,4,1,0)
 6
+"DATA",176.801,788,5)
+W15
 "DATA",176.801,789,0)
 Weight Reduction Recommended
 "DATA",176.801,789,1)
@@ -8430,6 +10010,8 @@ Weight Reduction Recommended
 ^176.8012P^1^1
 "DATA",176.801,789,4,1,0)
 58
+"DATA",176.801,789,5)
+WRR10
 "DATA",176.801,790,0)
 Written Information Given
 "DATA",176.801,790,1)
@@ -8440,6 +10022,8 @@ Written Information Given
 38
 "DATA",176.801,790,4,2,0)
 14
+"DATA",176.801,790,5)
+WIG15
 "DATA",176.801,791,0)
 X-Ray Study (all inclusive)
 "DATA",176.801,791,1)
@@ -8448,6 +10032,8 @@ X-Ray Study (all inclusive)
 ^176.8012P^1^1
 "DATA",176.801,791,4,1,0)
 77
+"DATA",176.801,791,5)
+XRS34
 "DATA",176.801,792,0)
 X-Ray of Lower Spine
 "DATA",176.801,792,1)
@@ -8456,6 +10042,8 @@ X-Ray of Lower Spine
 ^176.8012P^1^1
 "DATA",176.801,792,4,1,0)
 67
+"DATA",176.801,792,5)
+XRLS33
 "DATA",176.801,793,0)
 birth date
 "DATA",176.801,793,1)
@@ -8626,6 +10214,8 @@ birth date
 70
 "DATA",176.801,793,4,82,0)
 14
+"DATA",176.801,793,5)
+04
 "DATA",176.801,794,0)
 moderate or severe
 "DATA",176.801,794,1)
@@ -8638,6 +10228,8 @@ moderate or severe
 41
 "DATA",176.801,794,4,3,0)
 24
+"DATA",176.801,794,5)
+92
 "DATA",176.801,795,0)
 principal
 "DATA",176.801,795,1)
@@ -8650,6 +10242,158 @@ principal
 61
 "DATA",176.801,795,4,3,0)
 33
+"DATA",176.801,795,5)
+24
+"DATA",176.801,796,0)
+Asthma
+"DATA",176.801,796,1)
+2.16.840.1.113883.3.117.1.7.1.271
+"DATA",176.801,796,5)
+A71
+"DATA",176.801,797,0)
+Clinical Trial Participant
+"DATA",176.801,797,1)
+2.16.840.1.113883.3.526.3.1125
+"DATA",176.801,797,5)
+CTP25
+"DATA",176.801,798,0)
+Emergency Department Visit
+"DATA",176.801,798,1)
+2.16.840.1.113883.3.117.1.7.1.293
+"DATA",176.801,798,5)
+EDV93
+"DATA",176.801,799,0)
+Emergency Department Visit
+"DATA",176.801,799,1)
+2.16.840.1.113883.3.117.1.7.1.292
+"DATA",176.801,799,5)
+EDV92
+"DATA",176.801,800,0)
+Encounter Inpatient
+"DATA",176.801,800,1)
+2.16.840.1.113883.3.666.5.307
+"DATA",176.801,800,5)
+EI07
+"DATA",176.801,801,0)
+Hepatitis B
+"DATA",176.801,801,1)
+2.16.840.1.113883.3.464.1003.110.12.1025
+"DATA",176.801,801,5)
+HB25
+"DATA",176.801,802,0)
+Hospital Measures - Principal
+"DATA",176.801,802,1)
+2.16.840.1.113883.3.666.5.3010
+"DATA",176.801,802,5)
+HMP10
+"DATA",176.801,803,0)
+Hospital Measures-Acute care hospital
+"DATA",176.801,803,1)
+2.16.840.1.113883.3.666.5.3013
+"DATA",176.801,803,5)
+HMA13
+"DATA",176.801,804,0)
+Influenza Vaccine
+"DATA",176.801,804,1)
+2.16.840.1.113883.3.464.1003.196.12.1218
+"DATA",176.801,804,5)
+IV18
+"DATA",176.801,805,0)
+Inpatient Encounter
+"DATA",176.801,805,1)
+2.16.840.1.113883.3.464.1003.101.12.1060
+"DATA",176.801,805,5)
+IE60
+"DATA",176.801,806,0)
+Left Against Medical Advice
+"DATA",176.801,806,1)
+2.16.840.1.113883.3.666.5.1106
+"DATA",176.801,806,5)
+LAMA06
+"DATA",176.801,807,0)
+Level of Severity of Retinopathy Findings
+"DATA",176.801,807,1)
+2.16.840.1.113883.3.526.3.1283
+"DATA",176.801,807,5)
+LSRF83
+"DATA",176.801,808,0)
+Macular Edema Findings Absent
+"DATA",176.801,808,1)
+2.16.840.1.113883.3.526.3.1286
+"DATA",176.801,808,5)
+MEFA86
+"DATA",176.801,809,0)
+Macular Edema Findings Present
+"DATA",176.801,809,1)
+2.16.840.1.113883.3.526.3.1323
+"DATA",176.801,809,5)
+MEFP23
+"DATA",176.801,810,0)
+Medical Reason
+"DATA",176.801,810,1)
+2.16.840.1.113883.3.526.3.1007
+"DATA",176.801,810,5)
+MR07
+"DATA",176.801,811,0)
+Medical Reason
+"DATA",176.801,811,1)
+2.16.840.1.113883.3.117.1.7.1.473
+"DATA",176.801,811,5)
+MR73
+"DATA",176.801,812,0)
+Medical Reasons
+"DATA",176.801,812,1)
+2.16.840.1.114222.4.1.214079.1.1.7
+"DATA",176.801,812,5)
+MR17
+"DATA",176.801,813,0)
+Palliative Care
+"DATA",176.801,813,1)
+2.16.840.1.113883.3.526.2.1076
+"DATA",176.801,813,5)
+PC76
+"DATA",176.801,814,0)
+Palliative Care
+"DATA",176.801,814,1)
+2.16.840.1.113883.3.600.1.1579
+"DATA",176.801,814,5)
+PC79
+"DATA",176.801,815,0)
+Patient Expired
+"DATA",176.801,815,1)
+2.16.840.1.113883.3.117.1.7.1.86
+"DATA",176.801,815,5)
+PE86
+"DATA",176.801,816,0)
+Patient Expired
+"DATA",176.801,816,1)
+2.16.840.1.113883.3.67.1.101.1.78
+"DATA",176.801,816,5)
+PE78
+"DATA",176.801,817,0)
+Patient Reason
+"DATA",176.801,817,1)
+2.16.840.1.113883.3.526.2.311
+"DATA",176.801,817,5)
+PR11
+"DATA",176.801,818,0)
+Patient Reason
+"DATA",176.801,818,1)
+2.16.840.1.113883.3.526.3.1008
+"DATA",176.801,818,5)
+PR08
+"DATA",176.801,819,0)
+Pregnancy
+"DATA",176.801,819,1)
+2.16.840.1.113883.3.526.3.378
+"DATA",176.801,819,5)
+P78
+"DATA",176.801,820,0)
+Suicide Risk Assessment
+"DATA",176.801,820,1)
+2.16.840.1.113883.3.600.559
+"DATA",176.801,820,5)
+SRA59
 "DATA",176.802,1,0)
 Preventive Care and Screening: Risk-Stratified Cholesterol  Fasting Low Density Lipoprotein (LDL-C)
 "DATA",176.802,1,1)
@@ -15736,6 +17480,18 @@ K ^C0QVS(176.801,"MEASURE")
 ^.114IA^1^1
 "IX",176.801,176.801,"MEASURE",11.1,1,0)
 1^F^176.8012^.01^^1^F
+"IX",176.801,176.801,"SID",0)
+176.801^SID^REGULAR INDEX ON THE SID FIELD^R^^F^IR^I^176.801^^^^^LS
+"IX",176.801,176.801,"SID",1)
+S ^C0QVS(176.801,"SID",$E(X,1,30),DA)=""
+"IX",176.801,176.801,"SID",2)
+K ^C0QVS(176.801,"SID",$E(X,1,30),DA)
+"IX",176.801,176.801,"SID",2.5)
+K ^C0QVS(176.801,"SID")
+"IX",176.801,176.801,"SID",11.1,0)
+^.114IA^1^1
+"IX",176.801,176.801,"SID",11.1,1,0)
+1^F^176.801^.03^30^1^F
 "IX",176.802,176.802,"B",0)
 176.802^B^Uniqueness index for measure group title (key A)^R^^F^IR^I^176.802^^^^^LS
 "IX",176.802,176.802,"B",1)
@@ -15887,16 +17643,10 @@ K ^C0QVS(176.803,"OV")
 "IX",176.803,176.803,"OV",11.1,2,3)
 
 "KEY",176.801,176.801,"A",0)
-176.801^A^P^883
+176.801^A^P^884
 "KEY",176.801,176.801,"A",2,0)
 ^.312IA^1^1
 "KEY",176.801,176.801,"A",2,1,0)
-.01^176.801^1
-"KEY",176.801,176.801,"B",0)
-176.801^B^S^884
-"KEY",176.801,176.801,"B",2,0)
-^.312IA^1^1
-"KEY",176.801,176.801,"B",2,1,0)
 .02^176.801^1
 "KEY",176.802,176.802,"A",0)
 176.802^A^P^887
@@ -15927,8 +17677,6 @@ K ^C0QVS(176.803,"OV")
 "KEY",176.803,176.803,"B",2,2,0)
 .03^176.803^2
 "KEYPTR",176.801,176.801,"A")
-176.801^B
-"KEYPTR",176.801,176.801,"B")
 176.801^ID
 "KEYPTR",176.802,176.802,"A")
 176.802^B
@@ -16011,13 +17759,71 @@ NO
 "QUES","XPZ2","M")
 D XPZ2^XPDIQ
 "RTN")
-2
+3
+"RTN","KBAISID")
+0^3^B1057899
+"RTN","KBAISID",1,0)
+KBAISID ; GPL - NLM Valueset Short ID generator  ; 4/6/13 4:51pm
+"RTN","KBAISID",2,0)
+ ;;0.1;C0Q;nopatch;noreleasedate;Build 4
+"RTN","KBAISID",3,0)
+ ;Copyright 2013 George Lilly.  Licensed Apache 2
+"RTN","KBAISID",4,0)
+ ;
+"RTN","KBAISID",5,0)
+ Q
+"RTN","KBAISID",6,0)
+ ;
+"RTN","KBAISID",7,0)
+SID(ZNAME,ZOID,WHERE) ; extrinsic returns the short ID which is a compressed name with 
+"RTN","KBAISID",8,0)
+ ; 2 digits from the end of the OID
+"RTN","KBAISID",9,0)
+ ; ZNAME and ZOID are passed by value
+"RTN","KBAISID",10,0)
+ ;
+"RTN","KBAISID",11,0)
+ I '$D(WHERE) D  ;
+"RTN","KBAISID",12,0)
+ . S WHERE=$NA(^TMP("KBAIVS","SID"))
+"RTN","KBAISID",13,0)
+ . S @WHERE@(0)=""
+"RTN","KBAISID",14,0)
+ S ZSID=$O(@WHERE@(ZOID,""))
+"RTN","KBAISID",15,0)
+ I ZSID'="" Q ZSID  ; already found
+"RTN","KBAISID",16,0)
+ N ZAP
+"RTN","KBAISID",17,0)
+ S ZAP="abcdefghijklmnopqrstuvwxyz ,/><-()" ; characters to zap
+"RTN","KBAISID",18,0)
+ N ZEXT S ZEXT=$TR(ZOID,".")
+"RTN","KBAISID",19,0)
+ S ZEXT=$E(ZEXT,$L(ZEXT)-1,$L(ZEXT))
+"RTN","KBAISID",20,0)
+ N ZSID
+"RTN","KBAISID",21,0)
+ S ZSID=$TR(ZNAME,ZAP)_ZEXT
+"RTN","KBAISID",22,0)
+ I $D(@WHERE@(ZOID,ZSID)) D  ;
+"RTN","KBAISID",23,0)
+ . W !,"FIXING DUP: ",ZSID
+"RTN","KBAISID",24,0)
+ . S ZSID=ZSID_$R(10)
+"RTN","KBAISID",25,0)
+ . W " WITH: ",ZSID
+"RTN","KBAISID",26,0)
+ S @WHERE@(ZOID,ZSID)=""
+"RTN","KBAISID",27,0)
+ Q ZSID
+"RTN","KBAISID",28,0)
+ ;
 "RTN","KBAIVS1")
-0^1^B9672845
+0^1^B56036030
 "RTN","KBAIVS1",1,0)
 KBAIVS1 ; GPL - NLM Valueset import routines  ;2/20/13  17:05
 "RTN","KBAIVS1",2,0)
- ;;0.1;C0X;nopatch;noreleasedate;Build 2
+ ;;0.1;C0X;nopatch;noreleasedate;Build 4
 "RTN","KBAIVS1",3,0)
  ;Copyright 2013 George Lilly.  Licensed Apache 2
 "RTN","KBAIVS1",4,0)
@@ -16195,7 +18001,7 @@ out(txt) ; add line to output array
 "RTN","KBAIVS1",90,0)
  ;
 "RTN","KBAIVS1",91,0)
-clist(where,prefix,nohead)
+clist(where,prefix,nohead) 
 "RTN","KBAIVS1",92,0)
  n nd s nd=$na(^KBAI("KBAIVS","DOM"))
 "RTN","KBAIVS1",93,0)
@@ -16501,11 +18307,11 @@ GETFN(KBAIFN,KBAIDEF) ; extrinsic which prompts for filename
 "RTN","KBAIVS1",243,0)
  ;
 "RTN","KBAIVS2")
-0^2^B138177157
+0^2^B168835341
 "RTN","KBAIVS2",1,0)
-KBAIVS2 ; GPL - NLM Valueset import routines fileman version ; 3/22/13 4:51pm
+KBAIVS2 ; GPL - NLM Valueset import routines fileman version ; 4/11/13 5:49pm
 "RTN","KBAIVS2",2,0)
- ;;0.1;C0Q;nopatch;noreleasedate;Build 2
+ ;;0.1;C0Q;nopatch;noreleasedate;Build 4
 "RTN","KBAIVS2",3,0)
  ;Copyright 2013 George Lilly.  Licensed Apache 2
 "RTN","KBAIVS2",4,0)
@@ -16807,482 +18613,566 @@ grpout2 ; merge the group array with all groups
 "RTN","KBAIVS2",152,0)
  . k KBAIFDA
 "RTN","KBAIVS2",153,0)
- . s KBAIFDA($$C0QVSGFN,"?+1,"_KBAIREC_",",.01)=mien
+ . i KBAIREC="" d  q  ;
 "RTN","KBAIVS2",154,0)
- . n KBAIIEN
+ . . w !,"KBAIREC not defined, skipping ",guid
 "RTN","KBAIVS2",155,0)
- . d UPDIE(.KBAIFDA,.KBAIIEN)
+ . s KBAIFDA($$C0QVSGFN,"?+1,"_KBAIREC_",",.01)=mien
 "RTN","KBAIVS2",156,0)
- . k KBAIFDA,KBAIIEN
-"RTN","KBAIVS2",157,0)
- . s KBAIFDA($$C0QGRCD,"?+1,"_mien_",",.01)=KBAIREC
-"RTN","KBAIVS2",158,0)
- . d UPDIE(.KBAIFDA,.KBAIIEN)
-"RTN","KBAIVS2",159,0)
- q
-"RTN","KBAIVS2",160,0)
- ;
-"RTN","KBAIVS2",161,0)
-out(txt) ; add line to output array
-"RTN","KBAIVS2",162,0)
- q  ; do nothing
-"RTN","KBAIVS2",163,0)
- s c0xout=$na(^KBAI("KBAIOUT",$J))
-"RTN","KBAIVS2",164,0)
- n cnt
-"RTN","KBAIVS2",165,0)
- s cnt=$o(@c0xout@(""),-1)
-"RTN","KBAIVS2",166,0)
- i cnt="" s cnt=0
-"RTN","KBAIVS2",167,0)
- s @c0xout@(cnt+1)=txt
-"RTN","KBAIVS2",168,0)
- q
-"RTN","KBAIVS2",169,0)
- ;
-"RTN","KBAIVS2",170,0)
-clist(where,prefix,nohead) 
-"RTN","KBAIVS2",171,0)
- n nd s nd=$na(^KBAI("KBAIVS","DOM"))
-"RTN","KBAIVS2",172,0)
- ;i '$d(nohead) s nohead=0
-"RTN","KBAIVS2",173,0)
- ;i 'nohead d  ;
-"RTN","KBAIVS2",174,0)
- d out($j("Code",20)_$j("System",10)_$j("Description",20))
-"RTN","KBAIVS2",175,0)
- n zzi s zzi=""
-"RTN","KBAIVS2",176,0)
- f  s zzi=$o(@nd@(where,"C",zzi)) q:zzi=""  d  ;
-"RTN","KBAIVS2",177,0)
- . n code,system,desc
-"RTN","KBAIVS2",178,0)
- . s code=$g(@nd@(zzi,"A","code"))
-"RTN","KBAIVS2",179,0)
- . s system=$g(@nd@(zzi,"A","codeSystemName"))
-"RTN","KBAIVS2",180,0)
- . s desc=$g(@nd@(zzi,"A","displayName"))
-"RTN","KBAIVS2",181,0)
- . d out($j(code,20)_$j(system,10)_"  "_desc)
-"RTN","KBAIVS2",182,0)
- ;w @nd,":",@nd@("T",1)  
-"RTN","KBAIVS2",183,0)
- q
-"RTN","KBAIVS2",184,0)
- ;
-"RTN","KBAIVS2",185,0)
-alltxt(rtn,node) ; handle arrays of text
-"RTN","KBAIVS2",186,0)
- m rtn=@node@("T")
-"RTN","KBAIVS2",187,0)
- n zj s zj=""
-"RTN","KBAIVS2",188,0)
- f  s zj=$o(rtn(zj)) q:zj=""  d  ;
-"RTN","KBAIVS2",189,0)
- . s rtn(zj)=$$CLEAN(rtn(zj))
-"RTN","KBAIVS2",190,0)
- . s rtn(zj)=$$LDBLNKS(rtn(zj))
-"RTN","KBAIVS2",191,0)
- . i rtn(zj)="" k rtn(zj)
-"RTN","KBAIVS2",192,0)
- . i (rtn(zj)=" ")&(zj>1) k rtn(zj)
-"RTN","KBAIVS2",193,0)
- q
-"RTN","KBAIVS2",194,0)
- ;
-"RTN","KBAIVS2",195,0)
-ALLTXT(where) ; extrinsic which returns all text lines from the node .. concatinated 
-"RTN","KBAIVS2",196,0)
- ; together
-"RTN","KBAIVS2",197,0)
- n zti s zti=""
-"RTN","KBAIVS2",198,0)
- n ztr s ztr=""
-"RTN","KBAIVS2",199,0)
- f  s zti=$o(@where@("T",zti)) q:zti=""  d  ;
-"RTN","KBAIVS2",200,0)
- . s ztr=ztr_$g(@where@("T",zti))
-"RTN","KBAIVS2",201,0)
- q ztr
-"RTN","KBAIVS2",202,0)
- ;
-"RTN","KBAIVS2",203,0)
-CLEAN(STR) ; extrinsic function; returns string - gpl borrowed from the CCR package
-"RTN","KBAIVS2",204,0)
- ;; Removes all non printable characters from a string.
-"RTN","KBAIVS2",205,0)
- ;; STR by Value
-"RTN","KBAIVS2",206,0)
- N TR,I
-"RTN","KBAIVS2",207,0)
- F I=0:1:31,128:1:256 S TR=$G(TR)_$C(I)
-"RTN","KBAIVS2",208,0)
- S TR=TR_$C(127)
-"RTN","KBAIVS2",209,0)
- N ZR S ZR=$TR(STR,TR)
-"RTN","KBAIVS2",210,0)
- S ZR=$$LDBLNKS(ZR) ; get rid of leading blanks
-"RTN","KBAIVS2",211,0)
- QUIT ZR
-"RTN","KBAIVS2",212,0)
- ;
-"RTN","KBAIVS2",213,0)
-LDBLNKS(st) ; extrinsic which removes leading blanks from a string
-"RTN","KBAIVS2",214,0)
- n pos f pos=1:1:$l(st)  q:$e(st,pos)'=" "
-"RTN","KBAIVS2",215,0)
- q $e(st,pos,$l(st))
-"RTN","KBAIVS2",216,0)
- ;
-"RTN","KBAIVS2",217,0)
-VACCD ; set C0XJOB to the VA CCD
-"RTN","KBAIVS2",218,0)
- s C0XJOB=14921
-"RTN","KBAIVS2",219,0)
- q
-"RTN","KBAIVS2",220,0)
- ;
-"RTN","KBAIVS2",221,0)
-NLMVS ; set C0XJOB to the NLM Values Set xml
-"RTN","KBAIVS2",222,0)
- s C0XJOB=26295
-"RTN","KBAIVS2",223,0)
- Q
-"RTN","KBAIVS2",224,0)
- ;
-"RTN","KBAIVS2",225,0)
-contents(zrtn,ids) ; produce an agenda for the docId 1 in the MXML dom
-"RTN","KBAIVS2",226,0)
- ; generally, a first level index to the document
-"RTN","KBAIVS2",227,0)
- ; set C0XJOB if you want to use a different $J to locate the dom
-"RTN","KBAIVS2",228,0)
- ; zrtn passed by name
-"RTN","KBAIVS2",229,0)
- ; ids=1 names them by number ids=0 or null names them by displayname
-"RTN","KBAIVS2",230,0)
- n zi s zi=""
-"RTN","KBAIVS2",231,0)
- n dom s dom=$na(^KBAI("KBAIVS","DOM"))
-"RTN","KBAIVS2",232,0)
- f  s zi=$o(@dom@(1,"C",zi)) q:zi=""  d  ;
-"RTN","KBAIVS2",233,0)
- . n zn ;
-"RTN","KBAIVS2",234,0)
- . d:$g(ids)  ;
-"RTN","KBAIVS2",235,0)
- . . s zn=$tr($g(@dom@(zi,"A","ID")),".","-")_".txt"
-"RTN","KBAIVS2",236,0)
- . . s @zrtn@(zn,zi)=""
-"RTN","KBAIVS2",237,0)
- . d:'$g(ids)  ;
-"RTN","KBAIVS2",238,0)
- . . s zn=$tr($g(@dom@(zi,"A","displayName"))," ","_")_".txt"
-"RTN","KBAIVS2",239,0)
- . . s zn=$tr(zn,"()","") ; get rid of parens for valid filename
-"RTN","KBAIVS2",240,0)
- . . s zn=$tr(zn,"/","-") ; get rid of slash for valid filename
-"RTN","KBAIVS2",241,0)
- . . s @zrtn@(zn,zi)=""
-"RTN","KBAIVS2",242,0)
- q
-"RTN","KBAIVS2",243,0)
- ;
-"RTN","KBAIVS2",244,0)
-contents2(zrtn) ; produce an agenda for the docId 1 in the MXML dom
-"RTN","KBAIVS2",245,0)
- ; generally, a first level index to the document
-"RTN","KBAIVS2",246,0)
- ; set C0XJOB if you want to use a different $J to locate the dom
-"RTN","KBAIVS2",247,0)
- ; zrtn passed by name
-"RTN","KBAIVS2",248,0)
- n zi s zi=""
-"RTN","KBAIVS2",249,0)
- n dom s dom=$na(^KBAI("KBAIVS","DOM"))
-"RTN","KBAIVS2",250,0)
- f  s zi=$o(@dom@(1,"C",zi)) q:zi=""  d  ;
-"RTN","KBAIVS2",251,0)
- . n zn,zid,zidfile,zfile ;
-"RTN","KBAIVS2",252,0)
- . s zid=$g(@dom@(zi,"A","ID"))
-"RTN","KBAIVS2",253,0)
- . s @zrtn@("ID",zid,zi)=""
-"RTN","KBAIVS2",254,0)
- . s @zrtn@(zi,"ID")=zid
-"RTN","KBAIVS2",255,0)
- . s zidfile=$tr($g(@dom@(zi,"A","ID")),".","-")_".txt"
-"RTN","KBAIVS2",256,0)
- . s @zrtn@("IDFILE",zidfile,zi)=""
-"RTN","KBAIVS2",257,0)
- . s @zrtn@(zi,"IDFILE")=zidfile
-"RTN","KBAIVS2",258,0)
- . s zfile=$tr($g(@dom@(zi,"A","displayName"))," ","_")_".txt"
-"RTN","KBAIVS2",259,0)
- . s zfile=$tr(zfile,"()","") ; get rid of parens for valid filename
-"RTN","KBAIVS2",260,0)
- . s zfile=$tr(zfile,"/","-") ; get rid of slash for valid filename
-"RTN","KBAIVS2",261,0)
- . s @zrtn@("FILE",zfile,zi)=""
-"RTN","KBAIVS2",262,0)
- . s @zrtn@(zi,"FILE")=zfile
-"RTN","KBAIVS2",263,0)
- . s zn=$g(@dom@(zi,"A","displayName"))
-"RTN","KBAIVS2",264,0)
- . s @zrtn@("NAME",zn,zi)=""
-"RTN","KBAIVS2",265,0)
- . s @zrtn@(zi,"NAME")=zn
-"RTN","KBAIVS2",266,0)
- q
-"RTN","KBAIVS2",267,0)
- ;
-"RTN","KBAIVS2",268,0)
-import ; imports value sets into fileman files
-"RTN","KBAIVS2",269,0)
- ; 
-"RTN","KBAIVS2",270,0)
- n g,zi,zname,where,dirname,gn,zid
-"RTN","KBAIVS2",271,0)
- ;s gn=$na(^KBAI("KBAIOUT",$J))
-"RTN","KBAIVS2",272,0)
- ;w !,"Please enter directory name for valueset files by name"
-"RTN","KBAIVS2",273,0)
- ;q:'$$GETDIR(.dirname,"/home/vista/valuesets/by-name/")
-"RTN","KBAIVS2",274,0)
- s zi=""
-"RTN","KBAIVS2",275,0)
- d contents2("g") ; new contents format includes both name and id
-"RTN","KBAIVS2",276,0)
- f  s zi=$o(g("NAME",zi)) q:zi=""  d  ;
-"RTN","KBAIVS2",277,0)
- . s znum=$o(g("NAME",zi,""))
-"RTN","KBAIVS2",278,0)
- . s zid=g(znum,"ID")
-"RTN","KBAIVS2",279,0)
- . k KBAIFDA
-"RTN","KBAIVS2",280,0)
- . s KBAIFDA($$C0QVSFN,"?+1,",.01)=zi
-"RTN","KBAIVS2",281,0)
- . s KBAIFDA($$C0QVSFN,"?+1,",.02)=zid
-"RTN","KBAIVS2",282,0)
  . n KBAIIEN
-"RTN","KBAIVS2",283,0)
- . ;d UPDIE(.KBAIFDA,.KBAIIEN) ; KBAIIEN is ien of the current valueset (see groupout2)
-"RTN","KBAIVS2",284,0)
- . s KBAIREC=$G(KBAIIEN)
-"RTN","KBAIVS2",285,0)
- . i KBAIREC="" D  ;
-"RTN","KBAIVS2",286,0)
- . . s KBAIREC=$O(^C0QVS(176.801,"ID",zid,""))
-"RTN","KBAIVS2",287,0)
- . . i KBAIREC="" B  ;
-"RTN","KBAIVS2",288,0)
- . s where=$o(g("NAME",zi,""))
-"RTN","KBAIVS2",289,0)
- . s KBAIROOT=where ; node of current Value Set 
-"RTN","KBAIVS2",290,0)
- . ;k @gn
-"RTN","KBAIVS2",291,0)
- . d tree2(where,"| ")
-"RTN","KBAIVS2",292,0)
- . ;n gn2 s gn2=$na(@gn@(1)) ; name for gtf
-"RTN","KBAIVS2",293,0)
- . ;s ok=$$GTF^%ZISH(gn2,3,dirname,fname)
-"RTN","KBAIVS2",294,0)
+"RTN","KBAIVS2",157,0)
+ . d UPDIE(.KBAIFDA,.KBAIIEN)
+"RTN","KBAIVS2",158,0)
+ . k KBAIFDA,KBAIIEN
+"RTN","KBAIVS2",159,0)
+ . s KBAIFDA($$C0QGRCD,"?+1,"_mien_",",.01)=KBAIREC
+"RTN","KBAIVS2",160,0)
+ . d UPDIE(.KBAIFDA,.KBAIIEN)
+"RTN","KBAIVS2",161,0)
  q
-"RTN","KBAIVS2",295,0)
+"RTN","KBAIVS2",162,0)
  ;
-"RTN","KBAIVS2",296,0)
-export ; exports separate files for each value set
-"RTN","KBAIVS2",297,0)
- ; one copy in a file with a text name based on the displayName
-"RTN","KBAIVS2",298,0)
- n g,zi,fname,where,dirname,gn
-"RTN","KBAIVS2",299,0)
- s gn=$na(^KBAI("KBAIOUT",$J))
-"RTN","KBAIVS2",300,0)
- w !,"Please enter directory name for valueset files by name"
-"RTN","KBAIVS2",301,0)
- q:'$$GETDIR(.dirname,"/home/vista/valuesets/by-name/")
-"RTN","KBAIVS2",302,0)
- s zi=""
-"RTN","KBAIVS2",303,0)
- d contents("g") ; first with text names
-"RTN","KBAIVS2",304,0)
- f  s zi=$o(g(zi)) q:zi=""  d  ;
-"RTN","KBAIVS2",305,0)
- . s fname=zi
-"RTN","KBAIVS2",306,0)
- . s where=$o(g(zi,""))
-"RTN","KBAIVS2",307,0)
- . k @gn
-"RTN","KBAIVS2",308,0)
- . d tree2(where,"| ")
-"RTN","KBAIVS2",309,0)
- . n gn2 s gn2=$na(@gn@(1)) ; name for gtf
-"RTN","KBAIVS2",310,0)
- . s ok=$$GTF^%ZISH(gn2,3,dirname,fname)
-"RTN","KBAIVS2",311,0)
+"RTN","KBAIVS2",163,0)
+out(txt) ; add line to output array
+"RTN","KBAIVS2",164,0)
+ q  ; do nothing
+"RTN","KBAIVS2",165,0)
+ s c0xout=$na(^KBAI("KBAIOUT",$J))
+"RTN","KBAIVS2",166,0)
+ n cnt
+"RTN","KBAIVS2",167,0)
+ s cnt=$o(@c0xout@(""),-1)
+"RTN","KBAIVS2",168,0)
+ i cnt="" s cnt=0
+"RTN","KBAIVS2",169,0)
+ s @c0xout@(cnt+1)=txt
+"RTN","KBAIVS2",170,0)
  q
-"RTN","KBAIVS2",312,0)
+"RTN","KBAIVS2",171,0)
  ;
-"RTN","KBAIVS2",313,0)
-export2 ; exports separate files for each value set
-"RTN","KBAIVS2",314,0)
- ; one copy in a file with a numeric file name based on ID
-"RTN","KBAIVS2",315,0)
- n g,zi,fname,where,dirname,gn
-"RTN","KBAIVS2",316,0)
- s gn=$na(^KBAI("KBAIOUT",$J))
-"RTN","KBAIVS2",317,0)
- w !,"Please enter directory name for valueset files by id"
-"RTN","KBAIVS2",318,0)
- q:'$$GETDIR(.dirname,"/home/vista/valuesets/by-id/")
-"RTN","KBAIVS2",319,0)
- ;s dirname="/home/wvehr2/valuesets/by-id/"
-"RTN","KBAIVS2",320,0)
- s zi=""
-"RTN","KBAIVS2",321,0)
- d contents("g",1) ; with id names
-"RTN","KBAIVS2",322,0)
- f  s zi=$o(g(zi)) q:zi=""  d  ;
-"RTN","KBAIVS2",323,0)
- . s fname=zi
-"RTN","KBAIVS2",324,0)
- . s where=$o(g(zi,""))
-"RTN","KBAIVS2",325,0)
- . k @gn
-"RTN","KBAIVS2",326,0)
- . d tree2(where,"| ")
-"RTN","KBAIVS2",327,0)
- . n gn2 s gn2=$na(@gn@(1)) ; name for gtf
-"RTN","KBAIVS2",328,0)
- . s ok=$$GTF^%ZISH(gn2,3,dirname,fname)
-"RTN","KBAIVS2",329,0)
+"RTN","KBAIVS2",172,0)
+clist(where,prefix,nohead) 
+"RTN","KBAIVS2",173,0)
+ n nd s nd=$na(^KBAI("KBAIVS","DOM"))
+"RTN","KBAIVS2",174,0)
+ ;i '$d(nohead) s nohead=0
+"RTN","KBAIVS2",175,0)
+ ;i 'nohead d  ;
+"RTN","KBAIVS2",176,0)
+ d out($j("Code",20)_$j("System",10)_$j("Description",20))
+"RTN","KBAIVS2",177,0)
+ n zzi s zzi=""
+"RTN","KBAIVS2",178,0)
+ f  s zzi=$o(@nd@(where,"C",zzi)) q:zzi=""  d  ;
+"RTN","KBAIVS2",179,0)
+ . n code,system,desc
+"RTN","KBAIVS2",180,0)
+ . s code=$g(@nd@(zzi,"A","code"))
+"RTN","KBAIVS2",181,0)
+ . s system=$g(@nd@(zzi,"A","codeSystemName"))
+"RTN","KBAIVS2",182,0)
+ . s desc=$g(@nd@(zzi,"A","displayName"))
+"RTN","KBAIVS2",183,0)
+ . d out($j(code,20)_$j(system,10)_"  "_desc)
+"RTN","KBAIVS2",184,0)
+ ;w @nd,":",@nd@("T",1)  
+"RTN","KBAIVS2",185,0)
  q
-"RTN","KBAIVS2",330,0)
+"RTN","KBAIVS2",186,0)
  ;
-"RTN","KBAIVS2",331,0)
-FILEIN ; import the valueset xml file, parse with MXML, and put the dom in ^TMP
-"RTN","KBAIVS2",332,0)
+"RTN","KBAIVS2",187,0)
+alltxt(rtn,node) ; handle arrays of text
+"RTN","KBAIVS2",188,0)
+ m rtn=@node@("T")
+"RTN","KBAIVS2",189,0)
+ n zj s zj=""
+"RTN","KBAIVS2",190,0)
+ f  s zj=$o(rtn(zj)) q:zj=""  d  ;
+"RTN","KBAIVS2",191,0)
+ . s rtn(zj)=$$CLEAN(rtn(zj))
+"RTN","KBAIVS2",192,0)
+ . s rtn(zj)=$$LDBLNKS(rtn(zj))
+"RTN","KBAIVS2",193,0)
+ . i rtn(zj)="" k rtn(zj)
+"RTN","KBAIVS2",194,0)
+ . i (rtn(zj)=" ")&(zj>1) k rtn(zj)
+"RTN","KBAIVS2",195,0)
+ q
+"RTN","KBAIVS2",196,0)
  ;
-"RTN","KBAIVS2",333,0)
- N FNAME,DIRNAME
-"RTN","KBAIVS2",334,0)
- W !,"Please enter the directory and file name for the NLM Valueset XML file"
-"RTN","KBAIVS2",335,0)
- Q:'$$GETDIR(.DIRNAME,"/home/glilly/nlm-vs") ; prompt the user for the directory
-"RTN","KBAIVS2",336,0)
- Q:'$$GETFN(.FNAME,"valuesets.xml") ; prompt user for filename
-"RTN","KBAIVS2",337,0)
- N GN S GN=$NA(^KBAI("KBAIVS")) ; root to store xml and dom
-"RTN","KBAIVS2",338,0)
- K @GN ; clear the area
-"RTN","KBAIVS2",339,0)
- N GN1 S GN1=$NA(@GN@("XML",1)) ; place to put the xml file
-"RTN","KBAIVS2",340,0)
- W !,"Reading in file ",FNAME," from directory ",DIRNAME
-"RTN","KBAIVS2",341,0)
- Q:$$FTG^%ZISH(DIRNAME,FNAME,GN1,3)=""
-"RTN","KBAIVS2",342,0)
- N KBAIDID
-"RTN","KBAIVS2",343,0)
- W !,"Parsing file ",FNAME
-"RTN","KBAIVS2",344,0)
- S KBAIDID=$$EN^MXMLDOM($NA(@GN@("XML")),"W")
-"RTN","KBAIVS2",345,0)
- I KBAIDID=0 D  Q  ;
-"RTN","KBAIVS2",346,0)
- . ZWRITE ^TMP("MXMLERR",$J,*)
-"RTN","KBAIVS2",347,0)
- W !,"Merging MXMLDOM to TMP"
-"RTN","KBAIVS2",348,0)
- M @GN@("DOM")=^TMP("MXMLDOM",$J,KBAIDID)
-"RTN","KBAIVS2",349,0)
- K ^TMP("MXMLDOM",$J)
-"RTN","KBAIVS2",350,0)
+"RTN","KBAIVS2",197,0)
+ALLTXT(where) ; extrinsic which returns all text lines from the node .. concatinated 
+"RTN","KBAIVS2",198,0)
+ ; together
+"RTN","KBAIVS2",199,0)
+ n zti s zti=""
+"RTN","KBAIVS2",200,0)
+ n ztr s ztr=""
+"RTN","KBAIVS2",201,0)
+ f  s zti=$o(@where@("T",zti)) q:zti=""  d  ;
+"RTN","KBAIVS2",202,0)
+ . s ztr=ztr_$g(@where@("T",zti))
+"RTN","KBAIVS2",203,0)
+ q ztr
+"RTN","KBAIVS2",204,0)
+ ;
+"RTN","KBAIVS2",205,0)
+CLEAN(STR) ; extrinsic function; returns string - gpl borrowed from the CCR package
+"RTN","KBAIVS2",206,0)
+ ;; Removes all non printable characters from a string.
+"RTN","KBAIVS2",207,0)
+ ;; STR by Value
+"RTN","KBAIVS2",208,0)
+ N TR,I
+"RTN","KBAIVS2",209,0)
+ F I=0:1:31,128:1:256 S TR=$G(TR)_$C(I)
+"RTN","KBAIVS2",210,0)
+ S TR=TR_$C(127)
+"RTN","KBAIVS2",211,0)
+ N ZR S ZR=$TR(STR,TR)
+"RTN","KBAIVS2",212,0)
+ S ZR=$$LDBLNKS(ZR) ; get rid of leading blanks
+"RTN","KBAIVS2",213,0)
+ QUIT ZR
+"RTN","KBAIVS2",214,0)
+ ;
+"RTN","KBAIVS2",215,0)
+LDBLNKS(st) ; extrinsic which removes leading blanks from a string
+"RTN","KBAIVS2",216,0)
+ n pos f pos=1:1:$l(st)  q:$e(st,pos)'=" "
+"RTN","KBAIVS2",217,0)
+ q $e(st,pos,$l(st))
+"RTN","KBAIVS2",218,0)
+ ;
+"RTN","KBAIVS2",219,0)
+VACCD ; set C0XJOB to the VA CCD
+"RTN","KBAIVS2",220,0)
+ s C0XJOB=14921
+"RTN","KBAIVS2",221,0)
+ q
+"RTN","KBAIVS2",222,0)
+ ;
+"RTN","KBAIVS2",223,0)
+NLMVS ; set C0XJOB to the NLM Values Set xml
+"RTN","KBAIVS2",224,0)
+ s C0XJOB=26295
+"RTN","KBAIVS2",225,0)
  Q
+"RTN","KBAIVS2",226,0)
+ ;
+"RTN","KBAIVS2",227,0)
+contents(zrtn,ids) ; produce an agenda for the docId 1 in the MXML dom
+"RTN","KBAIVS2",228,0)
+ ; generally, a first level index to the document
+"RTN","KBAIVS2",229,0)
+ ; set C0XJOB if you want to use a different $J to locate the dom
+"RTN","KBAIVS2",230,0)
+ ; zrtn passed by name
+"RTN","KBAIVS2",231,0)
+ ; ids=1 names them by number ids=0 or null names them by displayname
+"RTN","KBAIVS2",232,0)
+ n zi s zi=""
+"RTN","KBAIVS2",233,0)
+ n dom s dom=$na(^KBAI("KBAIVS","DOM"))
+"RTN","KBAIVS2",234,0)
+ f  s zi=$o(@dom@(1,"C",zi)) q:zi=""  d  ;
+"RTN","KBAIVS2",235,0)
+ . n zn ;
+"RTN","KBAIVS2",236,0)
+ . d:$g(ids)  ;
+"RTN","KBAIVS2",237,0)
+ . . s zn=$tr($g(@dom@(zi,"A","ID")),".","-")_".txt"
+"RTN","KBAIVS2",238,0)
+ . . s @zrtn@(zn,zi)=""
+"RTN","KBAIVS2",239,0)
+ . d:'$g(ids)  ;
+"RTN","KBAIVS2",240,0)
+ . . s zn=$tr($g(@dom@(zi,"A","displayName"))," ","_")_".txt"
+"RTN","KBAIVS2",241,0)
+ . . s zn=$tr(zn,"()","") ; get rid of parens for valid filename
+"RTN","KBAIVS2",242,0)
+ . . s zn=$tr(zn,"/","-") ; get rid of slash for valid filename
+"RTN","KBAIVS2",243,0)
+ . . s @zrtn@(zn,zi)=""
+"RTN","KBAIVS2",244,0)
+ q
+"RTN","KBAIVS2",245,0)
+ ;
+"RTN","KBAIVS2",246,0)
+contents2(zrtn) ; produce an agenda for the docId 1 in the MXML dom
+"RTN","KBAIVS2",247,0)
+ ; generally, a first level index to the document
+"RTN","KBAIVS2",248,0)
+ ; set C0XJOB if you want to use a different $J to locate the dom
+"RTN","KBAIVS2",249,0)
+ ; zrtn passed by name
+"RTN","KBAIVS2",250,0)
+ n zi s zi=""
+"RTN","KBAIVS2",251,0)
+ n dom s dom=$na(^KBAI("KBAIVS","DOM"))
+"RTN","KBAIVS2",252,0)
+ f  s zi=$o(@dom@(1,"C",zi)) q:zi=""  d  ;
+"RTN","KBAIVS2",253,0)
+ . n zn,zid,zidfile,zfile ;
+"RTN","KBAIVS2",254,0)
+ . s zid=$g(@dom@(zi,"A","ID"))
+"RTN","KBAIVS2",255,0)
+ . s @zrtn@("ID",zid,zi)=""
+"RTN","KBAIVS2",256,0)
+ . s @zrtn@(zi,"ID")=zid
+"RTN","KBAIVS2",257,0)
+ . s zidfile=$tr($g(@dom@(zi,"A","ID")),".","-")_".txt"
+"RTN","KBAIVS2",258,0)
+ . s @zrtn@("IDFILE",zidfile,zi)=""
+"RTN","KBAIVS2",259,0)
+ . s @zrtn@(zi,"IDFILE")=zidfile
+"RTN","KBAIVS2",260,0)
+ . s zfile=$tr($g(@dom@(zi,"A","displayName"))," ","_")_".txt"
+"RTN","KBAIVS2",261,0)
+ . s zfile=$tr(zfile,"()","") ; get rid of parens for valid filename
+"RTN","KBAIVS2",262,0)
+ . s zfile=$tr(zfile,"/","-") ; get rid of slash for valid filename
+"RTN","KBAIVS2",263,0)
+ . s @zrtn@("FILE",zfile,zi)=""
+"RTN","KBAIVS2",264,0)
+ . s @zrtn@(zi,"FILE")=zfile
+"RTN","KBAIVS2",265,0)
+ . s zn=$g(@dom@(zi,"A","displayName"))
+"RTN","KBAIVS2",266,0)
+ . s @zrtn@("NAME",zn,zi)=""
+"RTN","KBAIVS2",267,0)
+ . s @zrtn@(zi,"NAME")=zn
+"RTN","KBAIVS2",268,0)
+ s zi=""
+"RTN","KBAIVS2",269,0)
+ f  s zi=$o(@zrtn@("ID",zi)) q:zi=""  d  ;
+"RTN","KBAIVS2",270,0)
+ . n zien s zien=$o(@zrtn@("ID",zi,""))
+"RTN","KBAIVS2",271,0)
+ . n sid s sid=$$SID^KBAISID(@zrtn@(zien,"NAME"),zi)
+"RTN","KBAIVS2",272,0)
+ . s @zrtn@(zien,"SID")=sid
+"RTN","KBAIVS2",273,0)
+ . s @zrtn@("SID",sid,zien)=""
+"RTN","KBAIVS2",274,0)
+ q
+"RTN","KBAIVS2",275,0)
+ ;
+"RTN","KBAIVS2",276,0)
+import ; imports value sets into fileman files
+"RTN","KBAIVS2",277,0)
+ ; 
+"RTN","KBAIVS2",278,0)
+ n g,zi,zname,where,dirname,gn,zid
+"RTN","KBAIVS2",279,0)
+ ;s gn=$na(^KBAI("KBAIOUT",$J))
+"RTN","KBAIVS2",280,0)
+ ;w !,"Please enter directory name for valueset files by name"
+"RTN","KBAIVS2",281,0)
+ ;q:'$$GETDIR(.dirname,"/home/vista/valuesets/by-name/")
+"RTN","KBAIVS2",282,0)
+ s zi=""
+"RTN","KBAIVS2",283,0)
+ d contents2("g") ; new contents format includes both name and id
+"RTN","KBAIVS2",284,0)
+ f  s zi=$o(g("NAME",zi)) q:zi=""  d  ;
+"RTN","KBAIVS2",285,0)
+ . n znum s znum=""
+"RTN","KBAIVS2",286,0)
+ . f  s znum=$o(g("NAME",zi,znum)) q:znum=""  d  ;
+"RTN","KBAIVS2",287,0)
+ . . s zid=g(znum,"ID")
+"RTN","KBAIVS2",288,0)
+ . . s KBAIREC=$$laygo(zi,zid) ; add the record if it's not already there
+"RTN","KBAIVS2",289,0)
+ . . ;k KBAIFDA
+"RTN","KBAIVS2",290,0)
+ . . ;s KBAIFDA($$C0QVSFN,"?+1,",.01)=zi
+"RTN","KBAIVS2",291,0)
+ . . ;s KBAIFDA($$C0QVSFN,"?+1,",.02)=zid
+"RTN","KBAIVS2",292,0)
+ . . ;n KBAIIEN
+"RTN","KBAIVS2",293,0)
+ . . ;d UPDIE(.KBAIFDA,.KBAIIEN) ; KBAIIEN is ien of the current valueset (see groupout2)
+"RTN","KBAIVS2",294,0)
+ . . ;s KBAIREC=$G(KBAIIEN)
+"RTN","KBAIVS2",295,0)
+ . . ;i KBAIREC="" D  ;
+"RTN","KBAIVS2",296,0)
+ . . ;. s KBAIREC=$O(^C0QVS(176.801,"ID",zid,""))
+"RTN","KBAIVS2",297,0)
+ . . ;. i KBAIREC="" B  ;
+"RTN","KBAIVS2",298,0)
+ . s where=$o(g("NAME",zi,""))
+"RTN","KBAIVS2",299,0)
+ . s KBAIROOT=where ; node of current Value Set 
+"RTN","KBAIVS2",300,0)
+ . ;k @gn
+"RTN","KBAIVS2",301,0)
+ . d tree2(where,"| ")
+"RTN","KBAIVS2",302,0)
+ . ;n gn2 s gn2=$na(@gn@(1)) ; name for gtf
+"RTN","KBAIVS2",303,0)
+ . ;s ok=$$GTF^%ZISH(gn2,3,dirname,fname)
+"RTN","KBAIVS2",304,0)
+ q
+"RTN","KBAIVS2",305,0)
+ ;
+"RTN","KBAIVS2",306,0)
+laygo(zname,zoid) ; extrinsic that returns the ien, adds the record if it's new
+"RTN","KBAIVS2",307,0)
+ ;
+"RTN","KBAIVS2",308,0)
+ n gn s gn=$na(^C0QVS(176.801,"ID"))
+"RTN","KBAIVS2",309,0)
+ n zien
+"RTN","KBAIVS2",310,0)
+ s zien=$o(@gn@(zoid,""))
+"RTN","KBAIVS2",311,0)
+ i zien'="" q zien
+"RTN","KBAIVS2",312,0)
+ k KBAIFDA
+"RTN","KBAIVS2",313,0)
+ s KBAIFDA($$C0QVSFN,"+1,",.01)=zname
+"RTN","KBAIVS2",314,0)
+ s KBAIFDA($$C0QVSFN,"+1,",.02)=zoid
+"RTN","KBAIVS2",315,0)
+ w !,"will add: ",zname," ",zoid
+"RTN","KBAIVS2",316,0)
+ d UPDIE(.KBAIFDA,.zien) ; zien is ien of the current valueset (see groupout2)
+"RTN","KBAIVS2",317,0)
+ q zien
+"RTN","KBAIVS2",318,0)
+ ;
+"RTN","KBAIVS2",319,0)
+impsid ; import all the sids
+"RTN","KBAIVS2",320,0)
+ ;
+"RTN","KBAIVS2",321,0)
+ n g
+"RTN","KBAIVS2",322,0)
+ d contents2("g")
+"RTN","KBAIVS2",323,0)
+ n gn s gn=$NA(^C0QVS(176.801))
+"RTN","KBAIVS2",324,0)
+ K KBAIFDA
+"RTN","KBAIVS2",325,0)
+ n zoid s zoid=""
+"RTN","KBAIVS2",326,0)
+ f  s zoid=$o(g("ID",zoid)) q:zoid=""  d  ;
+"RTN","KBAIVS2",327,0)
+ . n zien
+"RTN","KBAIVS2",328,0)
+ . s zien=$o(@gn@("ID",zoid,""))
+"RTN","KBAIVS2",329,0)
+ . n zsid
+"RTN","KBAIVS2",330,0)
+ . n grec s grec=$o(g("ID",zoid,""))
+"RTN","KBAIVS2",331,0)
+ . s zsid=g(grec,"SID")
+"RTN","KBAIVS2",332,0)
+ . s KBAIFDA($$C0QVSFN,zien_",",.03)=zsid
+"RTN","KBAIVS2",333,0)
+ N ZIEN
+"RTN","KBAIVS2",334,0)
+ B
+"RTN","KBAIVS2",335,0)
+ d UPDIE(.KBAIFDA,.ZIEN)
+"RTN","KBAIVS2",336,0)
+ q
+"RTN","KBAIVS2",337,0)
+ ;
+"RTN","KBAIVS2",338,0)
+export ; exports separate files for each value set
+"RTN","KBAIVS2",339,0)
+ ; one copy in a file with a text name based on the displayName
+"RTN","KBAIVS2",340,0)
+ n g,zi,fname,where,dirname,gn
+"RTN","KBAIVS2",341,0)
+ s gn=$na(^KBAI("KBAIOUT",$J))
+"RTN","KBAIVS2",342,0)
+ w !,"Please enter directory name for valueset files by name"
+"RTN","KBAIVS2",343,0)
+ q:'$$GETDIR(.dirname,"/home/vista/valuesets/by-name/")
+"RTN","KBAIVS2",344,0)
+ s zi=""
+"RTN","KBAIVS2",345,0)
+ d contents("g") ; first with text names
+"RTN","KBAIVS2",346,0)
+ f  s zi=$o(g(zi)) q:zi=""  d  ;
+"RTN","KBAIVS2",347,0)
+ . s fname=zi
+"RTN","KBAIVS2",348,0)
+ . s where=$o(g(zi,""))
+"RTN","KBAIVS2",349,0)
+ . k @gn
+"RTN","KBAIVS2",350,0)
+ . d tree2(where,"| ")
 "RTN","KBAIVS2",351,0)
- ;
+ . n gn2 s gn2=$na(@gn@(1)) ; name for gtf
 "RTN","KBAIVS2",352,0)
-GETDIR(KBAIDIR,KBAIDEF) ; extrinsic which prompts for directory
+ . s ok=$$GTF^%ZISH(gn2,3,dirname,fname)
 "RTN","KBAIVS2",353,0)
- ; returns true if the user gave values
+ q
 "RTN","KBAIVS2",354,0)
- S DIR(0)="F^3:240"
-"RTN","KBAIVS2",355,0)
- S DIR("A")="File Directory"
-"RTN","KBAIVS2",356,0)
- I '$D(KBAIDEF) S KBAIDEF="/home/glilly/nlm-vs"
-"RTN","KBAIVS2",357,0)
- S DIR("B")=KBAIDEF
-"RTN","KBAIVS2",358,0)
- D ^DIR
-"RTN","KBAIVS2",359,0)
- I Y="^" Q 0 ;
-"RTN","KBAIVS2",360,0)
- S KBAIDIR=Y
-"RTN","KBAIVS2",361,0)
- Q 1
-"RTN","KBAIVS2",362,0)
  ;
+"RTN","KBAIVS2",355,0)
+export2 ; exports separate files for each value set
+"RTN","KBAIVS2",356,0)
+ ; one copy in a file with a numeric file name based on ID
+"RTN","KBAIVS2",357,0)
+ n g,zi,fname,where,dirname,gn
+"RTN","KBAIVS2",358,0)
+ s gn=$na(^KBAI("KBAIOUT",$J))
+"RTN","KBAIVS2",359,0)
+ w !,"Please enter directory name for valueset files by id"
+"RTN","KBAIVS2",360,0)
+ q:'$$GETDIR(.dirname,"/home/vista/valuesets/by-id/")
+"RTN","KBAIVS2",361,0)
+ ;s dirname="/home/wvehr2/valuesets/by-id/"
+"RTN","KBAIVS2",362,0)
+ s zi=""
 "RTN","KBAIVS2",363,0)
-GETFN(KBAIFN,KBAIDEF) ; extrinsic which prompts for filename
+ d contents("g",1) ; with id names
 "RTN","KBAIVS2",364,0)
- ; returns true if the user gave values
+ f  s zi=$o(g(zi)) q:zi=""  d  ;
 "RTN","KBAIVS2",365,0)
- S DIR(0)="F^3:240"
+ . s fname=zi
 "RTN","KBAIVS2",366,0)
- S DIR("A")="File Name"
+ . s where=$o(g(zi,""))
 "RTN","KBAIVS2",367,0)
- I '$D(KBAIDEF) S KBAIDEF="valuesets.xml"
+ . k @gn
 "RTN","KBAIVS2",368,0)
- S DIR("B")=KBAIDEF
+ . d tree2(where,"| ")
 "RTN","KBAIVS2",369,0)
- D ^DIR
+ . n gn2 s gn2=$na(@gn@(1)) ; name for gtf
 "RTN","KBAIVS2",370,0)
- I Y="" Q 0 ;
+ . s ok=$$GTF^%ZISH(gn2,3,dirname,fname)
 "RTN","KBAIVS2",371,0)
- I Y="^" Q 0 ;
+ q
 "RTN","KBAIVS2",372,0)
- S KBAIFN=Y
+ ;
 "RTN","KBAIVS2",373,0)
- Q 1
+FILEIN ; import the valueset xml file, parse with MXML, and put the dom in ^TMP
 "RTN","KBAIVS2",374,0)
  ;
 "RTN","KBAIVS2",375,0)
-UPDIE(ZFDA,ZIEN) ; INTERNAL ROUTINE TO CALL UPDATE^DIE AND CHECK FOR ERRORS
+ N FNAME,DIRNAME
 "RTN","KBAIVS2",376,0)
- ; ZFDA IS PASSED BY REFERENCE
+ W !,"Please enter the directory and file name for the NLM Valueset XML file"
 "RTN","KBAIVS2",377,0)
- ; ZIEN IS PASSED BY REFERENCE
+ Q:'$$GETDIR(.DIRNAME,"/home/glilly/nlm-vs") ; prompt the user for the directory
 "RTN","KBAIVS2",378,0)
- D:$G(DEBUG)
+ Q:'$$GETFN(.FNAME,"valuesets.xml") ; prompt user for filename
 "RTN","KBAIVS2",379,0)
- . ZWRITE ZFDA
+ N GN S GN=$NA(^KBAI("KBAIVS")) ; root to store xml and dom
 "RTN","KBAIVS2",380,0)
- . B
+ K @GN ; clear the area
 "RTN","KBAIVS2",381,0)
- K ZERR
+ N GN1 S GN1=$NA(@GN@("XML",1)) ; place to put the xml file
 "RTN","KBAIVS2",382,0)
- D CLEAN^DILF
+ W !,"Reading in file ",FNAME," from directory ",DIRNAME
 "RTN","KBAIVS2",383,0)
- D UPDATE^DIE("","ZFDA","ZIEN","ZERR")
+ Q:$$FTG^%ZISH(DIRNAME,FNAME,GN1,3)=""
 "RTN","KBAIVS2",384,0)
- I $D(ZERR) S ZZERR=ZZERR ; ZZERR DOESN'T EXIST, 
+ N KBAIDID
 "RTN","KBAIVS2",385,0)
- ; INVOKE THE ERROR TRAP IF TASKED
+ W !,"Parsing file ",FNAME
 "RTN","KBAIVS2",386,0)
- ;. W "ERROR",!
+ S KBAIDID=$$EN^MXMLDOM($NA(@GN@("XML")),"W")
 "RTN","KBAIVS2",387,0)
- ;. ZWR ZERR
+ I KBAIDID=0 D  Q  ;
 "RTN","KBAIVS2",388,0)
- ;. B
+ . ZWRITE ^TMP("MXMLERR",$J,*)
 "RTN","KBAIVS2",389,0)
- K ZFDA
+ W !,"Merging MXMLDOM to TMP"
 "RTN","KBAIVS2",390,0)
- Q
+ M @GN@("DOM")=^TMP("MXMLDOM",$J,KBAIDID)
 "RTN","KBAIVS2",391,0)
+ K ^TMP("MXMLDOM",$J)
+"RTN","KBAIVS2",392,0)
+ Q
+"RTN","KBAIVS2",393,0)
+ ;
+"RTN","KBAIVS2",394,0)
+GETDIR(KBAIDIR,KBAIDEF) ; extrinsic which prompts for directory
+"RTN","KBAIVS2",395,0)
+ ; returns true if the user gave values
+"RTN","KBAIVS2",396,0)
+ S DIR(0)="F^3:240"
+"RTN","KBAIVS2",397,0)
+ S DIR("A")="File Directory"
+"RTN","KBAIVS2",398,0)
+ I '$D(KBAIDEF) S KBAIDEF="/home/glilly/nlm-vs"
+"RTN","KBAIVS2",399,0)
+ S DIR("B")=KBAIDEF
+"RTN","KBAIVS2",400,0)
+ D ^DIR
+"RTN","KBAIVS2",401,0)
+ I Y="^" Q 0 ;
+"RTN","KBAIVS2",402,0)
+ S KBAIDIR=Y
+"RTN","KBAIVS2",403,0)
+ Q 1
+"RTN","KBAIVS2",404,0)
+ ;
+"RTN","KBAIVS2",405,0)
+GETFN(KBAIFN,KBAIDEF) ; extrinsic which prompts for filename
+"RTN","KBAIVS2",406,0)
+ ; returns true if the user gave values
+"RTN","KBAIVS2",407,0)
+ S DIR(0)="F^3:240"
+"RTN","KBAIVS2",408,0)
+ S DIR("A")="File Name"
+"RTN","KBAIVS2",409,0)
+ I '$D(KBAIDEF) S KBAIDEF="valuesets.xml"
+"RTN","KBAIVS2",410,0)
+ S DIR("B")=KBAIDEF
+"RTN","KBAIVS2",411,0)
+ D ^DIR
+"RTN","KBAIVS2",412,0)
+ I Y="" Q 0 ;
+"RTN","KBAIVS2",413,0)
+ I Y="^" Q 0 ;
+"RTN","KBAIVS2",414,0)
+ S KBAIFN=Y
+"RTN","KBAIVS2",415,0)
+ Q 1
+"RTN","KBAIVS2",416,0)
+ ;
+"RTN","KBAIVS2",417,0)
+UPDIE(ZFDA,ZIEN) ; INTERNAL ROUTINE TO CALL UPDATE^DIE AND CHECK FOR ERRORS
+"RTN","KBAIVS2",418,0)
+ ; ZFDA IS PASSED BY REFERENCE
+"RTN","KBAIVS2",419,0)
+ ; ZIEN IS PASSED BY REFERENCE
+"RTN","KBAIVS2",420,0)
+ D:$G(DEBUG)
+"RTN","KBAIVS2",421,0)
+ . ZWRITE ZFDA
+"RTN","KBAIVS2",422,0)
+ . B
+"RTN","KBAIVS2",423,0)
+ K ZERR
+"RTN","KBAIVS2",424,0)
+ D CLEAN^DILF
+"RTN","KBAIVS2",425,0)
+ D UPDATE^DIE("K","ZFDA","ZIEN","ZERR")
+"RTN","KBAIVS2",426,0)
+ I $D(ZERR) S ZZERR=ZZERR ; ZZERR DOESN'T EXIST, 
+"RTN","KBAIVS2",427,0)
+ ; INVOKE THE ERROR TRAP IF TASKED
+"RTN","KBAIVS2",428,0)
+ ;. W "ERROR",!
+"RTN","KBAIVS2",429,0)
+ ;. ZWR ZERR
+"RTN","KBAIVS2",430,0)
+ ;. B
+"RTN","KBAIVS2",431,0)
+ K ZFDA
+"RTN","KBAIVS2",432,0)
+ Q
+"RTN","KBAIVS2",433,0)
  ;
 "SEC","^DD",176.801,176.8012,.02,9)
 
@@ -17341,13 +19231,13 @@ UPDIE(ZFDA,ZIEN) ; INTERNAL ROUTINE TO CALL UPDATE^DIE AND CHECK FOR ERRORS
 "VER")
 8.0^22.0
 "^DD",176.801,176.801,0)
-FIELD^^2^5
+FIELD^^.03^6
 "^DD",176.801,176.801,0,"DDA")
 N
 "^DD",176.801,176.801,0,"DT")
-3130329
-"^DD",176.801,176.801,0,"ID",.02)
-W:$D(^(1)) "   ",$P(^(1),U,1)
+3130412
+"^DD",176.801,176.801,0,"ID",.03)
+W:$D(^(5)) "   ",$P(^(5),U,1)
 "^DD",176.801,176.801,0,"NM","C0Q VALUE SET CODES")
 
 "^DD",176.801,176.801,0,"PT",176.8024,.01)
@@ -17370,6 +19260,14 @@ VALUE SET ID
 Answer must be 3-240 characters in length.
 "^DD",176.801,176.801,.02,"DT")
 3130322
+"^DD",176.801,176.801,.03,0)
+SHORT ID^F^^5;1^K:$L(X)>30!($L(X)<1) X
+"^DD",176.801,176.801,.03,.1)
+SHORT IDENTIFIER BASED ON THE NAME AND THE END OF THE OID
+"^DD",176.801,176.801,.03,3)
+Answer must be 1-30 characters in length.
+"^DD",176.801,176.801,.03,"DT")
+3130412
 "^DD",176.801,176.801,.05,0)
 DATE UPDATED^D^^3;1^S %DT="ET" D ^%DT S X=Y K:X<1 X
 "^DD",176.801,176.801,.05,.1)
@@ -17479,7 +19377,7 @@ FIELD^^5.2^23
 "^DD",176.802,176.802,0,"DDA")
 N
 "^DD",176.802,176.802,0,"DT")
-3130329
+3130412
 "^DD",176.802,176.802,0,"ID",.03)
 W:$D(^(1)) "   ",$P(^(1),U,2)
 "^DD",176.802,176.802,0,"ID",.05)
@@ -17719,9 +19617,9 @@ MEASURE DESCRIPTION
 "^DD",176.802,176.8021,.01,"DT")
 3130322
 "^DD",176.802,176.8024,0)
-VALUE SET SUB-FIELD^^1^2
+VALUE SET SUB-FIELD^^.03^3
 "^DD",176.802,176.8024,0,"DT")
-3130322
+3130412
 "^DD",176.802,176.8024,0,"IX","B",176.8024,.01)
 
 "^DD",176.802,176.8024,0,"NM","VALUE SET")
@@ -17742,6 +19640,14 @@ S ^C0QVS(176.802,DA(1),12,"B",$E(X,1,30),DA)=""
 K ^C0QVS(176.802,DA(1),12,"B",$E(X,1,30),DA)
 "^DD",176.802,176.8024,.01,"DT")
 3130329
+"^DD",176.802,176.8024,.03,0)
+SHORT ID^F^^1;1^K:$L(X)>30!($L(X)<1) X
+"^DD",176.802,176.8024,.03,.1)
+SHORT IDENTIFIER OF THE VALUE SET
+"^DD",176.802,176.8024,.03,3)
+Answer must be 1-30 characters in length.
+"^DD",176.802,176.8024,.03,"DT")
+3130412
 "^DD",176.802,176.8024,1,0)
 COMMENT^F^^0;2^K:$L(X)>240!($L(X)<1) X
 "^DD",176.802,176.8024,1,.1)
