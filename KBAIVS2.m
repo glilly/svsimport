@@ -21,6 +21,10 @@ C0QVSGFN() Q 176.8012  ; subfile number of value set measure group multiple
 C0QGRFN() Q 176.802  ; file number of the C0Q NLM MEASURE GROUP file
 C0QGRCD() Q 176.8024  ; subfile number of the CODE SET subfile
  ;
+C0QBKFN() Q 176.888 ; mapping backup file
+C0QBKID() Q 176.8881 ; mapping backup identifier subfile
+C0QBKFLD() Q 176.88811 ; field subfile of identifier subfile of mapping backup file
+ ;
  ; field identifiers for adding to the measure group file
 GRPFLDS ; format = identifier^field number
  ;;CATEGORY^2.1
@@ -331,7 +335,7 @@ impsid ; import all the sids
  . s zsid=g(grec,"SID")
  . s KBAIFDA($$C0QVSFN,zien_",",.03)=zsid
  N ZIEN
- B
+ ;B
  d UPDIE(.KBAIFDA,.ZIEN)
  q
  ;
@@ -367,7 +371,7 @@ export2 ; exports separate files for each value set
  . k @gn
  . d tree2(where,"| ")
  . n gn2 s gn2=$na(@gn@(1)) ; name for gtf
- . s ok=$$GTF^%ZISH(gn2,3,dirname,fname)
+ . ;s ok=$$GTF^%ZISH(gn2,3,dirname,fname)
  q
  ;
 FILEIN ; import the valueset xml file, parse with MXML, and put the dom in ^TMP
@@ -429,5 +433,96 @@ UPDIE(ZFDA,ZIEN) ; INTERNAL ROUTINE TO CALL UPDATE^DIE AND CHECK FOR ERRORS
  ;. ZWR ZERR
  ;. B
  K ZFDA
+ Q
+ ;
+O2BKMAPS ; backup mapping values in preparation for loading a new value set xml file
+ N GN S GN=$NA(^KBAI("VSBAK"))
+ K @GN ; clear the old backup if any
+ D SLSII^KBAIII(GN,$NA(^C0QVS(176.802))) ; invert all simple indexes
+ Q
+ ;
+BKMAPS ; third time's a charm ... brute force
+ N GN S GN=$NA(^KBAI("VSBAK"))
+ K @GN
+ N GV S GV=$NA(^C0QVS(176.802))
+ M @GN@("CQM")=@GV@("CQM")
+ M @GN@("GUID")=@GV@("GUID")
+ M @GN@("CAT")=@GV@("CAT")
+ M @GN@("ID")=@GV@("ID")
+ N ZI S ZI=""
+ F  S ZI=$O(@GN@(ZI)) Q:ZI=""  D  ;
+ . I ZI="ROOT" Q  ;
+ . N VAL S VAL=""
+ . F  S VAL=$O(@GN@(ZI,VAL)) Q:VAL=""  D  ;
+ . . N REC S REC=""
+ . . F  S REC=$O(@GN@(ZI,VAL,REC)) Q:REC=""  D  ;
+ . . . S @GN@("ROOT",REC,ZI,VAL)=""
+ Q
+ ;
+RESTORE ; restores mapping fields to 176.802 from backup
+ ; this is used after loading a new SVS xml file
+ N ZI S ZI=""
+ S GN=$NA(^KBAI("VSBAK","ROOT")) ; Location of the backup (see BKMAPS above)
+ F  S ZI=$O(@GN@(ZI)) Q:ZI=""  D  ;
+ . N ZID S ZID=$O(@GN@(ZI,"GUID","")) ; measure guid
+ . Q:ZID=""
+ . W !,ZID
+ . N ZIEN S ZIEN=$O(^C0QVS(176.802,"GUID",ZID,"")) ; record to update
+ . Q:ZIEN=""
+ . W " ",ZIEN
+ . K KBAIFDA
+ . S KBAIFDA($$C0QGRFN(),ZIEN_",",5)=$O(@GN@(ZI,"CQM",""))
+ . S KBAIFDA($$C0QGRFN(),ZIEN_",",5.1)=$O(@GN@(ZI,"CAT",""))
+ . N OK
+ . W ! ZWR KBAIFDA
+ . ZWR @GN@(ZI,*)
+ . D UPDIE(.KBAIFDA,.OK)
+ Q
+ ;
+RELOAD ; deletes the 176.801 and 176.802 files and reloads from xml, then
+ ; restores the mappings
+ ;D BKMAPS ; make sure the mappings are backed up
+ K ^C0QVS(176.801)
+ K ^C0QVS(176.802)
+ W !,"REBUILDING MEASURE GROUPS"
+ D ADDGRPS ; import group definitions
+ W !,"REBUILDING VALUE SETS"
+ D import ; import valueset definitions
+ D impsid ; import short identifiers
+ D RESTORE
+ Q
+ ;
+ ;C0QBKFN() Q 176.888 ; mapping backup file
+ ;;C0QBKID() Q 176.8881 ; mapping backup identifier subfile
+ ;;;C0QBKFLD() Q 176.88811 ; field subfile of identifier subfile of mapping backup file
+OLDBKMAPS ; backup mapping fields -- THIS DOESN'T WORK -- PLEASE IGNORE (DEBUGGING)
+ N GN S GN=$NA(^C0QVS(176.802,"ID")) ; CMS index to the measures file
+ N FIIEN S FIIEN=$O(^C0QBAK(176.888,"B",176.802,""))
+ I FIIEN="" D  ;
+ . K KBAIFDA
+ . S KBAIFDA($$C0QBKFN,"?+1,",.01)=176.802
+ . D UPDIE(.KBAIFDA,.FIIEN)
+ . S FIIEN=$O(^C0QBAK(176.888,"B",176.802,""))
+ W !,"FIIEN= ",FIIEN
+ I FIIEN="" B
+ N ZCMSID S ZCMSID=""
+ F  S ZCMSID=$O(@GN@(ZCMSID)) Q:ZCMSID=""  D  ; for each measure
+ . N ZZIEN
+ . S ZZIEN=$O(@GN@(ZCMSID,""))
+ . B
+ . W !,"ZIIEN= ",ZIIEN
+ . K KBAIFDA
+ . S KBAIFDA($$C0QBKID(),"?+1,"_FIIEN_",",.01)=ZCMSID
+ . N IDIEN
+ . D UPDIE(.KBAIFDA,.IDIEN)
+ . ;B
+ . S IDIEN=$O(^C0QBAK(176.888,FIIEN,"B",ZCMSID,""))
+ . W !,"IDIEN= ",IDIEN
+ . I '$D(IDIEN) B
+ . K KBAIFDA
+ . S KBAIFDA($$C0QBKID(),IDIEN_","_FIIEN_",",5)=$$GET1^DIQ($$C0QGRFN(),ZZIEN_",",5,"E")
+ . S KBAIFDA($$C0QBKID(),IDIEN_","_FIIEN_",",5.1)=$$GET1^DIQ($$C0QGRFN(),ZZIEN_",",5.1,"E")
+ . S KBAIFDA($$C0QBKID(),IDIEN_","_FIIEN_",",5.2)=$$GET1^DIQ($$C0QGRFN(),ZZIEN_",",5.2,"E")
+ . D UPDIE(.KBAIFDA,.ZFIDIEN)
  Q
  ;
