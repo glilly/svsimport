@@ -1,4 +1,4 @@
-KBAIVS2 ; GPL - NLM Valueset import routines fileman version ; 4/11/13 5:49pm
+KBAIVS2 ; GPL - NLM Valueset import routines fileman version ; 4/24/13 6:03pm
  ;;0.1;C0Q;nopatch;noreleasedate;Build 2
  ;Copyright 2013 George Lilly.  Licensed Apache 2
  ;
@@ -154,8 +154,8 @@ grpout2 ; merge the group array with all groups
  . i mien="" d  q  ;
  . . w !,"measure file not built yet... run ADDGRPS then rerun import"
  . k KBAIFDA
- . i KBAIREC="" d  q  ;
- . . w !,"KBAIREC not defined, skipping ",guid
+ . i $g(KBAIREC)="" d  q  ;
+ . . w:$G(DEBUG) !,"KBAIREC not defined, skipping ",guid
  . s KBAIFDA($$C0QVSGFN,"?+1,"_KBAIREC_",",.01)=mien
  . n KBAIIEN
  . d UPDIE(.KBAIFDA,.KBAIIEN)
@@ -166,6 +166,7 @@ grpout2 ; merge the group array with all groups
  ;
 out(txt) ; add line to output array
  q  ; do nothing
+ ;w !,txt
  s c0xout=$na(^KBAI("KBAIOUT",$J))
  n cnt
  s cnt=$o(@c0xout@(""),-1)
@@ -261,20 +262,23 @@ contents2(zrtn) ; produce an agenda for the docId 1 in the MXML dom
  . s zidfile=$tr($g(@dom@(zi,"A","ID")),".","-")_".txt"
  . s @zrtn@("IDFILE",zidfile,zi)=""
  . s @zrtn@(zi,"IDFILE")=zidfile
- . s zfile=$tr($g(@dom@(zi,"A","displayName"))," ","_")_".txt"
+ . s zn=$g(@dom@(zi,"A","displayName"))
+ . s @zrtn@("NAME",zn,zi)=""
+ . s @zrtn@(zi,"NAME")=zn
+ . n sid s sid=$$SID^KBAISID(zn,zid)
+ . s @zrtn@(zi,"SID")=sid
+ . s @zrtn@("SID",sid,zi)=""
+ . s zfile=$tr($g(@dom@(zi,"A","displayName"))," ","_")_"-"_sid_".txt"
  . s zfile=$tr(zfile,"()","") ; get rid of parens for valid filename
  . s zfile=$tr(zfile,"/","-") ; get rid of slash for valid filename
  . s @zrtn@("FILE",zfile,zi)=""
  . s @zrtn@(zi,"FILE")=zfile
- . s zn=$g(@dom@(zi,"A","displayName"))
- . s @zrtn@("NAME",zn,zi)=""
- . s @zrtn@(zi,"NAME")=zn
  s zi=""
- f  s zi=$o(@zrtn@("ID",zi)) q:zi=""  d  ;
- . n zien s zien=$o(@zrtn@("ID",zi,""))
- . n sid s sid=$$SID^KBAISID(@zrtn@(zien,"NAME"),zi)
- . s @zrtn@(zien,"SID")=sid
- . s @zrtn@("SID",sid,zien)=""
+ ;f  s zi=$o(@zrtn@("ID",zi)) q:zi=""  d  ;
+ ;. n zien s zien=$o(@zrtn@("ID",zi,""))
+ ;. n sid s sid=$$SID^KBAISID(@zrtn@(zien,"NAME"),zi)
+ ;. s @zrtn@(zien,"SID")=sid
+ ;. s @zrtn@("SID",sid,zien)=""
  q
  ;
 import ; imports value sets into fileman files
@@ -339,41 +343,6 @@ impsid ; import all the sids
  d UPDIE(.KBAIFDA,.ZIEN)
  q
  ;
-export ; exports separate files for each value set
- ; one copy in a file with a text name based on the displayName
- n g,zi,fname,where,dirname,gn
- s gn=$na(^KBAI("KBAIOUT",$J))
- w !,"Please enter directory name for valueset files by name"
- q:'$$GETDIR(.dirname,"/home/vista/valuesets/by-name/")
- s zi=""
- d contents("g") ; first with text names
- f  s zi=$o(g(zi)) q:zi=""  d  ;
- . s fname=zi
- . s where=$o(g(zi,""))
- . k @gn
- . d tree2(where,"| ")
- . n gn2 s gn2=$na(@gn@(1)) ; name for gtf
- . s ok=$$GTF^%ZISH(gn2,3,dirname,fname)
- q
- ;
-export2 ; exports separate files for each value set
- ; one copy in a file with a numeric file name based on ID
- n g,zi,fname,where,dirname,gn
- s gn=$na(^KBAI("KBAIOUT",$J))
- w !,"Please enter directory name for valueset files by id"
- q:'$$GETDIR(.dirname,"/home/vista/valuesets/by-id/")
- ;s dirname="/home/wvehr2/valuesets/by-id/"
- s zi=""
- d contents("g",1) ; with id names
- f  s zi=$o(g(zi)) q:zi=""  d  ;
- . s fname=zi
- . s where=$o(g(zi,""))
- . k @gn
- . d tree2(where,"| ")
- . n gn2 s gn2=$na(@gn@(1)) ; name for gtf
- . ;s ok=$$GTF^%ZISH(gn2,3,dirname,fname)
- q
- ;
 FILEIN ; import the valueset xml file, parse with MXML, and put the dom in ^TMP
  ;
  N FNAME,DIRNAME
@@ -410,7 +379,7 @@ GETFN(KBAIFN,KBAIDEF) ; extrinsic which prompts for filename
  ; returns true if the user gave values
  S DIR(0)="F^3:240"
  S DIR("A")="File Name"
- I '$D(KBAIDEF) S KBAIDEF="valuesets.xml"
+ I '$D(KBAIDEF) S KBAIDEF="ep_eh_unique_vs_20130401.xml"
  S DIR("B")=KBAIDEF
  D ^DIR
  I Y="" Q 0 ;
@@ -427,18 +396,12 @@ UPDIE(ZFDA,ZIEN) ; INTERNAL ROUTINE TO CALL UPDATE^DIE AND CHECK FOR ERRORS
  K ZERR
  D CLEAN^DILF
  D UPDATE^DIE("K","ZFDA","ZIEN","ZERR")
- I $D(ZERR) S ZZERR=ZZERR ; ZZERR DOESN'T EXIST, 
+ I $D(ZERR) S ZZERR=ZZERR ; ZZERR DOESN'T EXIST,
  ; INVOKE THE ERROR TRAP IF TASKED
  ;. W "ERROR",!
  ;. ZWR ZERR
  ;. B
  K ZFDA
- Q
- ;
-O2BKMAPS ; backup mapping values in preparation for loading a new value set xml file
- N GN S GN=$NA(^KBAI("VSBAK"))
- K @GN ; clear the old backup if any
- D SLSII^KBAIII(GN,$NA(^C0QVS(176.802))) ; invert all simple indexes
  Q
  ;
 BKMAPS ; third time's a charm ... brute force
@@ -482,6 +445,7 @@ RESTORE ; restores mapping fields to 176.802 from backup
 RELOAD ; deletes the 176.801 and 176.802 files and reloads from xml, then
  ; restores the mappings
  ;D BKMAPS ; make sure the mappings are backed up
+ K ^TMP("KBAIVS","SID") ; start with no short ids defined
  K ^C0QVS(176.801)
  K ^C0QVS(176.802)
  W !,"REBUILDING MEASURE GROUPS"
@@ -490,39 +454,5 @@ RELOAD ; deletes the 176.801 and 176.802 files and reloads from xml, then
  D import ; import valueset definitions
  D impsid ; import short identifiers
  D RESTORE
- Q
- ;
- ;C0QBKFN() Q 176.888 ; mapping backup file
- ;;C0QBKID() Q 176.8881 ; mapping backup identifier subfile
- ;;;C0QBKFLD() Q 176.88811 ; field subfile of identifier subfile of mapping backup file
-OLDBKMAPS ; backup mapping fields -- THIS DOESN'T WORK -- PLEASE IGNORE (DEBUGGING)
- N GN S GN=$NA(^C0QVS(176.802,"ID")) ; CMS index to the measures file
- N FIIEN S FIIEN=$O(^C0QBAK(176.888,"B",176.802,""))
- I FIIEN="" D  ;
- . K KBAIFDA
- . S KBAIFDA($$C0QBKFN,"?+1,",.01)=176.802
- . D UPDIE(.KBAIFDA,.FIIEN)
- . S FIIEN=$O(^C0QBAK(176.888,"B",176.802,""))
- W !,"FIIEN= ",FIIEN
- I FIIEN="" B
- N ZCMSID S ZCMSID=""
- F  S ZCMSID=$O(@GN@(ZCMSID)) Q:ZCMSID=""  D  ; for each measure
- . N ZZIEN
- . S ZZIEN=$O(@GN@(ZCMSID,""))
- . B
- . W !,"ZIIEN= ",ZIIEN
- . K KBAIFDA
- . S KBAIFDA($$C0QBKID(),"?+1,"_FIIEN_",",.01)=ZCMSID
- . N IDIEN
- . D UPDIE(.KBAIFDA,.IDIEN)
- . ;B
- . S IDIEN=$O(^C0QBAK(176.888,FIIEN,"B",ZCMSID,""))
- . W !,"IDIEN= ",IDIEN
- . I '$D(IDIEN) B
- . K KBAIFDA
- . S KBAIFDA($$C0QBKID(),IDIEN_","_FIIEN_",",5)=$$GET1^DIQ($$C0QGRFN(),ZZIEN_",",5,"E")
- . S KBAIFDA($$C0QBKID(),IDIEN_","_FIIEN_",",5.1)=$$GET1^DIQ($$C0QGRFN(),ZZIEN_",",5.1,"E")
- . S KBAIFDA($$C0QBKID(),IDIEN_","_FIIEN_",",5.2)=$$GET1^DIQ($$C0QGRFN(),ZZIEN_",",5.2,"E")
- . D UPDIE(.KBAIFDA,.ZFIDIEN)
  Q
  ;
