@@ -348,7 +348,7 @@ FILEIN ; import the valueset xml file, parse with MXML, and put the dom in ^TMP
  N FNAME,DIRNAME
  W !,"Please enter the directory and file name for the NLM Valueset XML file"
  Q:'$$GETDIR(.DIRNAME,"/home/glilly/nlm-vs") ; prompt the user for the directory
- Q:'$$GETFN(.FNAME,"valuesets.xml") ; prompt user for filename
+ Q:'$$GETFN(.FNAME,"ep_eh_unique_vs_20130401.xml") ; prompt user for filename
  N GN S GN=$NA(^KBAI("KBAIVS")) ; root to store xml and dom
  K @GN ; clear the area
  N GN1 S GN1=$NA(@GN@("XML",1)) ; place to put the xml file
@@ -396,7 +396,7 @@ UPDIE(ZFDA,ZIEN) ; INTERNAL ROUTINE TO CALL UPDATE^DIE AND CHECK FOR ERRORS
  K ZERR
  D CLEAN^DILF
  D UPDATE^DIE("K","ZFDA","ZIEN","ZERR")
- I $D(ZERR) S ZZERR=ZZERR ; ZZERR DOESN'T EXIST,
+ I '$G(TRUST) I $D(ZERR) S ZZERR=ZZERR ; ZZERR DOESN'T EXIST,
  ; INVOKE THE ERROR TRAP IF TASKED
  ;. W "ERROR",!
  ;. ZWR ZERR
@@ -439,12 +439,13 @@ RESTORE ; restores mapping fields to 176.802 from backup
  . N OK
  . W ! ZWR KBAIFDA
  . ZWR @GN@(ZI,*)
+ . N TRUST S TRUST=1 ; skip checking in UPDIE because of a fileman bug
  . D UPDIE(.KBAIFDA,.OK)
  Q
  ;
 RELOAD ; deletes the 176.801 and 176.802 files and reloads from xml, then
  ; restores the mappings
- ;D BKMAPS ; make sure the mappings are backed up
+ D BKMAPS ; make sure the mappings are backed up
  K ^TMP("KBAIVS","SID") ; start with no short ids defined
  K ^C0QVS(176.801)
  K ^C0QVS(176.802)
