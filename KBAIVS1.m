@@ -1,5 +1,5 @@
 KBAIVS1	; GPL - NLM Valueset import routines  ;2/20/13  17:05
-	;;0.1;C0X;nopatch;noreleasedate;Build 7
+	;;0.1;C0X;nopatch;noreleasedate;Build 8
 	;Copyright 2013 George Lilly.  Licensed Apache 2
 	;
 	Q
@@ -175,7 +175,7 @@ contents2(zrtn)	; produce an agenda for the docId 1 in the MXML dom
 	. s @zrtn@(zi,"SID")=sid
 	. s @zrtn@("SID",sid,zi)=""
 	. s zfile=$tr($g(@dom@(zi,"A","displayName"))," ","_")_"-"_sid_".txt"
-	. s zfile=$tr(zfile,"<>()","") ; get rid of parens for valid filename
+	. s zfile=$tr(zfile,"<>=()","") ; get rid of parens for valid filename
 	. s zfile=$tr(zfile,"/","-") ; get rid of slash for valid filename
 	. n zfile2 ; for VMS filename
 	. n fnlen s fnlen=$L(zfile)
@@ -193,18 +193,18 @@ contents2(zrtn)	; produce an agenda for the docId 1 in the MXML dom
 	;. s @zrtn@("SID",sid,zien)=""
 	q
 	;
-dispfn ;
- n g,zzi
- d contents2("g")
- s zzi=0
- f  s zzi=$o(g(zzi)) q:+zzi=0  d  ;
- . n fnlen,vmsfnlen
- . s fnlen=$l(g(zzi,"FILE"))
- . s vmsfnlen=$l(g(zzi,"VMSFILE"))
- . w !,g(zzi,"FILE")," len= "_fnlen
- . w !,g(zzi,"VMSFILE")," len="_vmsfnlen
- q
- ;
+dispfn	;
+	n g,zzi
+	d contents2("g")
+	s zzi=0
+	f  s zzi=$o(g(zzi)) q:+zzi=0  d  ;
+	. n fnlen,vmsfnlen
+	. s fnlen=$l(g(zzi,"FILE"))
+	. s vmsfnlen=$l(g(zzi,"VMSFILE"))
+	. w !,g(zzi,"FILE")," len= "_fnlen
+	. w !,g(zzi,"VMSFILE")," len="_vmsfnlen
+	q
+	;
 export	; exports separate files for each value set
 	; one copy in a file with a text name based on the displayName
 	n g,zi,fname,fname2,where,dirname,dirname2,gn
@@ -246,6 +246,7 @@ FILEIN	; import the valueset xml file, parse with MXML, and put the dom in ^TMP
 	S KBAIDID=$$EN^MXMLDOM($NA(@GN@("XML")),"W")
 	I KBAIDID=0 D  Q  ;
 	. ZWRITE ^TMP("MXMLERR",$J,*)
+	K @GN@("XML")
 	W !,"Merging MXMLDOM to TMP"
 	M @GN@("DOM")=^TMP("MXMLDOM",$J,KBAIDID)
 	K ^TMP("MXMLDOM",$J)

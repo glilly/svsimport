@@ -729,6 +729,6 @@ GETFN(KBAIFN,KBAIDEF) ; extrinsic which prompts for filename
 "RTN","KBAIVS1",276,0)
  ;
 "VER")
-8.0^22.2
+8.0^22.0
 **END**
 **END**
