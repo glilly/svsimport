@@ -88,3 +88,24 @@ File Directory: /home/vista/valuesets/by-id/  Replace
 1 /home/vista/valuesets/by-id/ 1-3-6-1-4-1-33895-1-3-0-45.txt                             
 1 /home/vista/valuesets/by-name/ ONC_Administrative_Sex-ONCAS41.txt        
 <snip>
+
+To load codes into C0Q VALUE SET CODES use:
+
+D LDCODES^KBAIVS3
+
+only do this after RELOAD when you are satisfied with the measure and vs records
+
+If EP/EH and Cypress categories get lost from your files, you can recover them from
+gpl-vsbak2.go
+
+D ^%GI
+load the file.. it creates ^GPL
+then merge it
+
+M ^KBAI("VSBAK")=^GPL
+D RESTORE^KBAIVS3
+
+we will work on a more elegant way to preserve these mappings in the future.
+
+
+gpl
