@@ -167,6 +167,7 @@ GRPOUT2 ; MERGE THE GROUP ARRAY WITH ALL GROUPS
 LDCODES ; load codes into the value set code multiple
  N CONT
  D CONTENTS2("CONT")
+ K ^KBAI("LEXRPT") ; clear out reporting area
  N ZI S ZI=""
  F  S ZI=$O(CONT("ID",ZI)) Q:ZI=""  D  ; 
  . N ZJ S ZJ=$O(CONT("ID",ZI,""))
@@ -221,6 +222,20 @@ CLIST2(WHERE,ZID) ; add a code list to the code list multiple at VS ZID
  . S KBAIFDA($$C0QVSCFN(),"?+"_ZN_","_VS_",",.05)=SYSID
  . S KBAIFDA($$C0QVSCFN(),"?+"_ZN_","_VS_",",.06)=VER
  . ;D OUT($J(CODE,20)_$J(SYSTEM,10)_$J(VER,6)_"  "_DESC)
+ . ; check to see if the SNOMED code is in the Lexicon
+ . ;
+ . I SYSNAME["SNOMED" D  ; 
+ . . N LEXS,LEXRPT
+ . . S LEXRPT=$NA(^KBAI("LEXRPT"))
+ . . D EN^LEXCODE(CODE)
+ . . I $D(LEXS("SCT",1)) D  ; found in the lexicon
+ . . . I '$D(@LEXRPT@("FOUND",CODE)) S @LEXRPT@("COUNT","FOUND","NONDUP")=$G(@LEXRPT@("COUNT","FOUND","NONDUP"))+1
+ . . . S @LEXRPT@("COUNT","FOUND")=$G(@LEXRPT@("COUNT","FOUND"))+1
+ . . . S @LEXRPT@("FOUND",CODE)=DESC
+ . . E  D  ; not found in the lexicon
+ . . . I '$D(@LEXRPT@("NOTFOUND",CODE)) S @LEXRPT@("COUNT","NOTFOUND","NONDUP")=$G(@LEXRPT@("COUNT","NOTFOUND","NONDUP"))+1
+ . . . S @LEXRPT@("COUNT","NOTFOUND")=$G(@LEXRPT@("COUNT","NOTFOUND"))+1
+ . . . S @LEXRPT@("NOTFOUND",CODE)=DESC
  D UPDIE(.KBAIFDA)
  Q
  ;
@@ -499,6 +514,8 @@ RELOAD ; DELETES THE 176.801 AND 176.802 FILES AND RELOADS FROM XML, THEN
  D ADDGRPS ; IMPORT GROUP DEFINITIONS
  W !,"REBUILDING VALUE SETS"
  D IMPORT ; IMPORT VALUESET DEFINITIONS
+ ;D ADDGRPS ; repeat group add now that we have done one pass
+ D IMPORT ; repeat import now that we have all the groups
  D IMPSID ; IMPORT SHORT IDENTIFIERS
  D RESTORE
  Q
