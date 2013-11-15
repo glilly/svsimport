@@ -1,0 +1,946 @@
+Script started on Fri 15 Nov 2013 06:20:36 PM UTC
+vista@cypress-3:~$ mumps -du[Kir
+
+MU-beta>[?1h=z[Cw[Cr[C [C^[CK[CB[CA[CI[C([C"[CL[CE[CX[CR[CP[CT[C"[C,[C"[CN[CO[CT[CF[CO[CU[CN[CD[C"[C,[C*[C)[C[?1l>
+^KBAI("LEXRPT","NOTFOUND",187758006)="Malignant neoplasm of other specified sites of colon (diso
+          rder)"
+^KBAI("LEXRPT","NOTFOUND",204362007)="Parachute malformation of mitral valve (disorder)"
+^KBAI("LEXRPT","NOTFOUND",445711000)="Injury of posterolateral corner of knee (disorder)"
+^KBAI("LEXRPT","NOTFOUND",445733003)="Open comminuted supracondylar fracture of femur (disorder)
+          "
+^KBAI("LEXRPT","NOTFOUND",445734009)="Fracture of body of vertebra (disorder)"
+^KBAI("LEXRPT","NOTFOUND",445736006)="Gastrointestinal stromal tumor of stomach (disorder)"
+^KBAI("LEXRPT","NOTFOUND",445738007)="Myelodysplastic/myeloproliferative disease (disorder)"
+^KBAI("LEXRPT","NOTFOUND",445746008)="Craniotomy and removal of hematoma from extradural space (
+          procedure)"
+^KBAI("LEXRPT","NOTFOUND",445779008)="Traumatic injury of spinal cord at T7-T12 level (disorder)
+          "
+^KBAI("LEXRPT","NOTFOUND",445831005)="Partial excision of stomach and jejunal transposition and 
+          excision of intestine (procedure)"
+^KBAI("LEXRPT","NOTFOUND",445832003)="Chemical burn of eyelid (disorder)"
+^KBAI("LEXRPT","NOTFOUND",445850005)="Deep third degree burn of eye region (disorder)"
+^KBAI("LEXRPT","NOTFOUND",445852002)="Closed traumatic dislocation of joint (disorder)"
+^KBAI("LEXRPT","NOTFOUND",445875009)="Fracture of trochanter of femur (disorder)"
+^KBAI("LEXRPT","NOTFOUND",445884009)="Wedge resection of colon (procedure)"
+^KBAI("LEXRPT","NOTFOUND",445899009)="Closed fracture of trochanter of femur (disorder)"
+^KBAI("LEXRPT","NOTFOUND",445912000)="Excision of fallopian tube and surgical removal of ectopic
+           pregnancy (procedure)"
+^KBAI("LEXRPT","NOTFOUND",445918001)="Eosinophilic cystitis (disorder)"
+^KBAI("LEXRPT","NOTFOUND",445923001)="Sector visual field defect (finding)"
+^KBAI("LEXRPT","NOTFOUND",445926009)="Excision of intradural lesion of base of middle cranial fo
+          ssa (procedure)"
+^KBAI("LEXRPT","NOTFOUND",445934003)="Argon plasma coagulation of lesion of small intestine (pro
+          cedure)"
+^KBAI("LEXRPT","NOTFOUND",445935002)="Argon plasma coagulation of lesion of sigmoid colon (proce
+          dure)"
+^KBAI("LEXRPT","NOTFOUND",445938000)="Argon plasma coagulation of lesion of duodenum (procedure)
+          "
+^KBAI("LEXRPT","NOTFOUND",445942002)="Excision of temporal lobe (procedure)"
+^KBAI("LEXRPT","NOTFOUND",445971001)="Laparotomy and incision of small intestine (procedure)"
+^KBAI("LEXRPT","NOTFOUND",445975005)="Excision of polyp of duodenum (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446019002)="Laceration of parenchyma of spleen (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446020008)="Arcuate visual field defect (finding)"
+^KBAI("LEXRPT","NOTFOUND",446022000)="Malignant epithelial neoplasm of uterus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446076000)="Extragastrointestinal stromal tumor of peritoneum (disorde
+          r)"
+^KBAI("LEXRPT","NOTFOUND",446091003)="Traumatic dislocation of interphalangeal joint of finger (
+          disorder)"
+^KBAI("LEXRPT","NOTFOUND",446092005)="Pyogenic inflammation of perioral skin fold (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446103006)="Partial excision of lesion of brain (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446109005)="Simple mastectomy with excision of axillary lymph nodes (p
+          rocedure)"
+^KBAI("LEXRPT","NOTFOUND",446115005)="Elevation of depressed fracture of skull and debridement o
+          f brain (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446121009)="Traction injury of spleen (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446122002)="Intestinal infection due to Campylobacter coli (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446124001)="Gastrointestinal stromal tumor of esophagus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446135006)="Amnioinfusion using ultrasound guidance (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446175003)="Acute posttraumatic stress disorder following military com
+          bat (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446180007)="Delayed posttraumatic stress disorder following military c
+          ombat (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446189008)="Primary malignant neoplasm of extrahepatic bile duct (diso
+          rder)"
+^KBAI("LEXRPT","NOTFOUND",446195009)="Open depressed fracture of skull (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446197001)="Penetrating wound of perineum (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446200000)="Traumatic dislocation of great toe (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446209004)="Excision of intradural lesion of base of anterior cranial 
+          fossa (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446210009)="Excision of intradural lesion of base of posterior cranial
+           fossa (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446222007)="Hand assisted laparoscopic left colectomy (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446223002)="Hand assisted laparoscopic right colectomy (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446228006)="Hand assisted laparoscopic extended left colectomy (proced
+          ure)"
+^KBAI("LEXRPT","NOTFOUND",446234004)="Alkaline chemical burn of conjunctival sac (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446241005)="Keratoacanthoma of skin of wrist (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446292002)="Necrotizing inflammation of lymph node (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446296004)="Laparoscopic total excision of kidney (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446298003)="Closed pilon fracture (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446328009)="Intestinal infection due to Escherichia coli O157:H7 (diso
+          rder)"
+^KBAI("LEXRPT","NOTFOUND",446390008)="Traumatic injury of body of pancreas (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446391007)="Traumatic injury of head of pancreas (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446392000)="Traumatic injury of tail of pancreas (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446420001)="Simple mastectomy with complete axillary lymphadenectomy (
+          procedure)"
+^KBAI("LEXRPT","NOTFOUND",446432002)="Pulmonary venous hypoplasia (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446440008)="Curettage of lesion of brain (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446446002)="Total abdominal hysterectomy and removal of vaginal cuff (
+          procedure)"
+^KBAI("LEXRPT","NOTFOUND",446472006)="Incision of colon and excision of polyp (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446521004)="Colonoscopy and excision of mucosa of colon (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446526009)="Debulking of neoplasm of ovary (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446543007)="Tuberculous abscess of lung (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446548003)="Extraction of cataract and trabeculectomy (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446556000)="Acid chemical burn of cornea (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446570000)="Craniectomy by retromastoid approach (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446571001)="Craniotomy of posterior fossa (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446586007)="Laparoscopic partial excision of urinary bladder (procedur
+          e)"
+^KBAI("LEXRPT","NOTFOUND",446593006)="Bizarre parosteal osteochondromatous proliferation (disord
+          er)"
+^KBAI("LEXRPT","NOTFOUND",446597007)="Closed depressed fracture of skull (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446628002)="Tricuspid leaflet gelatinous (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446630000)="Tricuspid leaflet noncoapting (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446633003)="Tricuspid leaflet thickened (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446642005)="Infection of anus due to Chlamydia trachomatis (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446643000)="Sarcoma of dendritic cells (accessory cells) (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446644006)="Traumatic injury of spinal cord at T1-T6 level (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446652009)="Laparotomy and decompression of intestine (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446670007)="Aortic orifice right side by side with respect to pulmonar
+          y orifice (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446672004)="Intestinal infection due to Vibrio cholerae non-O139 (diso
+          rder)"
+^KBAI("LEXRPT","NOTFOUND",446679008)="Total laparoscopic excision of uterus by abdominal approac
+          h (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446683008)="Craniotomy and decompression of brain (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446698005)="Reactivation of hepatitis B viral hepatitis (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446699002)="Tricuspid leaflet deficiency (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446705006)="Trephination of cranium and drainage of chronic hematoma f
+          rom subdural space (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446710005)="Low grade prostatic intraepithelial neoplasia (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446711009)="High grade prostatic intraepithelial neoplasia (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446712002)="Thromboembolus of precerebral artery (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446733006)="Suturing of laceration of esophagus by transabdominal appr
+          oach (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446734000)="Suturing of laceration of esophagus by transthoracic appro
+          ach (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446740007)="Banding of varix of stomach (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446745002)="Colonoscopy and biopsy of colon (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446746001)="Excision of mucosa of duodenum (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446752000)="Infection of peritoneum due to Chlamydia trachomatis (diso
+          rder)"
+^KBAI("LEXRPT","NOTFOUND",446754004)="Enteritis due to Human coxsackievirus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446755003)="Enteritis due to Human echovirus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446756002)="Enteritis due to Human enterovirus 71 (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446770002)="Septicemia due to Genus Acinetobacter (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446781004)="Tricuspid leaflet flail (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446786009)="Tricuspid leaflet fenestration (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446804002)="Hysteroscopic excision of leiomyoma of uterus (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446807009)="Primary malignant neoplasm of perihilar bile duct (disorde
+          r)"
+^KBAI("LEXRPT","NOTFOUND",446816008)="Craniotomy and evacuation of traumatic hematoma (procedure
+          )"
+^KBAI("LEXRPT","NOTFOUND",446835008)="Traumatic injury of sacral spinal cord (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446848007)="Craniotomy and evacuation of blood clot (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446850004)="Trephination of cranium and external drainage of effusion 
+          from subdural space (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446856005)="Burn of conjuctival sac (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446865003)="Craniotomy and removal of foreign body (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446868001)="Excision of meningioma by supratentorial approach (procedu
+          re)"
+^KBAI("LEXRPT","NOTFOUND",446887007)="Endometrial stromal tumor (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446894005)="Laparoscopic partial excision of kidney by retroperitoneal
+           approach (procedure)"
+^KBAI("LEXRPT","NOTFOUND",446903007)="Septicemia due to fungus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446923008)="Lipoprotein glomerulopathy (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446926000)="Tuberculous abscess of sacrum (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446934006)="Retrieval of oocyte by transabdominal approach (procedure)
+          "
+^KBAI("LEXRPT","NOTFOUND",446939001)="Chordoma of clivus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446945009)="Invasive pituitary adenoma (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446979005)="Open fracture of tibia (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446980008)="Open fracture of tibial plateau (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446981007)="Open pilon fracture (disorder)"
+^KBAI("LEXRPT","NOTFOUND",446988001)="Intestinal infection due to Aeromonas hydrophila (disorder
+          )"
+^KBAI("LEXRPT","NOTFOUND",446990000)="Laparoscopic excision of ureter and kidney (procedure)"
+^KBAI("LEXRPT","NOTFOUND",447004005)="Enteritis due to fungus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447016004)="Open fracture of base of skull (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447017008)="Open fracture of fibula (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447018003)="Open fracture of lateral condyle of humerus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447021001)="Colonoscopy and tattooing (procedure)"
+^KBAI("LEXRPT","NOTFOUND",447044003)="Abscess of nail bed (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447045002)="Abscess of paraumbilical region (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447094002)="Alkaline chemical burn of cornea (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447095001)="Acid chemical burn of conjunctival sac (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447100004)="Marginal zone lymphoma (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447102007)="Cholesterin granuloma of mastoid (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447107001)="Craniotomy and excision of neoplasm of brain (procedure)"
+^KBAI("LEXRPT","NOTFOUND",447109003)="Primary malignant neoplasm of intrahepatic bile duct (diso
+          rder)"
+^KBAI("LEXRPT","NOTFOUND",447115003)="Total excision of lesion of brain tissue (procedure)"
+^KBAI("LEXRPT","NOTFOUND",447135002)="Simple mastectomy with axillary lymph node sampling (proce
+          dure)"
+^KBAI("LEXRPT","NOTFOUND",447138000)="Closed fracture of tarsal bone (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447139008)="Closed fracture of tibia (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447156000)="Trephination of cranium and drainage of empyema of subdura
+          l space (procedure)"
+^KBAI("LEXRPT","NOTFOUND",447166008)="Hand assisted laparoscopic extended right colectomy (proce
+          dure)"
+^KBAI("LEXRPT","NOTFOUND",447214008)="Ligation of umbilical cord of fetus (procedure)"
+^KBAI("LEXRPT","NOTFOUND",447222001)="Granuloma gravidarum (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447259000)="Traumatic injury of external genitalia (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447261009)="Tricuspid valve primary chords absent (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447266004)="Sarcoma of endometrium (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447269006)="Persistent common pulmonary vein (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447275002)="Alveolar capillary dysplasia with pulmonary venous misalig
+          nment (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447281005)="Video assisted thoracoscopic excision of esophagus (proced
+          ure)"
+^KBAI("LEXRPT","NOTFOUND",447282003)="Intestinal infection due to Vibrio cholerae O1 (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447307008)="Laparoscopic total excision of urinary bladder (procedure)
+          "
+^KBAI("LEXRPT","NOTFOUND",447308003)="Excision of urethra and urinary bladder (procedure)"
+^KBAI("LEXRPT","NOTFOUND",447333000)="Burn of ocular adnexa (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447353001)="Infection of cervix due to Chlamydia trachomatis (disorder
+          )"
+^KBAI("LEXRPT","NOTFOUND",447354007)="Intestinal infection due to Campylobacter jejuni (disorder
+          )"
+^KBAI("LEXRPT","NOTFOUND",447362004)="Excision of meningioma by infratentorial approach (procedu
+          re)"
+^KBAI("LEXRPT","NOTFOUND",447363009)="Craniotomy by retromastoid approach (procedure)"
+^KBAI("LEXRPT","NOTFOUND",447372001)="Infection of rectum due to Chlamydia trachomatis (disorder
+          )"
+^KBAI("LEXRPT","NOTFOUND",447386002)="Infection of vulva due to Chlamydia trachomatis (disorder)
+          "
+^KBAI("LEXRPT","NOTFOUND",447389009)="Leiomyosarcoma of uterus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447390000)="Adenosarcoma of uterus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447394009)="Closed comminuted supracondylar fracture of femur (disorde
+          r)"
+^KBAI("LEXRPT","NOTFOUND",447395005)="Closed fracture of fibula (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447396006)="Concussion injury of cerebrum (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447399004)="Tuberculous abscess of neck (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447400006)="Septicemia due to Streptococcus suis (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447401005)="Septicemia due to Genus Enterobacter (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447402003)="Infection of vagina due to Chlamydia trachomatis (disorder
+          )"
+^KBAI("LEXRPT","NOTFOUND",447416008)="Primary malignant neoplasm of distal bile duct (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447421006)="Prophylactic mastectomy (procedure)"
+^KBAI("LEXRPT","NOTFOUND",447464004)="Complete spinal cord injury at T7-T12 level (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447469009)="Partial excision of meningioma by infratentorial approach 
+          (procedure)"
+^KBAI("LEXRPT","NOTFOUND",447517002)="Video assisted thoracoscopic excision of esophagus by abdo
+          minal approach (procedure)"
+^KBAI("LEXRPT","NOTFOUND",447518007)="Partial excision of meningioma by supratentorial approach 
+          (procedure)"
+^KBAI("LEXRPT","NOTFOUND",447527008)="Laparoscopic total excision of kidney by retroperitoneal a
+          pproach (procedure)"
+^KBAI("LEXRPT","NOTFOUND",447529006)="Total excision of meningioma by infratentorial approach (p
+          rocedure)"
+^KBAI("LEXRPT","NOTFOUND",447531002)="Lapraroscopic excision of ureter and kidney by retroperito
+          neal approach (procedure)"
+^KBAI("LEXRPT","NOTFOUND",447575003)="Complete spinal cord injury at T1-T6 level (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447594008)="Total excision of meningioma by supratentorial approach (p
+          rocedure)"
+^KBAI("LEXRPT","NOTFOUND",447596005)="Myelodysplastic/myeloproliferative neoplasm, unclassifiabl
+          e (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447656001)="Lymphoma of pylorus of stomach (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447658000)="Lymphoma of fundus of stomach (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447661004)="Diverticulum of coronary sinus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447668005)="Discontinuous pulmonary arteries (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447670001)="Ventricular septal defect with anterior malaligned outlet 
+          septum with overriding pulmonary valve (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447671002)="Ventricular septal defect with posterior malaligned outlet
+           septum with overriding aortic valve (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447672009)="Ventricular septal defect with posterior malaligned outlet
+           septum with overriding pulmonary valve (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447681003)="Continuity between mitral valve and pulmonary valve (disor
+          der)"
+^KBAI("LEXRPT","NOTFOUND",447682005)="Discontinuity between mitral valve and aortic valve (disor
+          der)"
+^KBAI("LEXRPT","NOTFOUND",447683000)="Discontinuity between mitral valve and pulmonary valve (di
+          sorder)"
+^KBAI("LEXRPT","NOTFOUND",447684006)="Sepsis due to Erysipelothrix (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447685007)="Sepsis due to Haemophilus influenzae (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447692002)="Percutaneous gastrostomy (button) technique (qualifier val
+          ue)"
+^KBAI("LEXRPT","NOTFOUND",447695000)="Tricuspid truncal valve (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447696004)="Unicommissural unicuspid aortic valve (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447697008)="Unicommissural unicuspid pulmonary valve (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447698003)="Ventricular septal defect with anterior malaligned outlet 
+          septum with overriding aortic valve (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447705002)="Malignant germ cell neoplasm of posterior mediastinum (dis
+          order)"
+^KBAI("LEXRPT","NOTFOUND",447707005)="Leiomyosarcoma of cardia of stomach (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447708000)="Malignant germ cell neoplasm of anterior mediastinum (diso
+          rder)"
+^KBAI("LEXRPT","NOTFOUND",447711004)="Follicular neoplasm of thyroid (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447712006)="Malignant melanoma of skin of anus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447738006)="Paget's disease of skin of scrotum (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447757002)="Angiosarcoma of cheek (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447766003)="Lymphoma of pyloric antrum of stomach (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447768002)="Follicular adenoma of ectopic thyroid tissue (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447771005)="Abdominal hysterectomy and excision of periuterine tissue 
+          (procedure)"
+^KBAI("LEXRPT","NOTFOUND",447774002)="Congenital midvalvar ring of mitral leaflet (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447779007)="Trifoliate left atrioventricular valve (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447781009)="Malignant epithelial neoplasm of peritoneum (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447782002)="Malignant epithelial neoplasm of female breast (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447783007)="Sarcoma of peritoneum (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447784001)="Sarcoma of axillary tail of female breast (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447785000)="Leiomyosarcoma of stomach (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447787008)="Conversion from previous anastomosis of stomach to jejunum
+           (procedure)"
+^KBAI("LEXRPT","NOTFOUND",447800002)="Adenocarcinoma of scrotum (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447805007)="Lymphoma of greater curvature of stomach (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447806008)="Lymphoma of cardia of stomach (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447822009)="Congenital prolapse of aortic valve (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447823004)="Congenital abnormality of hepatic vein (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447829000)="Congenital abnormality of tricuspid chordae tendinae (diso
+          rder)"
+^KBAI("LEXRPT","NOTFOUND",447830005)="Congenital abnormality of tricuspid leaflet (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447832002)="Total anomalous pulmonary venous connection of supracardia
+          c type (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447837008)="Noninvasive positive pressure ventilation (procedure)"
+^KBAI("LEXRPT","NOTFOUND",447841007)="Sepsis due to Candida (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447843005)="Sepsis due to anaerobic bacteria (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447847006)="Prolapse of right coronary aortic valve cusp (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447875008)="Congenital mass of mitral leaflet (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447894003)="Sepsis due to Staphylococcus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447897005)="Sepsis due to Acinetobacter (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447898000)="Sepsis due to Actinomyces (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447899008)="Sepsis due to Escherichia coli (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447914003)="Total anomalous pulmonary venous connection of intracardia
+          c type (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447915002)="Ebstein's anomaly of left sided tricuspid valve with disco
+          rdant atrioventricular connections (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447931005)="Clinical sepsis (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447936000)="Excision of intrahepatic bile duct (procedure)"
+^KBAI("LEXRPT","NOTFOUND",447937009)="Congenital abnormality of aortic valve cusp (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447946003)="Right hemicolectomy and ileostomy (procedure)"
+^KBAI("LEXRPT","NOTFOUND",447949005)="Malignant epithelial neoplasm of cheek (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447963004)="Intravenous push technique (qualifier value)"
+^KBAI("LEXRPT","NOTFOUND",447972007)="Medical termination of pregnancy using prostaglandin (proc
+          edure)"
+^KBAI("LEXRPT","NOTFOUND",447978006)="Argon plasma coagulation of lesion of bile duct (procedure
+          )"
+^KBAI("LEXRPT","NOTFOUND",447982008)="Low anterior resection of rectum with colostomy (procedure
+          )"
+^KBAI("LEXRPT","NOTFOUND",447989004)="Non-Hodgkin's lymphoma of extranodal site (disorder)"
+^KBAI("LEXRPT","NOTFOUND",447996002)="Intubation of respiratory tract (procedure)"
+^KBAI("LEXRPT","NOTFOUND",448000003)="Right superior vena cava connecting to left atrium and rig
+          ht atrium (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448004007)="Acommissural unicuspid pulmonary valve (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448005008)="Atresia of systemic vein (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448013009)="Incision of pancreatic sphincter (procedure)"
+^KBAI("LEXRPT","NOTFOUND",448026008)="Left atrioventricular valve bifoliate with fused left side
+          d superior and inferior bridging leaflet (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448050005)="Colectomy and side to side anastomosis of ileum to colon (
+          procedure)"
+^KBAI("LEXRPT","NOTFOUND",448053007)="Resuturing of previous incision of anterior abdominal wall
+           (procedure)"
+^KBAI("LEXRPT","NOTFOUND",448061002)="Shelf-like supravalvar aortic stenosis (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448073002)="Congenital abnormality of tricuspid papillary muscle (diso
+          rder)"
+^KBAI("LEXRPT","NOTFOUND",448074008)="Ebstein's anomaly with functional tricuspid stenosis (diso
+          rder)"
+^KBAI("LEXRPT","NOTFOUND",448081001)="Hepatic vein to coronary sinus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448085005)="Acommissural unicuspid aortic valve (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448096002)="Aberrant origin of left subclavian artery (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448098001)="Aneurysm of aortic sinus of Valsalva with protrusion into 
+          pulmonary artery (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448099009)="Aneurysm of aortic sinus of Valsalva with protrusion into 
+          right atrium (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448100001)="Aneurysm of aortic sinus of Valsalva with protrusion into 
+          right ventricle (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448102009)="Quadricuspid truncal valve (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448104005)="Localized supravalvar aortic stenosis at sinutubular junct
+          ion (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448113007)="Right superior vena cava connecting to coronary sinus (dis
+          order)"
+^KBAI("LEXRPT","NOTFOUND",448115000)="Aneurysm of aortic sinus of Valsalva with protrusion into 
+          left atrium (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448116004)="Aneurysm of aortic sinus of Valsalva with protrusion into 
+          left ventricle (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448117008)="Aneurysm of aortic sinus of Valsalva with protrusion into 
+          pericardial cavity (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448125005)="Ablation of neoplasm of bile duct using laser (procedure)"
+^KBAI("LEXRPT","NOTFOUND",448134000)="Continuous positive airway pressure to nonventilated lung 
+          (regime/therapy)"
+^KBAI("LEXRPT","NOTFOUND",448143009)="Anterior resection of rectum and total excision of mesorec
+          tum (procedure)"
+^KBAI("LEXRPT","NOTFOUND",448148000)="Functioning pituitary neoplasm (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448156002)="Excision of rectum by transanal approach (procedure)"
+^KBAI("LEXRPT","NOTFOUND",448161000)="Aortic valve overriding ventricular septum (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448181004)="Anomalous coronary venous return (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448190006)="Partial excision of esophagus and anastomosis of esophagus
+           to jejunum (procedure)"
+^KBAI("LEXRPT","NOTFOUND",448191005)="Suction diathermy excision of adenoid (procedure)"
+^KBAI("LEXRPT","NOTFOUND",448212009)="Anaplastic lymphoma kinase negative anaplastic large cell 
+          lymphoma (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448213004)="Diffuse non-Hodgkin's lymphoma of prostate (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448214005)="Malignant epithelial neoplasm of oropharynx (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448215006)="Malignant epithelial neoplasm of renal pelvis (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448216007)="Malignant epithelial neoplasm of thyroid (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448217003)="Follicular non-Hodgkin's lymphoma of prostate (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448218008)="Malignant neoplasm of cerebellopontine angle (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448220006)="Non-Hodgkin's lymphoma of bone (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448221005)="Sarcoma of fibula (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448229007)="Leiomyosarcoma of lower esophagus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448231003)="Follicular non-Hodgkin's lymphoma of nose (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448233000)="Malignant neoplasm of urinary organ (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448235007)="Modified rapid sequence induction (procedure)"
+^KBAI("LEXRPT","NOTFOUND",448248006)="Malignant neoplasm of axial suprasellar region of brain (d
+          isorder)"
+^KBAI("LEXRPT","NOTFOUND",448250003)="Malignant teratoma of pineal region (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448254007)="Non-Hodgkin's lymphoma of central nervous system (disorder
+          )"
+^KBAI("LEXRPT","NOTFOUND",448258005)="Sarcoma of mesentery (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448259002)="Sarcoma of posterior mediastinum (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448269008)="Lymphoma of lesser curvature of stomach (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448273006)="Malignant melanoma of skin of scrotum (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448275004)="Phonological therapy (regime/therapy)"
+^KBAI("LEXRPT","NOTFOUND",448276003)="Speech articulation therapy (regime/therapy)"
+^KBAI("LEXRPT","NOTFOUND",448280008)="Malalignment of aortic sinus in relation to pulmonary sinu
+          s (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448298007)="Malignant melanoma of skin of penis (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448299004)="Malignant neoplasm of mastoid (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448300007)="Malignant melanoma of skin of vulva (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448306001)="Diffusion tensor magnetic resonance imaging of brain (proc
+          edure)"
+^KBAI("LEXRPT","NOTFOUND",448315008)="Malignant epithelial neoplasm of anus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448317000)="Follicular non-Hodgkin's lymphoma of soft tissue (disorder
+          )"
+^KBAI("LEXRPT","NOTFOUND",448319002)="Diffuse non-Hodgkin's lymphoma of nasopharynx (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448326002)="Right inferior vena cava connecting to left atrium and rig
+          ht atrium (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448328001)="Aneurysm of aortic sinus of Valsalva without rupture (diso
+          rder)"
+^KBAI("LEXRPT","NOTFOUND",448337001)="Telemedicine consultation with patient (procedure)"
+^KBAI("LEXRPT","NOTFOUND",448352008)="Sphincteroplasty of pancreatic duct using duodenal approac
+          h (procedure)"
+^KBAI("LEXRPT","NOTFOUND",448354009)="Non-Hodgkin's lymphoma of intestine (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448355005)="Greenstick fracture of distal radius (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448369005)="Pharyngolaryngoesophagectomy and radical neck dissection (
+          procedure)"
+^KBAI("LEXRPT","NOTFOUND",448371005)="Non-Hodgkin's lymphoma of nasopharynx (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448372003)="Non-Hodgkin's lymphoma of lung (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448376000)="Non-Hodgkin's lymphoma of ovary (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448377009)="Sarcoma of sacrum (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448378004)="Sarcoma of bone of foot (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448384001)="Non-Hodgkin's lymphoma of nose (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448386004)="Non-Hodgkin's lymphoma of oral cavity (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448387008)="Non-Hodgkin's lymphoma of testis (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448388003)="Sarcoma of lower outer quadrant of female breast (disorder
+          )"
+^KBAI("LEXRPT","NOTFOUND",448401007)="Choriocarcinoma of placenta (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448408001)="Sarcoma of upper inner quadrant of female breast (disorder
+          )"
+^KBAI("LEXRPT","NOTFOUND",448413002)="Pulmonary valve overriding ventricular septum (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448417001)="Sepsis due to Staphylococcus aureus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448418006)="Sepsis due to Streptococcus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448419003)="Sepsis due to Streptococcus agalactiae (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448420009)="Sepsis due to Streptococcus group D (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448421008)="Sepsis due to Streptococcus pneumoniae (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448422001)="Sepsis due to Streptococcus suis (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448435005)="Sarcoma lower inner quadrant of female breast (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448436006)="Sarcoma of central portion of female breast (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448447004)="Non-Hodgkin's lymphoma of skin (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448449001)="Sarcoma of female breast (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448450001)="Sarcoma of omentum (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448451002)="Sarcoma upper outer quadrant of female breast (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448465000)="Diffuse non-Hodgkin's lymphoma of testis (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448468003)="Diffuse non-Hodgkin's lymphoma of oral cavity (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448472004)="Congenital abnormality of pulmonary trunk (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448474003)="Low anterior resection of rectum and total excision of mes
+          orectum (procedure)"
+^KBAI("LEXRPT","NOTFOUND",448475002)="Absent pulmonary valve syndrome with ventricular septal de
+          fect of non Fallot type (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448482003)="Sepsis due to Bacillus anthracis (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448483008)="Sepsis due to Enterobacter (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448486000)="Anomalous pulmonary to systemic collateral vein (disorder)
+          "
+^KBAI("LEXRPT","NOTFOUND",448487009)="Anomalous pulmonary venous connection of mixed type (disor
+          der)"
+^KBAI("LEXRPT","NOTFOUND",448493001)="Stomach in central position (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448495008)="Stomach in right sided position (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448497000)="Congenital deformity of mitral valve annulus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448499002)="Infracardiac location of anomalous pulmonary venous connec
+          tion (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448500006)="Intracardiac location of anomalous pulmonary venous connec
+          tion (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448509007)="Transglottic malignant neoplasm of larynx (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448528000)="Aneurysm of aortic sinus of Valsalva with rupture to peric
+          ardial cavity (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448539002)="Vaginal hysterectomy and excision of periuterine tissue (p
+          rocedure)"
+^KBAI("LEXRPT","NOTFOUND",448543003)="Transmyometrial transfer of embryo to uterus (procedure)"
+^KBAI("LEXRPT","NOTFOUND",448553002)="Lymphoma of pelvis (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448555009)="Lymphoma of body of stomach (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448558006)="Malignant neoplasm of maxillofacial bone (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448560008)="Diffuse non-Hodgkin's lymphoma of extranodal site (disorde
+          r)"
+^KBAI("LEXRPT","NOTFOUND",448561007)="Follicular non-Hodgkin's lymphoma of extranodal site (diso
+          rder)"
+^KBAI("LEXRPT","NOTFOUND",448576004)="Fenestration of aortic valve cusp (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448583006)="High dose opiate anesthesia (procedure)"
+^KBAI("LEXRPT","NOTFOUND",448585004)="Target controlled total intravenous anesthesia (procedure)
+          "
+^KBAI("LEXRPT","NOTFOUND",448591002)="Repositioning of Tenckhoff catheter (procedure)"
+^KBAI("LEXRPT","NOTFOUND",448596007)="Excision of rectal stump (procedure)"
+^KBAI("LEXRPT","NOTFOUND",448599000)="Total anomalous pulmonary venous connection of infracardia
+          c type (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448604006)="Congenital abnormality of pulmonary valve cusp (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448607004)="Diffuse non-Hodgkin's lymphoma of uterine cervix (disorder
+          )"
+^KBAI("LEXRPT","NOTFOUND",448609001)="Diffuse non-Hodgkin's lymphoma of ovary (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448618004)="Abnormality of mitral valve annulus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448626007)="Gelatinous atrioventricular valve leaflet in atrioventricu
+          lar septal defect (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448631009)="Right inferior vena cava connecting to left sided atrium (
+          disorder)"
+^KBAI("LEXRPT","NOTFOUND",448632002)="Left inferior vena cava connecting to left atrium and righ
+          t atrium (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448634001)="Absent aortic valve cusp (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448643005)="Abnormality of pulmonary valve (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448647006)="Bilateral bilobed lungs due to isomerism of left lung (dis
+          order)"
+^KBAI("LEXRPT","NOTFOUND",448653006)="Anterior resection of rectum and total mesorectal excision
+           with colostomy (procedure)"
+^KBAI("LEXRPT","NOTFOUND",448663003)="Diffuse non-Hodgkin's lymphoma of stomach (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448665005)="Malignant epithelial neoplasm of hypopharynx (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448666006)="Follicular non-Hodgkin's lymphoma of bone (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448668007)="Malignant neoplasm of mandible (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448669004)="Malignant neoplasm of soft tissue of orbit (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448670003)="Malignant neoplasm of posterior mediastinum (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448672006)="Follicular non-Hodgkin's lymphoma of lung (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448674007)="Malignant neoplasm of parametrium (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448684008)="Prolapse of left coronary aortic valve cusp (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448709005)="Non-Hodgkin's lymphoma of stomach (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448710000)="Sarcoma of bone (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448712008)="Sarcoma of femur (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448719004)="Postoperative lower respiratory tract infection (disorder)
+          "
+^KBAI("LEXRPT","NOTFOUND",448723007)="Aneurysm of aortic sinus of Valsalva with rupture to left 
+          atrium (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448724001)="Aneurysm of aortic sinus of Valsalva with rupture to left 
+          ventricle (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448726004)="Parallel course of aorta and pulmonary artery (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448727008)="Total anomalous pulmonary venous connections of mixed type
+           (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448728003)="Supracardiac location of anomalous pulmonary venous connec
+          tion (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448729006)="Common atrioventricular valve in functionally univentricul
+          ar heart (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448738008)="Non-Hodgkin's lymphoma of soft tissue (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448739000)="Recurrent lower respiratory tract infection (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448743001)="Abnormality of aortic valve (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448744007)="Aneurysm of aortic sinus of Valsalva with rupture to pulmo
+          nary artery (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448745008)="Aneurysm of aortic sinus of Valsalva with rupture to right
+           atrium (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448746009)="Aneurysm of aortic sinus of Valsalva with rupture to right
+           ventricle (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448756008)="Superficial injury of shoulder and upper arm with infectio
+          n (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448768004)="Injury of bladder and urethra (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448774004)="Non-Hodgkin's lymphoma of uterine cervix (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448775003)="Sarcoma of radius (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448776002)="Sarcoma of vertebra (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448777006)="Noncoapting atrioventricular valve leaflet in atrioventric
+          ular septal defect (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448780007)="Ventricular septal defect with absent outlet septum and ov
+          erriding truncal valve with extension of membranous septum (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448784003)="Sepsis due to herpes simplex (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448788000)="Open fracture of lumbar spine with incomplete lesion of lu
+          mbar spinal cord (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448790004)="Anterior-posterior orientation of bicuspid aortic valve (d
+          isorder)"
+^KBAI("LEXRPT","NOTFOUND",448793002)="Bicuspid truncal valve (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448812000)="Sepsis due to methicillin resistant Staphylococcus aureus 
+          (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448813005)="Sepsis due to Pseudomonas (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448819009)="Right-left orientation of bicuspid aortic valve (disorder)
+          "
+^KBAI("LEXRPT","NOTFOUND",448820003)="Thickened mitral leaflet (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448821004)="Abnormality of truncal valve cusp (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448822006)="Deficiency of atrioventricular valve leaflet in atrioventr
+          icular septal defect (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448827000)="Ventricular septal defect with absent outlet septum and ov
+          erriding truncal valve with inferior muscular rim (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448828005)="Deficiency of mitral leaflet (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448836001)="Thickened atrioventricular valve leaflet in atrioventricul
+          ar septal defect (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448838000)="Closed extraarticular fracture of distal radius (disorder)
+          "
+^KBAI("LEXRPT","NOTFOUND",448844001)="Multiple mitral papillary muscles with hammock valve (diso
+          rder)"
+^KBAI("LEXRPT","NOTFOUND",448863000)="Malignant epithelial neoplasm of pineal gland (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448864006)="Malignant epithelial neoplasm of ureter (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448865007)="Follicular non-Hodgkin's lymphoma of skin (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448867004)="Diffuse non-Hodgkin's lymphoma of lung (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448868009)="Malignant neoplasm of lateral wall of oropharynx (disorder
+          )"
+^KBAI("LEXRPT","NOTFOUND",448903003)="Dilatation of annulus of aortic valve (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448905005)="Dilatation of aortic sinus of Valsalva (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448911008)="Torsion of leiomyoma of uterus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448915004)="Cleft of hard palate (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448946000)="Anterior-posterior orientation of bicuspid pulmonary valve
+           (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448947009)="Congenital abnormality of left atrioventricular valve in d
+          ouble inlet ventricle (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448948004)="Overriding ventriculoarterial valve (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448952004)="Infiltrating duct carcinoma of female breast (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448954003)="Malignant epithelial neoplasm of urethra (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448965008)="Inferior vena cava connecting to right atrium and left atr
+          ium (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448981003)="Gangrene of buttock (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448989001)="Malignant epithelial neoplasm of brain (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448990005)="Malignant epithelial neoplasm of nasal cavity (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448993007)="Malignant epithelial neoplasm of lung (disorder)"
+^KBAI("LEXRPT","NOTFOUND",448995000)="Follicular non-Hodgkin's lymphoma of central nervous syste
+          m (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449005003)="Absence of mitral chordae tendinae (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449008001)="Flail atrioventricular valve leaflet in atrioventricular s
+          eptal defect (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449011000)="Fenestration of atrioventricular valve leaflet in atrioven
+          tricular septal defect (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449020009)="Intraparenchymal hemorrhage of brain (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449029005)="Imperforate ventriculoarterial valve (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449031001)="Congenital abnormality of right atrioventricular valve lea
+          flet in double inlet ventricle (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449032008)="Congenital abnormality of right atrioventricular valve pap
+          illary muscle in double inlet ventricle (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449034009)="Malignant neoplasm of anterior and lateral floor of mouth 
+          (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449037002)="Truncal valve overriding ventricular septum (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449040002)="Hypoplasia of right atrioventricular valve annulus in doub
+          le inlet ventricle (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449053004)="Lymphoma of lower esophagus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449054005)="Malignant epithelial neoplasm of fundus of uterus (disorde
+          r)"
+^KBAI("LEXRPT","NOTFOUND",449055006)="Leiomyosarcoma of cardioesophageal junction (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449058008)="Follicular non-Hodgkin's lymphoma of tonsil (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449059000)="Follicular non-Hodgkin's lymphoma of uterine cervix (disor
+          der)"
+^KBAI("LEXRPT","NOTFOUND",449063007)="Follicular non-Hodgkin's lymphoma of oral cavity (disorder
+          )"
+^KBAI("LEXRPT","NOTFOUND",449065000)="Diffuse non-Hodgkin's lymphoma of nose (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449066004)="Malignant neoplasm of upper respiratory tract (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449067008)="Malignant neoplasm of parietal pleura (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449072004)="Lymphoma of gastrointestinal tract (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449073009)="Malignant epithelial neoplasm of body of uterus (disorder)
+          "
+^KBAI("LEXRPT","NOTFOUND",449074003)="Lymphoma of small intestine (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449075002)="Lymphoma of cardioesophageal junction (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449077005)="Malignant epithelial neoplasm of maxilla (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449082003)="Sepsis due to Gram negative bacteria (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449083008)="Sepsis due to Salmonella (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449084002)="Sepsis due to Serratia (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449085001)="Pulmonary artery connecting to coronary artery via collate
+          ral artery (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449086000)="Ebstein's anomaly of left atrioventricular valve in functi
+          onally univentricular heart (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449087009)="Ebstein's anomaly of right atrioventricular valve in funct
+          ionally univentricular heart (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449097000)="Hyperfunctioning follicular adenoma of thyroid gland (diso
+          rder)"
+^KBAI("LEXRPT","NOTFOUND",449098005)="Congenital abnormality of left atrioventricular valve chor
+          dae tendinae in double inlet ventricle (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449099002)="Left atrioventricular valve stenosis in double inlet ventr
+          icle (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449100005)="Sarcoma of bone of pelvis (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449101009)="Sarcoma of sternum (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449108003)="Philadelphia chromosome positive chronic myelogenous leuke
+          mia (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449110001)="Congenital billowing of mitral valve leaflet (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449111002)="Double orifice of right atrioventricular valve in double i
+          nlet ventricle (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449112009)="Prolapse of noncoronary aortic valve cusp (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449116007)="Tricuspid but functionally bicuspid aortic valve (disorder
+          )"
+^KBAI("LEXRPT","NOTFOUND",449123008)="Eccentric opening of tricuspid aortic valve (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449124002)="Eccentric opening of tricuspid pulmonary valve (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449126000)="Administration of inhalation anesthetic using endotracheal
+           tube (procedure)"
+^KBAI("LEXRPT","NOTFOUND",449133000)="Absence of pulmonary valve cusp (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449136008)="Fenestration of mitral leaflet (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449137004)="Intravenous piggyback technique (qualifier value)"
+^KBAI("LEXRPT","NOTFOUND",449139001)="Commissural fusion of truncal valve (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449140004)="Right-left orientation of bicuspid pulmonary valve (disord
+          er)"
+^KBAI("LEXRPT","NOTFOUND",449149003)="Deficiency of aortic valve cusp (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449153001)="Adenocarcinoma of lower esophagus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449156009)="Malignant epithelial neoplasm of floor of mouth (disorder)
+          "
+^KBAI("LEXRPT","NOTFOUND",449158005)="Ebstein's anomaly of tricuspid valve with atrialization of
+           right ventricular chamber (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449173006)="Diffuse non-Hodgkin's lymphoma of tonsil (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449176003)="Diffuse non-Hodgkin's lymphoma of intestine (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449177007)="Diffuse non-Hodgkin's lymphoma of bone (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449186002)="Dilatation of pulmonary valve annulus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449189009)="Mass associated with atrioventricular valve leaflet in atr
+          ioventricular septal defect (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449191001)="Logorrhea (finding)"
+^KBAI("LEXRPT","NOTFOUND",449206007)="Sarcoma of tibia (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449207003)="Sarcoma of humerus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449208008)="Sarcoma of coccyx (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449216004)="Diffuse non-Hodgkin's lymphoma of soft tissue (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449217008)="Diffuse non-Hodgkin's lymphoma of skin (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449218003)="Lymphoma of sigmoid colon (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449219006)="Follicular non-Hodgkin's lymphoma of nasopharynx (disorder
+          )"
+^KBAI("LEXRPT","NOTFOUND",449220000)="Diffuse follicle center lymphoma (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449221001)="Diffuse non-Hodgkin's lymphoma of central nervous system (
+          disorder)"
+^KBAI("LEXRPT","NOTFOUND",449222008)="Follicular non-Hodgkin's lymphoma of stomach (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449223003)="Malignant neoplasm of alveolus of maxilla (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449224009)="Malignant neoplasm of anterior mediastinum (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449228007)="Hypoplasia of left atrioventricular valve annulus in doubl
+          e inlet ventricle (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449248000)="Nasopharyngeal carcinoma (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449253005)="Malignant epithelial neoplasm of hypothalamus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449254004)="Malignant epithelial neoplasm of pharynx (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449259009)="Malignant neoplasm of broad ligament of uterus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449260004)="Malignant neoplasm of alveolus dentalis (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449267001)="Sarcoma of mandible (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449268006)="Sarcoma of clavicle (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449269003)="Sarcoma of rib (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449270002)="Hypoplasia of mitral valve annulus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449292003)="Non-Hodgkin's lymphoma of tonsil (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449294002)="Sarcoma of scapula (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449295001)="Sarcoma of skull (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449307001)="Follicular non-Hodgkin's lymphoma of ovary (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449308006)="Malignant neoplasm of visceral pleura (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449309003)="Malignant neoplasm of skin of scrotum (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449315003)="Congenital abnormality of right atrioventricular valve cho
+          rdae tendinae in double inlet ventricle (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449316002)="Congenital abnormality of right atrioventricular valve in 
+          double inlet ventricle (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449318001)="Non-Hodgkin's lymphoma of prostate (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449335002)="Sepsis due to Listeria monocytogenes (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449354002)="Hypoplasia of pulmonary cusps of absent pulmonary valve ty
+          pe (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449377002)="Malignant neoplasm of pelvic peritoneum (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449382009)="Congenital abnormality of atrioventricular valve leaflet i
+          n atrioventricular septal defect (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449383004)="Congenital abnormality of atrioventricular valve papillary
+           muscle in atrioventricular septal defect (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449386007)="Philadelphia chromosome negative chronic myelogenous leuke
+          mia (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449388008)="Abnormality of atrioventricular valve leaflet in atriovent
+          ricular septal defect (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449396003)="Dilation of mature T tube tract (procedure)"
+^KBAI("LEXRPT","NOTFOUND",449400003)="Removal of blood clot from arteriovenous fistula (procedur
+          e)"
+^KBAI("LEXRPT","NOTFOUND",449416001)="Malignant epithelial neoplasm of skin of anus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449417005)="Malignant epithelial neoplasm of nasal septum (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449418000)="Follicular non-Hodgkin's lymphoma of testis (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449419008)="Follicular non-Hodgkin's lymphoma of intestine (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449420002)="Malignant neoplasm of cerebellum (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449421003)="Malignant neoplasm of placenta (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449455000)="Abnormal attachment of tricuspid chordae tendinae (disorde
+          r)"
+^KBAI("LEXRPT","NOTFOUND",449472007)="Malignant epithelial neoplasm of alveolus dentalis (disord
+          er)"
+^KBAI("LEXRPT","NOTFOUND",449487002)="Malignant epithelial neoplasm of mandible (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449497006)="Sarcoma of pelvic peritoneum (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449504009)="Sepsis due to Streptococcus pyogenes (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449505005)="Sepsis due to coagulase negative Staphylococcus (disorder)
+          "
+^KBAI("LEXRPT","NOTFOUND",449511008)="Imperforate left ventriculoarterial valve (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449512001)="Imperforate right ventriculoarterial valve (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449529003)="Abnormality of pulmonary valve cusp (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449534004)="Obstructed interchordal space of tricuspid chordae tendina
+          e (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449544002)="Deficiency of truncal valve cusp (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449546000)="Sepsis due to Haemophilus influenzae type B (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449555002)="Aortic valve commissural abnormality (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449563001)="Absence of primary mitral chordae tendinae (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449564007)="Fenestration of truncal valve cusp (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449567000)="Overriding left ventriculoarterial valve (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449568005)="Overriding right ventriculoarterial valve (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449578008)="Malignant neoplasm of alveolus of mandible (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449601008)="Fenestration of pulmonary valve cusp (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449605004)="Deficiency of pulmonary valve cusp (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449628003)="Malignant neoplasm of long bone of lower leg (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449629006)="Neoplasm of uncertain behavior of lower leg (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449630001)="Secondary malignant neoplasm of skin of lower leg (disorde
+          r)"
+^KBAI("LEXRPT","NOTFOUND",449631002)="Secondary malignant neoplasm of skin of upper arm (disorde
+          r)"
+^KBAI("LEXRPT","NOTFOUND",449632009)="Secondary malignant neoplasm of lower leg (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449633004)="Secondary malignant neoplasm of upper arm (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449634005)="Primary malignant neoplasm of skin of lower leg (disorder)
+          "
+^KBAI("LEXRPT","NOTFOUND",449635006)="Primary malignant neoplasm of lower leg (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449636007)="Malignant melanoma of skin of lower leg (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449637003)="Malignant melanoma of skin of upper arm (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449702005)="Cellulitis and abscess of lower limb (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449711005)="Cellulitis of lower leg (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449717009)="Cellulitis and abscess of upper limb (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449790007)="Orofacial cleft (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449807005)="Type 3a third degree laceration of perineum (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449808000)="Type 3b third degree laceration of perineum (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449809008)="Type 3c third degree laceration of perineum (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449818005)="22q11 partial monosomy syndrome (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449819002)="3p partial monosomy syndrome (disorder)"
+^KBAI("LEXRPT","NOTFOUND",449834008)="Lateral vertigo (finding)"
+^KBAI("LEXRPT","NOTFOUND",449835009)="Nocturnal vertigo (finding)"
+^KBAI("LEXRPT","NOTFOUND",449868002)="Smokes tobacco daily (finding)"
+^KBAI("LEXRPT","NOTFOUND",449900006)="Necrotizing fasciitis due to Streptococcus pyogenes (disor
+          der)"
+^KBAI("LEXRPT","NOTFOUND",461093009)="Bilateral ductus arteriosus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",472837007)="Insertion of hormone releasing intrauterine contraceptive 
+          device (procedure)"
+^KBAI("LEXRPT","NOTFOUND",472838002)="Removal of hormone releasing intrauterine contraceptive de
+          vice (procedure)"
+^KBAI("LEXRPT","NOTFOUND",472945003)="Previously asexual transsexual (finding)"
+^KBAI("LEXRPT","NOTFOUND",472946002)="Previously heterosexual transsexual (finding)"
+^KBAI("LEXRPT","NOTFOUND",472947006)="Previously homosexual transsexual (finding)"
+^KBAI("LEXRPT","NOTFOUND",472948001)="Cross-dressing (finding)"
+^KBAI("LEXRPT","NOTFOUND",472949009)="Primary transvestism (finding)"
+^KBAI("LEXRPT","NOTFOUND",472950009)="Secondary transvestism (finding)"
+^KBAI("LEXRPT","NOTFOUND",472981000)="Fetishistic transvestism (disorder)"
+^KBAI("LEXRPT","NOTFOUND",981000124106)="Moderate left ventricular systolic dysfunction (disorde
+          r)"
+^KBAI("LEXRPT","NOTFOUND",991000124109)="Severe left ventricular systolic dysfunction (disorder)
+          "
+^KBAI("LEXRPT","NOTFOUND",17761000119109)="High lumbar myelomeningocele (disorder)"
+^KBAI("LEXRPT","NOTFOUND",17771000119103)="Low lumbar myelomeningocele (disorder)"
+^KBAI("LEXRPT","NOTFOUND",428041000124106)="Occasional tobacco smoker (finding)"
+^KBAI("LEXRPT","NOTFOUND",428061000124105)="Light tobacco smoker (finding)"
+^KBAI("LEXRPT","NOTFOUND",428071000124103)="Heavy tobacco smoker (finding)"
+^KBAI("LEXRPT","NOTFOUND",428171000124102)="Depression Screening Negative (finding)"
+^KBAI("LEXRPT","NOTFOUND",428181000124104)="Depression Screening Positive (situation)"
+^KBAI("LEXRPT","NOTFOUND",428191000124101)="Documentation of current medications (procedure)"
+^KBAI("LEXRPT","NOTFOUND",428201000124103)="Counseling for depression (procedure)"
+^KBAI("LEXRPT","NOTFOUND",428211000124100)="Assessment of substance use (procedure)"
+^KBAI("LEXRPT","NOTFOUND",428221000124108)="Maternal postpartum depression screening (procedure)
+          "
+^KBAI("LEXRPT","NOTFOUND",428231000124106)="Maternal postpartum depression care (regime/therapy)
+          "
+^KBAI("LEXRPT","NOTFOUND",428331000124103)="Anaphylaxis due to rotavirus vaccine (disorder)"
+^KBAI("LEXRPT","NOTFOUND",428341000124108)="Macular edema absent (situation)"
+^KBAI("LEXRPT","NOTFOUND",428351000124105)="Severe dementia (disorder)"
+^KBAI("LEXRPT","NOTFOUND",428361000124107)="Discharge to home for hospice care (procedure)"
+^KBAI("LEXRPT","NOTFOUND",428371000124100)="Discharge to healthcare facility for hospice care (p
+          rocedure)"
+^KBAI("LEXRPT","NOTFOUND",428381000124102)="Medication interaction with food education (procedur
+          e)"
+^KBAI("LEXRPT","NOTFOUND",428391000124104)="Medication interaction with medication education (pr
+          ocedure)"
+^KBAI("LEXRPT","NOTFOUND",428401000124102)="International normalized ratio monitoring education 
+          (procedure)"
+^KBAI("LEXRPT","NOTFOUND",428411000124104)="Intermittent pneumatic compression boot (physical ob
+          ject)"
+^KBAI("LEXRPT","NOTFOUND",428421000124107)="Intermittent pneumatic compression sleeve (physical 
+          object)"
+^KBAI("LEXRPT","NOTFOUND",428431000124105)="Chronic wound care (regime/therapy)"
+^KBAI("LEXRPT","NOTFOUND",428441000124100)="Referral to nurse anesthetist (procedure)"
+^KBAI("LEXRPT","NOTFOUND",428451000124103)="Referral to physician assistant (procedure)"
+^KBAI("LEXRPT","NOTFOUND",428461000124101)="Referral to nutrition professional (procedure)"
+^KBAI("LEXRPT","NOTFOUND",428471000124108)="Referral to clinical psychologist (procedure)"
+^KBAI("LEXRPT","NOTFOUND",428481000124106)="Referral to clinical social worker (procedure)"
+^KBAI("LEXRPT","NOTFOUND",428491000124109)="Referral to anesthesiologist assistant (procedure)"
+^KBAI("LEXRPT","NOTFOUND",428501000124101)="Recommendation to continue current diet (procedure)"
+^KBAI("LEXRPT","NOTFOUND",428521000124106)="Patient informed - arrange follow-up care (situation
+          )"
+^KBAI("LEXRPT","NOTFOUND",428541000124104)="Referral to nurse midwife (procedure)"
+^KBAI("LEXRPT","NOTFOUND",428551000124102)="Activation of emergency medical services education (
+          procedure)"
+^KBAI("LEXRPT","NOTFOUND",428561000124100)="Maternal substance abuse (situation)"
+^KBAI("LEXRPT","NOTFOUND",428571000124107)="Maternal human immunodeficiency virus infection (sit
+          uation)"
+^KBAI("LEXRPT","NOTFOUND",428581000124105)="Maternal herpes simplex infection of skin of breast 
+          (situation)"
+^KBAI("LEXRPT","NOTFOUND",428591000124108)="Maternal varicella infection - untreated (situation)
+          "
+^KBAI("LEXRPT","NOTFOUND",428601000124100)="Maternal active tuberculosis - untreated (situation)
+          "
+^KBAI("LEXRPT","NOTFOUND",428611000124102)="Maternal human T-lymphotrophic virus type I infectio
+          n (situation)"
+^KBAI("LEXRPT","NOTFOUND",428621000124105)="Maternal human T-lymphotrophic virus type II infecti
+          on (situation)"
+^KBAI("LEXRPT","NOTFOUND",428631000124108)="Maternal admission to intensive care unit, post-part
+          um (situation)"
+^KBAI("LEXRPT","NOTFOUND",428641000124103)="Mother receiving radiation therapy (situation)"
+^KBAI("LEXRPT","NOTFOUND",428651000124101)="Mother receiving radionuclide therapy (situation)"
+^KBAI("LEXRPT","NOTFOUND",428661000124104)="Mother receiving cancer chemotherapy (situation)"
+^KBAI("LEXRPT","NOTFOUND",428671000124106)="Mother receiving antimetabolite therapy (situation)"
+^KBAI("LEXRPT","NOTFOUND",428681000124109)="Mother receiving antiretroviral medication therapy (
+          situation)"
+^KBAI("LEXRPT","NOTFOUND",428691000124107)="Vitamin K dietary intake education (procedure)"
+^KBAI("LEXRPT","NOTFOUND",433351000124101)="Neoplasm of prostate primary tumor staging category 
+          T1c: Tumor identified by needle biopsy (finding)"
+^KBAI("LEXRPT","NOTFOUND",433361000124104)="Neoplasm of prostate primary tumor staging category 
+          T2a: Involves one-half of one lobe or less (finding)"
+^KBAI("LEXRPT","NOTFOUND",433371000124106)="Neoplasm of breast primary tumor staging category T0
+          : No evidence of primary tumor (finding)"
+^KBAI("LEXRPT","NOTFOUND",433381000124109)="Neoplasm of breast primary tumor staging category T1
+          mi: Tumor <=1 mm in greatest dimension (finding)"
+^KBAI("LEXRPT","NOTFOUND",433391000124107)="Neoplasm of breast primary tumor staging category T1
+          c: Tumor >10 mm but <=20 mm in greatest dimension (finding)"
+^KBAI("LEXRPT","NOTFOUND",433401000124109)="Neoplasm of breast primary tumor staging category T4
+          : Direct extension to chest wall and/or skin beyond dermis (finding)"
+^KBAI("LEXRPT","NOTFOUND",433411000124107)="Neoplasm of breast distant metastasis staging catego
+          ry M0: No clinical or radiographic evidence of distant metastasis (finding)"
+^KBAI("LEXRPT","NOTFOUND",433421000124104)="Neoplasm of breast regional lymph node staging categ
+          ory N2 as per American Joint Committee on Cancer 7th edition (finding)"
+^KBAI("LEXRPT","NOTFOUND",433431000124101)="Neoplasm of breast regional lymph node staging categ
+          ory N3 as per American Joint Committee on Cancer 7th edition (finding)"
+^KBAI("LEXRPT","NOTFOUND",433441000124106)="Neoplasm of breast regional lymph node staging categ
+          ory N0: No regional lymph node metastatis (finding)"
+^KBAI("LEXRPT","NOTFOUND",433451000124108)="Neoplasm of breast regional lymph node staging categ
+          ory N1: Metastasis to movable ipsilateral level I, II axillary lymph node(s) (finding)
+          "
+^KBAI("LEXRPT","NOTFOUND",433461000124105)="Neoplasm of colon primary tumor staging category T1:
+           Tumor invades submucosa (finding)"
+^KBAI("LEXRPT","NOTFOUND",433471000124103)="Neoplasm of colon primary tumor staging category T2:
+           Tumor invades muscularis propria (finding)"
+^KBAI("LEXRPT","NOTFOUND",433481000124100)="Neoplasm of colon primary tumor staging category T3:
+           Tumor invades through muscularis propria into pericolorectal tissues (finding)"
+^KBAI("LEXRPT","NOTFOUND",433491000124102)="Neoplasm of colon primary tumor staging category T4a
+          : Tumor penetrates to surface of visceral peritoneum (finding)"
+^KBAI("LEXRPT","NOTFOUND",433501000124105)="Neoplasm of colon primary tumor staging category T4b
+          : Tumor directly invades or is adherent to other organ or structure (finding)"
+^KBAI("LEXRPT","NOTFOUND",433511000124108)="Neoplasm of colon regional lymph node staging catego
+          ry N1: Metastasis in 1-3 regional lymph nodes (finding)"
+^KBAI("LEXRPT","NOTFOUND",433521000124100)="Neoplasm of colon regional lymph node staging catego
+          ry N1a: Metastasis in 1 regional lymph node (finding)"
+^KBAI("LEXRPT","NOTFOUND",433531000124102)="Neoplasm of colon regional lymph node staging catego
+          ry N1b: Metastasis in 2-3 regional lymph nodes (finding)"
+^KBAI("LEXRPT","NOTFOUND",433541000124107)="Neoplasm of colon regional lymph node staging catego
+          ry N1c: Tumor deposit(s) in subserosa, mesentery, or nonperitonealized pericolic or pe
+          rirectal tissues without regional nodal metastasis (finding)"
+^KBAI("LEXRPT","NOTFOUND",433551000124109)="Neoplasm of colon regional lymph node staging catego
+          ry N2: Metastasis in 4 or more regional lymph nodes (finding)"
+^KBAI("LEXRPT","NOTFOUND",433561000124106)="Neoplasm of colon regional lymph node staging catego
+          ry N2a: Metastasis in 4-6 regional lymph nodes (finding)"
+^KBAI("LEXRPT","NOTFOUND",433571000124104)="Neoplasm of colon regional lymph node staging catego
+          ry N2b: Metastasis in 7 or more regional lymph nodes (finding)"
+^KBAI("LEXRPT","NOTFOUND",433581000124101)="Neoplasm of colon distant metastasis staging categor
+          y M0: No distant metastasis (finding)"
+^KBAI("LEXRPT","NOTFOUND",433591000124103)="Discharge to rehabilitation facility (procedure)"
+^KBAI("LEXRPT","NOTFOUND",433601000124106)="Gestation period greater than or equal to 37 weeks (
+          finding)"
+^KBAI("LEXRPT","NOTFOUND",433611000124109)="Procedure reason record (record artifact)"
+^KBAI("LEXRPT","NOTFOUND",434581000124103)="Mother refuses to breastfeed (situation)"
+^KBAI("LEXRPT","NOTFOUND",434591000124100)="Focal disruption of uterus (disorder)"
+^KBAI("LEXRPT","NOTFOUND",434731000124109)="Rotavirus vaccination, 3 dose schedule (procedure)"
+^KBAI("LEXRPT","NOTFOUND",434741000124104)="Rotavirus vaccination, 2 dose schedule (procedure)"
+^KBAI("LEXRPT","NOTFOUND",434751000124102)="Pneumococcal conjugate vaccination (procedure)"
+
+MU-beta>[?1h=Z[CW[CR[C [C^[CK[CB[CA[CI[C([C"[CL[CE[CX[CR[CP[CT[C"[C,[C"[CC[CO[CU[CN[CT[C"[C,[C*[C)[C[?1l>
+^KBAI("LEXRPT","COUNT","FOUND")=37795
+^KBAI("LEXRPT","COUNT","FOUND","NONDUP")=24608
+^KBAI("LEXRPT","COUNT","NOTFOUND")=982
+^KBAI("LEXRPT","COUNT","NOTFOUND","NONDUP")=685
+
+MU-beta>[?1h=H[C[?1l>
+vista@cypress-3:~$ exit
+exit
+
+Script done on Fri 15 Nov 2013 06:21:18 PM UTC
