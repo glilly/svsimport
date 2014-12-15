@@ -153,3 +153,134 @@ GETCODE(RTN,CODE,PARMS) ; retrieves a code that is used in Quality Measures
  . D GETVS(.RTN,.PARM)
  Q
  ;
+GETREST(RXML,URL) ; make rest call to URL and return RXML, passed by name
+ N RTN,OK
+ S OK=$$httpGET^C0IEWD(URL,.RTN)
+ I +OK=0 M @RXML=RTN
+ Q OK
+ ;
+WGETCODE(RARY,CODE) ; call web service to get code array
+ N URL
+ S URL="http://cqm.healthspace.zone:9080/smokingGun/?code="_CODE
+ D FETCH(RARY,URL)
+ Q
+ ;
+WGETVS(RARY,OID) ; use web service to retrieve all codes in a valueset
+ N URL
+ S URL="http://cqm.healthspace.zone:9080/valueset/"_OID
+ D FETCH(RARY,URL)
+ Q
+ ;
+FETCH(RARY,URL)
+ N OK,RXML
+ S RXML=$NA(^TMP("KBAIVSWS",$J,"XML"))
+ K @RXML
+ S OK=$$GETREST(RXML,URL)
+ I OK=1 D  Q  ;
+ . W !,"ERROR RETRIEVING ",CODE
+ S OK=$$PARSE(RXML)
+ I OK=0 D  Q  ;
+ . W !,"ERROR PARSING XML"
+ . ZWR RXML
+ . ZWR ^TMP("MXMLERR",$J,*)
+ D domo3(RARY)
+ Q
+ ;
+PARSE(INXML)
+ Q $$EN^MXMLDOM(INXML,"W")
+ ;
+domo3(zary,what,where,zdom,lvl) ; simplified domo
+ ; zary is the return array
+ ; what is the tag to begin with starting at where, a node in the zdom
+ ; multiple is the index to be used for a muliple entry 0 is a singleton
+ ; 
+ i '$d(zdom) s zdom=$na(^TMP("MXMLDOM",$J,$o(^TMP("MXMLDOM",$J,"AAAAA"),-1)))
+ i '$d(where) s where=1
+ i $g(what)="" s what=@zdom@(where)
+ i '$d(lvl) s lvl=0 n znum s znum=0 ; first time
+ ;
+ n txt s txt=$$CLEAN($$ALLTXT($NA(@zdom@(where))))
+ i txt'="" i txt'=" " d  ;
+ . s @zary@(@zdom@(where))=txt
+ ;
+ n zi s zi=""
+ f  s zi=$o(@zdom@(where,"A",zi)) q:zi=""  d  ;
+ . s @zary@(what_"@"_zi)=@zdom@(where,"A",zi)
+ f  s zi=$o(@zdom@(where,"C",zi)) q:zi=""  d  ;
+ . n mult s mult=$$ismult(where,zdom)
+ . ;i '$d(znum) n znum s znum(where)=0
+ . i mult>0 s znum(where)=$g(znum(where))+1
+ . i $g(C0DEBUG) i mult>0 D  ;
+ . . w !,"where ",where," what ",what," zi ",zi," lvl ",lvl,!
+ . . zwr znum
+ . i mult=0 d domo3($na(@zary@(what)),@zdom@(where,"C",zi),zi,zdom,lvl+1)
+ . i mult>0 d domo3($na(@zary@(what,znum(where))),@zdom@(where,"C",zi),zi,zdom,lvl+1)
+ q
+ ;
+ismult(zidx,zdom) ; extrinsic which returns one if the node contains multiple
+ ; children with the same tag
+ n ztags,zzi,zj,rtn s zzi="" s rtn=0
+ f  s zzi=$o(@zdom@(zidx,"C",zzi)) q:rtn=1  q:zzi=""  d  ;
+ . s zj=@zdom@(zidx,"C",zzi)
+ . i $d(ztags(zj)) s rtn=1
+ . s ztags(zj)=""
+ q rtn
+ ;
+ALLTXT(where)	; extrinsic which returns all text lines from the node .. concatinated 
+ ; together
+ n zti s zti=""
+ n ztr s ztr=""
+ f  s zti=$o(@where@("T",zti)) q:zti=""  d  ;
+ . s ztr=ztr_$g(@where@("T",zti))
+ q ztr
+ ;
+CLEAN(STR)	; extrinsic function; returns string - gpl borrowed from the CCR package
+ ;; Removes all non printable characters from a string.
+ ;; STR by Value
+ N TR,I
+ F I=0:1:31 S TR=$G(TR)_$C(I)
+ S TR=TR_$C(127)
+ N ZR S ZR=$TR(STR,TR)
+ S ZR=$$LDBLNKS(ZR) ; get rid of leading blanks
+ QUIT ZR
+ ;
+LDBLNKS(st)	; extrinsic which removes leading blanks from a string
+ n pos f pos=1:1:$l(st)  q:$e(st,pos)'=" "
+ q $e(st,pos,$l(st))
+ ;
+ONEOUT(zbuf,ztxt) ; adds a line to zbuf
+ n zi s zi=$o(@zbuf@(""),-1)+1
+ s @zbuf@(zi)=ztxt
+ q
+ ;
+PUSH(BUF,STR) ;
+ D ONEOUT(BUF,STR)
+ Q
+ ;
+ARY2XML(OUTXML,INARY,STK,CHILD) ; convert an array to xml
+ I '$D(@OUTXML@(1)) S @OUTXML@(1)="<?xml version=""1.0"" encoding=""utf-8"" ?>"
+ I $O(@INARY@(""))]"@" D  ; this is a parent
+ . N PP S PP=$O(@INARY@(""))
+ . D ONEOUT(OUTXML,"<"_PP_">")
+ . D PUSH("STK","</"_PP_">")
+ N II S II=""
+ F  S II=$O(@INARY@(II)) Q:II=""  D  ;
+ . W !,II
+ Q
+ ;
+TEST
+ K G,GXML
+ D WGETCODE("G",1037045)
+ ZWR G
+ D ARY2XML("GXML","G")
+ ZWR GXML
+ Q
+ ;
+TEST2
+ K G,GXML
+ D WGETVS("G","2.16.840.1.113883.3.464.1003.196.12.1221")
+ ZWR G
+ D ARY2XML("GXML","G")
+ ZWR GXML
+ Q
+ ;
