@@ -23,6 +23,30 @@ wsOID(OUT,PARM)
  D ADDCRLF^VPRJRUT(.OUT) 
  Q
  ;
+wsCODE(OUT,PARM)
+ N VSIEN,CODE,VSCNT
+ S VSCNT=0
+ S CODE=$G(PARM("code"))
+ Q:CODE=""
+ N RETURN,KBAIRTN
+ S OUT=$NA(^TMP("KBAIVS",$J))
+ K @OUT
+ S VSIEN=""
+ F  S VSIEN=$O(^C0QVS(176.801,"CODE",CODE,VSIEN)) Q:VSIEN=""  D  ;
+ . S VSCNT=VSCNT+1
+ . S KBAIRTN=$NA(RETURN("result"))
+ . D ONECODE(KBAIRTN,VSIEN,CODE)
+ . S KBAIRTN=$NA(RETURN("result","valuesets"))
+ . N OID
+ . S OID=$$GET1^DIQ(176.801,VSIEN_",",.02)
+ . S PARM("oid")=OID
+ . S PARM("filter")="measures"
+ . D GETVS(KBAIRTN,.PARM)
+ S HTTPRSP("mime")="text/xml"
+ D ARY2XML(.OUT,KBAIRTN)
+ D ADDCRLF^VPRJRUT(.OUT) 
+ Q
+ ;
 FORMXML(RTN,IN,TAG) ; 
  N TXT,CNT
  S CNT=""
@@ -36,7 +60,7 @@ FORMXML(RTN,IN,TAG) ;
  . D ADDTO(RTN,TXT)
  Q
  ;
-GETVS(RETURN,PARM) ; retrieve a valueset based on PARM("oid")
+GETVS(VSRTN,PARM) ; retrieve a valueset based on PARM("oid")
  ; PARM("filter")="codes" will return only the codes
  ; PARM("filter")="measures" will return only the measures
  ; no filter returns both codes and measures for the valueset
@@ -48,12 +72,13 @@ GETVS(RETURN,PARM) ; retrieve a valueset based on PARM("oid")
  N CMS,NDF,CMSDISP,OIDDISP
  S OIDDISP=$$GET1^DIQ(176.801,OIDIEN_",",.01)
  Q:OIDDISP=""
- S RETURN("valueset",1,"oid")=OID
- S RETURN("valueset",1,"oidDisplayName")=OIDDISP
- S RETURN("valueset",1,"oidIen")=OIDIEN
+ S @VSRTN@("valueset@oid")=OID
+ S @VSRTN@("valueset@oidDisplayName")=OIDDISP
+ S @VSRTN@("valueset@oidIen")=OIDIEN
  N MEACNT S MEACNT=0
  I $G(PARM("filter"))'="codes" D  ; filter code means no measure info
  . N MEAIEN S MEAIEN=""
+ . ;N RTNMEA S RTNMEA=$NA(@VSRTN@("measures"))
  . F  S MEAIEN=$O(^C0QVS(176.801,OIDIEN,4,"B",MEAIEN)) Q:MEAIEN=""  D  ;
  . . S MEACNT=MEACNT+1
  . . N MEADISP,NQF,CMS,GUID,VERSION
@@ -62,13 +87,15 @@ GETVS(RETURN,PARM) ; retrieve a valueset based on PARM("oid")
  . . S CMS=$$GET1^DIQ(176.802,MEAIEN_",",2.2)
  . . S GUID=$$GET1^DIQ(176.802,MEAIEN_",",.02)
  . . S VERSION=$$GET1^DIQ(176.802,MEAIEN_",",.04)
- . . S RETURN("measure",MEACNT,"measureDisplayName")=MEADISP
- . . S RETURN("measure",MEACNT,"nqf")=NQF
- . . S RETURN("measure",MEACNT,"cmsId")=CMS
- . . S RETURN("measure",MEACNT,"guid")=GUID
- . . S RETURN("measure",MEACNT,"measureDisplayName")=MEADISP
- . . S RETURN("measure",MEACNT,"version")=VERSION
- . . S RETURN("measure",MEACNT,"measureIen")=MEAIEN
+ . . N RTNMEA
+ . . S RTNMEA=$NA(@VSRTN@("measures",MEACNT))
+ . . S @RTNMEA@("measure@measureDisplayName")=MEADISP
+ . . S @RTNMEA@("measure@nqf")=NQF
+ . . S @RTNMEA@("measure@cmsId")=CMS
+ . . S @RTNMEA@("measure@guid")=GUID
+ . . S @RTNMEA@("measure@measureDisplayName")=MEADISP
+ . . S @RTNMEA@("measure@version")=VERSION
+ . . S @RTNMEA@("measure@measureIen")=MEAIEN
  ;
  ; return codes if filter is not set to measure
  ;
@@ -78,8 +105,8 @@ GETVS(RETURN,PARM) ; retrieve a valueset based on PARM("oid")
  . F  S CODE=$O(^C0QVS(176.801,OIDIEN,2,"B",CODE)) Q:CODE=""  D  ;
  . . S CDCNT=CDCNT+1
  . . N ONECD
- . . D ONECODE(.ONECD,OIDIEN,CODE) ; get values for one code
- . . M RETURN("code",CDCNT)=ONECD
+ . . S ONECD=$NA(@VSRTN@("codes",CDCNT))
+ . . D ONECODE(ONECD,OIDIEN,CODE) ; get values for one code
  Q
  ;
 ONECODE(RCD,OIDIEN,CODE) ; retrieve one code
@@ -89,11 +116,11 @@ ONECODE(RCD,OIDIEN,CODE) ; retrieve one code
  S CDSYS=$$GET1^DIQ(176.8011,CDIEN_","_OIDIEN_",",.04)
  S SYSOID=$$GET1^DIQ(176.8011,CDIEN_","_OIDIEN_",",.05)
  S SYSVER=$$GET1^DIQ(176.8011,CDIEN_","_OIDIEN_",",.06)
- S RCD("displayName")=CDDISP
- S RCD("code")=CODE
- S RCD("system")=CDSYS
- S RCD("systemOid")=SYSOID
- S RCD("systemVersion")=SYSVER
+ S @RCD@("code@displayName")=CDDISP
+ S @RCD@("code@code")=CODE
+ S @RCD@("code@system")=CDSYS
+ S @RCD@("code@systemOid")=SYSOID
+ S @RCD@("code@systemVersion")=SYSVER
  Q
  ;
 OIDHTML(OUT,PARM)
@@ -109,7 +136,7 @@ wsMEA(OUT,PARM)
  S OUT(1)="RESULT"
  Q
  ;
-wsCODE(OUT,PARM)
+wsCODEOLD(OUT,PARM)
  N OIDIEN,CODE
  S CODE=$G(PARM("code"))
  Q:CODE=""
@@ -144,7 +171,7 @@ GETCODE(RTN,CODE,PARMS) ; retrieves a code that is used in Quality Measures
  N OIDIEN S OIDIEN=""
  F  S OIDIEN=$O(^C0QVS(176.801,"CODE",CODE,OIDIEN)) Q:OIDIEN=""  D  ;
  . N RTN1
- . D ONECODE(.RTN1,OIDIEN,CODE)
+ . D ONECODE("RTN1",OIDIEN,CODE)
  . M RTN("code",1)=RTN1
  . N OID
  . S OID=$$GET1^DIQ(176.801,OIDIEN_",",.02)
@@ -183,58 +210,58 @@ FETCH(RARY,URL)
  . W !,"ERROR PARSING XML"
  . ZWR RXML
  . ZWR ^TMP("MXMLERR",$J,*)
- D domo3(RARY)
+ D DOMO(RARY)
  Q
  ;
 PARSE(INXML)
  Q $$EN^MXMLDOM(INXML,"W")
  ;
-domo3(zary,what,where,zdom,lvl) ; simplified domo
- ; zary is the return array
- ; what is the tag to begin with starting at where, a node in the zdom
- ; multiple is the index to be used for a muliple entry 0 is a singleton
- ; 
- i '$d(zdom) s zdom=$na(^TMP("MXMLDOM",$J,$o(^TMP("MXMLDOM",$J,"AAAAA"),-1)))
- i '$d(where) s where=1
- i $g(what)="" s what=@zdom@(where)
- i '$d(lvl) s lvl=0 n znum s znum=0 ; first time
+DOMO(ZARY,WHAT,WHERE,ZDOM,LVL) ; SIMPLIFIED DOMO
+ ; ZARY IS THE RETURN ARRAY
+ ; WHAT IS THE TAG TO BEGIN WITH STARTING AT WHERE, A NODE IN THE ZDOM
+ ; MULTIPLE IS THE INDEX TO BE USED FOR A MULIPLE ENTRY 0 IS A SINGLETON
  ;
- n txt s txt=$$CLEAN($$ALLTXT($NA(@zdom@(where))))
- i txt'="" i txt'=" " d  ;
- . s @zary@(@zdom@(where))=txt
+ I '$D(ZDOM) S ZDOM=$NA(^TMP("MXMLDOM",$J,$O(^TMP("MXMLDOM",$J,"AAAAA"),-1)))
+ I '$D(WHERE) S WHERE=1
+ I $G(WHAT)="" S WHAT=@ZDOM@(WHERE)
+ I '$D(LVL) S LVL=0 N ZNUM S ZNUM=0 ; FIRST TIME
  ;
- n zi s zi=""
- f  s zi=$o(@zdom@(where,"A",zi)) q:zi=""  d  ;
- . s @zary@(what_"@"_zi)=@zdom@(where,"A",zi)
- f  s zi=$o(@zdom@(where,"C",zi)) q:zi=""  d  ;
- . n mult s mult=$$ismult(where,zdom)
- . ;i '$d(znum) n znum s znum(where)=0
- . i mult>0 s znum(where)=$g(znum(where))+1
- . i $g(C0DEBUG) i mult>0 D  ;
- . . w !,"where ",where," what ",what," zi ",zi," lvl ",lvl,!
- . . zwr znum
- . i mult=0 d domo3($na(@zary@(what)),@zdom@(where,"C",zi),zi,zdom,lvl+1)
- . i mult>0 d domo3($na(@zary@(what,znum(where))),@zdom@(where,"C",zi),zi,zdom,lvl+1)
- q
+ N TXT S TXT=$$CLEAN($$ALLTXT($NA(@ZDOM@(WHERE))))
+ I TXT'="" I TXT'=" " D  ;
+ . S @ZARY@(@ZDOM@(WHERE))=TXT
  ;
-ismult(zidx,zdom) ; extrinsic which returns one if the node contains multiple
- ; children with the same tag
- n ztags,zzi,zj,rtn s zzi="" s rtn=0
- f  s zzi=$o(@zdom@(zidx,"C",zzi)) q:rtn=1  q:zzi=""  d  ;
- . s zj=@zdom@(zidx,"C",zzi)
- . i $d(ztags(zj)) s rtn=1
- . s ztags(zj)=""
- q rtn
+ N ZI S ZI=""
+ F  S ZI=$O(@ZDOM@(WHERE,"A",ZI)) Q:ZI=""  D  ;
+ . S @ZARY@(WHAT_"@"_ZI)=@ZDOM@(WHERE,"A",ZI)
+ F  S ZI=$O(@ZDOM@(WHERE,"C",ZI)) Q:ZI=""  D  ;
+ . N MULT S MULT=$$ISMULT(WHERE,ZDOM)
+ . ;I '$D(ZNUM) N ZNUM S ZNUM(WHERE)=0
+ . I MULT>0 S ZNUM(WHERE)=$G(ZNUM(WHERE))+1
+ . I $G(C0DEBUG) I MULT>0 D  ;
+ . . W !,"WHERE ",WHERE," WHAT ",WHAT," ZI ",ZI," LVL ",LVL,!
+ . . ZWR ZNUM
+ . I MULT=0 D DOMO($NA(@ZARY@(WHAT)),@ZDOM@(WHERE,"C",ZI),ZI,ZDOM,LVL+1)
+ . I MULT>0 D DOMO($NA(@ZARY@(WHAT,ZNUM(WHERE))),@ZDOM@(WHERE,"C",ZI),ZI,ZDOM,LVL+1)
+ Q
  ;
-ALLTXT(where)	; extrinsic which returns all text lines from the node .. concatinated 
- ; together
- n zti s zti=""
- n ztr s ztr=""
- f  s zti=$o(@where@("T",zti)) q:zti=""  d  ;
- . s ztr=ztr_$g(@where@("T",zti))
- q ztr
+ISMULT(ZIDX,ZDOM) ; EXTRINSIC WHICH RETURNS ONE IF THE NODE CONTAINS MULTIPLE
+ ; CHILDREN WITH THE SAME TAG
+ N ZTAGS,ZZI,ZJ,RTN S ZZI="" S RTN=0
+ F  S ZZI=$O(@ZDOM@(ZIDX,"C",ZZI)) Q:RTN=1  Q:ZZI=""  D  ;
+ . S ZJ=@ZDOM@(ZIDX,"C",ZZI)
+ . I $D(ZTAGS(ZJ)) S RTN=1
+ . S ZTAGS(ZJ)=""
+ Q RTN
  ;
-CLEAN(STR)	; extrinsic function; returns string - gpl borrowed from the CCR package
+ALLTXT(WHERE) ; EXTRINSIC RETURNS ALL TEXT LINES FROM THE NODE .. CONCATINATED
+ ; TOGETHER
+ N ZTI S ZTI=""
+ N ZTR S ZTR=""
+ F  S ZTI=$O(@WHERE@("T",ZTI)) Q:ZTI=""  D  ;
+ . S ZTR=ZTR_$G(@WHERE@("T",ZTI))
+ Q ZTR
+ ;
+CLEAN(STR) ; extrinsic function; returns string
  ;; Removes all non printable characters from a string.
  ;; STR by Value
  N TR,I
@@ -257,15 +284,39 @@ PUSH(BUF,STR) ;
  D ONEOUT(BUF,STR)
  Q
  ;
+POP(BUF) ; extrinsic returns the last element and then deletes it
+ N NM,TX
+ S NM=$O(@BUF@(""),-1)
+ Q:NM="" NM
+ S TX=@BUF@(NM)
+ K @BUF@(NM)
+ Q TX
+ ;
 ARY2XML(OUTXML,INARY,STK,CHILD) ; convert an array to xml
  I '$D(@OUTXML@(1)) S @OUTXML@(1)="<?xml version=""1.0"" encoding=""utf-8"" ?>"
- I $O(@INARY@(""))]"@" D  ; this is a parent
- . N PP S PP=$O(@INARY@(""))
- . D ONEOUT(OUTXML,"<"_PP_">")
- . D PUSH("STK","</"_PP_">")
  N II S II=""
  F  S II=$O(@INARY@(II)) Q:II=""  D  ;
- . W !,II
+ . N ATTR,TAG
+ . S ATTR="" S TAG=""
+ . I II["@" D  ;
+ . . I TAG="" S TAG=$P(II,"@",1) S ATTR=$P(II,"@",2)_"="""_@INARY@(II)_""""
+ . . W:$G(DEBUG) !,"TAG="_TAG_" ATTR="_ATTR
+ . . ;I $O(@INARY@(II))["@" D  ;
+ . . F  S II=$O(@INARY@(II)) Q:II=""  Q:$O(@INARY@(II))'[(TAG_"@")  D  ;
+ . . . S ATTR=ATTR_" "_$P(II,"@",2)_"="""_@INARY@(II)_""""
+ . . . W:$G(DEBUG) !,"ATTR= ",ATTR
+ . . . W:$G(DEBUG) !,"II= ",II
+ . . N ENDING S ENDING="/"
+ . . I II["@" D  ;
+ . . . I $D(@INARY@(TAG)) S ENDING=""
+ . . . D ONEOUT(OUTXML,"<"_TAG_" "_ATTR_ENDING_">")
+ . . . I ENDING="" D PUSH("STK","</"_TAG_">")
+ . I II'["@" D  ;
+ . . I +II=0 D  ;
+ . . . D ONEOUT(OUTXML,"<"_II_">")
+ . . . D PUSH("STK","</"_II_">")
+ . I $D(@INARY@(II)) D ARY2XML(OUTXML,$NA(@INARY@(II)))
+ I $D(STK) F  D ONEOUT(OUTXML,$$POP("STK")) Q:'$D(STK)
  Q
  ;
 TEST
@@ -279,6 +330,14 @@ TEST
 TEST2
  K G,GXML
  D WGETVS("G","2.16.840.1.113883.3.464.1003.196.12.1221")
+ ZWR G
+ D ARY2XML("GXML","G")
+ ZWR GXML
+ Q
+ ;
+TEST3
+ K G,GXML,PARM
+ D GETCODE("G",100,.PARM)
  ZWR G
  D ARY2XML("GXML","G")
  ZWR GXML
