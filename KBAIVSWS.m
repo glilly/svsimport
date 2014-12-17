@@ -88,7 +88,7 @@ GETVS(VSRTN,PARM) ; retrieve a valueset based on PARM("oid")
  . . S GUID=$$GET1^DIQ(176.802,MEAIEN_",",.02)
  . . S VERSION=$$GET1^DIQ(176.802,MEAIEN_",",.04)
  . . N RTNMEA
- . . S RTNMEA=$NA(@VSRTN@("measures",MEACNT))
+ . . S RTNMEA=$NA(@VSRTN@("valueset",MEACNT))
  . . S @RTNMEA@("measure@measureDisplayName")=MEADISP
  . . S @RTNMEA@("measure@nqf")=NQF
  . . S @RTNMEA@("measure@cmsId")=CMS
@@ -136,48 +136,21 @@ wsMEA(OUT,PARM)
  S OUT(1)="RESULT"
  Q
  ;
-wsCODEOLD(OUT,PARM)
- N OIDIEN,CODE
- S CODE=$G(PARM("code"))
- Q:CODE=""
- S OIDIEN=$O(^C0QVS(176.801,"CODE",CODE,""))
- Q:'OIDIEN
- N RETURN,RTN
- S OUT=$NA(^TMP("KBAIVS",$J))
- K @OUT
- D ONECODE(.RTN,OIDIEN,CODE)
- M RETURN("code",1)=RTN
- S HTTPRSP("mime")="text/xml"
- D ADDTO(OUT,"<result>")
- D FORMXML(OUT,.RETURN,"code")
- N OID
- S OID=$$GET1^DIQ(176.801,OIDIEN_",",.02)
- S PARM("oid")=OID
- S PARM("filter")="measures"
- D GETVS(.RETURN,.PARM)
- D ADDTO(OUT,"<valuesets>")
- D FORMXML(OUT,.RETURN,"valueset")
- D ADDTO(OUT,"<measures>")
- D FORMXML(OUT,.RETURN,"measure")
- D ADDTO(OUT,"</measures>")
- D ADDTO(OUT,"</valuesets>")
- D ADDTO(OUT,"</result>")
- D ADDCRLF^VPRJRUT(.OUT) 
- Q
- ;
 GETCODE(RTN,CODE,PARMS) ; retrieves a code that is used in Quality Measures
  ; returns the valuesets containing the code and the measures using the 
  ;   valuesets
+ N VSCNT S VSCNT=0
  N OIDIEN S OIDIEN=""
  F  S OIDIEN=$O(^C0QVS(176.801,"CODE",CODE,OIDIEN)) Q:OIDIEN=""  D  ;
+ . S VSCNT=VSCNT+1
  . N RTN1
  . D ONECODE("RTN1",OIDIEN,CODE)
- . M RTN("code",1)=RTN1
+ . M @RTN@("result")=RTN1
  . N OID
  . S OID=$$GET1^DIQ(176.801,OIDIEN_",",.02)
  . S PARM("oid")=OID
  . S PARM("filter")="measures"
- . D GETVS(.RTN,.PARM)
+ . D GETVS($NA(@RTN@("result","code",VSCNT)),.PARM)
  Q
  ;
 GETREST(RXML,URL) ; make rest call to URL and return RXML, passed by name
@@ -271,14 +244,14 @@ CLEAN(STR) ; extrinsic function; returns string
  S ZR=$$LDBLNKS(ZR) ; get rid of leading blanks
  QUIT ZR
  ;
-LDBLNKS(st)	; extrinsic which removes leading blanks from a string
- n pos f pos=1:1:$l(st)  q:$e(st,pos)'=" "
- q $e(st,pos,$l(st))
+LDBLNKS(ST)     ; EXTRINSIC WHICH REMOVES LEADING BLANKS FROM A STRING
+ N POS F POS=1:1:$L(ST)  Q:$E(ST,POS)'=" "
+ Q $E(ST,POS,$L(ST))
  ;
-ONEOUT(zbuf,ztxt) ; adds a line to zbuf
- n zi s zi=$o(@zbuf@(""),-1)+1
- s @zbuf@(zi)=ztxt
- q
+ONEOUT(ZBUF,ZTXT) ; ADDS A LINE TO ZBUF
+ N ZI S ZI=$O(@ZBUF@(""),-1)+1
+ S @ZBUF@(ZI)=ZTXT
+ Q
  ;
 PUSH(BUF,STR) ;
  D ONEOUT(BUF,STR)
@@ -295,25 +268,30 @@ POP(BUF) ; extrinsic returns the last element and then deletes it
 ARY2XML(OUTXML,INARY,STK,CHILD) ; convert an array to xml
  I '$D(@OUTXML@(1)) S @OUTXML@(1)="<?xml version=""1.0"" encoding=""utf-8"" ?>"
  N II S II=""
- F  S II=$O(@INARY@(II)) Q:II=""  D  ;
+ N DATTR S DATTR="" ; deffered attributes
+ F  S II=$O(@INARY@(II),-1) Q:II=""  D  ;
  . N ATTR,TAG
  . S ATTR="" S TAG=""
  . I II["@" D  ;
  . . I TAG="" S TAG=$P(II,"@",1) S ATTR=$P(II,"@",2)_"="""_@INARY@(II)_""""
  . . W:$G(DEBUG) !,"TAG="_TAG_" ATTR="_ATTR
  . . ;I $O(@INARY@(II))["@" D  ;
- . . F  S II=$O(@INARY@(II)) Q:II=""  Q:$O(@INARY@(II))'[(TAG_"@")  D  ;
+ . . ;F  S II=$O(@INARY@(II),-1) Q:II=""  Q:$O(@INARY@(II),-1)'[(TAG_"@")  D  ;
+ . . F  S II=$O(@INARY@(II),-1) Q:II=""  Q:II'[(TAG_"@")  D  ;
  . . . S ATTR=ATTR_" "_$P(II,"@",2)_"="""_@INARY@(II)_""""
  . . . W:$G(DEBUG) !,"ATTR= ",ATTR
  . . . W:$G(DEBUG) !,"II= ",II
+ . . S II=$O(@INARY@(II)) ; reset to previous
  . . N ENDING S ENDING="/"
  . . I II["@" D  ;
+ . . . I $O(@INARY@(II),-1)=TAG S DATTR=" "_ATTR Q  ; deffered attributes
  . . . I $D(@INARY@(TAG)) S ENDING=""
  . . . D ONEOUT(OUTXML,"<"_TAG_" "_ATTR_ENDING_">")
  . . . I ENDING="" D PUSH("STK","</"_TAG_">")
  . I II'["@" D  ;
  . . I +II=0 D  ;
- . . . D ONEOUT(OUTXML,"<"_II_">")
+ . . . D ONEOUT(OUTXML,"<"_II_DATTR_">")
+ . . . S DATTR="" ; reinitialize after use
  . . . D PUSH("STK","</"_II_">")
  . I $D(@INARY@(II)) D ARY2XML(OUTXML,$NA(@INARY@(II)))
  I $D(STK) F  D ONEOUT(OUTXML,$$POP("STK")) Q:'$D(STK)
@@ -341,5 +319,21 @@ TEST3
  ZWR G
  D ARY2XML("GXML","G")
  ZWR GXML
+ Q
+ ;
+TEST4
+ K G,GXML,PARM,GARY
+ D GETCODE("G",3980006,.PARM)
+ ZWR G
+ D ARY2XML("GXML","G")
+ ZWR GXML
+ K ^TMP("MXMLDOM",$J)
+ S TMPXML=$NA(^TMP("KBAIXML",$J))
+ K @TMPXML
+ M @TMPXML=GXML
+ S OK=$$PARSE(TMPXML)
+ I OK=0 ZWR ^TMP("MXMLERR",$J,*) Q  ;
+ D DOMO("GARY")
+ ZWR GARY
  Q
  ;
