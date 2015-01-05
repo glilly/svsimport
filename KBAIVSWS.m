@@ -24,26 +24,23 @@ wsOID(OUT,PARM)
  Q
  ;
 wsCODE(OUT,PARM)
- N VSIEN,CODE,VSCNT
- S VSCNT=0
+ N VSIEN,CODE
  S CODE=$G(PARM("code"))
  Q:CODE=""
  N RETURN,KBAIRTN
  S OUT=$NA(^TMP("KBAIVS",$J))
  K @OUT
- S VSIEN=""
- F  S VSIEN=$O(^C0QVS(176.801,"CODE",CODE,VSIEN)) Q:VSIEN=""  D  ;
- . S VSCNT=VSCNT+1
- . S KBAIRTN=$NA(RETURN("result"))
- . D ONECODE(KBAIRTN,VSIEN,CODE)
- . S KBAIRTN=$NA(RETURN("result","valuesets"))
- . N OID
- . S OID=$$GET1^DIQ(176.801,VSIEN_",",.02)
- . S PARM("oid")=OID
- . S PARM("filter")="measures"
- . D GETVS(KBAIRTN,.PARM)
+ D GETCODE("KBAIRTN",CODE,.PARM)
+ I $G(PARM("format"))="mumps" D  Q  ;
+ . S HTTRSP("mime")="text/html"
+ . S GTOP="<!DOCTYPE HTML><html><head></head><body>"_"<pre"
+ . d listm^C0IUTIL(OUT,"KBAIRTN")
+ . ;S @OUT=GTOP
+ . S GBOT="</pre></body></html>"
+ . ;D ONEOUT(OUT,GBOT)
+ . D ADDCRLF^VPRJRUT(.OUT)
  S HTTPRSP("mime")="text/xml"
- D ARY2XML(.OUT,KBAIRTN)
+ D ARY2XML(.OUT,"KBAIRTN")
  D ADDCRLF^VPRJRUT(.OUT) 
  Q
  ;
@@ -78,7 +75,6 @@ GETVS(VSRTN,PARM) ; retrieve a valueset based on PARM("oid")
  N MEACNT S MEACNT=0
  I $G(PARM("filter"))'="codes" D  ; filter code means no measure info
  . N MEAIEN S MEAIEN=""
- . ;N RTNMEA S RTNMEA=$NA(@VSRTN@("measures"))
  . F  S MEAIEN=$O(^C0QVS(176.801,OIDIEN,4,"B",MEAIEN)) Q:MEAIEN=""  D  ;
  . . S MEACNT=MEACNT+1
  . . N MEADISP,NQF,CMS,GUID,VERSION
