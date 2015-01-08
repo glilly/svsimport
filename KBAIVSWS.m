@@ -30,7 +30,9 @@ wsCODE(OUT,PARM)
  N RETURN,KBAIRTN
  S OUT=$NA(^TMP("KBAIVS",$J))
  K @OUT
- D GETCODE("KBAIRTN",CODE,.PARM)
+ I '$$GETCODE("KBAIRTN",CODE,.PARM) D  Q 0  ;
+ . K HTTRSP("mime")
+ . D SETERROR^VPRJRUT("404","Code not found in Valuesets")
  I $G(PARM("format"))="mumps" D  Q  ;
  . S HTTRSP("mime")="text/html"
  . S GTOP="<!DOCTYPE HTML><html><head></head><body>"_"<pre"
@@ -69,34 +71,46 @@ GETVS(VSRTN,PARM) ; retrieve a valueset based on PARM("oid")
  N CMS,NDF,CMSDISP,OIDDISP
  S OIDDISP=$$GET1^DIQ(176.801,OIDIEN_",",.01)
  Q:OIDDISP=""
- S @VSRTN@("valueset@oid")=OID
- S @VSRTN@("valueset@oidDisplayName")=OIDDISP
- S @VSRTN@("valueset@oidIen")=OIDIEN
+ N FBYM,FBYN,FOUND,ANY ; filter by measure, filter by nqf number
+ S FBYM=0 S FBYN=0 S FOUND=0 S ANY=0
+ I $G(PARM("emeasure"))'="" S FBYM=1
+ I $G(PARM("nqf"))'="" S FBYN=1
+ M ^G("PARMS")=PARM
  N MEACNT S MEACNT=0
  I $G(PARM("filter"))'="codes" D  ; filter code means no measure info
  . N MEAIEN S MEAIEN=""
  . F  S MEAIEN=$O(^C0QVS(176.801,OIDIEN,4,"B",MEAIEN)) Q:MEAIEN=""  D  ;
- . . S MEACNT=MEACNT+1
  . . N MEADISP,NQF,CMS,GUID,VERSION
  . . S MEADISP=$$GET1^DIQ(176.802,MEAIEN_",",.01)
  . . S NQF=$$GET1^DIQ(176.802,MEAIEN_",",.03)
  . . S CMS=$$GET1^DIQ(176.802,MEAIEN_",",2.2)
  . . S GUID=$$GET1^DIQ(176.802,MEAIEN_",",.02)
  . . S VERSION=$$GET1^DIQ(176.802,MEAIEN_",",.04)
+ . . I ((FBYM)&($G(PARM("emeasure"))'=CMS)) D  Q  ;
+ . . . S FOUND=0
+ . . I ((FBYN)&($G(PARM("nqf"))'=NQF)) D  Q  ;
+ . . . S FOUND=0
+ . . S FOUND=1
+ . . S ANY=1
+ . . S MEACNT=MEACNT+1
  . . N RTNMEA
  . . S RTNMEA=$NA(@VSRTN@("valueset",MEACNT))
  . . S @RTNMEA@("measure@measureDisplayName")=MEADISP
  . . S @RTNMEA@("measure@nqf")=NQF
- . . S @RTNMEA@("measure@cmsId")=CMS
+ . . S @RTNMEA@("measure@eMeasure")=CMS
  . . S @RTNMEA@("measure@guid")=GUID
  . . S @RTNMEA@("measure@measureDisplayName")=MEADISP
  . . S @RTNMEA@("measure@version")=VERSION
  . . S @RTNMEA@("measure@measureIen")=MEAIEN
+ Q:((FBYM!FBYN)&(ANY=0))  ;
+ S @VSRTN@("valueset@oid")=OID
+ S @VSRTN@("valueset@oidDisplayName")=OIDDISP
+ S @VSRTN@("valueset@oidIen")=OIDIEN
  ;
  ; return codes if filter is not set to measure
  ;
  N CDCNT S CDCNT=0
- I $G(PARM("filter"))'="measures" D  ; filter code means no measure info
+ I $G(PARM("filter"))'="measures" D  ; filter measures means no code info
  . N CDIEN,CODE S CODE=""
  . F  S CODE=$O(^C0QVS(176.801,OIDIEN,2,"B",CODE)) Q:CODE=""  D  ;
  . . S CDCNT=CDCNT+1
@@ -137,6 +151,7 @@ GETCODE(RTN,CODE,PARMS) ; retrieves a code that is used in Quality Measures
  ;   valuesets
  N VSCNT S VSCNT=0
  N OIDIEN S OIDIEN=""
+ I '$O(^C0QVS(176.801,"CODE",CODE,"")) Q 0  ; code not found
  F  S OIDIEN=$O(^C0QVS(176.801,"CODE",CODE,OIDIEN)) Q:OIDIEN=""  D  ;
  . S VSCNT=VSCNT+1
  . N RTN1
@@ -147,7 +162,7 @@ GETCODE(RTN,CODE,PARMS) ; retrieves a code that is used in Quality Measures
  . S PARM("oid")=OID
  . S PARM("filter")="measures"
  . D GETVS($NA(@RTN@("result","code",VSCNT)),.PARM)
- Q
+ Q 1
  ;
 GETREST(RXML,URL) ; make rest call to URL and return RXML, passed by name
  N RTN,OK
@@ -310,16 +325,41 @@ TEST2
  Q
  ;
 TEST3
- K G,GXML,PARM
- D GETCODE("G",100,.PARM)
+ K G,GXML,PARM,OK
+ S OK=$$GETCODE("G",100,.PARM)
  ZWR G
  D ARY2XML("GXML","G")
  ZWR GXML
  Q
  ;
 TEST4
- K G,GXML,PARM,GARY
- D GETCODE("G",3980006,.PARM)
+ K G,GXML,PARM,GARY,OK
+ S OK=$$GETCODE("G",3980006,.PARM)
+ ZWR G
+ D ARY2XML("GXML","G")
+ ZWR GXML
+ K ^TMP("MXMLDOM",$J)
+ S TMPXML=$NA(^TMP("KBAIXML",$J))
+ K @TMPXML
+ M @TMPXML=GXML
+ S OK=$$PARSE(TMPXML)
+ I OK=0 ZWR ^TMP("MXMLERR",$J,*) Q  ;
+ D DOMO("GARY")
+ ZWR GARY
+ Q
+ ;
+TEST5
+ K G,GXML,PARM,OK
+ S OK=$$GETCODE("G",1839,.PARM) ; SHOULD BE NOT FOUND
+ ZWR G
+ D ARY2XML("GXML","G")
+ ZWR GXML
+ Q
+ ;
+TEST6 ; test filtering by eMeasure
+ K G,GXML,PARM,GARY,OK
+ S PARM("eMeasure")="CMS178v4"
+ S OK=$$GETCODE("G",3980006,.PARM)
  ZWR G
  D ARY2XML("GXML","G")
  ZWR GXML
