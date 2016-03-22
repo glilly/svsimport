@@ -56,6 +56,7 @@ FORMXML(RTN,IN,TAG) ;
  . F  S ATTR=$O(IN(TAG,CNT,ATTR)) Q:ATTR=""  D  ;
  . . S TXT=TXT_" "_ATTR_"="""_IN(TAG,CNT,ATTR)_""""
  . S TXT=TXT_" />"
+ . ;S TXT=$$CHARCHK^MXMLBLD(TXT) ; GPL 3/2016
  . D ADDTO(RTN,TXT)
  Q
  ;
@@ -70,7 +71,6 @@ GETVS(VSRTN,PARM) ; retrieve a valueset based on PARM("oid")
  Q:OIDIEN=""
  N CMS,NDF,CMSDISP,OIDDISP
  S OIDDISP=$$GET1^DIQ(176.801,OIDIEN_",",.01)
- S OIDDISP=$$SYMENC^MXMLUTL(OIDDISP)
  Q:OIDDISP=""
  N FBYM,FBYN,FOUND,ANY ; filter by measure, filter by nqf number
  S FBYM=0 S FBYN=0 S FOUND=0 S ANY=0
@@ -83,7 +83,6 @@ GETVS(VSRTN,PARM) ; retrieve a valueset based on PARM("oid")
  . F  S MEAIEN=$O(^C0QVS(176.801,OIDIEN,4,"B",MEAIEN)) Q:MEAIEN=""  D  ;
  . . N MEADISP,NQF,CMS,GUID,VERSION
  . . S MEADISP=$$GET1^DIQ(176.802,MEAIEN_",",.01)
- . . S MEADISP=$$SYMENC^MXMLUTL(MEADISP)
  . . S NQF=$$GET1^DIQ(176.802,MEAIEN_",",.03)
  . . S CMS=$$GET1^DIQ(176.802,MEAIEN_",",2.2)
  . . S GUID=$$GET1^DIQ(176.802,MEAIEN_",",.02)
@@ -97,11 +96,11 @@ GETVS(VSRTN,PARM) ; retrieve a valueset based on PARM("oid")
  . . S MEACNT=MEACNT+1
  . . N RTNMEA
  . . S RTNMEA=$NA(@VSRTN@("valueset",MEACNT))
- . . S @RTNMEA@("measure@measureDisplayName")=MEADISP
+ . . S @RTNMEA@("measure@measureDisplayName")=$$CHARCHK^MXMLBLD(MEADISP) ;GPL 3/2016
  . . S @RTNMEA@("measure@nqf")=NQF
  . . S @RTNMEA@("measure@eMeasure")=CMS
  . . S @RTNMEA@("measure@guid")=GUID
- . . S @RTNMEA@("measure@measureDisplayName")=MEADISP
+ . . ;S @RTNMEA@("measure@measureDisplayName")=MEADISP
  . . S @RTNMEA@("measure@version")=VERSION
  . . S @RTNMEA@("measure@measureIen")=MEAIEN
  Q:((FBYM!FBYN)&(ANY=0))  ;
@@ -125,7 +124,6 @@ ONECODE(RCD,OIDIEN,CODE) ; retrieve one code
  S CDIEN=$O(^C0QVS(176.801,OIDIEN,2,"B",CODE,""))
  N CDDISP,CDSYS,SYSOID,SYSVER
  S CDDISP=$$GET1^DIQ(176.8011,CDIEN_","_OIDIEN_",",.02)
- S CDDISP=$$SYMENC^MXMLUTL(CDDISP)
  S CDSYS=$$GET1^DIQ(176.8011,CDIEN_","_OIDIEN_",",.04)
  S SYSOID=$$GET1^DIQ(176.8011,CDIEN_","_OIDIEN_",",.05)
  S SYSVER=$$GET1^DIQ(176.8011,CDIEN_","_OIDIEN_",",.06)
@@ -374,13 +372,5 @@ TEST6 ; test filtering by eMeasure
  I OK=0 ZWR ^TMP("MXMLERR",$J,*) Q  ;
  D DOMO("GARY")
  ZWR GARY
- Q
- ;
-TEST7
- K G,GXML,PARM,OK
- S OK=$$GETCODE("G",89,.PARM) ; should have clean xml
- ZWR G
- D ARY2XML("GXML","G")
- ZWR GXML
  Q
  ;
